@@ -19,7 +19,13 @@ import jdk.jfr.FlightRecorder;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordingStream;
 
+import java.io.File;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
@@ -34,7 +40,7 @@ public final class AllocatorJfrColdStartHarness {
     static void runChild(String allocator, String mode) throws Exception {
         Process process = new ProcessBuilder(
                 Paths.get(System.getProperty("java.home"), "bin", "java").toString(),
-                "-Xmx128m", "-XX:+UseSerialGC", "-cp", System.getProperty("java.class.path"),
+                "-Xmx128m", "-XX:+UseSerialGC", "-cp", childClassPath(),
                 AllocatorJfrColdStartHarness.class.getName(), allocator, mode).redirectErrorStream(true).start();
         java.util.concurrent.ExecutorService reader = java.util.concurrent.Executors.newSingleThreadExecutor();
         try {
@@ -61,6 +67,20 @@ public final class AllocatorJfrColdStartHarness {
             }
             assertTrue(reader.awaitTermination(5, TimeUnit.SECONDS), "Child output reader did not stop");
         }
+    }
+
+    private static String childClassPath() throws Exception {
+        Set<String> entries = new LinkedHashSet<>(Arrays.asList(
+                System.getProperty("java.class.path").split(File.pathSeparator)));
+        for (ClassLoader loader = AllocatorJfrColdStartHarness.class.getClassLoader();
+             loader != null; loader = loader.getParent()) {
+            if (loader instanceof URLClassLoader) {
+                for (URL entry : ((URLClassLoader) loader).getURLs()) {
+                    entries.add(Paths.get(entry.toURI()).toString());
+                }
+            }
+        }
+        return String.join(File.pathSeparator, entries);
     }
 
     public static void main(String[] args) throws Exception {
