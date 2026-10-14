@@ -29,6 +29,8 @@ import io.netty.util.internal.ThreadExecutorMap;
 import io.netty.util.internal.logging.InternalLogger;
 import io.netty.util.internal.logging.InternalLoggerFactory;
 
+import jdk.jfr.FlightRecorder;
+
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -800,7 +802,8 @@ public class PooledByteBufAllocator extends AbstractByteBufAllocator implements 
     }
 
     static void onAllocateBuffer(AbstractByteBuf buf, boolean pooled, boolean threadLocal) {
-        if (PlatformDependent.isJfrEnabled() && AllocateBufferEvent.isEventEnabled()) {
+        if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized()
+                && AllocateBufferEvent.isEventEnabled()) {
             AllocateBufferEvent event = new AllocateBufferEvent();
             if (event.shouldCommit()) {
                 event.fill(buf, PooledByteBufAllocator.class);
@@ -812,7 +815,8 @@ public class PooledByteBufAllocator extends AbstractByteBufAllocator implements 
     }
 
     static void onDeallocateBuffer(AbstractByteBuf buf) {
-        if (PlatformDependent.isJfrEnabled() && FreeBufferEvent.isEventEnabled()) {
+        if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized()
+                && FreeBufferEvent.isEventEnabled()) {
             FreeBufferEvent event = new FreeBufferEvent();
             if (event.shouldCommit()) {
                 event.fill(buf, PooledByteBufAllocator.class);
@@ -822,7 +826,8 @@ public class PooledByteBufAllocator extends AbstractByteBufAllocator implements 
     }
 
     static void onReallocateBuffer(AbstractByteBuf buf, int newCapacity) {
-        if (PlatformDependent.isJfrEnabled() && ReallocateBufferEvent.isEventEnabled()) {
+        if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized()
+                && ReallocateBufferEvent.isEventEnabled()) {
             ReallocateBufferEvent event = new ReallocateBufferEvent();
             if (event.shouldCommit()) {
                 event.fill(buf, PooledByteBufAllocator.class);
@@ -833,7 +838,8 @@ public class PooledByteBufAllocator extends AbstractByteBufAllocator implements 
     }
 
     static void onAllocateChunk(ChunkInfo chunk, boolean pooled) {
-        if (PlatformDependent.isJfrEnabled() && AllocateChunkEvent.isEventEnabled()) {
+        if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized()
+                && AllocateChunkEvent.isEventEnabled()) {
             AllocateChunkEvent event = new AllocateChunkEvent();
             if (event.shouldCommit()) {
                 event.fill(chunk, PooledByteBufAllocator.class);
@@ -845,7 +851,8 @@ public class PooledByteBufAllocator extends AbstractByteBufAllocator implements 
     }
 
     static void onDeallocateChunk(ChunkInfo chunk, boolean pooled) {
-        if (PlatformDependent.isJfrEnabled() && FreeChunkEvent.isEventEnabled()) {
+        if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized()
+                && FreeChunkEvent.isEventEnabled()) {
             FreeChunkEvent event = new FreeChunkEvent();
             if (event.shouldCommit()) {
                 event.fill(chunk, PooledByteBufAllocator.class);
