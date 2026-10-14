@@ -42,22 +42,22 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class JfrEventsTest {
     @Test
     public void adaptiveDoesNotRegisterEventsWithoutARecorder() throws Exception {
-        AllocatorJfrColdStartTest.runChild("adaptive", "inactive");
+        AllocatorJfrColdStartHarness.runChild("adaptive", "inactive");
     }
 
     @Test
     public void pooledDoesNotRegisterEventsWithoutARecorder() throws Exception {
-        AllocatorJfrColdStartTest.runChild("pooled", "inactive");
+        AllocatorJfrColdStartHarness.runChild("pooled", "inactive");
     }
 
     @Test
     public void adaptiveRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
-        AllocatorJfrColdStartTest.runChild("adaptive", "active");
+        AllocatorJfrColdStartHarness.runChild("adaptive", "active");
     }
 
     @Test
     public void pooledRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
-        AllocatorJfrColdStartTest.runChild("pooled", "active");
+        AllocatorJfrColdStartHarness.runChild("pooled", "active");
     }
 
     PooledByteBufAllocator newPooledAllocator(boolean preferDirect) {

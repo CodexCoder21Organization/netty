@@ -28,12 +28,12 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AllocatorJfrColdStartTest {
+public class AllocatorJfrColdStartHarness {
     static void runChild(String allocator, String mode) throws Exception {
         Process process = new ProcessBuilder(
                 Paths.get(System.getProperty("java.home"), "bin", "java").toString(),
                 "-Xmx128m", "-XX:+UseSerialGC", "-cp", System.getProperty("java.class.path"),
-                AllocatorJfrColdStartTest.class.getName(), allocator, mode).redirectErrorStream(true).start();
+                AllocatorJfrColdStartHarness.class.getName(), allocator, mode).redirectErrorStream(true).start();
         java.util.concurrent.ExecutorService reader = java.util.concurrent.Executors.newSingleThreadExecutor();
         try {
             java.util.concurrent.Future<String> output = reader.submit(() -> {
