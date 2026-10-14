@@ -40,6 +40,26 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @EnabledForJreRange(min = JRE.JAVA_17) // RecordingStream
 @Isolated
 public class JfrEventsTest {
+    @Test
+    public void adaptiveDoesNotRegisterEventsWithoutARecorder() throws Exception {
+        AllocatorJfrColdStartTest.runChild("adaptive", "inactive");
+    }
+
+    @Test
+    public void pooledDoesNotRegisterEventsWithoutARecorder() throws Exception {
+        AllocatorJfrColdStartTest.runChild("pooled", "inactive");
+    }
+
+    @Test
+    public void adaptiveRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
+        AllocatorJfrColdStartTest.runChild("adaptive", "active");
+    }
+
+    @Test
+    public void pooledRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
+        AllocatorJfrColdStartTest.runChild("pooled", "active");
+    }
+
     PooledByteBufAllocator newPooledAllocator(boolean preferDirect) {
         return new PooledByteBufAllocator(preferDirect);
     }

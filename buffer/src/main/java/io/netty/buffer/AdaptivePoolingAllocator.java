@@ -34,6 +34,8 @@ import io.netty.util.internal.SystemPropertyUtil;
 import io.netty.util.internal.ThreadExecutorMap;
 import io.netty.util.internal.UnstableApi;
 
+import jdk.jfr.FlightRecorder;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -1615,7 +1617,7 @@ final class AdaptivePoolingAllocator {
             // We need the top-level allocator so ByteBuf.capacity(int) can call reallocate()
             allocator = magazine.group.allocator;
 
-            if (PlatformDependent.isJfrEnabled() && AllocateChunkEvent.isEventEnabled()) {
+            if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized() && AllocateChunkEvent.isEventEnabled()) {
                 AllocateChunkEvent event = new AllocateChunkEvent();
                 if (event.shouldCommit()) {
                     event.fill(this, AdaptiveByteBufAllocator.class);
@@ -1684,7 +1686,7 @@ final class AdaptivePoolingAllocator {
         }
 
         private void onRelease() {
-            if (PlatformDependent.isJfrEnabled() && FreeChunkEvent.isEventEnabled()) {
+            if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized() && FreeChunkEvent.isEventEnabled()) {
                 FreeChunkEvent event = new FreeChunkEvent();
                 if (event.shouldCommit()) {
                     event.fill(this, AdaptiveByteBufAllocator.class);
@@ -2174,7 +2176,7 @@ final class AdaptivePoolingAllocator {
             rootParent = unwrapped;
             tmpNioBuf = null;
 
-            if (PlatformDependent.isJfrEnabled() && AllocateBufferEvent.isEventEnabled()) {
+            if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized() && AllocateBufferEvent.isEventEnabled()) {
                 AllocateBufferEvent event = new AllocateBufferEvent();
                 if (event.shouldCommit()) {
                     event.fill(this, AdaptiveByteBufAllocator.class);
@@ -2217,7 +2219,7 @@ final class AdaptivePoolingAllocator {
                 return this;
             }
 
-            if (PlatformDependent.isJfrEnabled() && ReallocateBufferEvent.isEventEnabled()) {
+            if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized() && ReallocateBufferEvent.isEventEnabled()) {
                 ReallocateBufferEvent event = new ReallocateBufferEvent();
                 if (event.shouldCommit()) {
                     event.fill(this, AdaptiveByteBufAllocator.class);
@@ -2656,7 +2658,7 @@ final class AdaptivePoolingAllocator {
 
         @Override
         protected void deallocate() {
-            if (PlatformDependent.isJfrEnabled() && FreeBufferEvent.isEventEnabled()) {
+            if (PlatformDependent.isJfrEnabled() && FlightRecorder.isInitialized() && FreeBufferEvent.isEventEnabled()) {
                 FreeBufferEvent event = new FreeBufferEvent();
                 if (event.shouldCommit()) {
                     event.fill(this, AdaptiveByteBufAllocator.class);

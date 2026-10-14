@@ -18,7 +18,6 @@ package io.netty.buffer;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordingStream;
-import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
 import java.util.List;
@@ -30,27 +29,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AllocatorJfrColdStartTest {
-    @Test
-    public void adaptiveDoesNotRegisterEventsWithoutARecorder() throws Exception {
-        runChild("adaptive", "inactive");
-    }
-
-    @Test
-    public void pooledDoesNotRegisterEventsWithoutARecorder() throws Exception {
-        runChild("pooled", "inactive");
-    }
-
-    @Test
-    public void adaptiveRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
-        runChild("adaptive", "active");
-    }
-
-    @Test
-    public void pooledRecordsWhenEnabledByNameAfterBufferUse() throws Exception {
-        runChild("pooled", "active");
-    }
-
-    private static void runChild(String allocator, String mode) throws Exception {
+    static void runChild(String allocator, String mode) throws Exception {
         Process process = new ProcessBuilder(
                 Paths.get(System.getProperty("java.home"), "bin", "java").toString(),
                 "-Xmx128m", "-XX:+UseSerialGC", "-cp", System.getProperty("java.class.path"),
@@ -73,9 +52,11 @@ public class AllocatorJfrColdStartTest {
         } finally {
             if (process.isAlive()) {
                 process.destroyForcibly();
-                process.waitFor(5, TimeUnit.SECONDS);
             }
             reader.shutdownNow();
+            if (process.isAlive()) {
+                process.waitFor(5, TimeUnit.SECONDS);
+            }
             assertTrue(reader.awaitTermination(5, TimeUnit.SECONDS), "Child output reader did not stop");
         }
     }
