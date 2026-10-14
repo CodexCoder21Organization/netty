@@ -28,7 +28,9 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AllocatorJfrColdStartHarness {
+public final class AllocatorJfrColdStartHarness {
+    private AllocatorJfrColdStartHarness() { }
+
     static void runChild(String allocator, String mode) throws Exception {
         Process process = new ProcessBuilder(
                 Paths.get(System.getProperty("java.home"), "bin", "java").toString(),
