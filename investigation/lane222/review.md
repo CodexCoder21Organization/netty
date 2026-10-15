@@ -1,0 +1,31 @@
+# Lane 222 independent review
+
+Documents read: both repository READMEs; lane222 brief, common.md and handoff.md; prior lane139/141/146 briefs and lane141/146 findings; DocumentationRepository PHILOSOPHY.md, architecture/TESTING.md (TDD, public API, deterministic reproduction, resource cleanup, and relevant scale-testing sections), CODE_REVIEW.md, playbooks/FIX_DID_NOT_HOLD.md and playbooks/SLOW_SERVICES.md. Previous reviews were read as background and checked against current source rather than adopted as conclusions.
+
+## Test review (separate pass)
+
+The three existing NIO scenarios exercise real public APIs and actual selector/channel ownership. Each checks physical close, close-future completion, and deregistration after termination. They force task-initiated shutdown, a close listener initiating shutdown, and a shutdown hook registering a new channel. They do not use private APIs or mocks, and raw sockets/groups are closed in finally. Baseline source restored under unchanged tests fails all three; fixed source passes all three.
+
+The allocator suite runs each scenario in a fresh child JVM so prior event registration cannot make the inactive case pass. Adaptive and pooled cases allocate both heap/direct buffers, resize, preserve bytes, and release. Inactive tests inspect the real JFR public registry after use; active tests enable recording by event name after earlier buffer use and require a real recorded AllocateBuffer event. Child/reader cleanup is bounded and in finally. No assertion/time budget/iteration count was loosened. These are state/behavior checks, not host-speed measurements.
+
+Blocking coverage gap: one callback that *initiates* shutdown is covered, but repeated callbacks registering new channels while shutdown closes existing ones are not. The new review scenario builds a finite chain of eight channels through public APIs. Both the development PR and published release accept four registrations, then terminate with the fourth channel still open/registered (third still registered). Published runtime fails 3/3 fresh JVMs. Full output and a self-contained test source are retained. Existing three tests therefore prove the original route but not the broader terminal-close claim.
+
+## Code review (independent pass after test review)
+
+The shutdown override is minimal and ports exactly between the two fork lines. It correctly moves prepareToDestroy after the task phase and into the superclass's final confirmations. IoHandler documents preparation as repeatable; no interface addition or scheduler change is present. However, NioIoHandler.prepareToDestroy snapshots registrations, closes them, and permits close callbacks to register new channels. SingleThreadIoEventLoop.registerForIo0 has no terminal-state check for same-thread calls. SingleThreadEventExecutor.doStartThread moves to ST_SHUTDOWN and calls confirmShutdown once more, ignoring its boolean result. Together these leave accepted callback-created registrations after the last snapshot. This is a blocking correctness finding, now demonstrated against the published jars as well as the development head. A correction must cover terminal registration and final deregistration/task ordering, preserve the existing shutdown-hook case, and avoid an unbounded drain for a callback that keeps creating resources.
+
+The allocator changes short-circuit at all ten event sites: platform support, recorder initialized, event enabled. Payloads/commit behavior are unchanged, and late recording remains possible. The three added FlightRecorder stubs supply compile-only methods and retain throw-on-runtime-use semantics; provided-only stub dependency is unchanged. No allocator correctness issue found in this review; no timing claim is made from the state-only tests.
+
+Blocking release-base finding: release head a66b8e41266dd9a8ae193cf3dea021b3b5547d7f is exact netty-4.2.10.Final plus four commits, while PR base 4.2 is 541 commits ahead of that tag. Rebasing to that development line changes the released source set rather than resolving a routine conflict. The brief permits only mechanical resolution, so no such rebase was performed. Supervisor must select a maintenance base at the exact tag or authorize a different release line/version. netty-2 PR already contains its current base and needs no rebase.
+
+## Complete diff inventory
+
+netty-2: only SingleThreadIoEventLoop production shutdown ordering and 60 lines/one import for its three NIO tests. No unrelated diff.
+
+Release: three production classes for the two fixes; two allocator test files and the same three NIO tests; FlightRecorder compile stubs supporting the guard/test; README's eight-line organization release contract; and 62 POMs each changing only its own or parent version from 4.2.10.Final to 4.2.10.1-codexcoder21. Root/BOM SCM tags remain the upstream base tag, as before. No unrelated logic change. The head branch retains its previous release name, documented in the description, while title/README/POMs use the published coordinate. Renaming the existing draft branch is not needed for provenance.
+
+## Provenance and disposition
+
+All 44 binary module jars (46 artifacts including parent/BOM) identify the exact release head and clean tree; all 46 POM coordinates match. Source jars for all three changed production classes are byte-identical to that head. Native classifier jars were not separately downloaded. The original netty-2 commits are not ancestors of the release branch: their semantics/tests were manually backported in 13548ce836. The supervisor log records 46/46 successful uploads at 05:15:58Z; the detailed upload log is absent from the evidence tree.
+
+Both PRs have green kotlin.build checks that explicitly say no build.kts was found; those checks ran no Maven suite. They must not be described as Maven validation. Do not approve either PR until the new callback registration finding is resolved. Do not rebase or re-publish the exact-tag release as a routine maintenance action. Merging the unchanged exact head against a suitable base would require no re-publish merely for provenance, but would preserve the demonstrated gap. A corrected release must use a new coordinate and publication, which this lane is forbidden to perform.

@@ -1,0 +1,645 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bc-jdk18on-bom/1.83/bc-jdk18on-bom-1.83.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bc-jdk18on-bom/1.83/bc-jdk18on-bom-1.83.pom (3.1 kB at 4.0 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 6.8
+[INFO] os.detected.version.major: 6
+[INFO] os.detected.version.minor: 8
+[INFO] os.detected.release: debian
+[INFO] os.detected.release.version: 12
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Netty/Buffer                                                       [jar]
+[INFO] Netty/Transport                                                    [jar]
+[INFO] 
+[INFO] -----------------------< io.netty:netty-buffer >------------------------
+[INFO] Building Netty/Buffer 4.2.10.1-codexcoder21                        [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.pom (5.5 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.3/surefire-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.3/surefire-3.5.3.pom (20 kB at 284 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom (52 kB at 885 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom (24 kB at 466 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom (5.6 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.jar (46 kB at 632 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.1/junit-jupiter-api-5.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.1/junit-jupiter-api-5.12.1.pom (3.2 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom (2.8 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.1/junit-jupiter-engine-5.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.1/junit-jupiter-engine-5.12.1.pom (3.2 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom (3.2 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.12.1/junit-jupiter-params-5.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.12.1/junit-jupiter-params-5.12.1.pom (3.0 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.3.14/logback-classic-1.3.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.3.14/logback-classic-1.3.14.pom (13 kB at 349 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.3.14/logback-parent-1.3.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.3.14/logback-parent-1.3.14.pom (21 kB at 477 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.pom (5.2 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom (2.8 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom (13 kB at 361 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom (7.3 kB at 193 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.1/junit-jupiter-api-5.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.1/junit-jupiter-api-5.12.1.jar (233 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.1/junit-jupiter-engine-5.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.12.1/junit-jupiter-params-5.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.3.14/logback-classic-1.3.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.1/junit-jupiter-engine-5.12.1.jar (292 kB at 4.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar (152 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.3.14/logback-classic-1.3.14.jar (278 kB at 2.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar (69 kB at 487 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar (256 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.jar (580 kB at 3.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.12.1/junit-jupiter-params-5.12.1.jar (602 kB at 3.0 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-buffer ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-buffer ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-buffer ---
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-buffer ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-buffer ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-buffer ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-buffer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-buffer ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 91 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java:[338,19] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java:[339,26] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java:[349,14] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java:[350,19] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/CompositeByteBuf.java:[894,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledDuplicatedByteBuf.java:[22,40] [deprecation] DuplicatedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractUnpooledSlicedByteBuf.java:[32,53] [deprecation] AbstractDerivedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractUnpooledSlicedByteBuf.java:[43,37] [deprecation] DuplicatedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/AbstractUnsafeSwappedByteBuf.java:[27,52] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedByteBuf.java:[90,19] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedByteBuf.java:[85,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedByteBuf.java:[86,18] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedByteBuf.java:[91,18] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedCompositeByteBuf.java:[1109,14] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[214,18] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[381,13] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[381,26] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[443,48] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[447,23] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[447,42] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[597,54] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ByteBufUtil.java:[738,58] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledDirectByteBuf.java:[203,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledUnsafeDirectByteBuf.java:[319,14] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/EmptyByteBuf.java:[119,19] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/EmptyByteBuf.java:[89,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/EmptyByteBuf.java:[100,23] [deprecation] unmodifiableBuffer(ByteBuf) in Unpooled has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/FixedCompositeByteBuf.java:[215,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/FixedCompositeByteBuf.java:[59,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/FixedCompositeByteBuf.java:[62,30] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PoolArena.java:[507,16] [deprecation] numActiveTinyAllocations() in PoolArenaMetric has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PoolArena.java:[449,16] [deprecation] numTinyDeallocations() in PoolArenaMetric has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PoolArena.java:[407,16] [deprecation] numTinyAllocations() in PoolArenaMetric has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PoolArena.java:[362,35] [deprecation] tinySubpages() in PoolArenaMetric has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PoolArena.java:[347,15] [deprecation] numTinySubpages() in PoolArenaMetric has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PooledByteBuf.java:[136,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/PooledUnsafeDirectByteBuf.java:[255,14] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ReadOnlyAbstractByteBuf.java:[22,44] [deprecation] ReadOnlyByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/ReadOnlyByteBufferBuf.java:[357,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[193,39] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[316,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[400,34] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[494,35] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[498,25] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[514,41] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[571,41] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[704,19] [deprecation] ReadOnlyByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/Unpooled.java:[710,20] [deprecation] ReadOnlyByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledHeapByteBuf.java:[103,21] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledUnsafeNoCleanerDirectByteBuf.java:[34,25] [deprecation] allocateDirect(int) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledUnsafeNoCleanerDirectByteBuf.java:[43,19] [deprecation] freeDirect(ByteBuffer) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledByteBufAllocator.java:[212,29] [deprecation] allocateDirect(int) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledByteBufAllocator.java:[217,23] [deprecation] freeDirect(ByteBuffer) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledByteBufAllocator.java:[235,29] [deprecation] allocateDirect(int) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnpooledByteBufAllocator.java:[240,23] [deprecation] freeDirect(ByteBuffer) in UnpooledDirectByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnreleasableByteBuf.java:[28,12] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnreleasableByteBuf.java:[40,8] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/UnreleasableByteBuf.java:[42,47] [deprecation] SwappedByteBuf in io.netty.buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/io/netty/buffer/WrappedUnpooledUnsafeDirectByteBuf.java:[29,19] [deprecation] freeDirect(ByteBuffer) in UnpooledDirectByteBuf has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-buffer ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-buffer ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-buffer ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.buffer"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.buffer"
+[INFO] Automatically adding export for package "io.netty.buffer.search"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-buffer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-buffer ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 65 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[1890,31] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[1890,52] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2058,25] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2058,39] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2084,25] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2084,44] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2097,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2097,71] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2098,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2098,75] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2099,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2099,75] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2100,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2100,75] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2209,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2213,54] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2239,61] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2243,56] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2246,56] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2250,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2252,69] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2259,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2268,61] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2269,69] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2270,61] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2271,69] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[2552,27] [deprecation] order() in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java:[3087,37] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[107,23] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[201,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[203,81] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[204,81] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[318,35] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[319,37] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[340,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[342,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[343,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[350,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[352,44] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[353,44] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[354,44] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[361,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[363,65] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[364,65] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[371,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[373,50] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[374,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[381,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[383,65] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[384,65] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[391,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[393,53] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[394,53] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[395,57] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[402,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[404,87] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[405,87] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[412,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[414,59] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[415,60] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[422,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[424,88] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[425,88] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[439,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[440,88] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[446,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[450,33] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[456,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[458,53] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[465,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[467,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[468,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[469,47] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[475,64] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[484,63] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[500,44] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[501,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[502,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[514,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[515,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[516,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[522,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[532,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[533,76] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[534,61] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[545,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[546,74] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[547,43] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[558,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[559,76] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[560,61] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[571,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[572,77] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[573,49] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[579,53] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[588,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[590,89] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[591,83] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[602,71] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java:[603,83] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-buffer ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-buffer ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom (3.7 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom (3.5 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom (4.0 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom (3.6 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom (7.8 kB at 187 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom (5.0 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom (1.7 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar (172 kB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar (14 kB at 438 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar (26 kB at 604 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar (118 kB at 2.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar (8.2 kB at 174 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar (312 kB at 5.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar (2.9 MB at 14 MB/s)
+[INFO] Tests will run in random order. To reproduce ordering use flag -Dsurefire.runOrder.random.seed=2182948454148740
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom (5.2 kB at 207 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom (2.5 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom (3.1 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom (3.0 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar (27 kB at 974 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar (18 kB at 607 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar (208 kB at 5.9 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.netty.buffer.JfrEventsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.484 s -- in io.netty.buffer.JfrEventsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING] Corrupted channel by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/buffer/target/surefire-reports/2026-10-15T12-16-06_452-jvmRun1.dumpstream
+[INFO] 
+[INFO] ----------------------< io.netty:netty-transport >----------------------
+[INFO] Building Netty/Transport 4.2.10.1-codexcoder21                     [2/2]
+[INFO]   from /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (6.3 kB at 166 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (4.7 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar (258 kB at 4.6 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport ---
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 196 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/ChannelPromiseAggregator.java:[19,31] [deprecation] PromiseAggregator in io.netty.util.concurrent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/NioEventLoop.java:[19,23] [deprecation] EventLoopTaskQueueFactory in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/NioEventLoopGroup.java:[20,23] [deprecation] EventLoopTaskQueueFactory in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/oio/AbstractOioChannel.java:[22,23] [deprecation] ThreadPerChannelEventLoop in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/oio/OioEventLoopGroup.java:[24,23] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioDatagramChannel.java:[32,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioServerSocketChannel.java:[24,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioSocketChannel.java:[32,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/OioServerSocketChannel.java:[21,27] [deprecation] AbstractOioMessageChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/OioSocketChannel.java:[26,27] [deprecation] OioByteStreamChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/OioDatagramChannel.java:[29,27] [deprecation] AbstractOioMessageChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/Channel.java:[379,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/AbstractChannel.java:[291,36] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/AbstractChannel.java:[301,35] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[323,33] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[292,33] [deprecation] addFirst(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[270,33] [deprecation] addAfter(EventExecutorGroup,String,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[244,33] [deprecation] addBefore(EventExecutorGroup,String,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[226,33] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[208,33] [deprecation] addFirst(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/AbstractChannelHandlerContext.java:[1030,23] [deprecation] <T>hasAttr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>hasAttr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/AbstractChannelHandlerContext.java:[1025,28] [deprecation] <T>attr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>attr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[1309,20] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandler has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java:[1395,20] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandler has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/CombinedChannelDuplexHandler.java:[584,27] [deprecation] <T>hasAttr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>hasAttr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/CombinedChannelDuplexHandler.java:[579,32] [deprecation] <T>attr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>attr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/ManualIoEventLoop.java:[184,53] [deprecation] getCurrentTimeNanos() in AbstractScheduledEventExecutor has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/MultiThreadIoEventLoopGroup.java:[35,7] [deprecation] register(ChannelPromise) in IoEventLoopGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/MultiThreadIoEventLoopGroup.java:[35,7] [deprecation] register(Channel) in IoEventLoopGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/PendingWriteQueue.java:[164,32] [deprecation] add(Promise) in PromiseCombiner has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/ServerChannelRecvByteBufAllocator.java:[27,11] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/embedded/EmbeddedChannel.java:[1000,19] [deprecation] doRegister() in AbstractChannel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/embedded/EmbeddedChannel.java:[1195,39] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/embedded/EmbeddedEventLoop.java:[95,19] [deprecation] getCurrentTimeNanos() in AbstractScheduledEventExecutor has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java:[350,30] [deprecation] deregister(ChannelMatcher) in ChannelGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java:[230,30] [deprecation] deregister() in ChannelGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java:[381,30] [deprecation] flushAndWrite(Object,ChannelMatcher) in ChannelGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java:[288,30] [deprecation] flushAndWrite(Object) in ChannelGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/local/LocalChannel.java:[300,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/local/LocalServerChannel.java:[187,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/AbstractNioByteChannel.java:[117,36] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/AbstractNioByteChannel.java:[153,38] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/AbstractNioMessageChannel.java:[61,58] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/nio/AbstractNioMessageChannel.java:[74,38] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioDatagramChannel.java:[256,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioDatagramChannel.java:[619,58] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioDomainSocketChannel.java:[316,16] [deprecation] selectionKey() in AbstractNioChannel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioDomainSocketChannel.java:[350,34] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/nio/NioSocketChannel.java:[348,34] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[36,92] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[70,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[89,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[95,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[101,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[107,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[113,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[119,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[125,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[131,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[137,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[143,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[149,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[155,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[155,36] [deprecation] setMaxMessagesPerRead(int) in DefaultDatagramChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[156,13] [deprecation] setMaxMessagesPerRead(int) in DefaultDatagramChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[161,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[167,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[173,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[179,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[185,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[191,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[197,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/io/netty/channel/socket/oio/DefaultOioDatagramChannelConfig.java:[203,11] [deprecation] OioDatagramChannelConfig in io.netty.channel.socket.oio has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-transport ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.transport"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.channel.group"
+[INFO] Automatically adding export for package "io.netty.channel.embedded"
+[INFO] Automatically adding export for package "io.netty.bootstrap"
+[INFO] Automatically adding export for package "io.netty.channel.nio"
+[INFO] Automatically adding export for package "io.netty.channel"
+[INFO] Automatically adding export for package "io.netty.channel.local"
+[INFO] Automatically adding export for package "io.netty.channel.oio"
+[INFO] Not adding export for private package "io.netty.channel.internal"
+[INFO] Automatically adding export for package "io.netty.channel.socket"
+[INFO] Automatically adding export for package "io.netty.channel.socket.nio"
+[INFO] Automatically adding export for package "io.netty.channel.pool"
+[INFO] Automatically adding export for package "io.netty.channel.socket.oio"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 61 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[31,27] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[33,34] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[45,31] [deprecation] UnorderedThreadPoolEventExecutor in io.netty.util.concurrent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[26,34] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[27,34] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[486,37] [deprecation] WRITE_BUFFER_HIGH_WATER_MARK in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[485,37] [deprecation] WRITE_BUFFER_LOW_WATER_MARK in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[493,32] [deprecation] WRITE_BUFFER_LOW_WATER_MARK in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[494,32] [deprecation] WRITE_BUFFER_HIGH_WATER_MARK in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[518,29] [deprecation] register(Channel,ChannelPromise) in SingleThreadEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[523,47] [deprecation] register(Channel,ChannelPromise) in SingleThreadEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java:[551,29] [deprecation] register(Channel,ChannelPromise) in MultithreadEventLoopGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/AbstractEventLoopTest.java:[61,37] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/LoggingHandler.java:[99,16] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandler has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ChannelOptionTest.java:[52,52] [deprecation] <T>newInstance(String) in ChannelOption has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>newInstance(String)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ChannelOptionTest.java:[57,25] [deprecation] <T>newInstance(String) in ChannelOption has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>newInstance(String)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ChannelOutboundBufferTest.java:[455,21] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1170,29] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1276,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1277,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1311,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1342,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1362,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1547,48] [deprecation] UnorderedThreadPoolEventExecutor in io.netty.util.concurrent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1553,21] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1581,16] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1582,16] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1583,17] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1602,16] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1603,16] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[1837,24] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandler has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[2149,34] [deprecation] addFirst(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[2337,20] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandlerAdapter has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[2550,20] [deprecation] shutdown() in AbstractEventExecutor has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java:[2555,30] [deprecation] shutdownNow() in AbstractEventExecutor has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultMaxMessagesRecvByteBufAllocatorTest.java:[29,19] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultMaxMessagesRecvByteBufAllocatorTest.java:[43,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/DefaultMaxMessagesRecvByteBufAllocatorTest.java:[61,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ManualIoEventLoopTest.java:[63,17] [deprecation] shutdown() in ManualIoEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ManualIoEventLoopTest.java:[94,17] [deprecation] shutdown() in ManualIoEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ManualIoEventLoopTest.java:[108,17] [deprecation] shutdown() in ManualIoEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ManualIoEventLoopTest.java:[135,17] [deprecation] shutdown() in ManualIoEventLoop has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/PendingWriteQueueTest.java:[151,41] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/PendingWriteQueueTest.java:[185,46] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ReentrantChannelTest.java:[274,24] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandlerAdapter has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[50,12] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[50,59] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[58,16] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[62,12] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[62,59] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/ThreadPerChannelEventLoopGroupTest.java:[82,32] [deprecation] ThreadPerChannelEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalChannelTest.java:[1100,37] [deprecation] MAX_MESSAGES_PER_READ in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalChannelTest.java:[1170,37] [deprecation] MAX_MESSAGES_PER_READ in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalChannelTest.java:[1309,15] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[108,21] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[110,21] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[262,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[263,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[264,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[265,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java:[266,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[150,25] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[151,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[152,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[153,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[154,20] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[155,20] [deprecation] addLast(EventExecutorGroup,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest3.java:[179,37] [deprecation] addBefore(EventExecutorGroup,String,String,ChannelHandler) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[137,35] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[138,14] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[138,35] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[144,35] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[155,37] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[185,35] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[186,14] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[186,35] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[234,16] [deprecation] register(Channel) in IoEventLoopGroup has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[319,35] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[321,14] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[321,35] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[328,37] [deprecation] NioEventLoop in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/NioEventLoopTest.java:[342,35] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/nio/SelectedSelectionKeySetTest.java:[45,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[42,31] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[44,18] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[70,31] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[72,19] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[79,19] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[102,31] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/oio/OioEventLoopTest.java:[104,19] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/socket/InternetProtocolFamilyTest.java:[26,41] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/src/test/java/io/netty/channel/socket/InternetProtocolFamilyTest.java:[31,41] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport ---
+[INFO] Tests will run in random order. To reproduce ordering use flag -Dsurefire.runOrder.random.seed=2182979764599923
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.netty.channel.nio.NioEventLoopTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.942 s -- in io.netty.channel.nio.NioEventLoopTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING] Corrupted channel by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane222/netty/transport/target/surefire-reports/2026-10-15T12-16-06_452-jvmRun1.dumpstream
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Netty/Buffer 4.2.10.1-codexcoder21:
+[INFO] 
+[INFO] Netty/Buffer ....................................... SUCCESS [ 36.458 s]
+[INFO] Netty/Transport .................................... SUCCESS [ 22.721 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:07 min
+[INFO] Finished at: 2026-10-15T12:16:40Z
+[INFO] ------------------------------------------------------------------------
