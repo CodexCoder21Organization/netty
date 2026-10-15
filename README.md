@@ -5,6 +5,14 @@
 
 Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.
 
+## Organization build
+
+Version `4.2.10.Final-codexcoder21-1` is based on `netty-4.2.10.Final`.
+It closes registered channels before event-loop termination when shutdown begins
+from a task, a close listener, or a shutdown hook. Adaptive and pooled buffer use
+leaves allocator event types unregistered until a Java Flight Recorder exists;
+recordings enabled after earlier buffer use still receive allocation events.
+
 ## Links
 
 * [Web Site](https://netty.io/)
