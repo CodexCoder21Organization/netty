@@ -1,0 +1,27 @@
+[
+  {
+    "module": "transport",
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": [
+      {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.NioEventLoopTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.NioShutdownReentryTest",
+        "skips": []
+      }
+    ]
+  }
+]
