@@ -44,3 +44,79 @@ Plan: context/source/version DONE; baseline/fixed targeted tests and independent
 ## 2026-10-15 13:15 UTC — full-common
 OBSERVED: {"label": "full-common", "command": ["./mvnw", "-e", "-B", "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2", "-pl", "common", "test"], "exit_code": 0, "elapsed_seconds": 173.86104917526245, "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"}
 Test totals: [{"module": "common", "tests": 1430, "failures": 0, "errors": 0, "skipped": 7}]
+
+## Version file inventory (exactly a66b8e41 locations)
+Each file below changes its sole `4.2.10.1-codexcoder21` literal to `4.2.10.2-codexcoder21`; no other content in these files changes.
+```text
+README.md
+all/pom.xml
+bom/pom.xml
+buffer/pom.xml
+codec-base/pom.xml
+codec-classes-quic/pom.xml
+codec-compression/pom.xml
+codec-dns/pom.xml
+codec-haproxy/pom.xml
+codec-http/pom.xml
+codec-http2/pom.xml
+codec-http3/pom.xml
+codec-marshalling/pom.xml
+codec-memcache/pom.xml
+codec-mqtt/pom.xml
+codec-native-quic/pom.xml
+codec-protobuf/pom.xml
+codec-redis/pom.xml
+codec-smtp/pom.xml
+codec-socks/pom.xml
+codec-stomp/pom.xml
+codec-xml/pom.xml
+codec/pom.xml
+common/pom.xml
+dev-tools/pom.xml
+example/pom.xml
+handler-proxy/pom.xml
+handler-ssl-ocsp/pom.xml
+handler/pom.xml
+jfr-stub/pom.xml
+microbench/pom.xml
+pkitesting/pom.xml
+pom.xml
+resolver-dns-classes-macos/pom.xml
+resolver-dns-native-macos/pom.xml
+resolver-dns/pom.xml
+resolver/pom.xml
+testsuite-autobahn/pom.xml
+testsuite-common/pom.xml
+testsuite-http2/pom.xml
+testsuite-jpms/pom.xml
+testsuite-karaf/pom.xml
+testsuite-native-image-client-runtime-init/pom.xml
+testsuite-native-image-client/pom.xml
+testsuite-native-image/pom.xml
+testsuite-native/pom.xml
+testsuite-osgi/pom.xml
+testsuite-shading/pom.xml
+testsuite/pom.xml
+transport-blockhound-tests/pom.xml
+transport-classes-epoll/pom.xml
+transport-classes-io_uring/pom.xml
+transport-classes-kqueue/pom.xml
+transport-native-epoll/pom.xml
+transport-native-io_uring/pom.xml
+transport-native-kqueue/pom.xml
+transport-native-unix-common-tests/pom.xml
+transport-native-unix-common/pom.xml
+transport-rxtx/pom.xml
+transport-sctp/pom.xml
+transport-udt/pom.xml
+transport/pom.xml
+varhandle-stub/pom.xml
+```
+
+## 2026-10-15 13:17 UTC — full-transport
+OBSERVED: {"label": "full-transport", "command": ["./mvnw", "-e", "-B", "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2", "-pl", "transport", "test"], "exit_code": 0, "elapsed_seconds": 140.22939443588257, "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"}
+Test totals: [{"module": "transport", "tests": 391, "failures": 0, "errors": 0, "skipped": 9}]
+
+## 2026-10-15 13:17 UTC — bom-install
+OBSERVED: {"label": "bom-install", "command": ["./mvnw", "-e", "-B", "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2", "-f", "bom/pom.xml", "-DskipTests", "install"], "exit_code": 0, "elapsed_seconds": 10.077970027923584, "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"}
+Test totals: []

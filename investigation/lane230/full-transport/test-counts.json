@@ -1,0 +1,435 @@
+[
+  {
+    "module": "transport",
+    "tests": 391,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 9,
+    "suites": [
+      {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.bootstrap.BootstrapTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.bootstrap.ServerBootstrapTest",
+        "skips": []
+      },
+      {
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.AdaptiveRecvByteBufAllocatorTest",
+        "skips": []
+      },
+      {
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.ChannelInitializerTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.ChannelOptionTest",
+        "skips": []
+      },
+      {
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.ChannelOutboundBufferTest",
+        "skips": []
+      },
+      {
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.CoalescingBufferQueueTest",
+        "skips": []
+      },
+      {
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.CombinedChannelDuplexHandlerTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.CompleteChannelFutureTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultChannelIdTest",
+        "skips": []
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultChannelPipelineTailTest",
+        "skips": []
+      },
+      {
+        "tests": 69,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultChannelPipelineTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultChannelPromiseTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultFileRegionTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.DelegatingChannelPromiseNotifierTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.FailedChannelFutureTest",
+        "skips": []
+      },
+      {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.ManualIoEventLoopTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.MultiThreadIoEventLoopGroupTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.NativeImageHandlerMetadataTest",
+        "skips": []
+      },
+      {
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.PendingWriteQueueTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.ReentrantChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.SimpleUserEventChannelHandlerTest",
+        "skips": []
+      },
+      {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.SingleThreadEventLoopTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 1,
+        "suite": "io.netty.channel.SingleThreadIoEventLoopTest",
+        "skips": [
+          {
+            "name": "testSuspendingWhileRegistrationActive",
+            "reason": "This test is flaky and will often stall the build"
+          }
+        ]
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.SucceededChannelFutureTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2,
+        "suite": "io.netty.channel.ThreadPerChannelEventLoopGroupTest",
+        "skips": [
+          {
+            "name": "testTerminationFutureSuccessReflectively",
+            "reason": "Flaky test; See: https://github.com/netty/netty/issues/11551"
+          },
+          {
+            "name": "testTerminationFutureSuccessInLog",
+            "reason": "Flaky test; See: https://github.com/netty/netty/issues/11551"
+          }
+        ]
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.embedded.EmbeddedChannelIdTest",
+        "skips": []
+      },
+      {
+        "tests": 36,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.embedded.EmbeddedChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.group.DefaultChannelGroupTest",
+        "skips": []
+      },
+      {
+        "tests": 26,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.local.LocalChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2,
+        "suite": "io.netty.channel.local.LocalTransportThreadModelTest",
+        "skips": [
+          {
+            "name": "testConcurrentMessageBufferAccess",
+            "reason": "public void io.netty.channel.local.LocalTransportThreadModelTest.testConcurrentMessageBufferAccess() throws java.lang.Throwable is @Disabled"
+          },
+          {
+            "name": "testStagedExecutionMultiple",
+            "reason": "regression test"
+          }
+        ]
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.local.LocalTransportThreadModelTest2",
+        "skips": []
+      },
+      {
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 4,
+        "suite": "io.netty.channel.local.LocalTransportThreadModelTest3",
+        "skips": [
+          {
+            "name": "testConcurrentAddRemoveInboundEventsMultiple",
+            "reason": "regression test"
+          },
+          {
+            "name": "testConcurrentAddRemoveInboundEvents",
+            "reason": "needs a fix"
+          },
+          {
+            "name": "testConcurrentAddRemoveOutboundEvents",
+            "reason": "needs a fix"
+          },
+          {
+            "name": "testConcurrentAddRemoveOutboundEventsMultiple",
+            "reason": "regression test"
+          }
+        ]
+      },
+      {
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.NioEventLoopTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.NioIoHandlerTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.NioShutdownReentryTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.nio.SelectedSelectionKeySetTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.oio.OioEventLoopTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.pool.FixedChannelPoolMapDeadlockTest",
+        "skips": []
+      },
+      {
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.pool.FixedChannelPoolTest",
+        "skips": []
+      },
+      {
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.pool.SimpleChannelPoolTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.InternetProtocolFamilyTest",
+        "skips": []
+      },
+      {
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.nio.NioDatagramChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.nio.NioDomainSocketChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.nio.NioServerDomainSocketChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.nio.NioServerSocketChannelTest",
+        "skips": []
+      },
+      {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.channel.socket.nio.NioSocketChannelTest",
+        "skips": []
+      }
+    ]
+  }
+]

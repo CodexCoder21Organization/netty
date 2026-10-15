@@ -1,0 +1,6 @@
+# Build environment notes
+This lane runs as an ordinary user in Debian 12. The image has JDK 21 and Maven wrapper download access, but no native compiler/build tools and no apt package lists. The first six-root reactor reached native Unix common and failed to start make; no test ran in this packaging phase. Full stack is retained in core-install/maven.log.
+
+Prepared private apt lists with `apt-get -o Dir::State::lists=<lane>/toolchain/lists update`, downloaded/extracted GCC/G++, binutils, libc development files, make, CMake/Ninja, autoconf/automake/libtool, m4 and their runtime libraries. Relocated extracted script data directories and set AUTOCONF/AUTOHEADER/AUTOMAKE/ACLOCAL/AUTOM4TE/M4 to those private tools. GCC/G++ wrappers use the private sysroot. Native work uses Ninja/Cargo serial wrappers. Downloaded official stable Rust 1.99.0 and Go 1.27.2 into the lane. C/C++ compile/link/run and autotools/libtool configure probes pass. No shared system package or repository build configuration was edited. All tools/cache will be deleted at cleanup.
+
+These are prerequisites already described by the original fork README and prior lane141/146 evidence. No production change or automatic challenge publication is needed for an intentionally minimal build image. Publisher procedure requires these native prerequisites and states them explicitly.
