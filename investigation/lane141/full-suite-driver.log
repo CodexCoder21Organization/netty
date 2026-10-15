@@ -1,0 +1,4 @@
+START full common
+RESULT {"module": "common", "exit_code": 0, "seconds": 196.04, "tests": 1430, "failures": 0, "errors": 0, "skipped": 7}
+START full transport
+RESULT {"module": "transport", "exit_code": 0, "seconds": 131.833, "tests": 386, "failures": 0, "errors": 0, "skipped": 9}

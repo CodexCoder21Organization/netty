@@ -1,0 +1,38 @@
+io.netty.util.internal.PlatformDependentTest#testAllocateWithCapacity0:  org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:321)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:120)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:71)
+	at io.netty.util.internal.PlatformDependentTest.testAllocateWithCapacity0(PlatformDependentTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.util.internal.PlatformDependentTest#java25MustHaveCleanerImplAvailable: Disabled on JRE version: 21.0.12.1 
+io.netty.util.concurrent.DefaultThreadFactoryTest#testDefaultThreadFactoryInheritsThreadGroupFromSecurityManager:  org.opentest4j.TestAbortedException: Assumption failed: Setting SecurityManager not supported
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:321)
+	at org.junit.jupiter.api.Assumptions.assumeFalse(Assumptions.java:196)
+	at io.netty.util.concurrent.DefaultThreadFactoryTest.testDefaultThreadFactoryInheritsThreadGroupFromSecurityManager(DefaultThreadFactoryTest.java:168)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.util.concurrent.DefaultThreadFactoryTest#testDescendantThreadGroups:  org.opentest4j.TestAbortedException: Assumption failed: Setting SecurityManager not supported
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:321)
+	at org.junit.jupiter.api.Assumptions.assumeFalse(Assumptions.java:196)
+	at io.netty.util.concurrent.DefaultThreadFactoryTest.testDescendantThreadGroups(DefaultThreadFactoryTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.util.concurrent.FastThreadLocalTest#testInternalThreadLocalMapExpand: Environment variable [CI] does not exist ==> This deliberately causes OutOfMemoryErrors, for which heap dumps are automatically generated. To avoid confusion, wasted time investigating heap dumps, and to avoid heap dumps accidentally getting committed to the Git repository, we should only enable this test when running in a CI environment. We make this check by assuming a 'CI' environment variable. This matches what Github Actions is doing for us currently. 
+io.netty.util.concurrent.FastThreadLocalTest#testOnRemoveCalledForNonFastThreadLocalGet: onRemoval(...) not called with non FastThreadLocal 
+io.netty.util.concurrent.FastThreadLocalTest#testOnRemoveCalledForNonFastThreadLocalSet: onRemoval(...) not called with non FastThreadLocal 
+io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEventsMultiple: regression test 
+io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEvents: needs a fix 
+io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEvents: needs a fix 
+io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEventsMultiple: regression test 
+io.netty.channel.local.LocalTransportThreadModelTest#testConcurrentMessageBufferAccess: public void io.netty.channel.local.LocalTransportThreadModelTest.testConcurrentMessageBufferAccess() throws java.lang.Throwable is @Disabled 
+io.netty.channel.local.LocalTransportThreadModelTest#testStagedExecutionMultiple: regression test 
+io.netty.channel.ThreadPerChannelEventLoopGroupTest#testTerminationFutureSuccessReflectively: Flaky test; See: https://github.com/netty/netty/issues/11551 
+io.netty.channel.ThreadPerChannelEventLoopGroupTest#testTerminationFutureSuccessInLog: Flaky test; See: https://github.com/netty/netty/issues/11551 
+io.netty.channel.SingleThreadIoEventLoopTest#testSuspendingWhileRegistrationActive: This test is flaky and will often stall the build 
