@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.2.10.Final-codexcoder21-1/netty-bom-4.2.10.Final-codexcoder21-1.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: The following artifacts could not be resolved: io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 (absent): Could not find artifact io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 in central (https://repo.maven.apache.org/maven2) @ line 39, column 19
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 321, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-base:jar is missing. @ line 326, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec:jar is missing. @ line 331, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-dns:jar is missing. @ line 336, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-haproxy:jar is missing. @ line 341, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-compression:jar is missing. @ line 346, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 351, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 356, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http3:jar is missing. @ line 361, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-memcache:jar is missing. @ line 366, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-mqtt:jar is missing. @ line 371, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-redis:jar is missing. @ line 376, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-smtp:jar is missing. @ line 381, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-socks:jar is missing. @ line 386, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-stomp:jar is missing. @ line 391, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-xml:jar is missing. @ line 396, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-protobuf:jar is missing. @ line 407, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-marshalling:jar is missing. @ line 422, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 433, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 438, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 443, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler-ssl-ocsp:jar is missing. @ line 448, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 453, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 458, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 463, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-rxtx:jar is missing. @ line 468, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-sctp:jar is missing. @ line 479, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-udt:jar is missing. @ line 484, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-epoll:jar is missing. @ line 498, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-kqueue:jar is missing. @ line 503, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver-dns-classes-macos:jar is missing. @ line 508, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-io_uring:jar is missing. @ line 513, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-classes-quic:jar is missing. @ line 518, column 17
+[ERROR] Non-resolvable import POM: The following artifacts could not be resolved: io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 (absent): io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced @ line 40, column 19
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 51, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-base:jar is missing. @ line 56, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-compression:jar is missing. @ line 61, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-classes-quic:jar is missing. @ line 66, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-dns:jar is missing. @ line 71, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-haproxy:jar is missing. @ line 76, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 81, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 86, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http3:jar is missing. @ line 91, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-marshalling:jar is missing. @ line 96, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-memcache:jar is missing. @ line 101, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-mqtt:jar is missing. @ line 106, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-redis:jar is missing. @ line 111, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-smtp:jar is missing. @ line 116, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-socks:jar is missing. @ line 121, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-stomp:jar is missing. @ line 126, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-xml:jar is missing. @ line 131, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 136, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 141, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 146, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler-ssl-ocsp:jar is missing. @ line 151, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 156, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 161, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver-dns-classes-macos:jar is missing. @ line 166, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 171, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-epoll:jar is missing. @ line 176, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-io_uring:jar is missing. @ line 181, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-classes-kqueue:jar is missing. @ line 186, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-native-unix-common:jar is missing. @ line 191, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-rxtx:jar is missing. @ line 196, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-sctp:jar is missing. @ line 201, column 17
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project io.netty:netty-all:4.2.10.Final-codexcoder21-1 (/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/netty/all/pom.xml) has 34 errors
+[ERROR]     Non-resolvable import POM: The following artifacts could not be resolved: io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 (absent): Could not find artifact io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 in central (https://repo.maven.apache.org/maven2) @ line 39, column 19 -> [Help 2]
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 321, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-base:jar is missing. @ line 326, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec:jar is missing. @ line 331, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-dns:jar is missing. @ line 336, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-haproxy:jar is missing. @ line 341, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-compression:jar is missing. @ line 346, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 351, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 356, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http3:jar is missing. @ line 361, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-memcache:jar is missing. @ line 366, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-mqtt:jar is missing. @ line 371, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-redis:jar is missing. @ line 376, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-smtp:jar is missing. @ line 381, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-socks:jar is missing. @ line 386, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-stomp:jar is missing. @ line 391, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-xml:jar is missing. @ line 396, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-protobuf:jar is missing. @ line 407, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-marshalling:jar is missing. @ line 422, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 433, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 438, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 443, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler-ssl-ocsp:jar is missing. @ line 448, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 453, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 458, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 463, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-rxtx:jar is missing. @ line 468, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-sctp:jar is missing. @ line 479, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-udt:jar is missing. @ line 484, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-epoll:jar is missing. @ line 498, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-kqueue:jar is missing. @ line 503, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver-dns-classes-macos:jar is missing. @ line 508, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-io_uring:jar is missing. @ line 513, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-classes-quic:jar is missing. @ line 518, column 17
+[ERROR]   
+[ERROR]   The project io.netty:netty-testsuite-karaf:4.2.10.Final-codexcoder21-1 (/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/netty/testsuite-karaf/pom.xml) has 32 errors
+[ERROR]     Non-resolvable import POM: The following artifacts could not be resolved: io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 (absent): io.netty:netty-bom:pom:4.2.10.Final-codexcoder21-1 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced @ line 40, column 19 -> [Help 2]
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 51, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-base:jar is missing. @ line 56, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-compression:jar is missing. @ line 61, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-classes-quic:jar is missing. @ line 66, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-dns:jar is missing. @ line 71, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-haproxy:jar is missing. @ line 76, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 81, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 86, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-http3:jar is missing. @ line 91, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-marshalling:jar is missing. @ line 96, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-memcache:jar is missing. @ line 101, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-mqtt:jar is missing. @ line 106, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-redis:jar is missing. @ line 111, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-smtp:jar is missing. @ line 116, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-socks:jar is missing. @ line 121, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-stomp:jar is missing. @ line 126, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-codec-xml:jar is missing. @ line 131, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 136, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 141, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 146, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-handler-ssl-ocsp:jar is missing. @ line 151, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 156, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 161, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-resolver-dns-classes-macos:jar is missing. @ line 166, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 171, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-epoll:jar is missing. @ line 176, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-io_uring:jar is missing. @ line 181, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-classes-kqueue:jar is missing. @ line 186, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-native-unix-common:jar is missing. @ line 191, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-rxtx:jar is missing. @ line 196, column 17
+[ERROR]     'dependencies.dependency.version' for io.netty:netty-transport-sctp:jar is missing. @ line 201, column 17
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
