@@ -1,0 +1,232 @@
+[
+  {
+    "artifact": "netty-parent",
+    "url": "https://kotlin.directory/io/netty/netty-parent/4.2.10.2-codexcoder21/netty-parent-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-bom",
+    "url": "https://kotlin.directory/io/netty/netty-bom/4.2.10.2-codexcoder21/netty-bom-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-common",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-buffer",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-resolver",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-base",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-handler",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-http",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-testsuite",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  },
+  {
+    "artifact": "netty-all",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.pom",
+    "status": 404
+  }
+]
