@@ -25,6 +25,7 @@ import io.netty.util.internal.SystemPropertyUtil;
 
 import java.util.Queue;
 import java.util.concurrent.Executor;
+import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -40,6 +41,8 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
             SystemPropertyUtil.getInt("io.netty.eventLoop.maxTaskProcessingQuantumMs", 1000)));
 
     private final long maxTaskProcessingQuantumNs;
+// Accessed only on the event-loop thread, once shutdown confirmation commits to termination.
+    private boolean ioRegistrationClosed;
     private final IoHandlerContext context = new IoHandlerContext() {
         @Override
         public boolean canBlock() {
@@ -209,7 +212,16 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
         // Shutdown can start in a task, after the IO phase. Prepare on every confirmation,
         // including the executor's final task and shutdown-hook drains, before destroying IO.
         ioHandler.prepareToDestroy();
-        return super.confirmShutdown();
+        if (!super.confirmShutdown()) {
+            return false;
+        }
+        // The task and shutdown-hook drain may have registered more IO. Close admission before
+        // closing that final set, so close callbacks cannot add registrations behind the snapshot.
+        ioRegistrationClosed = true;
+        ioHandler.prepareToDestroy();
+        // Drain deferred deregistration while graceful shutdown still accepts cleanup tasks.
+        runAllTasks();
+        return true;
     }
 
     protected final IoHandler ioHandler() {
@@ -257,6 +269,11 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
 
     private void registerForIo0(final IoHandle handle, Promise<IoRegistration> promise) {
         assert inEventLoop();
+        if (ioRegistrationClosed || isShutdown()) {
+            promise.setFailure(new RejectedExecutionException(
+                    "event loop is shutting down and no longer accepts IO registrations"));
+            return;
+        }
         final IoRegistration registration;
         try {
             registration = ioHandler.register(handle);
