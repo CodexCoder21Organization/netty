@@ -4,7 +4,7 @@ The UrlProtocol test `testProtocolRootCloseCallerRacingEventLoopShutdown` failed
 
 Three tests use real NIO channels and public APIs: shutdown started by a task; shutdown started by another channel's close listener; and a channel registered by a shutdown hook. Each checks physical closure, closeFuture completion and deregistration after loop termination. Lane 222 reverified 3/3 failures with the production class restored to the PR base and 3/3 passes with the fix. No existing test assertion, bound, iteration count, or timeout was changed. The original recorded transport suite was 422 tests, zero failures/errors and 9 existing skips; lane222 module counts below supersede that only where explicitly stated.
 
-**Review (lane 222): changes required.** The original three shutdown cases pass, but a new public-API review scenario registers a finite chain of channels from close listeners during shutdown. After termination four registrations have succeeded; the third channel still reports registered and the fourth is open and registered. This fails on the development PR and on the downloaded published runtime (3/3 fresh JVMs). `prepareToDestroy()` snapshots registrations before callbacks create the next channel; the final executor confirmation is not a drain loop, and same-thread registration still succeeds at `ST_SHUTDOWN`. The existing fix therefore closes the originally demonstrated path without closing this adjacent terminal-registration path. The self-contained test, full output, separate test/code review, and provenance audit are on the evidence branch.
+**Review (lane 222): changes required.** The original three shutdown cases pass, but a new public-API review scenario registers a finite chain of channels from close listeners during shutdown. After termination four registrations have succeeded; the third channel still reports registered and the fourth is open and registered. This fails on the development PR and on the downloaded published runtime (4/4 fresh JVMs, including the standalone script check). `prepareToDestroy()` snapshots registrations before callbacks create the next channel; the final executor confirmation is not a drain loop, and same-thread registration still succeeds at `ST_SHUTDOWN`. The existing fix therefore closes the originally demonstrated path without closing this adjacent terminal-registration path. The self-contained test, full output, separate test/code review, and provenance audit are on the evidence branch.
 
 | Item | Source / result |
 | --- | --- |
@@ -21,7 +21,9 @@ Evidence: https://github.com/CodexCoder21Organization/netty/tree/evidence/lane22
 
 This PR is already based on current `4.2`; fetch/rebase was a no-op. Its diff contains only shutdown ordering and the three regression scenarios, with no unrelated change. The exact-tag release port contains the same override/test semantics, adapted to retain that tag's task scheduling.
 
-Broader module validation is in progress; no claim is made from an unfinished command.
+- release buffer: tests=13456, failures=0, errors=0, skipped=1315; command exit=0.
+- release transport: tests=386, failures=0, errors=0, skipped=9; command exit=0.
+- development transport: tests=422, failures=0, errors=0, skipped=9; command exit=0.
 
 Both green `kotlin.build` checks explicitly say `no build.kts found in repository`; they ran no Maven compilation/tests. The PR is mechanically mergeable, but lane222's correctness review remains blocking until callback-created registration and final deregistration are covered and corrected. No merge or publication was performed.
 

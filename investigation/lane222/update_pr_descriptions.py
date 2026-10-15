@@ -19,7 +19,7 @@ provenance=f'''| Item | Source / result |
 | Publication record | Supervisor log at 05:15:58Z records 46/46 successful uploads; detailed upload log absent from archived evidence |
 
 Evidence: {evidence}. Native classifier jars were not separately audited.'''
-review='''**Review (lane 222): changes required.** The original three shutdown cases pass, but a new public-API review scenario registers a finite chain of channels from close listeners during shutdown. After termination four registrations have succeeded; the third channel still reports registered and the fourth is open and registered. This fails on the development PR and on the downloaded published runtime (3/3 fresh JVMs). `prepareToDestroy()` snapshots registrations before callbacks create the next channel; the final executor confirmation is not a drain loop, and same-thread registration still succeeds at `ST_SHUTDOWN`. The existing fix therefore closes the originally demonstrated path without closing this adjacent terminal-registration path. The self-contained test, full output, separate test/code review, and provenance audit are on the evidence branch.'''
+review='''**Review (lane 222): changes required.** The original three shutdown cases pass, but a new public-API review scenario registers a finite chain of channels from close listeners during shutdown. After termination four registrations have succeeded; the third channel still reports registered and the fourth is open and registered. This fails on the development PR and on the downloaded published runtime (4/4 fresh JVMs, including the standalone script check). `prepareToDestroy()` snapshots registrations before callbacks create the next channel; the final executor confirmation is not a drain loop, and same-thread registration still succeeds at `ST_SHUTDOWN`. The existing fix therefore closes the originally demonstrated path without closing this adjacent terminal-registration path. The self-contained test, full output, separate test/code review, and provenance audit are on the evidence branch.'''
 counts=root/'module-results.json'
 full='Broader module validation is in progress; no claim is made from an unfinished command.'
 if counts.exists():
@@ -32,7 +32,7 @@ The changes comprise the shutdown backport from {shutdown}; ten adaptive/pooled 
 
 {review}
 
-A second blocker is the PR base. Its current `4.2` target is 541 development commits beyond the exact release tag, and GitHub reports conflicts. Rebasing onto it would change the release source set. Lane 222 was authorized only to resolve mechanical conflicts, so it left both PR heads unchanged. The supervisor must choose a maintenance base at the exact tag or authorize a different release line/version; this draft is not ready to merge against its current base.
+A second blocker is the PR base. Its current `4.2` target is 541 development commits beyond the exact release tag, and GitHub reports conflicts. Rebasing onto it would change the release source set. An isolated rebase stopped on an add/add conflict in JfrEventsTest: the development base already has a ~357-line JFR suite where the release tag has none. The conflict was recorded and the rebase aborted. Lane 222 was authorized only to resolve mechanical conflicts, so it left both PR heads unchanged. The supervisor must choose a maintenance base at the exact tag or authorize a different release line/version; this draft is not ready to merge against its current base.
 
 {provenance}
 

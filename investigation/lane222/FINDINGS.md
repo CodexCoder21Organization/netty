@@ -84,3 +84,32 @@ OBSERVED: Complete release module command exited 0 in 4m44s: buffer 13,456 tests
 OBSERVED: Isolated worktree rebase with --reapply-cherry-picks (to avoid scanning the 541-commit partial-clone history for equivalent patches) stopped on the first release commit 7967591813: add/add conflict in buffer/src/test/java/io/netty/buffer/JfrEventsTest.java. Development base has an existing ~357-line JFR suite; release adds its own 34-line/four-scenario suite on the exact tag where no JfrEventsTest existed. Conflict is test-semantic integration, not a whitespace/version-only resolution. Full conflict is in release-rebase-reapply.log. Aborted immediately without resolving, and verified isolated worktree head returned to a66b8e41266dd9a8ae193cf3dea021b3b5547d7f. Original release PR branch remains untouched. A previous default rebase was stopped during object retrieval and aborted; no changed source was adopted.
 
 INFER: This independently confirms the brief's substantive-conflict stop condition. A development-line rebase cannot be presented as preserving the exact published release. The source set should first be assigned an intentional maintenance base or a new development release/version.
+
+## 2026-10-15 12:31 UTC — final validation and item-by-item disposition
+OBSERVED: Development transport dependency install exited 0, then its full module test command exited 0. Final module counts:
+
+| Source | Tests discovered | Failures | Errors | Existing skipped cases |
+|---|---:|---:|---:|---:|
+| release a66b8e41 — buffer | 13,456 | 0 | 0 | 1,315 |
+| release a66b8e41 — transport | 386 | 0 | 0 | 9 |
+| development d7b4547b — transport | 422 | 0 | 0 | 9 |
+
+All seven newly added original regression cases ran; no new skip or test relaxation was introduced. Exact skipped class counts are in module-skip-classes.json. Most buffer skips are existing JDK/unsafe preconditions; the changed JfrEventsTest has zero skips. Development CoalescingBufferQueueTest deliberately consumes queued data under the queue and emits four expected `readableBytes is 292 but the queue is empty` log messages; its 16 cases pass. Full module logs retain those messages and all stacks rather than filtering them out.
+
+The final standalone reproduction script was executed and returned the expected exit 1 with the same fourth-channel open/registered assertion. Together with the earlier three published fresh-JVM invocations, the published defect is now observed 4/4. It checks downloaded source commit metadata before compiling/running, uses no checkout classes, and cleans its temporary downloads automatically.
+
+Existing-test edit inventory: ZERO permanent changes to either PR's tests. During investigation a new review-only test was created, then diagnostic output was moved before assertions and open-state assertions were grouped before future/registration assertions so the fourth accepted channel is tested directly; every original invariant assertion remains. The test was removed from the source tree after copying it to the evidence branch. Temporary production reversions for fail-first checks were restored. Both source branches and the rebase probe are clean and still at their original heads.
+
+### Brief disposition
+1. DONE: both forks cloned fresh/read, ancestry and behind counts recorded, all published modules audited, metadata/source-jar/publish-record provenance table written first and pushed.
+2. DONE for test verification and netty-2 base synchronization (no rebase needed). The proposed routine rebase of the release is REFUTED as safe mechanical reconciliation: exact-tag release vs 541 development commits and actual JFR suite add/add conflict. Aborted at the first substantive conflict as explicitly required by the brief.
+3. DONE: separate test and code reviews, complete diff inventory, provenance and why-first REST description updates. The claim that both PRs can be marked merge-ready as-is is REFUTED by the finite public-API callback chain (development and published source) and substantive release-base conflict. Blocking source correction was NOT performed after the required stop at substantive integration; it needs an intentional base/version/release decision. Heads unchanged, so no force-push was needed. Existing green checks execute no Maven build; this lane's module runs provide the actual validation.
+4. Cleanup in progress; final process/disk verification will be appended locally after the last evidence push.
+
+### Exact next steps for the supervisor
+- Choose an exact-tag maintenance base at 4cc98736c3947bc93122e0b64e0bd8fc970c6437 and retarget the release PR, or explicitly choose a different source line/version. Do not present a development-line rebase as the already-published source.
+- Correct final callback-created registration/deregistration using the self-contained reproducer in this evidence branch, preserving all three existing shutdown cases and keeping shutdown bounded even if callbacks keep creating channels. Verify both fork lines, then rerun module/consumer checks.
+- Any corrected release requires a new coordinate/build/publication; do not overwrite 4.2.10.1-codexcoder21. An unchanged-head merge against an appropriate maintenance base would need no re-publication solely for provenance, but would retain the demonstrated defect.
+- Supervisor owns all CI waiting, merge decisions, publishing and deployment. This lane performed none of them.
+
+Artifacts: https://github.com/CodexCoder21Organization/netty/tree/evidence/lane222-netty-reconcile/investigation/lane222 ; https://github.com/CodexCoder21Organization/netty/pull/2 ; https://github.com/CodexCoder21Organization/netty-2/pull/1 . Findings remain at /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/out/r222-findings.md .

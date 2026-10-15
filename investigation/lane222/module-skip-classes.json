@@ -1,0 +1,31 @@
+{
+  "release buffer": {
+    "io.netty.buffer.AdaptiveBigEndianHeapByteBufTest": 2,
+    "io.netty.buffer.AdaptiveLittleEndianDirectByteBufTest": 2,
+    "io.netty.buffer.ByteBufUtilTest": 15,
+    "io.netty.buffer.SimpleLeakAwareCompositeByteBufTest": 9,
+    "io.netty.buffer.BigEndianUnsafeNoCleanerDirectByteBufTest": 412,
+    "io.netty.buffer.LittleEndianUnsafeNoCleanerDirectByteBufTest": 411,
+    "io.netty.buffer.LittleEndianCompositeByteBufTest": 9,
+    "io.netty.buffer.AdaptiveLittleEndianHeapByteBufTest": 2,
+    "io.netty.buffer.RetainedSlicedByteBufTest": 6,
+    "io.netty.buffer.AdvancedLeakAwareCompositeByteBufTest": 9,
+    "io.netty.buffer.AdaptiveBigEndianDirectByteBufTest": 2,
+    "io.netty.buffer.WrappedCompositeByteBufTest": 9,
+    "io.netty.buffer.SlicedByteBufTest": 6,
+    "io.netty.buffer.BigEndianCompositeByteBufTest": 9,
+    "io.netty.buffer.WrappedUnpooledUnsafeByteBufTest": 412
+  },
+  "release transport": {
+    "io.netty.channel.local.LocalTransportThreadModelTest3": 4,
+    "io.netty.channel.local.LocalTransportThreadModelTest": 2,
+    "io.netty.channel.ThreadPerChannelEventLoopGroupTest": 2,
+    "io.netty.channel.SingleThreadIoEventLoopTest": 1
+  },
+  "development transport": {
+    "io.netty.channel.local.LocalTransportThreadModelTest3": 4,
+    "io.netty.channel.local.LocalTransportThreadModelTest": 2,
+    "io.netty.channel.ThreadPerChannelEventLoopGroupTest": 2,
+    "io.netty.channel.SingleThreadIoEventLoopTest": 1
+  }
+}
