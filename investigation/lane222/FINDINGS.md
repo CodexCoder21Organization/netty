@@ -1,0 +1,34 @@
+# Lane 222 — Netty fork reconciliation
+Started: 2026-10-15 12:04 UTC. Stop new work by 13:09 UTC; hard stop 13:19 UTC.
+
+## Plan
+- [in progress] Read required context; clone both forks; establish published-artifact provenance and PR ancestry. Done means a source/metadata table backed by downloaded artifacts and git history.
+- [pending] Rebase only where needed; audit regression tests; demonstrate failures without the fixes and passing module tests with the fixes.
+- [pending] Independently review tests and changes; address blocking findings; push branches and update both PR descriptions with evidence. No merge or publish.
+- [pending] Record terminal verdict, exact remaining work, stop owned processes, and delete lane checkouts/cache.
+
+## 2026-10-15 12:04 UTC — context
+OBSERVED: Read lane brief and common.md fully. They prohibit nested delegation, touching the Handoff service, merging, publishing, and watching CI after pushing. The supervisor owns CI waiting. No repository edits or background processes yet.
+
+## 2026-10-15 12:07 UTC — provenance first; substantive base mismatch
+| Item | Observed source / metadata | Verdict |
+|---|---|---|
+| Published transport POM | parent io.netty:netty-parent:4.2.10.1-codexcoder21 | Coordinate matches PR title/current reactor |
+| Published transport jar | META-INF/io.netty.versions.properties: longCommitHash=a66b8e41266dd9a8ae193cf3dea021b3b5547d7f, repoStatus=clean; build 2026-10-15 04:17:26 UTC | Published transport records exactly current release PR head |
+| Published transport manifest | Implementation-Version and Bundle-Version=4.2.10.1-codexcoder21; Build-Jdk=21.0.12.1 | Consistent with release artifact |
+| https://github.com/CodexCoder21Organization/netty/pull/2 | head a66b8e41266dd9a8ae193cf3dea021b3b5547d7f; base 4.2 at 006a2f1d92db733d10112de251600da7b6f8ec51; merge-base 4cc98736c3947bc93122e0b64e0bd8fc970c6437 (netty-4.2.10.Final); behind 541, ahead 4; draft, DIRTY | NOT a routine behind-base rebase: moving onto 4.2 would add 541 development commits to a published exact-tag release |
+| https://github.com/CodexCoder21Organization/netty-2/pull/1 | head d7b4547b64859311b9317a966cb995385399b8c5; base and merge-base aa00c11e31381c85ec39f2c518321ff12635ae9c; behind 0, ahead 3; clean | No rebase needed; fetch/rebase origin/4.2 is a no-op (there is no main branch) |
+| Shutdown source containment | release commit 13548ce836 ports confirmShutdown override and identical three regression scenarios; original commits are not ancestors | Fix contained semantically as a manual exact-tag backport, not by original commit identity |
+| Publish record | supervisor-actions.log 05:12:31Z starts publish after lane146 13/13 gate; 05:15:58Z records 46/46 published, zero failures | Corroborates release branch and publication. out/netty-publish.log is absent from recursive evidence tree, so individual upload log cannot be verified |
+
+OBSERVED: Both heads have two successful kotlin.build checks. Release PR targets development branch 4.2 although its README and prior authorized briefs explicitly require exact netty-4.2.10.Final source. No repository AGENTS.md or separate FORK notes found in tracked files. Read both READMEs, all three prior briefs, lane141/lane146 findings, handoff.md, common.md, Engineering Philosophy, Testing Architecture, and Code Review guidance (relevant sections: TDD, public API, deterministic reproduction, root cause, and red flags).
+
+INFER: Rebase of release PR onto its current base is substantive and contradicts the exact-tag release decision. Per brief step 2 I will not perform it. Supervisor decision needed: preserve release by introducing a maintenance base branch at exact tag and retargeting the PR, or explicitly authorize a newer development-line release requiring new version/build/publication. Current published build == current release PR head for transport. Verifying buffer and other module metadata next. Keeping branch name is coherent as the existing draft-of-record, documented in description; changing it is unnecessary to source provenance.
+
+## Lifecycle/ownership review table (before any source edits)
+| Resource | Creation / owner / closure | Terminal behavior and caller tests |
+|---|---|---|
+| Registered NIO channel | caller creates socket/channel; event loop owns registration; shutdown preparation closes registrations | termination must mean channel closed, deregistered, closeFuture done; existing tests force task shutdown, callback re-entry, and new channel in shutdown hook |
+| Event-loop IO handler | group creates handler; loop owns initialize/prepare/destroy | prepareToDestroy is idempotent; every shutdown confirmation precedes terminal destruction; no persisted restart state |
+| Allocator event singleton | lazy JVM class initialization; JFR owns event registry | no recorder means allocator must not initialize event classes; fresh-child tests cover adaptive/pooled, heap/direct, resize/release; recording enabled after early use must receive events |
+| Test child process/output reader | test creates/owns child and executor | finally forcibly closes child, shuts reader down, and waits with bounds; no shared recorder state across scenarios |
