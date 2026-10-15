@@ -1,8 +1,8 @@
 from pathlib import Path
 import xml.etree.ElementTree as ET,hashlib,shutil,json,sys,re
 lane=Path(__file__).resolve().parent.parent
-repo=lane/'.m2/io/netty';version='4.2.10.Final-codexcoder21-1'
-dest=lane.parent.parent/'publish/netty-codexcoder21-1'
+repo=lane/'.m2/io/netty';version='4.2.10.1-codexcoder21'
+dest=lane.parent.parent/'publish/netty-codexcoder21-2'
 ns={'m':'http://maven.apache.org/POM/4.0.0'}
 models={}
 def value(node,path,default=''):

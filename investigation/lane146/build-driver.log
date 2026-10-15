@@ -1,1 +1,6 @@
 START versions-set ['versions:set', '-DnewVersion=4.2.10.1-codexcoder21', '-DgenerateBackupPoms=false']
+RESULT versions-set 0
+VERSION_EDIT_DONE
+START bom-install ['-f', 'bom/pom.xml', '-DskipTests', 'install']
+RESULT bom-install 0
+START custom-reactor-install ['-pl', 'common,buffer,transport,handler,codec,all', '-am', '-DskipTests', 'install']

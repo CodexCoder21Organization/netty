@@ -1,1 +1,406 @@
 Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 6.8
+[INFO] os.detected.version.major: 6
+[INFO] os.detected.version.minor: 8
+[INFO] os.detected.release: debian
+[INFO] os.detected.release.version: 12
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Netty                                                              [pom]
+[INFO] Netty/JFR Stub                                                     [jar]
+[INFO] Netty/VarHandle Stub                                               [jar]
+[INFO] Netty/Dev-Tools                                                    [jar]
+[INFO] Netty/Common                                                       [jar]
+[INFO] Netty/Testsuite/Common                                             [jar]
+[INFO] Netty/Buffer                                                       [jar]
+[INFO] Netty/Resolver                                                     [jar]
+[INFO] Netty/Transport                                                    [jar]
+[INFO] Netty/Codec/Base                                                   [jar]
+[INFO] Netty/Codec/Compression                                            [jar]
+[INFO] Netty/Codec/Protobuf                                               [jar]
+[INFO] Netty/Codec/Marshalling                                            [jar]
+[INFO] Netty/Codec                                                        [jar]
+[INFO] Netty/Codec/DNS                                                    [jar]
+[INFO] Netty/Codec/HAProxy                                                [jar]
+[INFO] Netty/Transport/Native/Unix/Common                                 [jar]
+[INFO] Netty/PKITesting                                                   [jar]
+[INFO] Netty/Handler                                                      [jar]
+[INFO] Netty/Codec/HTTP                                                   [jar]
+[INFO] Netty/Codec/HTTP2                                                  [jar]
+[INFO] Netty/Transport/Classes/Epoll                                      [jar]
+[INFO] Netty/Codec/Classes/Quic                                           [jar]
+[INFO] Netty/Transport/SCTP                                               [jar]
+[INFO] Netty/Transport/UDT                                                [jar]
+[INFO] Netty/Testsuite                                                    [jar]
+[INFO] Netty/Transport/Native/Unix/Common/Tests                           [jar]
+[INFO] Netty/Transport/Native/Epoll                                       [jar]
+[INFO] Netty/Codec/Native/Quic                                            [jar]
+[INFO] Netty/Codec/Http3                                                  [jar]
+[INFO] Netty/Codec/Memcache                                               [jar]
+[INFO] Netty/Codec/MQTT                                                   [jar]
+[INFO] Netty/Codec/Redis                                                  [jar]
+[INFO] Netty/Codec/SMTP                                                   [jar]
+[INFO] Netty/Codec/Socks                                                  [jar]
+[INFO] Netty/Codec/Stomp                                                  [jar]
+[INFO] Netty/Codec/XML                                                    [jar]
+[INFO] Netty/Handler/Proxy                                                [jar]
+[INFO] Netty/Resolver/DNS                                                 [jar]
+[INFO] Netty/Handler/Ssl/Ocsp                                             [jar]
+[INFO] Netty/Transport/RXTX                                               [jar]
+[INFO] Netty/Transport/Classes/KQueue                                     [jar]
+[INFO] Netty/Resolver/DNS/Classes/MacOS                                   [jar]
+[INFO] Netty/Transport/Classes/io_uring                                   [jar]
+[INFO] Netty/All-in-One                                                   [jar]
+[INFO] Netty/Resolver/DNS/Native/MacOS                                    [jar]
+[INFO] Netty/Transport/Native/io_uring                                    [jar]
+[INFO] Netty/Transport/Native/KQueue                                      [jar]
+[INFO] Netty/Example                                                      [jar]
+[INFO] Netty/Testsuite/Autobahn                                           [jar]
+[INFO] Netty/Testsuite/Http2                                              [jar]
+[INFO] Netty/Testsuite/JPMS                                             [jlink]
+[INFO] Netty/Testsuite/Karaf                                          [feature]
+[INFO] Netty/Testsuite/OSGI                                               [jar]
+[INFO] Netty/Testsuite/Shading                                            [jar]
+[INFO] Netty/Testsuite/Native                                             [jar]
+[INFO] Netty/Testsuite/NativeImage                                        [jar]
+[INFO] Netty/Testsuite/NativeImage/Client                                 [jar]
+[INFO] Netty/Testsuite/NativeImage/ClientRuntimeInit                      [jar]
+[INFO] Netty/Transport/BlockHound/Tests                                   [jar]
+[INFO] Netty/Microbench                                                   [jar]
+[INFO] Netty/BOM                                                          [pom]
+[INFO] 
+[INFO] -----------------------< io.netty:netty-parent >------------------------
+[INFO] Building Netty 4.2.10.Final-codexcoder21-1                        [1/62]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.23.0:set (default-cli) @ netty-parent ---
+[INFO] Searching for local aggregator root...
+[INFO] Local aggregation root: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty
+[INFO] Processing change of io.netty:netty-parent:4.2.10.Final-codexcoder21-1 -> 4.2.10.1-codexcoder21
+[INFO] Processing io.netty:netty-parent
+[INFO]     Updating project io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-all
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-buffer
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-base
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-classes-quic
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-compression
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-dns
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-haproxy
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-http2
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-http3
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-http
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-marshalling
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-memcache
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-mqtt
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-native-quic
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-protobuf
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-redis
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-smtp
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-socks
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-stomp
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec-xml
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-codec
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-common
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-dev-tools
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-example
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-handler-proxy
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-handler-ssl-ocsp
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-handler
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-jfr-stub
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-microbench
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-pkitesting
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-resolver-dns-classes-macos
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-resolver-dns-native-macos
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-resolver-dns
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-resolver
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-autobahn
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-common
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-http2
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-jpms
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-karaf
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-native-image-client-runtime-init
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-native-image-client
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-native-image
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-native
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-osgi
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite-shading
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-testsuite
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-blockhound-tests
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-classes-epoll
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-classes-io_uring
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-classes-kqueue
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-native-epoll
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-native-io_uring
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-native-kqueue
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-native-unix-common-tests
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-native-unix-common
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-rxtx
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-sctp
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport-udt
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-transport
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] Processing io.netty:netty-varhandle-stub
+[INFO]     Updating parent io.netty:netty-parent
+[INFO]         from version 4.2.10.Final-codexcoder21-1 to 4.2.10.1-codexcoder21
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Netty 4.2.10.Final-codexcoder21-1:
+[INFO] 
+[INFO] Netty .............................................. SUCCESS [ 27.686 s]
+[INFO] Netty/JFR Stub ..................................... SKIPPED
+[INFO] Netty/VarHandle Stub ............................... SKIPPED
+[INFO] Netty/Dev-Tools .................................... SKIPPED
+[INFO] Netty/Common ....................................... SKIPPED
+[INFO] Netty/Testsuite/Common ............................. SKIPPED
+[INFO] Netty/Buffer ....................................... SKIPPED
+[INFO] Netty/Resolver ..................................... SKIPPED
+[INFO] Netty/Transport .................................... SKIPPED
+[INFO] Netty/Codec/Base ................................... SKIPPED
+[INFO] Netty/Codec/Compression ............................ SKIPPED
+[INFO] Netty/Codec/Protobuf ............................... SKIPPED
+[INFO] Netty/Codec/Marshalling ............................ SKIPPED
+[INFO] Netty/Codec ........................................ SKIPPED
+[INFO] Netty/Codec/DNS .................................... SKIPPED
+[INFO] Netty/Codec/HAProxy ................................ SKIPPED
+[INFO] Netty/Transport/Native/Unix/Common ................. SKIPPED
+[INFO] Netty/PKITesting ................................... SKIPPED
+[INFO] Netty/Handler ...................................... SKIPPED
+[INFO] Netty/Codec/HTTP ................................... SKIPPED
+[INFO] Netty/Codec/HTTP2 .................................. SKIPPED
+[INFO] Netty/Transport/Classes/Epoll ...................... SKIPPED
+[INFO] Netty/Codec/Classes/Quic ........................... SKIPPED
+[INFO] Netty/Transport/SCTP ............................... SKIPPED
+[INFO] Netty/Transport/UDT ................................ SKIPPED
+[INFO] Netty/Testsuite .................................... SKIPPED
+[INFO] Netty/Transport/Native/Unix/Common/Tests ........... SKIPPED
+[INFO] Netty/Transport/Native/Epoll ....................... SKIPPED
+[INFO] Netty/Codec/Native/Quic ............................ SKIPPED
+[INFO] Netty/Codec/Http3 .................................. SKIPPED
+[INFO] Netty/Codec/Memcache ............................... SKIPPED
+[INFO] Netty/Codec/MQTT ................................... SKIPPED
+[INFO] Netty/Codec/Redis .................................. SKIPPED
+[INFO] Netty/Codec/SMTP ................................... SKIPPED
+[INFO] Netty/Codec/Socks .................................. SKIPPED
+[INFO] Netty/Codec/Stomp .................................. SKIPPED
+[INFO] Netty/Codec/XML .................................... SKIPPED
+[INFO] Netty/Handler/Proxy ................................ SKIPPED
+[INFO] Netty/Resolver/DNS ................................. SKIPPED
+[INFO] Netty/Handler/Ssl/Ocsp ............................. SKIPPED
+[INFO] Netty/Transport/RXTX ............................... SKIPPED
+[INFO] Netty/Transport/Classes/KQueue ..................... SKIPPED
+[INFO] Netty/Resolver/DNS/Classes/MacOS ................... SKIPPED
+[INFO] Netty/Transport/Classes/io_uring ................... SKIPPED
+[INFO] Netty/All-in-One ................................... SKIPPED
+[INFO] Netty/Resolver/DNS/Native/MacOS .................... SKIPPED
+[INFO] Netty/Transport/Native/io_uring .................... SKIPPED
+[INFO] Netty/Transport/Native/KQueue ...................... SKIPPED
+[INFO] Netty/Example ...................................... SKIPPED
+[INFO] Netty/Testsuite/Autobahn ........................... SKIPPED
+[INFO] Netty/Testsuite/Http2 .............................. SKIPPED
+[INFO] Netty/Testsuite/JPMS ............................... SKIPPED
+[INFO] Netty/Testsuite/Karaf .............................. SKIPPED
+[INFO] Netty/Testsuite/OSGI ............................... SKIPPED
+[INFO] Netty/Testsuite/Shading ............................ SKIPPED
+[INFO] Netty/Testsuite/Native ............................. SKIPPED
+[INFO] Netty/Testsuite/NativeImage ........................ SKIPPED
+[INFO] Netty/Testsuite/NativeImage/Client ................. SKIPPED
+[INFO] Netty/Testsuite/NativeImage/ClientRuntimeInit ...... SKIPPED
+[INFO] Netty/Transport/BlockHound/Tests ................... SKIPPED
+[INFO] Netty/Microbench ................................... SKIPPED
+[INFO] Netty/BOM .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.622 s
+[INFO] Finished at: 2026-10-15T04:11:19Z
+[INFO] ------------------------------------------------------------------------

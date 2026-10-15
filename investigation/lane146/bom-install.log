@@ -1,0 +1,19 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< io.netty:netty-bom >-------------------------
+[INFO] Building Netty/BOM 4.2.10.1-codexcoder21
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ netty-bom ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-bom ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/bom/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-bom/4.2.10.1-codexcoder21/netty-bom-4.2.10.1-codexcoder21.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.156 s
+[INFO] Finished at: 2026-10-15T04:11:35Z
+[INFO] ------------------------------------------------------------------------
