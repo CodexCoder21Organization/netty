@@ -1,0 +1,32 @@
+Compiled from "SingleThreadIoEventLoop.java"
+public class io.netty.channel.SingleThreadIoEventLoop extends io.netty.channel.SingleThreadEventLoop implements io.netty.channel.IoEventLoop {
+  static final boolean $assertionsDisabled;
+  public io.netty.channel.SingleThreadIoEventLoop(io.netty.channel.IoEventLoopGroup, java.util.concurrent.ThreadFactory, io.netty.channel.IoHandlerFactory);
+  public io.netty.channel.SingleThreadIoEventLoop(io.netty.channel.IoEventLoopGroup, java.util.concurrent.Executor, io.netty.channel.IoHandlerFactory);
+  public io.netty.channel.SingleThreadIoEventLoop(io.netty.channel.IoEventLoopGroup, java.util.concurrent.ThreadFactory, io.netty.channel.IoHandlerFactory, int, io.netty.util.concurrent.RejectedExecutionHandler, long);
+  public io.netty.channel.SingleThreadIoEventLoop(io.netty.channel.IoEventLoopGroup, java.util.concurrent.Executor, io.netty.channel.IoHandlerFactory, int, io.netty.util.concurrent.RejectedExecutionHandler, long);
+  protected io.netty.channel.SingleThreadIoEventLoop(io.netty.channel.IoEventLoopGroup, java.util.concurrent.Executor, io.netty.channel.IoHandlerFactory, java.util.Queue<java.lang.Runnable>, java.util.Queue<java.lang.Runnable>, io.netty.util.concurrent.RejectedExecutionHandler);
+  protected void run();
+  protected boolean confirmShutdown();
+  protected final io.netty.channel.IoHandler ioHandler();
+  protected boolean canSuspend(int);
+  protected int runIo();
+  public io.netty.channel.IoEventLoop next();
+  public final io.netty.util.concurrent.Future<io.netty.channel.IoRegistration> register(io.netty.channel.IoHandle);
+  protected int getNumOfRegisteredChannels();
+  protected final void wakeup(boolean);
+  protected final void cleanup();
+  public boolean isCompatible(java.lang.Class<? extends io.netty.channel.IoHandle>);
+  public boolean isIoType(java.lang.Class<? extends io.netty.channel.IoHandler>);
+  protected java.util.Queue<java.lang.Runnable> newTaskQueue(int);
+  protected static java.util.Queue<java.lang.Runnable> newTaskQueue0(int);
+  public io.netty.channel.EventLoop next();
+  public io.netty.util.concurrent.EventExecutor next();
+  static boolean access$000(io.netty.channel.SingleThreadIoEventLoop);
+  static long access$100(io.netty.channel.SingleThreadIoEventLoop, long);
+  static long access$200(io.netty.channel.SingleThreadIoEventLoop);
+  static void access$300(io.netty.channel.SingleThreadIoEventLoop, long);
+  static boolean access$400(io.netty.channel.SingleThreadIoEventLoop);
+  static java.util.concurrent.atomic.AtomicInteger access$500(io.netty.channel.SingleThreadIoEventLoop);
+  static {};
+}

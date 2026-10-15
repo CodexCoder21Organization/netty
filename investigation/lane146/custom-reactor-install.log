@@ -5108,3 +5108,1442 @@ main:
 [WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
 [INFO] Recompiling the module because of changed dependency.
 [INFO] Compiling 38 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttEncoder.java:[299,40] [deprecation] topicName() in MqttTopicSubscription has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttEncoder.java:[319,47] [deprecation] topicName() in MqttTopicSubscription has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-mqtt ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-mqtt ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-mqtt:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-mqtt ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.mqtt"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.mqtt"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-mqtt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-mqtt ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttTestUtils.java:[179,29] [deprecation] topicName() in MqttTopicSubscription has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttTestUtils.java:[179,49] [deprecation] topicName() in MqttTopicSubscription has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[110,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[753,16] [deprecation] packetId(short) in UnsubAckBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[1030,16] [deprecation] packetId(short) in PubAckBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[1064,29] [deprecation] password() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[1064,48] [deprecation] password() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[1066,29] [deprecation] willMessage() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java:[1066,51] [deprecation] willMessage() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[43,37] [deprecation] willMessage() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[61,37] [deprecation] password() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[67,15] [deprecation] password(String) in ConnectBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[72,37] [deprecation] password() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[80,37] [deprecation] password() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[86,15] [deprecation] willMessage(String) in ConnectBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[91,37] [deprecation] willMessage() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttConnectPayloadTest.java:[99,37] [deprecation] willMessage() in MqttConnectPayload has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttMessageBuildersPacketIdTest.java:[43,16] [deprecation] packetId(short) in UnsubAckBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttMessageBuildersPacketIdTest.java:[56,16] [deprecation] packetId(short) in SubAckBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttMessageBuildersPacketIdTest.java:[69,16] [deprecation] packetId(short) in PubAckBuilder has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-mqtt ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-mqtt ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-mqtt ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-mqtt ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-mqtt ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-mqtt ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-mqtt ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-mqtt ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-mqtt/4.2.10.1-codexcoder21/netty-codec-mqtt-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-mqtt/4.2.10.1-codexcoder21/netty-codec-mqtt-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-mqtt/4.2.10.1-codexcoder21/netty-codec-mqtt-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-mqtt/4.2.10.1-codexcoder21/netty-codec-mqtt-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-mqtt/target/netty-codec-mqtt-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-mqtt/4.2.10.1-codexcoder21/netty-codec-mqtt-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------------< io.netty:netty-codec-redis >---------------------
+[INFO] Building Netty/Codec/Redis 4.2.10.1-codexcoder21                 [33/45]
+[INFO]   from codec-redis/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-redis ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-redis ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-redis ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-redis ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-redis ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-redis ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-redis ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 24 source files with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-redis ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-redis ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-redis:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-redis ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.redis"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.redis"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-redis ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-redis ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-redis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-redis ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-redis ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-redis ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-redis ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-redis ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-redis ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-redis/4.2.10.1-codexcoder21/netty-codec-redis-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-redis/4.2.10.1-codexcoder21/netty-codec-redis-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-redis/4.2.10.1-codexcoder21/netty-codec-redis-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-redis/4.2.10.1-codexcoder21/netty-codec-redis-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-redis/target/netty-codec-redis-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-redis/4.2.10.1-codexcoder21/netty-codec-redis-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------------< io.netty:netty-codec-smtp >----------------------
+[INFO] Building Netty/Codec/SMTP 4.2.10.1-codexcoder21                  [34/45]
+[INFO]   from codec-smtp/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-smtp ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-smtp ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-smtp ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-smtp ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-smtp ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-smtp ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-smtp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-smtp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 13 source files with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-smtp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-smtp ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-smtp:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-smtp ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.smtp"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.smtp"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-smtp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-smtp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-smtp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-smtp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-smtp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-smtp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-smtp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-smtp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-smtp ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-smtp ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-smtp/4.2.10.1-codexcoder21/netty-codec-smtp-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-smtp/4.2.10.1-codexcoder21/netty-codec-smtp-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-smtp/4.2.10.1-codexcoder21/netty-codec-smtp-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-smtp/4.2.10.1-codexcoder21/netty-codec-smtp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-smtp/target/netty-codec-smtp-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-smtp/4.2.10.1-codexcoder21/netty-codec-smtp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------------< io.netty:netty-codec-socks >---------------------
+[INFO] Building Netty/Codec/Socks 4.2.10.1-codexcoder21                 [35/45]
+[INFO]   from codec-socks/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-socks ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-socks ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-socks ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-socks ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-socks ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-socks ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-socks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-socks ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 81 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksAuthRequest.java:[73,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksAuthResponse.java:[46,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksCmdRequest.java:[111,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksCmdResponse.java:[141,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksInitRequest.java:[48,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksInitResponse.java:[45,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/UnknownSocksRequest.java:[34,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/io/netty/handler/codec/socks/UnknownSocksResponse.java:[34,16] [deprecation] encodeAsByteBuf(ByteBuf) in SocksMessage has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-socks ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-socks ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-socks:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-socks ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.socks"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.socksx.v4"
+[INFO] Automatically adding export for package "io.netty.handler.codec.socksx.v5"
+[INFO] Automatically adding export for package "io.netty.handler.codec.socks"
+[INFO] Automatically adding export for package "io.netty.handler.codec.socksx"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-socks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-socks ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 27 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/src/test/java/io/netty/handler/codec/socks/SocksCmdRequestTest.java:[140,44] [deprecation] order(ByteOrder) in ByteBuf has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-socks ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-socks ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-socks ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-socks ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-socks ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-socks ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-socks ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-socks ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-socks/4.2.10.1-codexcoder21/netty-codec-socks-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-socks/4.2.10.1-codexcoder21/netty-codec-socks-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-socks/4.2.10.1-codexcoder21/netty-codec-socks-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-socks/4.2.10.1-codexcoder21/netty-codec-socks-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-socks/target/netty-codec-socks-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-socks/4.2.10.1-codexcoder21/netty-codec-socks-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------------< io.netty:netty-codec-stomp >---------------------
+[INFO] Building Netty/Codec/Stomp 4.2.10.1-codexcoder21                 [36/45]
+[INFO]   from codec-stomp/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-stomp ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-stomp ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-stomp ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-stomp ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-stomp ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-stomp ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-stomp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-stomp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 16 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/src/main/java/io/netty/handler/codec/stomp/StompSubframeDecoder.java:[25,56] [deprecation] State in StompSubframeDecoder has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-stomp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-stomp ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-stomp:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-stomp ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.stomp"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.stomp"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-stomp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-stomp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-stomp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-stomp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-stomp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-stomp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-stomp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-stomp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-stomp ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-stomp ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-stomp/4.2.10.1-codexcoder21/netty-codec-stomp-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-stomp/4.2.10.1-codexcoder21/netty-codec-stomp-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-stomp/4.2.10.1-codexcoder21/netty-codec-stomp-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-stomp/4.2.10.1-codexcoder21/netty-codec-stomp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-stomp/target/netty-codec-stomp-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-stomp/4.2.10.1-codexcoder21/netty-codec-stomp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ----------------------< io.netty:netty-codec-xml >----------------------
+[INFO] Building Netty/Codec/XML 4.2.10.1-codexcoder21                   [37/45]
+[INFO]   from codec-xml/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-xml ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-xml ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-xml ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-xml ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-xml ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-xml ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-xml ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 17 source files with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-xml ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-xml ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-xml:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-xml ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.xml"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.xml"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-xml ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-xml ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-xml ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-xml ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-xml ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-xml ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-xml ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-xml ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-xml ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-xml/4.2.10.1-codexcoder21/netty-codec-xml-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-xml/4.2.10.1-codexcoder21/netty-codec-xml-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-xml/4.2.10.1-codexcoder21/netty-codec-xml-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-xml/4.2.10.1-codexcoder21/netty-codec-xml-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/codec-xml/target/netty-codec-xml-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-codec-xml/4.2.10.1-codexcoder21/netty-codec-xml-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --------------------< io.netty:netty-handler-proxy >--------------------
+[INFO] Building Netty/Handler/Proxy 4.2.10.1-codexcoder21               [38/45]
+[INFO]   from handler-proxy/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-handler-proxy ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-handler-proxy ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-handler-proxy ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-handler-proxy ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-handler-proxy ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-handler-proxy ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-handler-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-handler-proxy ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/src/main/java/io/netty/handler/proxy/HttpProxyHandler.java:[258,20] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandler has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-handler-proxy ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-handler-proxy ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-handler-proxy:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-handler-proxy ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.handler.proxy"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.proxy"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-handler-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-handler-proxy ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-handler-proxy ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-handler-proxy ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-handler-proxy ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-handler-proxy ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-handler-proxy ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-handler-proxy ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-handler-proxy ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-handler-proxy ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-proxy/4.2.10.1-codexcoder21/netty-handler-proxy-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-proxy/4.2.10.1-codexcoder21/netty-handler-proxy-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-proxy/4.2.10.1-codexcoder21/netty-handler-proxy-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-proxy/4.2.10.1-codexcoder21/netty-handler-proxy-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-proxy/target/netty-handler-proxy-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-proxy/4.2.10.1-codexcoder21/netty-handler-proxy-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --------------------< io.netty:netty-resolver-dns >---------------------
+[INFO] Building Netty/Resolver/DNS 4.2.10.1-codexcoder21                [39/45]
+[INFO]   from resolver-dns/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-resolver-dns ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-resolver-dns ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-resolver-dns ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-resolver-dns ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-resolver-dns ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-resolver-dns ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-resolver-dns ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-resolver-dns ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 60 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverBuilder.java:[22,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverBuilder.java:[385,67] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-resolver-dns ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-resolver-dns ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-resolver-dns:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-resolver-dns ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.resolver.dns"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.resolver.dns"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-resolver-dns ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-resolver-dns ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 18 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverTest.java:[2424,16] [deprecation] authoritativeDnsServerCache(DnsCache) in DnsNameResolverBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverTest.java:[2796,10] [deprecation] authoritativeDnsServerCache(DnsCache) in DnsNameResolverBuilder has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverTest.java:[3003,8] [deprecation] DnsNameResolver(EventLoop,ChannelFactory<? extends DatagramChannel>,DnsCache,AuthoritativeDnsServerCache,DnsQueryLifecycleObserverFactory,long,ResolvedAddressTypes,boolean,int,boolean,int,boolean,HostsFileEntriesResolver,DnsServerAddressStreamProvider,String[],int,boolean) in DnsNameResolver has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[42,66] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[58,62] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[89,62] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[267,66] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[285,66] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java:[297,66] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to File for a varargs call
+  cast to File[] for a non-varargs call and to suppress this warning
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-resolver-dns ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-resolver-dns ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-resolver-dns ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-resolver-dns ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-resolver-dns ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-resolver-dns ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-resolver-dns ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-resolver-dns ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns/4.2.10.1-codexcoder21/netty-resolver-dns-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns/4.2.10.1-codexcoder21/netty-resolver-dns-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns/4.2.10.1-codexcoder21/netty-resolver-dns-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns/4.2.10.1-codexcoder21/netty-resolver-dns-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns/target/netty-resolver-dns-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns/4.2.10.1-codexcoder21/netty-resolver-dns-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] ------------------< io.netty:netty-handler-ssl-ocsp >-------------------
+[INFO] Building Netty/Handler/Ssl/Ocsp 4.2.10.1-codexcoder21            [40/45]
+[INFO]   from handler-ssl-ocsp/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-handler-ssl-ocsp ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-handler-ssl-ocsp ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-handler-ssl-ocsp ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-handler-ssl-ocsp ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-handler-ssl-ocsp ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-handler-ssl-ocsp ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-handler-ssl-ocsp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-handler-ssl-ocsp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-handler-ssl-ocsp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-handler-ssl-ocsp ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-handler-ssl-ocsp:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-handler-ssl-ocsp ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.handler.ssl.ocsp"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.ssl.ocsp"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-handler-ssl-ocsp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-handler-ssl-ocsp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-handler-ssl-ocsp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-handler-ssl-ocsp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-handler-ssl-ocsp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-handler-ssl-ocsp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-handler-ssl-ocsp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-handler-ssl-ocsp ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-handler-ssl-ocsp ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-handler-ssl-ocsp ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-ssl-ocsp/4.2.10.1-codexcoder21/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-ssl-ocsp/4.2.10.1-codexcoder21/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-ssl-ocsp/4.2.10.1-codexcoder21/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-ssl-ocsp/4.2.10.1-codexcoder21/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/handler-ssl-ocsp/target/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-handler-ssl-ocsp/4.2.10.1-codexcoder21/netty-handler-ssl-ocsp-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------------< io.netty:netty-transport-rxtx >--------------------
+[INFO] Building Netty/Transport/RXTX 4.2.10.1-codexcoder21              [41/45]
+[INFO]   from transport-rxtx/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-rxtx ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-rxtx ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-rxtx ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-rxtx ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-rxtx ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-rxtx ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-rxtx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-rxtx ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[19,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[19,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[20,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[20,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[21,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java:[21,28] [deprecation] RxtxChannelConfig in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[28,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[29,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[30,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[31,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[32,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[33,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[34,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java:[35,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[23,27] [deprecation] OioByteStreamChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[28,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[29,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[30,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[31,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[32,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[33,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[34,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java:[35,35] [deprecation] RxtxChannelOption in io.netty.channel.rxtx has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-rxtx ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-rxtx ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-rxtx:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-rxtx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-rxtx ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-rxtx ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-rxtx ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-rxtx ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-rxtx ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-rxtx ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-rxtx ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-rxtx ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-rxtx ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-rxtx/4.2.10.1-codexcoder21/netty-transport-rxtx-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-rxtx/4.2.10.1-codexcoder21/netty-transport-rxtx-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-rxtx/4.2.10.1-codexcoder21/netty-transport-rxtx-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-rxtx/target/netty-transport-rxtx-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-rxtx/4.2.10.1-codexcoder21/netty-transport-rxtx-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --------------< io.netty:netty-transport-classes-kqueue >---------------
+[INFO] Building Netty/Transport/Classes/KQueue 4.2.10.1-codexcoder21    [42/45]
+[INFO]   from transport-classes-kqueue/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-classes-kqueue ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-classes-kqueue ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-classes-kqueue ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-classes-kqueue ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-classes-kqueue ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-classes-kqueue ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-classes-kqueue ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-classes-kqueue ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 32 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/BsdSocket.java:[19,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDatagramChannel.java:[28,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueEventLoopGroup.java:[20,23] [deprecation] EventLoopTaskQueueFactory in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueSocketChannel.java:[21,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueChannelConfig.java:[57,22] [deprecation] RCV_ALLOC_TRANSPORT_PROVIDES_GUESS in KQueueChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueChannelConfig.java:[82,22] [deprecation] RCV_ALLOC_TRANSPORT_PROVIDES_GUESS in KQueueChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDatagramChannelConfig.java:[173,39] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDatagramChannelConfig.java:[174,13] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDomainDatagramChannelConfig.java:[132,45] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDomainDatagramChannelConfig.java:[133,13] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDomainSocketChannelConfig.java:[89,43] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueDomainSocketChannelConfig.java:[90,13] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/NativeArrays.java:[30,23] [deprecation] IovArray() in IovArray has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueServerChannelConfig.java:[160,37] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueServerChannelConfig.java:[161,13] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueSocketChannel.java:[94,35] [deprecation] IovArray(ByteBuf) in IovArray has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueSocketChannelConfig.java:[320,37] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/KQueueSocketChannelConfig.java:[321,13] [deprecation] setRcvAllocTransportProvidesGuess(boolean) in KQueueChannelConfig has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-classes-kqueue ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-classes-kqueue ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-classes-kqueue:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-transport-classes-kqueue ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.transport.classes.kqueue"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.channel.kqueue"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-classes-kqueue ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-classes-kqueue ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/src/test/java/io/netty/channel/kqueue/LoadClassTest.java:[39,20] [deprecation] KQueueEventLoopGroup in io.netty.channel.kqueue has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-classes-kqueue ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-classes-kqueue ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-classes-kqueue ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-classes-kqueue ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-classes-kqueue ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-classes-kqueue ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-classes-kqueue ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-classes-kqueue ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-kqueue/4.2.10.1-codexcoder21/netty-transport-classes-kqueue-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-kqueue/4.2.10.1-codexcoder21/netty-transport-classes-kqueue-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-kqueue/4.2.10.1-codexcoder21/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-kqueue/4.2.10.1-codexcoder21/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-kqueue/4.2.10.1-codexcoder21/netty-transport-classes-kqueue-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------< io.netty:netty-resolver-dns-classes-macos >--------------
+[INFO] Building Netty/Resolver/DNS/Classes/MacOS 4.2.10.1-codexcoder21  [43/45]
+[INFO]   from resolver-dns-classes-macos/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-resolver-dns-classes-macos ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-resolver-dns-classes-macos ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-resolver-dns-classes-macos ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-resolver-dns-classes-macos ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-resolver-dns-classes-macos ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-resolver-dns-classes-macos ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-resolver-dns-classes-macos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-resolver-dns-classes-macos ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-resolver-dns-classes-macos ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-resolver-dns-classes-macos ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-resolver-dns-classes-macos:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-resolver-dns-classes-macos ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.resolver.dns.classes.macos"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.resolver.dns.macos"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-resolver-dns-classes-macos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-resolver-dns-classes-macos ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-resolver-dns-classes-macos ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-resolver-dns-classes-macos ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-resolver-dns-classes-macos ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-resolver-dns-classes-macos ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-resolver-dns-classes-macos ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-resolver-dns-classes-macos ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-resolver-dns-classes-macos ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-resolver-dns-classes-macos ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns-classes-macos/4.2.10.1-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns-classes-macos/4.2.10.1-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns-classes-macos/4.2.10.1-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver-dns-classes-macos/4.2.10.1-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------< io.netty:netty-transport-classes-io_uring >--------------
+[INFO] Building Netty/Transport/Classes/io_uring 4.2.10.1-codexcoder21  [44/45]
+[INFO]   from transport-classes-io_uring/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-classes-io_uring ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-classes-io_uring ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-classes-io_uring ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-classes-io_uring ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-classes-io_uring ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-classes-io_uring ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-classes-io_uring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 45 source files with javac [forked debug deprecation release 9] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/AbstractIoUringChannel.java:[1040,34] [deprecation] throwConnectException(String,int) in Errors has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/MsgHdrMemory.java:[31,61] [deprecation] allocateDirectWithNativeOrder(int) in Buffer has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringChannelConfig.java:[81,32] [deprecation] setMaxMessagesPerRead(int) in DefaultChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringChannelConfig.java:[82,13] [deprecation] setMaxMessagesPerRead(int) in DefaultChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringFileRegion.java:[110,16] [deprecation] transfered() in FileRegion has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringChannelOption.java:[38,47] [dep-ann] deprecated item is not annotated with @Deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringDomainSocketChannelConfig.java:[158,44] [deprecation] setMaxMessagesPerRead(int) in DuplexChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringDomainSocketChannelConfig.java:[200,44] [deprecation] setWriteBufferLowWaterMark(int) in DomainSocketChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringDomainSocketChannelConfig.java:[218,44] [deprecation] setWriteBufferHighWaterMark(int) in DomainSocketChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/io/netty/channel/uring/IoUringDomainSocketChannelConfig.java:[158,44] [deprecation] setMaxMessagesPerRead(int) in DomainSocketChannelConfig has been deprecated
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (compile-jdk8) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [forked debug deprecation release 8] to target/classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-classes-io_uring ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-classes-io_uring:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-transport-classes-io_uring ---
+[INFO] Using source file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.transport.classes.io_uring"
+[INFO] Using module version "4.2.10.1-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.channel.uring"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-classes-io_uring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [forked debug deprecation release 9] to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (compile-tests-jdk8) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [forked debug deprecation release 8] to target/test-classes
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-classes-io_uring ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-classes-io_uring ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-classes-io_uring ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-classes-io_uring ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-classes-io_uring ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-classes-io_uring ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-classes-io_uring ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-classes-io_uring ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-io_uring/4.2.10.1-codexcoder21/netty-transport-classes-io_uring-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-io_uring/4.2.10.1-codexcoder21/netty-transport-classes-io_uring-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-io_uring/4.2.10.1-codexcoder21/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-io_uring/4.2.10.1-codexcoder21/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/transport-classes-io_uring/target/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport-classes-io_uring/4.2.10.1-codexcoder21/netty-transport-classes-io_uring-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------------------< io.netty:netty-all >-------------------------
+[INFO] Building Netty/All-in-One 4.2.10.1-codexcoder21                  [45/45]
+[INFO]   from all/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-all ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-all ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-all ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-all ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-all ---
+[INFO] 
+[INFO] --- duplicate-finder:1.3.0:check (default) @ netty-all ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-all ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: a66b8e4126 on 2026-10-15 04:12:06 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-all ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.2.2:flatten (flatten) @ netty-all ---
+[INFO] Generating flattened POM of project io.netty:netty-all:jar:4.2.10.1-codexcoder21...
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-all ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-all ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-all ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-all:jar:4.2.10.1-codexcoder21 : Unused Export-Package instructions: [io.netty.*] 
+[WARNING] Manifest io.netty:netty-all:jar:4.2.10.1-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-all ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-all ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-all ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-all ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-all ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-all ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-all ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/netty-all-4.2.10.1-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-all ---
+[INFO] Building jar: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/netty-all-4.2.10.1-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-all ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-all ---
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/.flattened-pom.xml to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-all/4.2.10.1-codexcoder21/netty-all-4.2.10.1-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/netty-all-4.2.10.1-codexcoder21.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-all/4.2.10.1-codexcoder21/netty-all-4.2.10.1-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/netty/all/target/netty-all-4.2.10.1-codexcoder21-tests.jar to /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-all/4.2.10.1-codexcoder21/netty-all-4.2.10.1-codexcoder21-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Netty 4.2.10.1-codexcoder21:
+[INFO] 
+[INFO] Netty .............................................. SUCCESS [ 41.326 s]
+[INFO] Netty/JFR Stub ..................................... SUCCESS [ 17.206 s]
+[INFO] Netty/VarHandle Stub ............................... SUCCESS [  7.546 s]
+[INFO] Netty/Dev-Tools .................................... SUCCESS [  3.228 s]
+[INFO] Netty/Common ....................................... SUCCESS [02:16 min]
+[INFO] Netty/Testsuite/Common ............................. SUCCESS [  8.314 s]
+[INFO] Netty/Buffer ....................................... SUCCESS [01:09 min]
+[INFO] Netty/Resolver ..................................... SUCCESS [ 22.721 s]
+[INFO] Netty/Transport .................................... SUCCESS [01:13 min]
+[INFO] Netty/Codec/Base ................................... SUCCESS [ 37.277 s]
+[INFO] Netty/Codec/Compression ............................ SUCCESS [ 43.009 s]
+[INFO] Netty/Codec/Protobuf ............................... SUCCESS [ 16.985 s]
+[INFO] Netty/Codec/Marshalling ............................ SUCCESS [ 16.529 s]
+[INFO] Netty/Codec ........................................ SUCCESS [  1.518 s]
+[INFO] Netty/Codec/DNS .................................... SUCCESS [ 26.687 s]
+[INFO] Netty/Codec/HAProxy ................................ SUCCESS [ 27.014 s]
+[INFO] Netty/Transport/Native/Unix/Common ................. SUCCESS [ 33.291 s]
+[INFO] Netty/PKITesting ................................... SUCCESS [ 27.082 s]
+[INFO] Netty/Handler ...................................... SUCCESS [01:26 min]
+[INFO] Netty/Codec/HTTP ................................... SUCCESS [01:14 min]
+[INFO] Netty/Codec/HTTP2 .................................. SUCCESS [01:28 min]
+[INFO] Netty/Transport/Classes/Epoll ...................... SUCCESS [ 21.702 s]
+[INFO] Netty/Codec/Classes/Quic ........................... SUCCESS [ 26.835 s]
+[INFO] Netty/Transport/SCTP ............................... SUCCESS [ 21.193 s]
+[INFO] Netty/Transport/UDT ................................ SUCCESS [ 16.995 s]
+[INFO] Netty/Testsuite .................................... SUCCESS [ 21.404 s]
+[INFO] Netty/Transport/Native/Unix/Common/Tests ........... SUCCESS [  6.646 s]
+[INFO] Netty/Transport/Native/Epoll ....................... SUCCESS [ 51.160 s]
+[INFO] Netty/Codec/Native/Quic ............................ SUCCESS [16:35 min]
+[INFO] Netty/Codec/Http3 .................................. SUCCESS [ 17.541 s]
+[INFO] Netty/Codec/Memcache ............................... SUCCESS [  6.657 s]
+[INFO] Netty/Codec/MQTT ................................... SUCCESS [  7.301 s]
+[INFO] Netty/Codec/Redis .................................. SUCCESS [  4.648 s]
+[INFO] Netty/Codec/SMTP ................................... SUCCESS [  4.641 s]
+[INFO] Netty/Codec/Socks .................................. SUCCESS [  6.124 s]
+[INFO] Netty/Codec/Stomp .................................. SUCCESS [  5.142 s]
+[INFO] Netty/Codec/XML .................................... SUCCESS [  4.003 s]
+[INFO] Netty/Handler/Proxy ................................ SUCCESS [  5.265 s]
+[INFO] Netty/Resolver/DNS ................................. SUCCESS [  9.892 s]
+[INFO] Netty/Handler/Ssl/Ocsp ............................. SUCCESS [  5.169 s]
+[INFO] Netty/Transport/RXTX ............................... SUCCESS [  2.220 s]
+[INFO] Netty/Transport/Classes/KQueue ..................... SUCCESS [  8.626 s]
+[INFO] Netty/Resolver/DNS/Classes/MacOS ................... SUCCESS [  3.405 s]
+[INFO] Netty/Transport/Classes/io_uring ................... SUCCESS [ 17.915 s]
+[INFO] Netty/All-in-One ................................... SUCCESS [  2.386 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35:48 min
+[INFO] Finished at: 2026-10-15T04:47:32Z
+[INFO] ------------------------------------------------------------------------

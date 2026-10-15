@@ -1,0 +1,2693 @@
+{
+  "version": "4.2.10.1-codexcoder21",
+  "publish_order": [
+    "netty-parent",
+    "netty-bom",
+    "netty-dev-tools",
+    "netty-jfr-stub",
+    "netty-varhandle-stub",
+    "netty-common",
+    "netty-buffer",
+    "netty-pkitesting",
+    "netty-resolver",
+    "netty-testsuite-common",
+    "netty-transport",
+    "netty-codec-base",
+    "netty-transport-native-unix-common",
+    "netty-transport-rxtx",
+    "netty-transport-udt",
+    "netty-codec-compression",
+    "netty-codec-dns",
+    "netty-codec-haproxy",
+    "netty-codec-marshalling",
+    "netty-codec-memcache",
+    "netty-codec-mqtt",
+    "netty-codec-protobuf",
+    "netty-codec-redis",
+    "netty-codec-smtp",
+    "netty-codec-socks",
+    "netty-codec-stomp",
+    "netty-codec-xml",
+    "netty-handler",
+    "netty-transport-classes-epoll",
+    "netty-transport-classes-io_uring",
+    "netty-transport-classes-kqueue",
+    "netty-transport-native-unix-common-tests",
+    "netty-codec",
+    "netty-codec-classes-quic",
+    "netty-codec-http",
+    "netty-resolver-dns",
+    "netty-transport-native-epoll",
+    "netty-codec-http2",
+    "netty-codec-native-quic",
+    "netty-handler-proxy",
+    "netty-handler-ssl-ocsp",
+    "netty-resolver-dns-classes-macos",
+    "netty-transport-sctp",
+    "netty-codec-http3",
+    "netty-testsuite",
+    "netty-all"
+  ],
+  "dependencies": [
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-redis",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-rxtx",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-rxtx",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-xml",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-xml",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-xml",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-xml",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-xml",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-tcnative-classes",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-udt",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-udt",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-udt",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-pkitesting",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-compression",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-classes-quic",
+      "artifact": "netty-transport-classes-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite-common",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-base",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-base",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-base",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-base",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-memcache",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-common",
+      "artifact": "netty-jfr-stub",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "provided",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-common",
+      "artifact": "netty-varhandle-stub",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "provided",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-common",
+      "artifact": "netty-dev-tools",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-haproxy",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-http2",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-http3",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-memcache",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-mqtt",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-redis",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-smtp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-socks",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-stomp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-xml",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-protobuf",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-marshalling",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-dev-tools",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-handler-proxy",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-handler-ssl-ocsp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-rxtx",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-sctp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-udt",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-all",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver-dns-classes-macos",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver-dns-native-macos",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver-dns-native-macos",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-resolver-dns-native-macos",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-riscv64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-classes-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-riscv64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-classes-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-riscv64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-classes-kqueue",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-kqueue",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-kqueue",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-transport-native-kqueue",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-classes-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "windows-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-classes",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64-fedora"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-x86_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "osx-aarch_64"
+    },
+    {
+      "owner": "netty-bom",
+      "artifact": "netty-tcnative-boringssl-static",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "windows-x86_64"
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "test",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http2",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-codec-protobuf",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec",
+      "artifact": "netty-codec-marshalling",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-socks",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-dns",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-ssl-ocsp",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-ssl-ocsp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-ssl-ocsp",
+      "artifact": "netty-resolver-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-ssl-ocsp",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-ssl-ocsp",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-smtp",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-buffer",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-buffer",
+      "artifact": "netty-jfr-stub",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "provided",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-buffer",
+      "artifact": "netty-varhandle-stub",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "provided",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-buffer",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-parent",
+      "artifact": "netty-jni-util",
+      "version": "0.0.10.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": "sources"
+    },
+    {
+      "owner": "netty-parent",
+      "artifact": "netty-dev-tools",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-parent",
+      "artifact": "netty-tcnative-classes",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-parent",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-parent",
+      "artifact": "netty-build-common",
+      "version": "31",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-native-quic",
+      "artifact": "netty-jni-util",
+      "version": "0.0.10.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": "sources"
+    },
+    {
+      "owner": "netty-codec-native-quic",
+      "artifact": "netty-codec-classes-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-native-quic",
+      "artifact": "netty-transport-classes-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-kqueue",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-kqueue",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-kqueue",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-kqueue",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-haproxy",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-http2",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-http3",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-memcache",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-mqtt",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-redis",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-smtp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-socks",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-stomp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-xml",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-protobuf",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-marshalling",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-handler-proxy",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-handler-ssl-ocsp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-resolver-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-rxtx",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-sctp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-udt",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-classes-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-classes-kqueue",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-resolver-dns-classes-macos",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-transport-classes-io_uring",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-all",
+      "artifact": "netty-codec-classes-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-mqtt",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-codec-socks",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-handler-proxy",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-sctp",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-sctp",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-sctp",
+      "artifact": "netty-codec",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-sctp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-sctp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-protobuf",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-unix-common-tests",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-unix-common-tests",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-codec-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-epoll",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-epoll",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-epoll",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-epoll",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-transport-sctp",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-pkitesting",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-transport-udt",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-testsuite",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-stomp",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-codec-http",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-codec-compression",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-handler",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-resolver",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-codec-classes-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-http3",
+      "artifact": "netty-codec-native-quic",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "runtime",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    },
+    {
+      "owner": "netty-resolver-dns-classes-macos",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns-classes-macos",
+      "artifact": "netty-resolver-dns",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-resolver-dns-classes-macos",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-unix-common",
+      "artifact": "netty-jni-util",
+      "version": "0.0.10.Final",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": "sources"
+    },
+    {
+      "owner": "netty-transport-native-unix-common",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-unix-common",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-unix-common",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-haproxy",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-haproxy",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-haproxy",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-haproxy",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-haproxy",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-io_uring",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-io_uring",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-io_uring",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-classes-io_uring",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-codec-base",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "test-jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-codec-marshalling",
+      "artifact": "netty-testsuite-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-buffer",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-transport",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-transport-native-unix-common",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-transport-classes-epoll",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "compile",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-testsuite",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-transport-native-unix-common-tests",
+      "version": "4.2.10.1-codexcoder21",
+      "scope": "test",
+      "type": "jar",
+      "classifier": ""
+    },
+    {
+      "owner": "netty-transport-native-epoll",
+      "artifact": "netty-tcnative",
+      "version": "2.0.75.Final",
+      "scope": "test",
+      "type": "jar",
+      "classifier": "linux-x86_64"
+    }
+  ]
+}

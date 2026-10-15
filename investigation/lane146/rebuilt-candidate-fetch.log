@@ -1,0 +1,10 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+API_CLASS_ORIGIN=file:/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/coursier-cache/https/kotlin.directory/io/get-coursier/interface/2.1.31-freshcache1/interface-2.1.31-freshcache1.jar
+SELECTED Dependency{module=Module(io.netty, netty-transport), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-common), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-buffer), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-resolver), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+FILE /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-transport/4.2.10.1-codexcoder21/netty-transport-4.2.10.1-codexcoder21.jar
+FILE /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-common/4.2.10.1-codexcoder21/netty-common-4.2.10.1-codexcoder21.jar
+FILE /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-buffer/4.2.10.1-codexcoder21/netty-buffer-4.2.10.1-codexcoder21.jar
+FILE /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/.m2/io/netty/netty-resolver/4.2.10.1-codexcoder21/netty-resolver-4.2.10.1-codexcoder21.jar
