@@ -1,0 +1,18 @@
+[
+  {
+    "tests": 13456,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1315,
+    "label": "release buffer",
+    "exit_code": 0
+  },
+  {
+    "tests": 386,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 9,
+    "label": "release transport",
+    "exit_code": 0
+  }
+]

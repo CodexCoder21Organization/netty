@@ -1,0 +1,4 @@
+{
+  "Assumes the ByteBuf can be cast to PooledByteBuf": 8,
+  "(no reason)": 1307
+}
