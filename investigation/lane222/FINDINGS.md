@@ -113,3 +113,10 @@ Existing-test edit inventory: ZERO permanent changes to either PR's tests. Durin
 - Supervisor owns all CI waiting, merge decisions, publishing and deployment. This lane performed none of them.
 
 Artifacts: https://github.com/CodexCoder21Organization/netty/tree/evidence/lane222-netty-reconcile/investigation/lane222 ; https://github.com/CodexCoder21Organization/netty/pull/2 ; https://github.com/CodexCoder21Organization/netty-2/pull/1 . Findings remain at /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/out/r222-findings.md .
+
+## 2026-10-15 12:32 UTC — terminal review state and process check
+OBSERVED: Final description PATCH responses show release PR OPEN/DRAFT, DIRTY, mergeable=false at original a66b8e41; development PR OPEN/non-draft, CLEAN, mergeable=true at original d7b4547b. Both descriptions now contain final module counts, the explicit lane222 blocking review, and 4/4 published reproducer failures. No source head changed. Evidence push verified remotely at 2cd53d93d24d531a626dccd37475bf0a0f7e7eee before this final cleanup checkpoint.
+
+OBSERVED: `ps -eo pid,args -ww` plus each candidate's /proc cwd shows ZERO owned background processes remaining (excluding the running agent/tool ancestors). The stopped partial-clone rebase and all Maven/test/child JVM commands have terminated. No ~/.aibuildcaches entry contains lane222. Both source working trees and the aborted rebase working tree are clean. Deleting all lane contents, including the lane-private Maven repository and every fresh checkout/worktree, next; findings and remote evidence remain outside the lane.
+
+Terminal verdict: BLOCKED / merge-ready premise refuted by demonstrated callback registration gap and substantive base conflict. Published source provenance is established exactly; no publication change was made. The source correction and intentional release base/version are the supervisor's next decision under the brief's substantive-conflict stop rule.
