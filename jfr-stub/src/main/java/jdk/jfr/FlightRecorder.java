@@ -15,12 +15,25 @@
  */
 package jdk.jfr;
 
+import java.util.List;
+
 public final class FlightRecorder {
     private FlightRecorder() {
         throw new UnsupportedOperationException("Stub should only be used at compile time");
     }
 
     public static boolean isAvailable() {
+        throw new UnsupportedOperationException("Stub should only be used at compile time");
+    }
+    public static boolean isInitialized() {
+        throw new UnsupportedOperationException("Stub should only be used at compile time");
+    }
+
+    public static FlightRecorder getFlightRecorder() {
+        throw new UnsupportedOperationException("Stub should only be used at compile time");
+    }
+
+    public List<EventType> getEventTypes() {
         throw new UnsupportedOperationException("Stub should only be used at compile time");
     }
 }
