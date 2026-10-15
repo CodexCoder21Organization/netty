@@ -3764,3 +3764,440 @@ main:
 main:
      [echo] Clone BoringSSL
      [exec] Cloning into '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-native-quic/target/boringssl-source'...
+     [exec] Updating files:  83% (7222/8689)
+     [exec] Updating files:  84% (7299/8689)Updating files:  85% (7386/8689)Updating files:  86% (7473/8689)Updating files:  87% (7560/8689)Updating files:  88% (7647/8689)Updating files:  89% (7734/8689)Updating files:  90% (7821/8689)Updating files:  91% (7907/8689)Updating files:  92% (7994/8689)Updating files:  93% (8081/8689)Updating files:  94% (8168/8689)Updating files:  95% (8255/8689)Updating files:  96% (8342/8689)Updating files:  97% (8429/8689)Updating files:  98% (8516/8689)Updating files:  99% (8603/8689)Updating files: 100% (8689/8689)Updating files: 100% (8689/8689), done.
+     [echo] Building BoringSSL
+     [exec] Note: switching to '0226f30467f540a3f62ef48d453f93927da199b6'.
+     [exec] 
+     [exec] You are in 'detached HEAD' state. You can look around, make experimental
+     [exec] changes and commit them, and you can discard any commits you make in this
+     [exec] state without impacting any branches by switching back to a branch.
+     [exec] 
+     [exec] If you want to create a new branch to retain commits you create, you may
+     [exec] do so (now or later) by using -c with the switch command. Example:
+     [exec] 
+     [exec]   git switch -c <new-branch-name>
+     [exec] 
+     [exec] Or undo this operation with:
+     [exec] 
+     [exec]   git switch -
+     [exec] 
+     [exec] Turn off this advice by setting config variable advice.detachedHead to false
+     [exec] 
+     [exec] HEAD is now at 0226f3046 Various IWYU fixes
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-native-quic/target/boringssl-source/build-target
+     [exec] -- The C compiler identification is GNU 12.2.0
+     [exec] -- Detecting C compiler ABI info
+     [exec] -- Detecting C compiler ABI info - done
+     [exec] -- Check for working C compiler: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/toolchain/bin/cc - skipped
+     [exec] -- Detecting C compile features
+     [exec] -- Detecting C compile features - done
+     [exec] -- The CXX compiler identification is GNU 12.2.0
+     [exec] -- Detecting CXX compiler ABI info
+     [exec] -- Detecting CXX compiler ABI info - done
+     [exec] -- Check for working CXX compiler: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/toolchain/bin/c++ - skipped
+     [exec] -- Detecting CXX compile features
+     [exec] -- Detecting CXX compile features - done
+     [exec] libunwind not found. Disabling unwind tests.
+     [exec] -- Checking for module 'libunwind-generic>=1.3.0'
+     [exec] --   Package 'libunwind-generic', required by 'virtual:world', not found
+     [exec] -- The ASM compiler identification is GNU
+     [exec] -- Found assembler: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/toolchain/bin/cc
+     [exec] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+     [exec] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+     [exec] -- Found Threads: TRUE  
+     [exec] -- Configuring done
+     [exec] -- Generating done
+     [exec] -- Build files have been written to: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-native-quic/target/boringssl-source/build-target
+     [exec] [1/409] Building CXX object CMakeFiles/fipsmodule.dir/crypto/fipsmodule/bcm.cc.o
+     [exec] [2/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aes-gcm-avx2-x86_64-apple.S.o
+     [exec] [3/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aes-gcm-avx2-x86_64-linux.S.o
+     [exec] [4/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aes-gcm-avx512-x86_64-apple.S.o
+     [exec] [5/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aes-gcm-avx512-x86_64-linux.S.o
+     [exec] [6/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-gcm-x86_64-apple.S.o
+     [exec] [7/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-gcm-x86_64-linux.S.o
+     [exec] [8/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-x86-apple.S.o
+     [exec] [9/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-x86-linux.S.o
+     [exec] [10/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-x86_64-apple.S.o
+     [exec] [11/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesni-x86_64-linux.S.o
+     [exec] [12/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-armv7-linux.S.o
+     [exec] [13/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-armv8-apple.S.o
+     [exec] [14/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-armv8-linux.S.o
+     [exec] [15/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-armv8-win.S.o
+     [exec] [16/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-gcm-armv8-apple.S.o
+     [exec] [17/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-gcm-armv8-linux.S.o
+     [exec] [18/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/aesv8-gcm-armv8-win.S.o
+     [exec] [19/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/armv4-mont-linux.S.o
+     [exec] [20/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/armv8-mont-apple.S.o
+     [exec] [21/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/armv8-mont-linux.S.o
+     [exec] [22/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/armv8-mont-win.S.o
+     [exec] [23/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bn-586-apple.S.o
+     [exec] [24/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bn-586-linux.S.o
+     [exec] [25/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bn-armv8-apple.S.o
+     [exec] [26/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bn-armv8-linux.S.o
+     [exec] [27/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bn-armv8-win.S.o
+     [exec] [28/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/bsaes-armv7-linux.S.o
+     [exec] [29/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/co-586-apple.S.o
+     [exec] [30/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/co-586-linux.S.o
+     [exec] [31/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-armv4-linux.S.o
+     [exec] [32/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-neon-armv8-apple.S.o
+     [exec] [33/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-neon-armv8-linux.S.o
+     [exec] [34/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-neon-armv8-win.S.o
+     [exec] [35/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-ssse3-x86-apple.S.o
+     [exec] [36/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-ssse3-x86-linux.S.o
+     [exec] [37/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-ssse3-x86_64-apple.S.o
+     [exec] [38/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-ssse3-x86_64-linux.S.o
+     [exec] [39/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-x86-apple.S.o
+     [exec] [40/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-x86-linux.S.o
+     [exec] [41/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-x86_64-apple.S.o
+     [exec] [42/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghash-x86_64-linux.S.o
+     [exec] [43/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghashv8-armv7-linux.S.o
+     [exec] [44/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghashv8-armv8-apple.S.o
+     [exec] [45/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghashv8-armv8-linux.S.o
+     [exec] [46/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/ghashv8-armv8-win.S.o
+     [exec] [47/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256-armv8-asm-apple.S.o
+     [exec] [48/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256-armv8-asm-linux.S.o
+     [exec] [49/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256-armv8-asm-win.S.o
+     [exec] [50/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256-x86_64-asm-apple.S.o
+     [exec] [51/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256-x86_64-asm-linux.S.o
+     [exec] [52/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256_beeu-armv8-asm-apple.S.o
+     [exec] [53/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256_beeu-armv8-asm-linux.S.o
+     [exec] [54/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256_beeu-armv8-asm-win.S.o
+     [exec] [55/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256_beeu-x86_64-asm-apple.S.o
+     [exec] [56/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/p256_beeu-x86_64-asm-linux.S.o
+     [exec] [57/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/rdrand-x86_64-apple.S.o
+     [exec] [58/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/rdrand-x86_64-linux.S.o
+     [exec] [59/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/rsaz-avx2-apple.S.o
+     [exec] [60/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/rsaz-avx2-linux.S.o
+     [exec] [61/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-586-apple.S.o
+     [exec] [62/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-586-linux.S.o
+     [exec] [63/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-armv4-large-linux.S.o
+     [exec] [64/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-armv8-apple.S.o
+     [exec] [65/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-armv8-linux.S.o
+     [exec] [66/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-armv8-win.S.o
+     [exec] [67/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-x86_64-apple.S.o
+     [exec] [68/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha1-x86_64-linux.S.o
+     [exec] [69/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-586-apple.S.o
+     [exec] [70/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-586-linux.S.o
+     [exec] [71/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-armv4-linux.S.o
+     [exec] [72/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-armv8-apple.S.o
+     [exec] [73/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-armv8-linux.S.o
+     [exec] [74/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-armv8-win.S.o
+     [exec] [75/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-x86_64-apple.S.o
+     [exec] [76/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha256-x86_64-linux.S.o
+     [exec] [77/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-586-apple.S.o
+     [exec] [78/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-586-linux.S.o
+     [exec] [79/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-armv4-linux.S.o
+     [exec] [80/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-armv8-apple.S.o
+     [exec] [81/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-armv8-linux.S.o
+     [exec] [82/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-armv8-win.S.o
+     [exec] [83/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-x86_64-apple.S.o
+     [exec] [84/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/sha512-x86_64-linux.S.o
+     [exec] [85/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-armv7-linux.S.o
+     [exec] [86/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-armv8-apple.S.o
+     [exec] [87/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-armv8-linux.S.o
+     [exec] [88/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-armv8-win.S.o
+     [exec] [89/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-x86-apple.S.o
+     [exec] [90/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-x86-linux.S.o
+     [exec] [91/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-x86_64-apple.S.o
+     [exec] [92/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/vpaes-x86_64-linux.S.o
+     [exec] [93/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86-mont-apple.S.o
+     [exec] [94/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86-mont-linux.S.o
+     [exec] [95/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86_64-mont-apple.S.o
+     [exec] [96/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86_64-mont-linux.S.o
+     [exec] [97/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86_64-mont5-apple.S.o
+     [exec] [98/409] Building ASM object CMakeFiles/fipsmodule.dir/gen/bcm/x86_64-mont5-linux.S.o
+     [exec] [99/409] Building ASM object CMakeFiles/fipsmodule.dir/third_party/fiat/asm/fiat_p256_adx_mul.S.o
+     [exec] [100/409] Building ASM object CMakeFiles/fipsmodule.dir/third_party/fiat/asm/fiat_p256_adx_sqr.S.o
+     [exec] [101/409] Building CXX object CMakeFiles/crypto.dir/crypto/aes/aes.cc.o
+     [exec] [102/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_bitstr.cc.o
+     [exec] [103/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_bool.cc.o
+     [exec] [104/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_d2i_fp.cc.o
+     [exec] [105/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_dup.cc.o
+     [exec] [106/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_gentm.cc.o
+     [exec] [107/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_i2d_fp.cc.o
+     [exec] [108/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_int.cc.o
+     [exec] [109/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_mbstr.cc.o
+     [exec] [110/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_object.cc.o
+     [exec] [111/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_octet.cc.o
+     [exec] [112/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_strex.cc.o
+     [exec] [113/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_strnid.cc.o
+     [exec] [114/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_time.cc.o
+     [exec] [115/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_type.cc.o
+     [exec] [116/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_utctm.cc.o
+     [exec] [117/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn1_lib.cc.o
+     [exec] [118/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn1_par.cc.o
+     [exec] [119/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn_pack.cc.o
+     [exec] [120/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/f_int.cc.o
+     [exec] [121/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/f_string.cc.o
+     [exec] [122/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/posix_time.cc.o
+     [exec] [123/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_dec.cc.o
+     [exec] [124/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_enc.cc.o
+     [exec] [125/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_fre.cc.o
+     [exec] [126/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_new.cc.o
+     [exec] [127/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_typ.cc.o
+     [exec] [128/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_utl.cc.o
+     [exec] [129/409] Building CXX object CMakeFiles/crypto.dir/crypto/base64/base64.cc.o
+     [exec] [130/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/bio.cc.o
+     [exec] [131/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/bio_mem.cc.o
+     [exec] [132/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/connect.cc.o
+     [exec] [133/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/errno.cc.o
+     [exec] [134/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/fd.cc.o
+     [exec] [135/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/file.cc.o
+     [exec] [136/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/hexdump.cc.o
+     [exec] [137/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/pair.cc.o
+     [exec] [138/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/printf.cc.o
+     [exec] [139/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/socket.cc.o
+     [exec] [140/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/socket_helper.cc.o
+     [exec] [141/409] Building CXX object CMakeFiles/crypto.dir/crypto/blake2/blake2.cc.o
+     [exec] [142/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/bn_asn1.cc.o
+     [exec] [143/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/convert.cc.o
+     [exec] [144/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/div.cc.o
+     [exec] [145/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/exponentiation.cc.o
+     [exec] [146/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/sqrt.cc.o
+     [exec] [147/409] Building CXX object CMakeFiles/crypto.dir/crypto/buf/buf.cc.o
+     [exec] [148/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/asn1_compat.cc.o
+     [exec] [149/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/ber.cc.o
+     [exec] [150/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/cbb.cc.o
+     [exec] [151/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/cbs.cc.o
+     [exec] [152/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/unicode.cc.o
+     [exec] [153/409] Building CXX object CMakeFiles/crypto.dir/crypto/chacha/chacha.cc.o
+     [exec] [154/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/derive_key.cc.o
+     [exec] [155/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aesctrhmac.cc.o
+     [exec] [156/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aeseax.cc.o
+     [exec] [157/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aesgcmsiv.cc.o
+     [exec] [158/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_chacha20poly1305.cc.o
+     [exec] [159/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_des.cc.o
+     [exec] [160/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_null.cc.o
+     [exec] [161/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_rc2.cc.o
+     [exec] [162/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_rc4.cc.o
+     [exec] [163/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_tls.cc.o
+     [exec] [164/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/get_cipher.cc.o
+     [exec] [165/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/tls_cbc.cc.o
+     [exec] [166/409] Building CXX object CMakeFiles/crypto.dir/crypto/cms/cms.cc.o
+     [exec] [167/409] Building CXX object CMakeFiles/crypto.dir/crypto/conf/conf.cc.o
+     [exec] [168/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_apple.cc.o
+     [exec] [169/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_fuchsia.cc.o
+     [exec] [170/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_linux.cc.o
+     [exec] [171/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_openbsd.cc.o
+     [exec] [172/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_sysreg.cc.o
+     [exec] [173/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_win.cc.o
+     [exec] [174/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_arm_freebsd.cc.o
+     [exec] [175/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_arm_linux.cc.o
+     [exec] [176/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_intel.cc.o
+     [exec] [177/409] Building CXX object CMakeFiles/crypto.dir/crypto/crypto.cc.o
+     [exec] [178/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/curve25519.cc.o
+     [exec] [179/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/curve25519_64_adx.cc.o
+     [exec] [180/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/spake25519.cc.o
+     [exec] [181/409] Building CXX object CMakeFiles/crypto.dir/crypto/des/des.cc.o
+     [exec] [182/409] Building CXX object CMakeFiles/crypto.dir/crypto/dh/dh_asn1.cc.o
+     [exec] [183/409] Building CXX object CMakeFiles/crypto.dir/crypto/dh/params.cc.o
+     [exec] [184/409] Building CXX object CMakeFiles/crypto.dir/crypto/digest/digest_extra.cc.o
+     [exec] [185/409] Building CXX object CMakeFiles/crypto.dir/crypto/dsa/dsa.cc.o
+     [exec] [186/409] Building CXX object CMakeFiles/crypto.dir/crypto/dsa/dsa_asn1.cc.o
+     [exec] [187/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/ec_asn1.cc.o
+     [exec] [188/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/ec_derive.cc.o
+     [exec] [189/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/hash_to_curve.cc.o
+     [exec] [190/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdh/ecdh.cc.o
+     [exec] [191/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdsa/ecdsa_asn1.cc.o
+     [exec] [192/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdsa/ecdsa_p1363.cc.o
+     [exec] [193/409] Building CXX object CMakeFiles/crypto.dir/crypto/engine/engine.cc.o
+     [exec] [194/409] Building CXX object CMakeFiles/crypto.dir/crypto/err/err.cc.o
+     [exec] [195/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp.cc.o
+     [exec] [196/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp_asn1.cc.o
+     [exec] [197/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp_ctx.cc.o
+     [exec] [198/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dh.cc.o
+     [exec] [199/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dh_asn1.cc.o
+     [exec] [200/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dsa_asn1.cc.o
+     [exec] [201/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ec.cc.o
+     [exec] [202/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ec_asn1.cc.o
+     [exec] [203/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ed25519.cc.o
+     [exec] [204/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ed25519_asn1.cc.o
+     [exec] [205/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_hkdf.cc.o
+     [exec] [206/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_rsa.cc.o
+     [exec] [207/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_rsa_asn1.cc.o
+     [exec] [208/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_x25519.cc.o
+     [exec] [209/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_x25519_asn1.cc.o
+     [exec] [210/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/pbkdf.cc.o
+     [exec] [211/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/print.cc.o
+     [exec] [212/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/scrypt.cc.o
+     [exec] [213/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/sign.cc.o
+     [exec] [214/409] Building CXX object CMakeFiles/crypto.dir/crypto/ex_data.cc.o
+     [exec] [215/409] Building CXX object CMakeFiles/crypto.dir/crypto/fipsmodule/fips_shared_support.cc.o
+     [exec] [216/409] Building CXX object CMakeFiles/crypto.dir/crypto/fuzzer_mode.cc.o
+     [exec] [217/409] Building CXX object CMakeFiles/crypto.dir/crypto/hpke/hpke.cc.o
+     [exec] [218/409] Building CXX object CMakeFiles/crypto.dir/crypto/hrss/hrss.cc.o
+     [exec] [219/409] Building CXX object CMakeFiles/crypto.dir/crypto/kyber/kyber.cc.o
+     [exec] [220/409] Building CXX object CMakeFiles/crypto.dir/crypto/lhash/lhash.cc.o
+     [exec] [221/409] Building CXX object CMakeFiles/crypto.dir/crypto/md4/md4.cc.o
+     [exec] [222/409] Building CXX object CMakeFiles/crypto.dir/crypto/md5/md5.cc.o
+     [exec] [223/409] Building CXX object CMakeFiles/crypto.dir/crypto/mem.cc.o
+     [exec] [224/409] Building CXX object CMakeFiles/crypto.dir/crypto/mldsa/mldsa.cc.o
+     [exec] [225/409] Building CXX object CMakeFiles/crypto.dir/crypto/mlkem/mlkem.cc.o
+     [exec] [226/409] Building CXX object CMakeFiles/crypto.dir/crypto/obj/obj.cc.o
+     [exec] [227/409] Building CXX object CMakeFiles/crypto.dir/crypto/obj/obj_xref.cc.o
+     [exec] [228/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_all.cc.o
+     [exec] [229/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_info.cc.o
+     [exec] [230/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_lib.cc.o
+     [exec] [231/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_oth.cc.o
+     [exec] [232/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_pk8.cc.o
+     [exec] [233/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_pkey.cc.o
+     [exec] [234/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_x509.cc.o
+     [exec] [235/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_xaux.cc.o
+     [exec] [236/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs7/pkcs7.cc.o
+     [exec] [237/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs7/pkcs7_x509.cc.o
+     [exec] [238/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/p5_pbev2.cc.o
+     [exec] [239/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/pkcs8.cc.o
+     [exec] [240/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/pkcs8_x509.cc.o
+     [exec] [241/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305.cc.o
+     [exec] [242/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_arm.cc.o
+     [exec] [243/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_vec.cc.o
+     [exec] [244/409] Building CXX object CMakeFiles/crypto.dir/crypto/pool/pool.cc.o
+     [exec] [245/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/deterministic.cc.o
+     [exec] [246/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/fork_detect.cc.o
+     [exec] [247/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/forkunsafe.cc.o
+     [exec] [248/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/getentropy.cc.o
+     [exec] [249/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/ios.cc.o
+     [exec] [250/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/passive.cc.o
+     [exec] [251/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/rand.cc.o
+     [exec] [252/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/trusty.cc.o
+     [exec] [253/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/urandom.cc.o
+     [exec] [254/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/windows.cc.o
+     [exec] [255/409] Building CXX object CMakeFiles/crypto.dir/crypto/rc4/rc4.cc.o
+     [exec] [256/409] Building CXX object CMakeFiles/crypto.dir/crypto/refcount.cc.o
+     [exec] [257/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_asn1.cc.o
+     [exec] [258/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_crypt.cc.o
+     [exec] [259/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_extra.cc.o
+     [exec] [260/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_print.cc.o
+     [exec] [261/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha1.cc.o
+     [exec] [262/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha256.cc.o
+     [exec] [263/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha512.cc.o
+     [exec] [264/409] Building CXX object CMakeFiles/crypto.dir/crypto/siphash/siphash.cc.o
+     [exec] [265/409] Building CXX object CMakeFiles/crypto.dir/crypto/slhdsa/slhdsa.cc.o
+     [exec] [266/409] Building CXX object CMakeFiles/crypto.dir/crypto/spake2plus/spake2plus.cc.o
+     [exec] [267/409] Building CXX object CMakeFiles/crypto.dir/crypto/stack/stack.cc.o
+     [exec] [268/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread.cc.o
+     [exec] [269/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_none.cc.o
+     [exec] [270/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_pthread.cc.o
+     [exec] [271/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_win.cc.o
+     [exec] [272/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/pmbtoken.cc.o
+     [exec] [273/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/trust_token.cc.o
+     [exec] [274/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/voprf.cc.o
+     [exec] [275/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_digest.cc.o
+     [exec] [276/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_sign.cc.o
+     [exec] [277/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_verify.cc.o
+     [exec] [278/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/algorithm.cc.o
+     [exec] [279/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/asn1_gen.cc.o
+     [exec] [280/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/by_dir.cc.o
+     [exec] [281/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/by_file.cc.o
+     [exec] [282/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/i2d_pr.cc.o
+     [exec] [283/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/name_print.cc.o
+     [exec] [284/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/policy.cc.o
+     [exec] [285/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/rsa_pss.cc.o
+     [exec] [286/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_crl.cc.o
+     [exec] [287/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_req.cc.o
+     [exec] [288/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_x509.cc.o
+     [exec] [289/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_x509a.cc.o
+     [exec] [290/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_akey.cc.o
+     [exec] [291/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_akeya.cc.o
+     [exec] [292/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_alt.cc.o
+     [exec] [293/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_bcons.cc.o
+     [exec] [294/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_bitst.cc.o
+     [exec] [295/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_conf.cc.o
+     [exec] [296/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_cpols.cc.o
+     [exec] [297/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_crld.cc.o
+     [exec] [298/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_enum.cc.o
+     [exec] [299/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_extku.cc.o
+     [exec] [300/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_genn.cc.o
+     [exec] [301/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ia5.cc.o
+     [exec] [302/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_info.cc.o
+     [exec] [303/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_int.cc.o
+     [exec] [304/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_lib.cc.o
+     [exec] [305/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ncons.cc.o
+     [exec] [306/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ocsp.cc.o
+     [exec] [307/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_pcons.cc.o
+     [exec] [308/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_pmaps.cc.o
+     [exec] [309/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_prn.cc.o
+     [exec] [310/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_purp.cc.o
+     [exec] [311/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_skey.cc.o
+     [exec] [312/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_utl.cc.o
+     [exec] [313/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509.cc.o
+     [exec] [314/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_att.cc.o
+     [exec] [315/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_cmp.cc.o
+     [exec] [316/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_d2.cc.o
+     [exec] [317/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_def.cc.o
+     [exec] [318/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_ext.cc.o
+     [exec] [319/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_lu.cc.o
+     [exec] [320/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_obj.cc.o
+     [exec] [321/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_req.cc.o
+     [exec] [322/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_set.cc.o
+     [exec] [323/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_trs.cc.o
+     [exec] [324/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_txt.cc.o
+     [exec] [325/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_v3.cc.o
+     [exec] [326/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_vfy.cc.o
+     [exec] [327/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_vpm.cc.o
+     [exec] [328/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509cset.cc.o
+     [exec] [329/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509name.cc.o
+     [exec] [330/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509rset.cc.o
+     [exec] [331/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509spki.cc.o
+     [exec] [332/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_algor.cc.o
+     [exec] [333/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_all.cc.o
+     [exec] [334/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_attrib.cc.o
+     [exec] [335/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_crl.cc.o
+     [exec] [336/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_exten.cc.o
+     [exec] [337/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_name.cc.o
+     [exec] [338/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_pubkey.cc.o
+     [exec] [339/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_req.cc.o
+     [exec] [340/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_sig.cc.o
+     [exec] [341/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_spki.cc.o
+     [exec] [342/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_x509.cc.o
+     [exec] [343/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_x509a.cc.o
+     [exec] [344/409] Building CXX object CMakeFiles/crypto.dir/crypto/xwing/xwing.cc.o
+     [exec] [345/409] Building CXX object CMakeFiles/crypto.dir/gen/crypto/err_data.cc.o
+     [exec] [346/409] Building ASM object CMakeFiles/crypto.dir/crypto/curve25519/asm/x25519-asm-arm.S.o
+     [exec] [347/409] Building ASM object CMakeFiles/crypto.dir/crypto/hrss/asm/poly_rq_mul.S.o
+     [exec] [348/409] Building ASM object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_arm_asm.S.o
+     [exec] [349/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/aes128gcmsiv-x86_64-apple.S.o
+     [exec] [350/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/aes128gcmsiv-x86_64-linux.S.o
+     [exec] [351/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv4-linux.S.o
+     [exec] [352/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-apple.S.o
+     [exec] [353/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-linux.S.o
+     [exec] [354/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-win.S.o
+     [exec] [355/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86-apple.S.o
+     [exec] [356/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86-linux.S.o
+     [exec] [357/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86_64-apple.S.o
+     [exec] [358/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86_64-linux.S.o
+     [exec] [359/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-apple.S.o
+     [exec] [360/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-linux.S.o
+     [exec] [361/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-win.S.o
+     [exec] [362/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_x86_64-apple.S.o
+     [exec] [363/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_x86_64-linux.S.o
+     [exec] [364/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-586-apple.S.o
+     [exec] [365/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-586-linux.S.o
+     [exec] [366/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-x86_64-apple.S.o
+     [exec] [367/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-x86_64-linux.S.o
+     [exec] [368/409] Building ASM object CMakeFiles/crypto.dir/third_party/fiat/asm/fiat_curve25519_adx_mul.S.o
+     [exec] [369/409] Building ASM object CMakeFiles/crypto.dir/third_party/fiat/asm/fiat_curve25519_adx_square.S.o
+     [exec] [370/409] Linking CXX static library libcrypto.a
+     [exec] [371/409] Building CXX object CMakeFiles/ssl.dir/ssl/bio_ssl.cc.o
+     [exec] [372/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_both.cc.o
+     [exec] [373/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_lib.cc.o
+     [exec] [374/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_pkt.cc.o
+     [exec] [375/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_srtp.cc.o
+     [exec] [376/409] Building CXX object CMakeFiles/ssl.dir/ssl/dtls_method.cc.o
+     [exec] [377/409] Building CXX object CMakeFiles/ssl.dir/ssl/dtls_record.cc.o
+     [exec] [378/409] Building CXX object CMakeFiles/ssl.dir/ssl/encrypted_client_hello.cc.o
+     [exec] [379/409] Building CXX object CMakeFiles/ssl.dir/ssl/extensions.cc.o
+     [exec] [380/409] Building CXX object CMakeFiles/ssl.dir/ssl/handoff.cc.o
+     [exec] [381/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake.cc.o
+     [exec] [382/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake_client.cc.o
+     [exec] [383/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake_server.cc.o
+     [exec] [384/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_both.cc.o
+     [exec] [385/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_lib.cc.o
+     [exec] [386/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_pkt.cc.o
+     [exec] [387/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_aead_ctx.cc.o
+     [exec] [388/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_asn1.cc.o
+     [exec] [389/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_buffer.cc.o
+     [exec] [390/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_cert.cc.o
+     [exec] [391/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_cipher.cc.o
+     [exec] [392/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_credential.cc.o
