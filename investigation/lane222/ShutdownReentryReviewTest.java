@@ -47,7 +47,13 @@ public class ShutdownReentryReviewTest {
                 Channel channel = registration.channel();
                 System.out.println("accepted=" + registration.isSuccess() + " open=" + channel.isOpen()
                         + " registered=" + channel.isRegistered());
+            }
+            for (ChannelFuture registration : registrations) {
+                Channel channel = registration.channel();
                 assertFalse(channel.isOpen(), "A channel accepted during shutdown must close before termination");
+            }
+            for (ChannelFuture registration : registrations) {
+                Channel channel = registration.channel();
                 assertTrue(channel.closeFuture().isDone());
                 assertFalse(channel.isRegistered());
             }
