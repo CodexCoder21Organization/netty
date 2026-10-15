@@ -1,0 +1,52 @@
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/staged-artifacts
+directories 46
+Version: 4.2.10.2-codexcoder21
+One --artifact-dir invocation per directory below. No files were published.
+Built POM dependency audit: CUSTOM-DEPENDENCIES.json
+Publish order (parents/BOMs, then dependencies, then netty-all):
+01. netty-parent  io.netty:netty-parent:4.2.10.2-codexcoder21  files=1
+02. netty-bom  io.netty:netty-bom:4.2.10.2-codexcoder21  files=1
+03. netty-dev-tools  io.netty:netty-dev-tools:4.2.10.2-codexcoder21  files=3
+04. netty-jfr-stub  io.netty:netty-jfr-stub:4.2.10.2-codexcoder21  files=3
+05. netty-varhandle-stub  io.netty:netty-varhandle-stub:4.2.10.2-codexcoder21  files=3
+06. netty-common  io.netty:netty-common:4.2.10.2-codexcoder21  files=3
+07. netty-buffer  io.netty:netty-buffer:4.2.10.2-codexcoder21  files=3
+08. netty-pkitesting  io.netty:netty-pkitesting:4.2.10.2-codexcoder21  files=3
+09. netty-resolver  io.netty:netty-resolver:4.2.10.2-codexcoder21  files=3
+10. netty-testsuite-common  io.netty:netty-testsuite-common:4.2.10.2-codexcoder21  files=3
+11. netty-transport  io.netty:netty-transport:4.2.10.2-codexcoder21  files=3
+12. netty-codec-base  io.netty:netty-codec-base:4.2.10.2-codexcoder21  files=3
+13. netty-transport-native-unix-common  io.netty:netty-transport-native-unix-common:4.2.10.2-codexcoder21  files=4
+14. netty-transport-rxtx  io.netty:netty-transport-rxtx:4.2.10.2-codexcoder21  files=3
+15. netty-transport-udt  io.netty:netty-transport-udt:4.2.10.2-codexcoder21  files=3
+16. netty-codec-compression  io.netty:netty-codec-compression:4.2.10.2-codexcoder21  files=3
+17. netty-codec-dns  io.netty:netty-codec-dns:4.2.10.2-codexcoder21  files=3
+18. netty-codec-haproxy  io.netty:netty-codec-haproxy:4.2.10.2-codexcoder21  files=3
+19. netty-codec-marshalling  io.netty:netty-codec-marshalling:4.2.10.2-codexcoder21  files=3
+20. netty-codec-memcache  io.netty:netty-codec-memcache:4.2.10.2-codexcoder21  files=3
+21. netty-codec-mqtt  io.netty:netty-codec-mqtt:4.2.10.2-codexcoder21  files=3
+22. netty-codec-protobuf  io.netty:netty-codec-protobuf:4.2.10.2-codexcoder21  files=3
+23. netty-codec-redis  io.netty:netty-codec-redis:4.2.10.2-codexcoder21  files=3
+24. netty-codec-smtp  io.netty:netty-codec-smtp:4.2.10.2-codexcoder21  files=3
+25. netty-codec-socks  io.netty:netty-codec-socks:4.2.10.2-codexcoder21  files=3
+26. netty-codec-stomp  io.netty:netty-codec-stomp:4.2.10.2-codexcoder21  files=3
+27. netty-codec-xml  io.netty:netty-codec-xml:4.2.10.2-codexcoder21  files=3
+28. netty-handler  io.netty:netty-handler:4.2.10.2-codexcoder21  files=3
+29. netty-transport-classes-epoll  io.netty:netty-transport-classes-epoll:4.2.10.2-codexcoder21  files=3
+30. netty-transport-classes-io_uring  io.netty:netty-transport-classes-io_uring:4.2.10.2-codexcoder21  files=3
+31. netty-transport-classes-kqueue  io.netty:netty-transport-classes-kqueue:4.2.10.2-codexcoder21  files=3
+32. netty-transport-native-unix-common-tests  io.netty:netty-transport-native-unix-common-tests:4.2.10.2-codexcoder21  files=3
+33. netty-codec  io.netty:netty-codec:4.2.10.2-codexcoder21  files=3
+34. netty-codec-classes-quic  io.netty:netty-codec-classes-quic:4.2.10.2-codexcoder21  files=3
+35. netty-codec-http  io.netty:netty-codec-http:4.2.10.2-codexcoder21  files=3
+36. netty-resolver-dns  io.netty:netty-resolver-dns:4.2.10.2-codexcoder21  files=3
+37. netty-transport-native-epoll  io.netty:netty-transport-native-epoll:4.2.10.2-codexcoder21  files=4
+38. netty-codec-http2  io.netty:netty-codec-http2:4.2.10.2-codexcoder21  files=3
+39. netty-codec-native-quic  io.netty:netty-codec-native-quic:4.2.10.2-codexcoder21  files=4
+40. netty-handler-proxy  io.netty:netty-handler-proxy:4.2.10.2-codexcoder21  files=3
+41. netty-handler-ssl-ocsp  io.netty:netty-handler-ssl-ocsp:4.2.10.2-codexcoder21  files=3
+42. netty-resolver-dns-classes-macos  io.netty:netty-resolver-dns-classes-macos:4.2.10.2-codexcoder21  files=3
+43. netty-transport-sctp  io.netty:netty-transport-sctp:4.2.10.2-codexcoder21  files=3
+44. netty-codec-http3  io.netty:netty-codec-http3:4.2.10.2-codexcoder21  files=3
+45. netty-testsuite  io.netty:netty-testsuite:4.2.10.2-codexcoder21  files=3
+46. netty-all  io.netty:netty-all:4.2.10.2-codexcoder21  files=2

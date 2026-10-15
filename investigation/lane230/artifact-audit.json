@@ -1,0 +1,691 @@
+{
+  "head": "e5f302731d3c0ce684d323002f5fdce319381fdb",
+  "version": "4.2.10.2-codexcoder21",
+  "module_directories": 46,
+  "payloads": 136,
+  "verified_checksum_files": 272,
+  "main_jars": 44,
+  "source_jar_matches": true,
+  "files": [
+    {
+      "module": "netty-parent",
+      "file": "netty-parent-4.2.10.2-codexcoder21.pom",
+      "sha256": "243d70b7f2806e96b9f1de991969594901524cd70385f86d77999c8bb32b3ac3"
+    },
+    {
+      "module": "netty-bom",
+      "file": "netty-bom-4.2.10.2-codexcoder21.pom",
+      "sha256": "5e6710c4e3c19cb8198bbe36329697070009fe92da6ed9608fad0350cfdb4321"
+    },
+    {
+      "module": "netty-dev-tools",
+      "file": "netty-dev-tools-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "833db7276644393b8b913002ebbaba5209eef4173383558dafc86cceacca8028"
+    },
+    {
+      "module": "netty-dev-tools",
+      "file": "netty-dev-tools-4.2.10.2-codexcoder21.jar",
+      "sha256": "fb4be0314798893f63fa8c7eb89a7c96b3451e1a7a4cda4fcc097a4d73faa5b3"
+    },
+    {
+      "module": "netty-dev-tools",
+      "file": "netty-dev-tools-4.2.10.2-codexcoder21.pom",
+      "sha256": "2d68acbee973644812cb94a9b23992d2ffa210614fc978e7cefa4f4beb783737"
+    },
+    {
+      "module": "netty-jfr-stub",
+      "file": "netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "09396dd1f24ad18fe8230dd589530e83ce5cf1cfbe5c9f76dedd728252f5ff83"
+    },
+    {
+      "module": "netty-jfr-stub",
+      "file": "netty-jfr-stub-4.2.10.2-codexcoder21.jar",
+      "sha256": "5d95b4442e245a72605e3487cf92ee59050417fffaaea486e13e4b5c1d1cb2a3"
+    },
+    {
+      "module": "netty-jfr-stub",
+      "file": "netty-jfr-stub-4.2.10.2-codexcoder21.pom",
+      "sha256": "e62f8fb17a859a6fdc2c0646994c2fd614a0268c80729bc5ec122f536f11b249"
+    },
+    {
+      "module": "netty-varhandle-stub",
+      "file": "netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "29f82410e67af0f6c92c7c1b86624926929710e451e405803db8abc859f82f7a"
+    },
+    {
+      "module": "netty-varhandle-stub",
+      "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.jar",
+      "sha256": "1a3e59cfa4b0834fbde2a2c17c590d07370bf07b5aee2a9da25fc17620a334cc"
+    },
+    {
+      "module": "netty-varhandle-stub",
+      "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.pom",
+      "sha256": "36ea9b034d906f43b42029d9c8d5a392d7d089a266f7bc1eedec277935a73be9"
+    },
+    {
+      "module": "netty-common",
+      "file": "netty-common-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "b579fd46f102d1d86c58e0b7c27f7cd2ae2c20a8bd20bd00aed453a0fcfaefb6"
+    },
+    {
+      "module": "netty-common",
+      "file": "netty-common-4.2.10.2-codexcoder21.jar",
+      "sha256": "374ff1848b8558b9401675f14621c6ef1cf2932eec527ecb84a621b93db0b696"
+    },
+    {
+      "module": "netty-common",
+      "file": "netty-common-4.2.10.2-codexcoder21.pom",
+      "sha256": "9492bf55951b43d7b6b662cecd101e9efbf1704a3bd06259833d50214f42a1c0"
+    },
+    {
+      "module": "netty-buffer",
+      "file": "netty-buffer-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "688741950d928668daafca5aaad81311db9195625ef17dcc18006420b00b9cd0"
+    },
+    {
+      "module": "netty-buffer",
+      "file": "netty-buffer-4.2.10.2-codexcoder21.jar",
+      "sha256": "93ff6bdca7ae6ee737ada9aa1373b4e17e77e1468ebf0fcf2eb77b06dc1506b6"
+    },
+    {
+      "module": "netty-buffer",
+      "file": "netty-buffer-4.2.10.2-codexcoder21.pom",
+      "sha256": "7ff9bd1f64d8bde9c9daebe5bd0e9768f4d788c5f207490ab1e64c23b0d6d766"
+    },
+    {
+      "module": "netty-pkitesting",
+      "file": "netty-pkitesting-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "fc1357a809a1a312b5907e9544c406a079fa67510e1738f2515615aff8fcaa8c"
+    },
+    {
+      "module": "netty-pkitesting",
+      "file": "netty-pkitesting-4.2.10.2-codexcoder21.jar",
+      "sha256": "e69a4df7dc61cba16c7c584b7d694ce5bc469df24a9aedc8ab49584335a75b95"
+    },
+    {
+      "module": "netty-pkitesting",
+      "file": "netty-pkitesting-4.2.10.2-codexcoder21.pom",
+      "sha256": "740565789c06416dc83369298d6ccb5ab3fd89d84aadd9fc20ba6661b362e42e"
+    },
+    {
+      "module": "netty-resolver",
+      "file": "netty-resolver-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "99c837c68a38992157e5c1eb4501f2491039aea1d00088d63e0e72d62e7b52ec"
+    },
+    {
+      "module": "netty-resolver",
+      "file": "netty-resolver-4.2.10.2-codexcoder21.jar",
+      "sha256": "e0942db0890a6291d28c6fb8655e237582132c7c814051a0b7777869f6594d09"
+    },
+    {
+      "module": "netty-resolver",
+      "file": "netty-resolver-4.2.10.2-codexcoder21.pom",
+      "sha256": "fd8cc2e4100a7b31d58011e06a866f64751401b62e1881095df65f0b0a101c38"
+    },
+    {
+      "module": "netty-testsuite-common",
+      "file": "netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "ae158578388771c80234d4c1ac68b37203c916f29b87398fb2f0cf8ace4755de"
+    },
+    {
+      "module": "netty-testsuite-common",
+      "file": "netty-testsuite-common-4.2.10.2-codexcoder21.jar",
+      "sha256": "c6f894eb99b74c1b6f495388b80a99f530c20f25a9846cb32677aa00b3051024"
+    },
+    {
+      "module": "netty-testsuite-common",
+      "file": "netty-testsuite-common-4.2.10.2-codexcoder21.pom",
+      "sha256": "b0f8d243e0dbf8a98bb7fe8376ccb1cf88ebf6a8902e22a02f03ad6db6d361ed"
+    },
+    {
+      "module": "netty-transport",
+      "file": "netty-transport-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "0417c25fb28786d26d7ebff8bf8b271fa384a714623be80e4620ee8f88328614"
+    },
+    {
+      "module": "netty-transport",
+      "file": "netty-transport-4.2.10.2-codexcoder21.jar",
+      "sha256": "b121f203dd67093fd131e464223da0d4e8e65a27019cc92b0c51334cc43107c8"
+    },
+    {
+      "module": "netty-transport",
+      "file": "netty-transport-4.2.10.2-codexcoder21.pom",
+      "sha256": "1ef1891d35e4c194d952674d1d503f03d34bae826d6a04cf0cd593a75fef8baf"
+    },
+    {
+      "module": "netty-codec-base",
+      "file": "netty-codec-base-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "66e8d9e3ad10a3b7310f23b5aab145b8d07341101fb1718bbe8224052f012b33"
+    },
+    {
+      "module": "netty-codec-base",
+      "file": "netty-codec-base-4.2.10.2-codexcoder21.jar",
+      "sha256": "c9b828c4655437dfc2d09fb18694a647eb48fdca7eae3234e609c99320afdd1a"
+    },
+    {
+      "module": "netty-codec-base",
+      "file": "netty-codec-base-4.2.10.2-codexcoder21.pom",
+      "sha256": "7f18703fb27ef6658af665c35a8263874a33b101a2b19233a22b84ade6ba177e"
+    },
+    {
+      "module": "netty-transport-native-unix-common",
+      "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar",
+      "sha256": "cf45e6544483a1421e059b47001c572140bc4d34bbf93eaf566ca18ef21e3f1c"
+    },
+    {
+      "module": "netty-transport-native-unix-common",
+      "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "266a89cdf0f5e05d8b866030609d5216991fa3951ed0cc866792ee749de0ced4"
+    },
+    {
+      "module": "netty-transport-native-unix-common",
+      "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar",
+      "sha256": "663d94ce2abbafbfffd7e4bacc4c02ac021c3fd411ac4762b784e92c0de4b4ef"
+    },
+    {
+      "module": "netty-transport-native-unix-common",
+      "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom",
+      "sha256": "cdc652c59eda3c7b596af22847670b202e4c5b3d70f6effc39df69854727526f"
+    },
+    {
+      "module": "netty-transport-rxtx",
+      "file": "netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "e2c0995b3111fdcaede0ed7246819452585a5a74128fc1ae0af711b131864180"
+    },
+    {
+      "module": "netty-transport-rxtx",
+      "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.jar",
+      "sha256": "352fd0cff92a62810acac36edace021aafa981fe49f30389ecd66d23a9eba630"
+    },
+    {
+      "module": "netty-transport-rxtx",
+      "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.pom",
+      "sha256": "42becdec88c6a4047d16095d596490ea5e021b51cd1b52970dee5b87eb57a93b"
+    },
+    {
+      "module": "netty-transport-udt",
+      "file": "netty-transport-udt-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "7dfe4eca5cc146724c203691100953e17f0d795ad4d19eecb1d142be5a96b6eb"
+    },
+    {
+      "module": "netty-transport-udt",
+      "file": "netty-transport-udt-4.2.10.2-codexcoder21.jar",
+      "sha256": "573cd31485919e34a3bb41a70d17a97d17d0df73eb072ccb2432073303252c18"
+    },
+    {
+      "module": "netty-transport-udt",
+      "file": "netty-transport-udt-4.2.10.2-codexcoder21.pom",
+      "sha256": "0d5406d24b3ac0ee41bcf1668f65d767c24f1508ff6fc2de3e166dcb94108e1d"
+    },
+    {
+      "module": "netty-codec-compression",
+      "file": "netty-codec-compression-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "ec8c4bb93139b552e13177bec6d697387f1705768f1dbceb368fddf16e18adb3"
+    },
+    {
+      "module": "netty-codec-compression",
+      "file": "netty-codec-compression-4.2.10.2-codexcoder21.jar",
+      "sha256": "ce8fd4abe96798fcae4d202b6c5b8c53c006a98ebc9639de1414e5fb9803aa9f"
+    },
+    {
+      "module": "netty-codec-compression",
+      "file": "netty-codec-compression-4.2.10.2-codexcoder21.pom",
+      "sha256": "339a3c8d46deeb4877eb95bfbf739ac7b7ed48f5b5e267ad51f1bf8673d8029b"
+    },
+    {
+      "module": "netty-codec-dns",
+      "file": "netty-codec-dns-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "f7623e28d684968c50b1999443847f267834428f65a02da3ed34b3c26e3989e5"
+    },
+    {
+      "module": "netty-codec-dns",
+      "file": "netty-codec-dns-4.2.10.2-codexcoder21.jar",
+      "sha256": "7da0d65ff9b05fb9ab2299cd8db446215d0e2485b031d66f11eb32c7343b5663"
+    },
+    {
+      "module": "netty-codec-dns",
+      "file": "netty-codec-dns-4.2.10.2-codexcoder21.pom",
+      "sha256": "fd90ecd4ade077de902cbc62823022ccc803459b190159c098cb162b15bc425c"
+    },
+    {
+      "module": "netty-codec-haproxy",
+      "file": "netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "07693800106d6d4a5c860be8a35cb861795e7f170ad933f573394c58f39a4715"
+    },
+    {
+      "module": "netty-codec-haproxy",
+      "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.jar",
+      "sha256": "cced15a320033354e2ee469d7ba92d06867b3c73c0e482b1d1fefc6179117dae"
+    },
+    {
+      "module": "netty-codec-haproxy",
+      "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.pom",
+      "sha256": "1d696203970da2a67025f496cd8edd550a0845846a1952cc9093d4960e03f839"
+    },
+    {
+      "module": "netty-codec-marshalling",
+      "file": "netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "ed6329c84341f87d20de9bc66571b540466dca8a6608d0b7df35f86861b8eab8"
+    },
+    {
+      "module": "netty-codec-marshalling",
+      "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.jar",
+      "sha256": "2410beb582caedfb2c35e10f72bf26001925fa9f441b3a7bfdf9405a23c82095"
+    },
+    {
+      "module": "netty-codec-marshalling",
+      "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.pom",
+      "sha256": "3effd8a9d02e31f7db7cea0d1a61c6011ff78c1bd39bdb0df49a54a5de56b5f7"
+    },
+    {
+      "module": "netty-codec-memcache",
+      "file": "netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "4125453ed6978aa096be70510a82a5ed7c93d91b612d0384745ccee534e563bc"
+    },
+    {
+      "module": "netty-codec-memcache",
+      "file": "netty-codec-memcache-4.2.10.2-codexcoder21.jar",
+      "sha256": "5cba1c7329140b33ac361b96753be4381668f68c32ddd6bc42bf5875dcb7f436"
+    },
+    {
+      "module": "netty-codec-memcache",
+      "file": "netty-codec-memcache-4.2.10.2-codexcoder21.pom",
+      "sha256": "348fd634c58f7fb229eb45b92d42f5d3f850d245764abfe73264fb9ff79708c5"
+    },
+    {
+      "module": "netty-codec-mqtt",
+      "file": "netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "3a15a907dee3b7efb3af45993cb8897903acad611e48c7584d3d3079d7d3d06b"
+    },
+    {
+      "module": "netty-codec-mqtt",
+      "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.jar",
+      "sha256": "bb1892a85b5fd36664ff2d4204d6e81bfbc87bf1bdc7484fb9ca548edf862523"
+    },
+    {
+      "module": "netty-codec-mqtt",
+      "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.pom",
+      "sha256": "f02bfff48112c6e766c71f42ca8be4710237cb396aca4ff99568129744a93f44"
+    },
+    {
+      "module": "netty-codec-protobuf",
+      "file": "netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "e73761c633381616a68fdf684a5077d3480fa10c42371efe8d547f902901ee8a"
+    },
+    {
+      "module": "netty-codec-protobuf",
+      "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.jar",
+      "sha256": "37e9e6b42d5d6717fed604589b380ffc0e9c5ac9604bc55449cb75d31ed1d6af"
+    },
+    {
+      "module": "netty-codec-protobuf",
+      "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.pom",
+      "sha256": "255e47e009ca5c4d1007a0f9df67fbee726e0fe5177bbb58df75aa8e247373ed"
+    },
+    {
+      "module": "netty-codec-redis",
+      "file": "netty-codec-redis-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "c2bda946b753036b37f1dcbb125f16b3b5ecbfe19cc9629ec4b3b5fffb63845c"
+    },
+    {
+      "module": "netty-codec-redis",
+      "file": "netty-codec-redis-4.2.10.2-codexcoder21.jar",
+      "sha256": "481e406fdf034e5351b7da67188815323d82d989bf052f480431753b31858bed"
+    },
+    {
+      "module": "netty-codec-redis",
+      "file": "netty-codec-redis-4.2.10.2-codexcoder21.pom",
+      "sha256": "a4553824fe95c4b99600618a338f6fb231757fa897526e614f170aa709361e0f"
+    },
+    {
+      "module": "netty-codec-smtp",
+      "file": "netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "260edf86d0cdb9b6269ec3bf021e9388316e40e83a919da6e9265ae64652a8ba"
+    },
+    {
+      "module": "netty-codec-smtp",
+      "file": "netty-codec-smtp-4.2.10.2-codexcoder21.jar",
+      "sha256": "080bc5360782cfa5d9c3b6f5865d0fe2bff355b4315214ca34f306165e58604a"
+    },
+    {
+      "module": "netty-codec-smtp",
+      "file": "netty-codec-smtp-4.2.10.2-codexcoder21.pom",
+      "sha256": "518d93dd14857c7470651258d2ea7175352ae58405b460cac77c08f19fdb81e3"
+    },
+    {
+      "module": "netty-codec-socks",
+      "file": "netty-codec-socks-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "1ec38571693972b1bb2960a5bee445393a44b7fda6999f4899d0e993ce993a14"
+    },
+    {
+      "module": "netty-codec-socks",
+      "file": "netty-codec-socks-4.2.10.2-codexcoder21.jar",
+      "sha256": "8d5ab1693b572e25376b615e6d9f5adc5dff70635b5dbb133789dd6840f74e47"
+    },
+    {
+      "module": "netty-codec-socks",
+      "file": "netty-codec-socks-4.2.10.2-codexcoder21.pom",
+      "sha256": "1071eb122cb35ce1bc26c03c00b070e8fc65d3f0a16c68035aad27d701080916"
+    },
+    {
+      "module": "netty-codec-stomp",
+      "file": "netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "7ac00e7c2965440636bdf174ec971a947fd79f1831586cc465a00f86fdb0fcf1"
+    },
+    {
+      "module": "netty-codec-stomp",
+      "file": "netty-codec-stomp-4.2.10.2-codexcoder21.jar",
+      "sha256": "4927ea39da59f3aa91f316346daf317e78a80fd8a72bc7b7ff14a2424c4bcdf2"
+    },
+    {
+      "module": "netty-codec-stomp",
+      "file": "netty-codec-stomp-4.2.10.2-codexcoder21.pom",
+      "sha256": "de77af808e5820a2815feec86f8b88d6f9a0e2c4563beb7dd2e8086e69460335"
+    },
+    {
+      "module": "netty-codec-xml",
+      "file": "netty-codec-xml-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "af0d1b5d0b6273e52bf957939c73e6c6f78c50cf2bf78c79747acee8ba5c9caf"
+    },
+    {
+      "module": "netty-codec-xml",
+      "file": "netty-codec-xml-4.2.10.2-codexcoder21.jar",
+      "sha256": "878265da41c2157de77c2a7b7f630d9a4fda52f7d3369733de354647e85bba24"
+    },
+    {
+      "module": "netty-codec-xml",
+      "file": "netty-codec-xml-4.2.10.2-codexcoder21.pom",
+      "sha256": "af6b621c168eed795406ea40ab7017b9f50bd525a24a221df999fa650c29f7de"
+    },
+    {
+      "module": "netty-handler",
+      "file": "netty-handler-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "b10c316f09fe4bb38348861dd7fd262a9a90623ff77789f5340994b24d5baa0a"
+    },
+    {
+      "module": "netty-handler",
+      "file": "netty-handler-4.2.10.2-codexcoder21.jar",
+      "sha256": "193512ffa9dc193b86608900d148fd573e55ac6b8f3b2e47fb6a294af72b1105"
+    },
+    {
+      "module": "netty-handler",
+      "file": "netty-handler-4.2.10.2-codexcoder21.pom",
+      "sha256": "f19c3c3009462917bff43cfe52a7baf1b283e9d5cc4da847d397dd3d9b10e8df"
+    },
+    {
+      "module": "netty-transport-classes-epoll",
+      "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "47dd72e2809a333c96cac196110019e044f58780b7696ddff5829cf4da5de39d"
+    },
+    {
+      "module": "netty-transport-classes-epoll",
+      "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar",
+      "sha256": "3f94af82f4f72ae730e7bc271eef9bd7a98835e3555fee88f319c84c776660bf"
+    },
+    {
+      "module": "netty-transport-classes-epoll",
+      "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom",
+      "sha256": "e76f215637855c8869169446db8714283c7e999d868323ad82935d5b3cae166c"
+    },
+    {
+      "module": "netty-transport-classes-io_uring",
+      "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "ee93cdb002e215eb366985e0271c82da5d00e09b4daa2cba0cec9e9ec97f941a"
+    },
+    {
+      "module": "netty-transport-classes-io_uring",
+      "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar",
+      "sha256": "ab16819fdb4e343798cdaad3bdbf726b67d3a1ee9a2aede9c78e3b2edb595efe"
+    },
+    {
+      "module": "netty-transport-classes-io_uring",
+      "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom",
+      "sha256": "ab88f3e0a69fd05d354fd0470138d8957107022cee79973ed847dfda937a5161"
+    },
+    {
+      "module": "netty-transport-classes-kqueue",
+      "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "fe62fe1a8489beb5f15faef5e4072832f48943ce07a571e477cacffe9d8ed699"
+    },
+    {
+      "module": "netty-transport-classes-kqueue",
+      "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar",
+      "sha256": "9b832ed1707689495d0cd8b459e5f011b50a880d670e2a4ea65d34e438b6c71f"
+    },
+    {
+      "module": "netty-transport-classes-kqueue",
+      "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom",
+      "sha256": "49b9abe4ca96ea1c6694ad5ccd5d643167689573c0a848fb22d69a887a284904"
+    },
+    {
+      "module": "netty-transport-native-unix-common-tests",
+      "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "ef5d816ac00a93a42902137bd7049914839df0f5f54627d94e399bdc26260971"
+    },
+    {
+      "module": "netty-transport-native-unix-common-tests",
+      "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar",
+      "sha256": "afacdb887a4b0b7553f77c77b543d97e73fb3669d70a73ae7a4920d777b63101"
+    },
+    {
+      "module": "netty-transport-native-unix-common-tests",
+      "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom",
+      "sha256": "ef58e79b16783ce13743641a5b9a64f0634d1d00d90b4d0503c010b439ed168e"
+    },
+    {
+      "module": "netty-codec",
+      "file": "netty-codec-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "f5348ac8e000bd67219097fb7b7ab3b2f1dce48bc7a280576a42d15ab4a54fcd"
+    },
+    {
+      "module": "netty-codec",
+      "file": "netty-codec-4.2.10.2-codexcoder21.jar",
+      "sha256": "2b670e52dc1a4cc5fbb6d503456bbfc3a07f2a079fea05b1f90200ee41194b87"
+    },
+    {
+      "module": "netty-codec",
+      "file": "netty-codec-4.2.10.2-codexcoder21.pom",
+      "sha256": "6654c36c0991a08f0722f7879f5b78b971797a14789b02f3497104da3ddc8ce7"
+    },
+    {
+      "module": "netty-codec-classes-quic",
+      "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "7640ff8a286c5e2768bd3a3aea473185a09a87be30f2b80e8008a5848bd66c99"
+    },
+    {
+      "module": "netty-codec-classes-quic",
+      "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.jar",
+      "sha256": "e3ee9c27e6fe28d2f0e44fbd00ba33d69c19f0a5100b16b19a73689fab972b49"
+    },
+    {
+      "module": "netty-codec-classes-quic",
+      "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.pom",
+      "sha256": "5a3e42b2f860513bab09444d3613f9ee2e9dd36dc0ed452f5837478efae5f297"
+    },
+    {
+      "module": "netty-codec-http",
+      "file": "netty-codec-http-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "82f7ff51ebbac8b2350d32be6f6d6abea488ed319f0cdf726eac76dd3085e67b"
+    },
+    {
+      "module": "netty-codec-http",
+      "file": "netty-codec-http-4.2.10.2-codexcoder21.jar",
+      "sha256": "7806cd330f22e722c9d80ce9a3ee51de3f5a57d7ffd6f2141611aea6359e7044"
+    },
+    {
+      "module": "netty-codec-http",
+      "file": "netty-codec-http-4.2.10.2-codexcoder21.pom",
+      "sha256": "78295e63928df0fa20669bef5bc530f5781fd37e90dfe1b5110c37c1dbf4d92b"
+    },
+    {
+      "module": "netty-resolver-dns",
+      "file": "netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "7170975d999f9af2a8b855190d2678afc9ee713ab319da455b51b7b01bd9cedd"
+    },
+    {
+      "module": "netty-resolver-dns",
+      "file": "netty-resolver-dns-4.2.10.2-codexcoder21.jar",
+      "sha256": "0c42f9e3ef8572b8d0e6509ddb1ec53ca0e8d46468a656ea82ec5d06bbaefb87"
+    },
+    {
+      "module": "netty-resolver-dns",
+      "file": "netty-resolver-dns-4.2.10.2-codexcoder21.pom",
+      "sha256": "7e40ca5ab921d26c23a8e2bf9f3c6d1d28a477025a77e978efa821c304763a25"
+    },
+    {
+      "module": "netty-transport-native-epoll",
+      "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar",
+      "sha256": "7b5966a7a78992ea0fa5441c858d324949f9fd559f7f7865fe0a993b6d42876b"
+    },
+    {
+      "module": "netty-transport-native-epoll",
+      "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "1be11cc01d86bb45a1e3e04899ace41ab58c9ad67d597d87dbd64d9585de22cc"
+    },
+    {
+      "module": "netty-transport-native-epoll",
+      "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.jar",
+      "sha256": "4cc5c310c87f0f595ec63e3f49ef0e5cb51167b45784b4815414ec21d30e11d3"
+    },
+    {
+      "module": "netty-transport-native-epoll",
+      "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.pom",
+      "sha256": "7c1cf15d8c83a653699ead57b3dd9d50862cc75665a916602e6b17632721516c"
+    },
+    {
+      "module": "netty-codec-http2",
+      "file": "netty-codec-http2-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "8ef50289681151e09f1a60d75f5e1b2ae6fa265bfbc2b3b8c68b811850d1f8e8"
+    },
+    {
+      "module": "netty-codec-http2",
+      "file": "netty-codec-http2-4.2.10.2-codexcoder21.jar",
+      "sha256": "fd0c82f72aa1e3856a65012c443a4a1f7c519490f3f7a04f5d54327557202e80"
+    },
+    {
+      "module": "netty-codec-http2",
+      "file": "netty-codec-http2-4.2.10.2-codexcoder21.pom",
+      "sha256": "698a5073dc997f44f8bcf86dd73caf8c08472d55e2aec3ef7733a13c7ada4c5c"
+    },
+    {
+      "module": "netty-codec-native-quic",
+      "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar",
+      "sha256": "e0777bd99ba055257fa7668413f9607a74f319229dfded480ada177c4195f907"
+    },
+    {
+      "module": "netty-codec-native-quic",
+      "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "46efc0df63a7f6b176bbfd0b94251ac624cc078976c33789aacae248350488a0"
+    },
+    {
+      "module": "netty-codec-native-quic",
+      "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.jar",
+      "sha256": "604cee22d7e10d7c7bf2b36b0817f5a81bb6998281cf7983f7b9a95e6beaf3a7"
+    },
+    {
+      "module": "netty-codec-native-quic",
+      "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.pom",
+      "sha256": "51c32845828172c80a78ab289af6f2cf92df0d59d252b17810b2f21cc156d0ce"
+    },
+    {
+      "module": "netty-handler-proxy",
+      "file": "netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "f4f2072e86c56b061f7ab184dcb63aee74267a6a50bd4aed62a31d89271941a2"
+    },
+    {
+      "module": "netty-handler-proxy",
+      "file": "netty-handler-proxy-4.2.10.2-codexcoder21.jar",
+      "sha256": "ee07befae93b141e16972c9442a4d07a935ad2475dde3d3c21f3a640fce7ff98"
+    },
+    {
+      "module": "netty-handler-proxy",
+      "file": "netty-handler-proxy-4.2.10.2-codexcoder21.pom",
+      "sha256": "d1151462353a538393deded64a09dfee7edade74a407330740762cfc4a255f56"
+    },
+    {
+      "module": "netty-handler-ssl-ocsp",
+      "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "b716ddbb9042127e6609f5a373a7cc3792f90d3311e6abbacc358d6d32b38b42"
+    },
+    {
+      "module": "netty-handler-ssl-ocsp",
+      "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar",
+      "sha256": "f40c975eff6875af4e4a2ddc33acf775a679bf56ca4743971491a06dbdda2bb6"
+    },
+    {
+      "module": "netty-handler-ssl-ocsp",
+      "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom",
+      "sha256": "a1f9d61657d972cd74a35e00323a03441d936361f112dbc638abd1c8dd23164c"
+    },
+    {
+      "module": "netty-resolver-dns-classes-macos",
+      "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "78648715e204edff985b06b22a5227ae6b81f43f14bbeacf7d4b69ad0a1a6cc2"
+    },
+    {
+      "module": "netty-resolver-dns-classes-macos",
+      "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar",
+      "sha256": "fdd10b62ec8eb04e3dc400eac8cbec737cc2e41277dc4beb18953fd53317ddb9"
+    },
+    {
+      "module": "netty-resolver-dns-classes-macos",
+      "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom",
+      "sha256": "3cc3474648dc995ee5902d7a3ac6ba8a0fb779e73ee41b301ad67e26b9aa6023"
+    },
+    {
+      "module": "netty-transport-sctp",
+      "file": "netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "08166ebc0092087848eed9abb6601ec28034a88d83118ab53630c8472a23f25b"
+    },
+    {
+      "module": "netty-transport-sctp",
+      "file": "netty-transport-sctp-4.2.10.2-codexcoder21.jar",
+      "sha256": "5602048271eb4803b2cfe83b2f3f42b4b72cbe47cfd6399bb6a5d34335b1b3f1"
+    },
+    {
+      "module": "netty-transport-sctp",
+      "file": "netty-transport-sctp-4.2.10.2-codexcoder21.pom",
+      "sha256": "52c4cf99fd4390875acf652100500af6f055d695d4ebbe0f8ef0c704cf6d3e02"
+    },
+    {
+      "module": "netty-codec-http3",
+      "file": "netty-codec-http3-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "7a7b7955310862eb2e9cf897b088dbbb59cfbbe5dd922af7280571f8ccb55e56"
+    },
+    {
+      "module": "netty-codec-http3",
+      "file": "netty-codec-http3-4.2.10.2-codexcoder21.jar",
+      "sha256": "c04a7dd9189b2cbebe8719a1827485548e622158d7eaa3659918bb16b60b9b17"
+    },
+    {
+      "module": "netty-codec-http3",
+      "file": "netty-codec-http3-4.2.10.2-codexcoder21.pom",
+      "sha256": "a4aace1c5b90daca780430e71654e17f4fdd50d948caeb7b41f10bed0f55a3a1"
+    },
+    {
+      "module": "netty-testsuite",
+      "file": "netty-testsuite-4.2.10.2-codexcoder21-sources.jar",
+      "sha256": "a981d690f4661a27d273d22142302fed3ec875b55ef0d0f0762d92b9227e6b1e"
+    },
+    {
+      "module": "netty-testsuite",
+      "file": "netty-testsuite-4.2.10.2-codexcoder21.jar",
+      "sha256": "158eceb081c97b0d1a901d13ae3969fead27a0d94cd5f90c540693eeb00f9be3"
+    },
+    {
+      "module": "netty-testsuite",
+      "file": "netty-testsuite-4.2.10.2-codexcoder21.pom",
+      "sha256": "a04061eff0a0a07c56185bd0937095776c5c27e034bb71492c9e18b8fc01007f"
+    },
+    {
+      "module": "netty-all",
+      "file": "netty-all-4.2.10.2-codexcoder21.jar",
+      "sha256": "5a1858db9c39b438871546dc2b4b2f49fc3e992ab5fb7c4fcaa675f2d7868ea4"
+    },
+    {
+      "module": "netty-all",
+      "file": "netty-all-4.2.10.2-codexcoder21.pom",
+      "sha256": "7eacc5479f33e3fd1ffdb5e27ff17e1b16c52a6198c5b1ed4225e03a7406348f"
+    }
+  ]
+}

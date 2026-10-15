@@ -4,8 +4,8 @@ Started 2026-10-15 13:01 UTC. Stop new work 14:06 UTC; hard stop 14:16 UTC.
 ## Plan
 - [done] Read context, docs and fork notes; verify source/base heads and exact published-source version file inventory.
 - [done] Create release branch from a66b8e41; cherry-pick only lane227 correction/tests; set 4.2.10.2 at exactly prior release version locations; push first source checkpoint.
-- [in progress] Build published modules and run common/transport suites plus invariant tests; record counts/exit codes and independent test/code reviews.
-- [pending] Fetch/rebase maintenance base, verify exact final head, open non-draft PR by REST with provenance and publish procedure; push evidence, stop owned processes, remove checkout/cache.
+- [done] Build published modules and run common/transport suites plus invariant tests; record counts/exit codes and independent test/code reviews.
+- [in progress] Fetch/rebase maintenance base, verify exact final head, open non-draft PR by REST with provenance and publish procedure; push evidence, stop owned processes, remove checkout/cache.
 
 ## 2026-10-15 13:02 UTC — initial context
 OBSERVED: Read brief, common.md, prior lane222/227 findings and github-repos/status-report instructions. No nested delegation, Handoff writes, CI waiting, merge, publication or deployment is authorized. Brief explicitly requires exact maintenance base rather than development main; will rebase onto maint/4.2.10-codexcoder21 before builds. Lane227 records final source 7a9caa8c with five new public NIO invariant cases and 427-test development transport suite. This lane must verify release-line results itself.
@@ -141,3 +141,16 @@ OBSERVED: All 409 BoringSSL targets finished successfully. Cargo is compiling th
 
 ## 2026-10-15 13:40 UTC — both native publication builds complete
 OBSERVED: Native QUIC finished successfully after BoringSSL and Cargo compilation; reactor moved to codec-http3 (30/45). Native epoll and native QUIC classifier builds are complete. Cargo emitted two non-fatal c_void-return warnings in the pinned quiche source; no source or compiler-warning configuration was changed. Full log retained. One Maven build remains active; no other owned build/test JVM is running. No blocker; roughly 26 minutes remain until stop-new-work.
+
+## 2026-10-15 13:41 UTC — 40-minute status
+RUNNING on the requested open 4.2.10.2 release PR (no publication). Source branch pushed; no lane230 PR created yet because the complete reactor is still running. Core suite gates remain common 1430/0/0/7 existing skips and transport 391/0/0/9 existing skips. Both native publication builds complete; reactor now codec-socks (35/45). No subagents or blockers; no CI watching, merging, publication, deployment or Handoff action. Landing sweep: reviews and evidence are complete in parallel with the single heavy build; final PR waits only for build/artifact/test gates.
+The fix gates terminal registration, closes the final channel set, and drains deregistration tasks. Live-loop callbacks continue to work. All five new invariant cases pass, with three independently failing on the original release implementation. Remaining: finish reactor, audit exact 46-module payload set, final maintenance rebase/test gate, REST PR and cleanup. Lessons remain exact release-source preservation, deterministic callback reproduction, and separate version inventory verification.
+
+## 2026-10-15 13:42 UTC — full-published-reactor
+OBSERVED: {"label": "full-published-reactor", "command": ["./mvnw", "-e", "-B", "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2", "-pl", "common,buffer,transport,handler,codec,all", "-am", "-DskipTests", "install"], "exit_code": 0, "elapsed_seconds": 1490.3694217205048, "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"}
+Test totals: []
+
+## 2026-10-15 13:43 UTC — complete release build and artifact audit pass
+OBSERVED: Full 45-module published-set reactor exited 0 in 1490.37 seconds (Maven 24:45). Independent BOM install also exited 0, for all 46 prior publication modules. Native epoll and QUIC Linux classifier builds are included. Artifact assembly produces exactly the same 46 module names as the prior manifest, 136 POM/JAR payloads and 272 independently rechecked SHA1/SHA256 files. All 44 main jars identify e5f302731d3c0ce684d323002f5fdce319381fdb, version 4.2.10.2-codexcoder21 and repoStatus=clean. Transport source jar equals final source. Full source audit passes again. No artifacts published; staging is local and will be deleted.
+OBSERVED: Final maintenance fetch/rebase is a no-op: base remains 4cc98736c3947bc93122e0b64e0bd8fc970c6437 and head e5f302731d. Required final pre-PR combined common/transport unit gate is running now; earlier separate complete suites already passed at this exact head. No CI wait, merge, publication, deployment or Handoff action. Dedicated native module test suites and non-Linux classifier builds are not claimed; the brief's requested test gates are common/transport plus all five invariant cases.
+Plan: source/version, release-line baseline, build, artifact audit and independent reviews DONE; final pre-PR unit gate/REST opening and cleanup IN PROGRESS.

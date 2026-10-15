@@ -3,6 +3,8 @@ import json,hashlib,zipfile,xml.etree.ElementTree as ET,subprocess
 lane=Path(__file__).resolve().parent;stage=lane/'staged-artifacts';version='4.2.10.2-codexcoder21';ns={'m':'http://maven.apache.org/POM/4.0.0'}
 head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=lane/'netty',text=True).strip()
 order=json.loads((stage/'CUSTOM-DEPENDENCIES.json').read_text())['publish_order'];assert len(order)==46
+expected=['netty-parent', 'netty-bom', 'netty-dev-tools', 'netty-jfr-stub', 'netty-varhandle-stub', 'netty-common', 'netty-buffer', 'netty-pkitesting', 'netty-resolver', 'netty-testsuite-common', 'netty-transport', 'netty-codec-base', 'netty-transport-native-unix-common', 'netty-transport-rxtx', 'netty-transport-udt', 'netty-codec-compression', 'netty-codec-dns', 'netty-codec-haproxy', 'netty-codec-marshalling', 'netty-codec-memcache', 'netty-codec-mqtt', 'netty-codec-protobuf', 'netty-codec-redis', 'netty-codec-smtp', 'netty-codec-socks', 'netty-codec-stomp', 'netty-codec-xml', 'netty-handler', 'netty-transport-classes-epoll', 'netty-transport-classes-io_uring', 'netty-transport-classes-kqueue', 'netty-transport-native-unix-common-tests', 'netty-codec', 'netty-codec-classes-quic', 'netty-codec-http', 'netty-resolver-dns', 'netty-transport-native-epoll', 'netty-codec-http2', 'netty-codec-native-quic', 'netty-handler-proxy', 'netty-handler-ssl-ocsp', 'netty-resolver-dns-classes-macos', 'netty-transport-sctp', 'netty-codec-http3', 'netty-testsuite', 'netty-all']
+assert set(order)==set(expected),(set(order)-set(expected),set(expected)-set(order))
 payloads=[];main=[]
 for a in order:
  d=stage/a;poms=list(d.glob('*.pom'));assert len(poms)==1

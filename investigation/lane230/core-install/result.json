@@ -1,0 +1,17 @@
+{
+  "label": "core-install",
+  "command": [
+    "./mvnw",
+    "-e",
+    "-B",
+    "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2",
+    "-pl",
+    "common,buffer,transport,resolver,handler,codec",
+    "-am",
+    "-DskipTests",
+    "install"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 245.9162676334381,
+  "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"
+}
