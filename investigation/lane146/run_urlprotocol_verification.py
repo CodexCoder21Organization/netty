@@ -19,7 +19,7 @@ for i,name in enumerate(names,1):
  if xml.exists():
   executed=[dict(t.attrib) for t in ET.parse(xml).getroot().findall('test')]
  gate_ok=p.returncode==0 and len(executed)==1 and executed[0].get('name')=='foundation.url.protocol.'+name and executed[0].get('success')=='true'
- result=dict(index=i,name=name,exit_code=p.returncode,gate_ok=gate_ok,executed=executed,seconds=round(time.time()-started,3),log=str(log),xml=str(xml));results.append(result)
+ result=dict(index=i,name=name,pid=p.pid,exit_code=p.returncode,gate_ok=gate_ok,executed=executed,seconds=round(time.time()-started,3),log=str(log),xml=str(xml));results.append(result)
  (evidence/'url-verification-results.json').write_text(json.dumps(results,indent=2)+'\n');print('RESULT '+json.dumps(result),flush=True)
  findings=lane.parent.parent/'out/r146-findings.md'
  with findings.open('a') as out:out.write(datetime.datetime.now(datetime.timezone.utc).isoformat()+' — OBSERVED: Consumer command result '+json.dumps(result)+'. INFER: '+('Invocation passed; remaining prescribed invocations still pending.' if gate_ok else 'Invocation failed; full output/XML retained and prescribed gate stopped without retry.')+'\n')

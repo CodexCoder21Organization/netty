@@ -3,6 +3,7 @@ import subprocess,os
 lane=Path('.').resolve();cp=(lane/'evidence/kompile-classpath.txt').read_text().strip();old='4.2.10.Final-codexcoder21-1';new='4.2.10.1-codexcoder21'
 fixture=lane/'evidence/ordering-pom-fixture'
 for p in (lane/'.m2/io/netty').glob('*/'+old+'/*.pom'):
+ old_out=fixture/'io/netty'/p.parent.parent.name/old/p.name;old_out.parent.mkdir(parents=True,exist_ok=True);old_out.write_bytes(p.read_bytes())
  out=fixture/'io/netty'/p.parent.parent.name/new/p.name.replace(old,new);out.parent.mkdir(parents=True,exist_ok=True);out.write_text(p.read_text().replace(old,new))
 (fixture/'README.txt').write_text('Resolution-only POM fixture, no JARs. Version text changed from lane141 POMs solely to prove mediation before rebuild. Not a publishable artifact.\n')
 subprocess.run(['javac','-proc:none','-cp',cp,'evidence/CandidateFetchProbe.java'],check=True)

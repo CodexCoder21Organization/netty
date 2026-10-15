@@ -19,6 +19,10 @@ for module in modules:
    expected=p.with_name(p.name+'.'+algorithm).read_text().strip();actual=hashlib.new(algorithm,p.read_bytes()).hexdigest();assert actual==expected,p;checksums+=1
 print('ARTIFACT_AUDIT',json.dumps(dict(directories=len(modules),files=files,checksums=checksums)),flush=True)
 (evidence/'artifact-audit.json').write_text(json.dumps(dict(version=version,directories=len(modules),files=files,checksums=checksums),indent=2)+'\n')
+transport_jar=stage/'netty-transport'/('netty-transport-'+version+'.jar')
+bytecode=subprocess.check_output(['javap','-classpath',str(transport_jar),'io.netty.channel.SingleThreadIoEventLoop'],text=True)
+(evidence/'rebuilt-transport.javap.txt').write_text(bytecode)
+assert 'protected boolean confirmShutdown();' in bytecode,'Shutdown override absent from rebuilt artifact'
 with (evidence/'cache-seeding.log').open('w') as out:subprocess.run(['python3',str(evidence/'seed_coursier.py')],cwd=lane,stdout=out,check=True)
 cp=(evidence/'kompile-classpath.txt').read_text().strip();env=os.environ.copy();env.update(JAVA_HOME='/usr/lib/jvm/temurin-21-jdk-amd64',COURSIER_CACHE=str(lane/'coursier-cache'),COURSIER_ARCHIVE_CACHE=str(lane/'coursier-archives'),COURSIER_JVM_CACHE=str(lane/'coursier-jvm'),JAVA_TOOL_OPTIONS='-Xmx2g',PATH='/usr/lib/jvm/temurin-21-jdk-amd64/bin:'+env['PATH'])
 with (evidence/'rebuilt-candidate-fetch.log').open('w') as out:subprocess.run(['java','-cp',str(evidence)+':'+cp,'CandidateFetchProbe',version,(lane/'.m2').as_uri()],cwd=lane,env=env,stdout=out,stderr=subprocess.STDOUT,timeout=300,check=True)
@@ -38,8 +42,8 @@ try:
    raise
 finally:p.unlink(missing_ok=True)
 executed=[dict(t.attrib) for t in ET.parse(xml).getroot().findall('test')] if xml.exists() else []
-passed=proc.returncode==0 and len(executed)==1 and executed[0].get('success')=='true'
-result=dict(exit_code=proc.returncode,seconds=round(time.time()-started,3),passed=passed,executed=executed)
+passed=proc.returncode==0 and len(executed)==1 and executed[0].get('name')=='foundation.url.protocol.diagnoseLane146NettyBinding' and executed[0].get('success')=='true'
+result=dict(pid=proc.pid,exit_code=proc.returncode,seconds=round(time.time()-started,3),passed=passed,executed=executed)
 (evidence/'runtime-origin-result.json').write_text(json.dumps(result,indent=2)+'\n');print('ORIGIN_RESULT',json.dumps(result),flush=True)
 with (lane.parent.parent/'out/r146-findings.md').open('a') as f:f.write(datetime.datetime.now(datetime.timezone.utc).isoformat()+' — OBSERVED: Rebuilt artifact audit '+json.dumps(dict(directories=len(modules),files=files,checksums=checksums))+'; exact Fetch using rebuilt jars passed. Runtime-origin diagnostic '+json.dumps(result)+'. INFER: '+('Custom transport/buffer/common origins proven; prescribed consumer gate may now begin.' if passed else 'Origin gate did not pass; prescribed tests remain unrun and publication held.')+'\n')
 assert passed,'Runtime-origin gate failed; no consumer test may run'
