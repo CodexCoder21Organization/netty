@@ -6640,3 +6640,1447 @@ main:
 [WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
 [INFO] Recompiling the module because of changed dependency.
 [INFO] Compiling 128 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.java:[599,38] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.java:[652,35] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.java:[883,46] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.java:[933,52] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/CompressorHttp2ConnectionEncoder.java:[213,24] [deprecation] add(Promise) in PromiseCombiner has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2HeadersDecoder.java:[103,54] [deprecation] @Deprecated annotation has no effect on this variable declaration
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2ServerUpgradeCodec.java:[73,35] [deprecation] Http2MultiplexCodec in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2ServerUpgradeCodec.java:[94,55] [deprecation] Http2MultiplexCodec in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2StreamChannelOption.java:[27,8] [deprecation] ChannelOption(String) in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodec.java:[104,43] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodec.java:[122,24] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HttpConversionUtil.java:[237,31] [deprecation] DefaultFullHttpResponse(HttpVersion,HttpResponseStatus,ByteBuf,boolean) in DefaultFullHttpResponse has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HttpConversionUtil.java:[299,30] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HttpConversionUtil.java:[331,26] [deprecation] DefaultHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HttpConversionUtil.java:[362,33] [deprecation] DefaultHttpResponse(HttpVersion,HttpResponseStatus,boolean) in DefaultHttpResponse has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-http2 ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-http2 ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-http2:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-http2 ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.http2"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.http2"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-http2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-http2 ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 72 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/CleartextHttp2ServerUpgradeHandlerTest.java:[198,14] [deprecation] Http2MultiplexCodec in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/CleartextHttp2ServerUpgradeHandlerTest.java:[198,51] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DataCompressionHttp2Test.java:[101,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoderTest.java:[134,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoderTest.java:[861,41] [deprecation] DefaultHttp2ConnectionDecoder(Http2Connection,Http2ConnectionEncoder,Http2FrameReader,Http2PromisedRequestVerifier,boolean,boolean) in DefaultHttp2ConnectionDecoder has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionEncoderTest.java:[119,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionTest.java:[82,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2FrameReaderTest.java:[54,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2FrameWriterTest.java:[68,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2LocalFlowControllerTest.java:[74,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2RemoteFlowControllerTest.java:[92,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ClientUpgradeCodecTest.java:[45,20] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ConnectionHandlerTest.java:[151,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ConnectionRoundtripTest.java:[118,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ControlFrameLimitEncoderTest.java:[84,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2DataChunkedInputTest.java:[111,27] [deprecation] readChunk(ChannelHandlerContext) in ChunkedInput has been deprecated
+  where B is a type-variable:
+    B extends Object declared in interface ChunkedInput
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2EmptyDataFrameListenerTest.java:[47,8] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2FrameInboundWriter.java:[224,27] [deprecation] <T>hasAttr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>hasAttr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2FrameInboundWriter.java:[219,32] [deprecation] <T>attr(AttributeKey<T>) in ChannelHandlerContext has been deprecated
+  where T is a type-variable:
+    T extends Object declared in method <T>attr(AttributeKey<T>)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2FrameRoundtripTest.java:[96,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MaxRstFrameLimitEncoderTest.java:[96,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MaxRstFrameListenerTest.java:[42,8] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilderTest.java:[80,50] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilderTest.java:[116,29] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilderTest.java:[255,22] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilderTest.java:[256,22] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilderTest.java:[264,16] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecClientUpgradeTest.java:[19,90] [deprecation] Http2MultiplexCodec in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecClientUpgradeTest.java:[22,14] [deprecation] Http2MultiplexCodec in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecClientUpgradeTest.java:[23,8] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecClientUpgradeTest.java:[23,45] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexCodecTest.java:[23,19] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexTransportTest.java:[187,30] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexTransportTest.java:[241,38] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ServerUpgradeCodecTest.java:[53,24] [deprecation] Http2MultiplexCodecBuilder in io.netty.handler.codec.http2 has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamChannelBootstrapTest.java:[160,17] [deprecation] open0(ChannelHandlerContext,Promise<Http2StreamChannel>) in Http2StreamChannelBootstrap has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[233,30] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[251,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[268,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[634,30] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[652,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2StreamFrameToHttpObjectCodecTest.java:[669,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/HttpConversionUtilTest.java:[160,32] [deprecation] DefaultHttpHeaders(boolean) in DefaultHttpHeaders has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/HttpConversionUtilTest.java:[220,26] [deprecation] DefaultHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/HttpConversionUtilTest.java:[236,26] [deprecation] DefaultHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/HttpToHttp2ConnectionHandlerTest.java:[104,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[109,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[140,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[172,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[208,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[266,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[299,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[336,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[370,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[414,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[416,41] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[465,41] [deprecation] DefaultFullHttpResponse(HttpVersion,HttpResponseStatus,ByteBuf,boolean) in DefaultFullHttpResponse has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[467,42] [deprecation] DefaultFullHttpResponse(HttpVersion,HttpResponseStatus,ByteBuf,boolean) in DefaultFullHttpResponse has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[469,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[538,40] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[722,32] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandlerAdapter has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/InboundHttp2ToHttpAdapterTest.java:[728,33] [deprecation] exceptionCaught(ChannelHandlerContext,Throwable) in ChannelHandlerAdapter has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/StreamBufferingEncoderTest.java:[106,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/UniformStreamByteDistributorTest.java:[69,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/WeightedFairQueueByteDistributorDependencyTreeTest.java:[47,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/src/test/java/io/netty/handler/codec/http2/WeightedFairQueueByteDistributorTest.java:[53,26] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-http2 ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-http2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-http2 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-http2 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-http2 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-http2 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-http2 ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-http2 ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-http2/target/netty-codec-http2-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------< io.netty:netty-transport-classes-epoll >---------------
+[INFO] Building Netty/Transport/Classes/Epoll 4.2.10.2-codexcoder21     [22/45]
+[INFO]   from transport-classes-epoll/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-classes-epoll ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-classes-epoll ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-classes-epoll ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-classes-epoll ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-classes-epoll ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-classes-epoll ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-classes-epoll ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-classes-epoll ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 37 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/LinuxSocket.java:[20,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDatagramChannel.java:[31,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollEventLoop.java:[19,23] [deprecation] EventLoopTaskQueueFactory in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollEventLoopGroup.java:[20,23] [deprecation] EventLoopTaskQueueFactory in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollServerSocketChannel.java:[19,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollSocketChannel.java:[22,30] [deprecation] InternetProtocolFamily in io.netty.channel.socket has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollChannelConfig.java:[64,64] [deprecation] EPOLL_MODE in EpollChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollChannelConfig.java:[70,40] [deprecation] EPOLL_MODE in EpollChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollChannelConfig.java:[94,40] [deprecation] EPOLL_MODE in EpollChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollChannelConfig.java:[95,26] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/NativeDatagramPacketArray.java:[45,38] [deprecation] IovArray() in IovArray has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/AbstractEpollStreamChannel.java:[867,54] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/AbstractEpollStreamChannel.java:[869,81] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/AbstractEpollStreamChannel.java:[906,52] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/AbstractEpollStreamChannel.java:[1012,52] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java:[412,38] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java:[412,51] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java:[413,13] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainDatagramChannelConfig.java:[113,44] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainDatagramChannelConfig.java:[113,57] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainDatagramChannelConfig.java:[114,13] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainSocketChannelConfig.java:[158,42] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainSocketChannelConfig.java:[158,55] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainSocketChannelConfig.java:[159,13] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/NativeArrays.java:[31,23] [deprecation] IovArray() in IovArray has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollServerChannelConfig.java:[230,36] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollServerChannelConfig.java:[230,49] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollServerChannelConfig.java:[231,13] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java:[685,36] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java:[685,49] [deprecation] EpollMode in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java:[686,13] [deprecation] setEpollMode(EpollMode) in EpollChannelConfig has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-classes-epoll ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-classes-epoll ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-classes-epoll:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-transport-classes-epoll ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.transport.classes.epoll"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.channel.epoll"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-classes-epoll ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-classes-epoll ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/src/test/java/io/netty/channel/epoll/LoadClassTest.java:[39,20] [deprecation] EpollEventLoopGroup in io.netty.channel.epoll has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-classes-epoll ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-classes-epoll ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-classes-epoll ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-classes-epoll ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-classes-epoll ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-classes-epoll ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-classes-epoll ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-classes-epoll ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] -----------------< io.netty:netty-codec-classes-quic >------------------
+[INFO] Building Netty/Codec/Classes/Quic 4.2.10.2-codexcoder21          [23/45]
+[INFO]   from codec-classes-quic/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-classes-quic ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-classes-quic ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-classes-quic ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-classes-quic ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-classes-quic ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-classes-quic ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-classes-quic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-classes-quic ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 105 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicheQuicSslContext.java:[19,27] [deprecation] ApplicationProtocolNegotiator in io.netty.handler.ssl has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/EpollQuicUtils.java:[19,29] [deprecation] SegmentedDatagramPacket in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicheQuicSslContext.java:[409,11] [deprecation] ApplicationProtocolNegotiator in io.netty.handler.ssl has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicChannel.java:[334,15] [deprecation] QuicChannelBootstrap(Channel) in QuicChannelBootstrap has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicStreamChannelConfig.java:[52,28] [deprecation] setMaxMessagesPerRead(int) in DuplexChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicStreamChannelConfig.java:[52,28] [deprecation] setMaxMessagesPerRead(int) in ChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/EpollQuicUtils.java:[41,12] [deprecation] SegmentedDatagramPacket in io.netty.channel.epoll has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicheQuicStreamChannelConfig.java:[94,35] [deprecation] setMaxMessagesPerRead(int) in DefaultChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/io/netty/handler/codec/quic/QuicheQuicStreamChannelConfig.java:[95,13] [deprecation] setMaxMessagesPerRead(int) in DefaultChannelConfig has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-classes-quic ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-classes-quic ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-classes-quic:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-classes-quic ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.classes.quic"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.quic"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-classes-quic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-classes-quic ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-classes-quic ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-classes-quic ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-classes-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-classes-quic ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-classes-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-classes-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-classes-quic ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-classes-quic ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/codec-classes-quic/target/netty-codec-classes-quic-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------------< io.netty:netty-transport-sctp >--------------------
+[INFO] Building Netty/Transport/SCTP 4.2.10.2-codexcoder21              [24/45]
+[INFO]   from transport-sctp/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-sctp ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-sctp ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-sctp ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-sctp ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-sctp ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-sctp ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-sctp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-sctp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 32 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/main/java/io/netty/channel/sctp/oio/OioSctpChannel.java:[31,27] [deprecation] AbstractOioMessageChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/main/java/io/netty/channel/sctp/oio/OioSctpServerChannel.java:[25,27] [deprecation] AbstractOioMessageChannel in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/main/java/io/netty/channel/sctp/nio/NioSctpChannel.java:[268,28] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-sctp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-sctp ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-sctp:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[WARNING] Manifest io.netty:netty-transport-sctp:jar:4.2.10.2-codexcoder21 : Export io.netty.channel.sctp,  has 1,  private references [com.sun.nio.sctp]
+[WARNING] Manifest io.netty:netty-transport-sctp:jar:4.2.10.2-codexcoder21 : Export io.netty.channel.sctp.nio,  has 1,  private references [com.sun.nio.sctp]
+[WARNING] Manifest io.netty:netty-transport-sctp:jar:4.2.10.2-codexcoder21 : Export io.netty.channel.sctp.oio,  has 1,  private references [com.sun.nio.sctp]
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-sctp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-sctp ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/test/java/io/netty/channel/sctp/oio/OioSctpLimitStreamsTest.java:[19,27] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/test/java/io/netty/channel/sctp/oio/OioSctpLimitStreamsTest.java:[27,19] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/test/java/io/netty/channel/sctp/oio/OioSctpLimitStreamsTest.java:[32,15] [deprecation] OioSctpChannel in io.netty.channel.sctp.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/src/test/java/io/netty/channel/sctp/oio/OioSctpLimitStreamsTest.java:[37,15] [deprecation] OioSctpServerChannel in io.netty.channel.sctp.oio has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-sctp ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-sctp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-sctp ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-sctp ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-sctp ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-sctp ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-sctp ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-sctp ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-sctp/target/netty-transport-sctp-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --------------------< io.netty:netty-transport-udt >--------------------
+[INFO] Building Netty/Transport/UDT 4.2.10.2-codexcoder21               [25/45]
+[INFO]   from transport-udt/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-bundle/2.3.0/barchart-udt-bundle-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-bundle/2.3.0/barchart-udt-bundle-2.3.0.pom (8.2 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-archon/2.3.0/barchart-udt-archon-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-archon/2.3.0/barchart-udt-archon-2.3.0.pom (12 kB at 372 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/barchart/base/barchart-archon/2.5.10/barchart-archon-2.5.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/barchart/base/barchart-archon/2.5.10/barchart-archon-2.5.10.pom (60 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/caliper/caliper/0.5-rc1/caliper-0.5-rc1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/caliper/caliper/0.5-rc1/caliper-0.5-rc1.pom (4.3 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.1/guava-11.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.1/guava-11.0.1.pom (5.5 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/11.0.1/guava-parent-11.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/11.0.1/guava-parent-11.0.1.pom (2.0 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/java-allocation-instrumenter/java-allocation-instrumenter/2.0/java-allocation-instrumenter-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/java-allocation-instrumenter/java-allocation-instrumenter/2.0/java-allocation-instrumenter-2.0.pom (5.2 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom (4.1 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 9.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.3.1/asm-analysis-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.3.1/asm-analysis-3.3.1.pom (419 B at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom (406 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.pom (417 B at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.3.1/asm-util-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.3.1/asm-util-3.3.1.pom (411 B at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-xml/3.3.1/asm-xml-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-xml/3.3.1/asm-xml-3.3.1.pom (409 B at 7.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/r08/guava-r08.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/r08/guava-r08.pom (3.1 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-bundle/2.3.0/barchart-udt-bundle-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/barchart/udt/barchart-udt-bundle/2.3.0/barchart-udt-bundle-2.3.0.jar (1.8 MB at 35 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/caliper/caliper/0.5-rc1/caliper-0.5-rc1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.1/guava-11.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/java-allocation-instrumenter/java-allocation-instrumenter/2.0/java-allocation-instrumenter-2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.3.1/asm-analysis-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/11.0.1/guava-11.0.1.jar (1.6 MB at 37 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.3.1/asm-analysis-3.3.1.jar (18 kB at 408 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/java-allocation-instrumenter/java-allocation-instrumenter/2.0/java-allocation-instrumenter-2.0.jar (21 kB at 411 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.3.1/asm-util-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/caliper/caliper/0.5-rc1/caliper-0.5-rc1.jar (122 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-xml/3.3.1/asm-xml-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar (22 kB at 303 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar (38 kB at 525 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-xml/3.3.1/asm-xml-3.3.1.jar (50 kB at 584 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 501 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.3.1/asm-util-3.3.1.jar (37 kB at 411 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-udt ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-udt ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-udt ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-udt ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-udt ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-udt ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-udt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-udt ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 16 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java:[35,34] [deprecation] UdtChannelOption in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java:[36,34] [deprecation] UdtChannelOption in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java:[37,34] [deprecation] UdtChannelOption in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java:[38,34] [deprecation] UdtChannelOption in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/UdtChannel.java:[19,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/UdtMessage.java:[21,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/UdtServerChannel.java:[19,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtAcceptorChannel.java:[26,27] [deprecation] DefaultUdtServerChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtAcceptorChannel.java:[27,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtAcceptorChannel.java:[28,27] [deprecation] UdtServerChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtAcceptorChannel.java:[29,27] [deprecation] UdtServerChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtByteAcceptorChannel.java:[20,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtByteConnectorChannel.java:[28,27] [deprecation] DefaultUdtChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtByteConnectorChannel.java:[29,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtByteConnectorChannel.java:[30,27] [deprecation] UdtChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageAcceptorChannel.java:[20,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageConnectorChannel.java:[29,27] [deprecation] DefaultUdtChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageConnectorChannel.java:[30,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageConnectorChannel.java:[31,27] [deprecation] UdtChannelConfig in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageConnectorChannel.java:[32,27] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtMessageRendezvousChannel.java:[19,27] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtProvider.java:[29,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/main/java/io/netty/channel/udt/nio/NioUdtProvider.java:[30,27] [deprecation] UdtServerChannel in io.netty.channel.udt has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-udt ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-udt ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-udt:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-udt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-udt ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 14 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteAcceptorChannelTest.java:[19,31] [deprecation] NioUdtByteAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteConnectorChannelTest.java:[19,31] [deprecation] NioUdtByteConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[24,31] [deprecation] NioUdtByteRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[25,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageAcceptorChannelTest.java:[19,31] [deprecation] NioUdtMessageAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageConnectorChannelTest.java:[19,31] [deprecation] NioUdtMessageConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[24,31] [deprecation] NioUdtMessageRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[25,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[19,27] [deprecation] UdtServerChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[20,31] [deprecation] NioUdtByteAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[21,31] [deprecation] NioUdtByteConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[22,31] [deprecation] NioUdtByteRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[23,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[24,31] [deprecation] NioUdtMessageAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[25,31] [deprecation] NioUdtMessageConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[26,31] [deprecation] NioUdtMessageRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoByteHandler.java:[23,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[23,27] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[24,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteAcceptorChannelTest.java:[31,24] [deprecation] NioUdtByteAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteConnectorChannelTest.java:[31,24] [deprecation] NioUdtByteConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[50,24] [deprecation] NioUdtByteRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[70,77] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[72,77] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[76,29] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtByteRendezvousChannelTest.java:[83,29] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageAcceptorChannelTest.java:[31,24] [deprecation] NioUdtMessageAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageConnectorChannelTest.java:[31,24] [deprecation] NioUdtMessageConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[51,24] [deprecation] NioUdtMessageRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[75,77] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[77,77] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[81,29] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtMessageRendezvousChannelTest.java:[86,29] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[39,8] [deprecation] NioUdtByteAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[40,19] [deprecation] NioUdtByteAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[40,46] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[41,8] [deprecation] NioUdtByteConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[42,19] [deprecation] NioUdtByteConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[42,47] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[43,8] [deprecation] NioUdtByteRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[44,19] [deprecation] NioUdtByteRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[44,48] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[45,8] [deprecation] NioUdtMessageAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[46,19] [deprecation] NioUdtMessageAcceptorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[46,49] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[47,8] [deprecation] NioUdtMessageConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[48,19] [deprecation] NioUdtMessageConnectorChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[48,50] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[49,8] [deprecation] NioUdtMessageRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[50,19] [deprecation] NioUdtMessageRendezvousChannel in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[50,51] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[63,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[64,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[65,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[66,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[67,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[68,22] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[71,25] [deprecation] UdtServerChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[71,49] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[72,25] [deprecation] UdtServerChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/nio/NioUdtProviderTest.java:[72,49] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoByteHandler.java:[56,35] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[37,18] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[48,22] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[53,35] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/src/test/java/io/netty/test/udt/util/EchoMessageHandler.java:[65,21] [deprecation] UdtMessage in io.netty.channel.udt has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-udt ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-udt ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-udt ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-udt ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-udt ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-udt ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-udt ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-udt ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-udt/target/netty-transport-udt-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] ----------------------< io.netty:netty-testsuite >----------------------
+[INFO] Building Netty/Testsuite 4.2.10.2-codexcoder21                   [26/45]
+[INFO]   from testsuite/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-testsuite ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-testsuite ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-testsuite ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-testsuite ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-testsuite ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-testsuite ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-testsuite ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-testsuite ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 60 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/DefaultEventLoopTest.java:[19,23] [deprecation] DefaultEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/NioEventLoopTest.java:[22,27] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[23,27] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[26,32] [deprecation] OioSctpChannel in io.netty.channel.sctp.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[27,32] [deprecation] OioSctpServerChannel in io.netty.channel.sctp.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/DatagramConnectNotExistsTest.java:[24,34] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/DatagramMulticastTest.java:[28,34] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketConnectionAttemptTest.java:[25,34] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[27,27] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[32,34] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[33,34] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[34,34] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketHalfClosedTest.java:[33,27] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[25,43] [deprecation] ClassResolvers in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[26,43] [deprecation] ObjectDecoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[27,43] [deprecation] ObjectEncoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketShutdownOutputBySelfTest.java:[28,34] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslClientRenegotiateTest.java:[28,27] [deprecation] JdkSslClientContext in io.netty.handler.ssl has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[30,27] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[31,31] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/AbstractSingleThreadEventLoopTest.java:[304,47] [deprecation] threadLocalRandom() in PlatformDependent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/DefaultEventLoopTest.java:[62,19] [deprecation] DefaultEventLoopGroup in io.netty.channel has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/NioEventLoopTest.java:[38,19] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/NioEventLoopTest.java:[43,19] [deprecation] NioEventLoopGroup in io.netty.channel.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[43,16] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[65,32] [deprecation] OioSctpServerChannel in io.netty.channel.sctp.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/sctp/SctpTestPermutation.java:[87,64] [deprecation] OioSctpChannel in io.netty.channel.sctp.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/DatagramConnectNotExistsTest.java:[77,45] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/DatagramMulticastTest.java:[100,30] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/DatagramUnicastTest.java:[277,44] [deprecation] DATAGRAM_CHANNEL_ACTIVE_ON_REGISTRATION in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[69,16] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[159,68] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[183,37] [deprecation] OioServerSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[204,68] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketTestPermutation.java:[228,68] [deprecation] OioDatagramChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketEchoTest.java:[178,32] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketEchoTest.java:[184,32] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketHalfClosedTest.java:[68,58] [deprecation] OioEventLoopGroup in io.netty.channel.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[93,28] [deprecation] ObjectDecoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[93,42] [deprecation] ClassResolvers in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[94,28] [deprecation] ObjectEncoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[103,28] [deprecation] ObjectDecoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[103,42] [deprecation] ClassResolvers in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketObjectEchoTest.java:[104,28] [deprecation] ObjectEncoder in io.netty.handler.codec.serialization has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketShutdownOutputBySelfTest.java:[171,38] [deprecation] OioSocketChannel in io.netty.channel.socket.oio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslClientRenegotiateTest.java:[89,31] [deprecation] JdkSslClientContext in io.netty.handler.ssl has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslClientRenegotiateTest.java:[89,27] [deprecation] JdkSslClientContext(File) in JdkSslClientContext has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslClientRenegotiateTest.java:[93,43] [deprecation] OpenSslServerContext(File,File) in OpenSslServerContext has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketStartTlsTest.java:[185,17] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketStartTlsTest.java:[195,17] [deprecation] addLast(EventExecutorGroup,ChannelHandler...) in ChannelPipeline has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[78,59] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[82,56] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[85,61] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[81,40] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[203,53] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[207,61] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[209,61] [deprecation] UdtChannel in io.netty.channel.udt has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/main/java/io/netty/testsuite/transport/udt/UDTClientServerConnectionTest.java:[206,40] [deprecation] NioUdtProvider in io.netty.channel.udt.nio has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-testsuite ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-testsuite ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-testsuite:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-testsuite ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-testsuite ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-testsuite ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-testsuite ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-testsuite ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-testsuite ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-testsuite ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-testsuite ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-testsuite ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-testsuite ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/testsuite/target/netty-testsuite-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------< io.netty:netty-transport-native-unix-common-tests >----------
+[INFO] Building Netty/Transport/Native/Unix/Common/Tests 4.2.10.2-codexcoder21 [27/45]
+[INFO]   from transport-native-unix-common-tests/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-native-unix-common-tests ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-native-unix-common-tests ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-native-unix-common-tests ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-native-unix-common-tests ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-native-unix-common-tests ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-native-unix-common-tests ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-native-unix-common-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-native-unix-common-tests ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest.java:[75,40] [deprecation] MAX_MESSAGES_PER_READ in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest.java:[159,35] [deprecation] MAX_MESSAGES_PER_READ in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/IovArrayTest.java:[34,25] [deprecation] IovArray(ByteBuf) in IovArray has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-native-unix-common-tests ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-native-unix-common-tests ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-native-unix-common-tests:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-transport-native-unix-common-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-transport-native-unix-common-tests ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-transport-native-unix-common-tests ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-transport-native-unix-common-tests ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-transport-native-unix-common-tests ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-transport-native-unix-common-tests ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-transport-native-unix-common-tests ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-transport-native-unix-common-tests ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-transport-native-unix-common-tests ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-transport-native-unix-common-tests ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] ---------------< io.netty:netty-transport-native-epoll >----------------
+[INFO] Building Netty/Transport/Native/Epoll 4.2.10.2-codexcoder21      [28/45]
+[INFO]   from transport-native-epoll/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-maven-plugin/1.18/hawtjni-maven-plugin-1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-maven-plugin/1.18/hawtjni-maven-plugin-1.18.pom (5.9 kB at 183 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-project/1.18/hawtjni-project-1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-project/1.18/hawtjni-project-1.18.pom (9.6 kB at 384 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-maven-plugin/1.18/hawtjni-maven-plugin-1.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-maven-plugin/1.18/hawtjni-maven-plugin-1.18.jar (50 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/artsok/rerunner-jupiter/2.1.6/rerunner-jupiter-2.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/artsok/rerunner-jupiter/2.1.6/rerunner-jupiter-2.1.6.pom (9.0 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.4.2/junit-bom-5.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.4.2/junit-bom-5.4.2.pom (4.4 kB at 210 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/artsok/rerunner-jupiter/2.1.6/rerunner-jupiter-2.1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/artsok/rerunner-jupiter/2.1.6/rerunner-jupiter-2.1.6.jar (38 kB at 1.4 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-transport-native-epoll ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-transport-native-epoll ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-transport-native-epoll ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-transport-native-epoll ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-transport-native-epoll ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-transport-native-epoll ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: 6e9dcc994 on 2026-10-15 06:52:36 -0700
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- dependency:2.10:unpack-dependencies (unpack) @ netty-transport-native-epoll ---
+[INFO] Unpacking /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-unix-common/target/netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/unix-common-lib with includes "META-INF/native/**" and excludes ""
+[INFO] 
+[INFO] --- build-helper:1.10:add-source (default) @ netty-transport-native-epoll ---
+[INFO] Source directory: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/src/main/c added.
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-transport-native-epoll ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-transport-native-epoll ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-transport-native-epoll ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-transport-native-epoll ---
+[INFO] Using module name "io.netty.transport.epoll.linux.x86_64"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- module-info:2.2:generate (fallback-module-info) @ netty-transport-native-epoll ---
+[INFO] Using module name "io.netty.transport.epoll"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/fallback-classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- hawtjni:1.18:generate (build-native-lib) @ netty-transport-native-epoll ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-generator/1.18/hawtjni-generator-1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-generator/1.18/hawtjni-generator-1.18.pom (2.1 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.pom (3.0 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom (26 kB at 912 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom (4.1 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom (5.3 kB at 214 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.pom (2.4 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.pom (4.2 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.4/sisu-plexus-0.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.4/sisu-plexus-0.3.4.pom (14 kB at 473 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.pom (2.6 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.4/sisu-inject-0.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.4/sisu-inject-0.3.4.pom (14 kB at 424 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.pom (2.8 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.11/maven-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.11/maven-2.0.11.pom (22 kB at 662 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/12/maven-parent-12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/12/maven-parent-12.pom (22 kB at 725 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.pom (2.2 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.11/maven-model-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.11/maven-model-2.0.11.pom (3.2 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom (1.4 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.pom (2.0 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.pom (2.6 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.pom (2.3 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.pom (1.6 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.pom (1.9 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4/maven-archiver-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4/maven-archiver-2.4.pom (3.4 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom (8.8 kB at 302 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0/maven-model-2.0.pom (2.4 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0/maven-project-2.0.pom (1.6 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom (1.4 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom (1.3 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom (1.2 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-11/plexus-archiver-1.0-alpha-11.pom (1.8 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (2.4 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-15/plexus-container-default-1.0-alpha-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-15/plexus-container-default-1.0-alpha-15.pom (1.7 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-15/plexus-containers-1.0-alpha-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-15/plexus-containers-1.0-alpha-15.pom (1.9 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.pom (948 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-6/plexus-classworlds-1.2-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-6/plexus-classworlds-1.2-alpha-6.pom (2.4 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-3/plexus-io-1.0-alpha-3.pom (1.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-16/plexus-component-api-1.0-alpha-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-api/1.0-alpha-16/plexus-component-api-1.0-alpha-16.pom (2.2 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-16/plexus-containers-1.0-alpha-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-16/plexus-containers-1.0-alpha-16.pom (1.9 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (2.3 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (2.9 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom (4.4 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom (24 kB at 820 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-generator/1.18/hawtjni-generator-1.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-generator/1.18/hawtjni-generator-1.18.jar (781 kB at 14 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar (47 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.jar (123 kB at 4.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar (205 kB at 5.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar (379 kB at 9.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.jar (51 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.jar (37 kB at 652 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.jar (31 kB at 511 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4/maven-archiver-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.jar (58 kB at 791 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.jar (26 kB at 346 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.jar (90 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4/maven-archiver-2.4.jar (20 kB at 226 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar (215 kB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar (194 kB at 1.6 MB/s)
+[INFO] executing: /bin/sh -c './autogen.sh'
+[INFO] auto reconf...
+[INFO] autom4te: error: m4sugar/m4sugar.m4: no such file or directory
+[INFO] aclocal-1.16: error: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/toolchain/root/usr/bin/autom4te failed with exit status: 1
+[INFO] autoreconf: error: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/toolchain/root/usr/bin/aclocal-1.16 failed with exit status: 1
+[INFO] rc: 1
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-transport-native-epoll ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-native-epoll:jar:4.2.10.2-codexcoder21 : Unused Export-Package instructions: [io.netty.*] 
+[WARNING] Manifest io.netty:netty-transport-native-epoll:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[WARNING] Manifest io.netty:netty-transport-native-epoll:jar:4.2.10.2-codexcoder21 : Classes found in the wrong directory: {META-INF/versions/11/module-info.class=module-info}
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (native-manifest) @ netty-transport-native-epoll ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-transport-native-epoll:jar:4.2.10.2-codexcoder21 : Unused Export-Package instructions: [io.netty.*] 
+[WARNING] Manifest io.netty:netty-transport-native-epoll:jar:4.2.10.2-codexcoder21 : Classes found in the wrong directory: {META-INF/versions/11/module-info.class=module-info}
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/netty/transport-native-epoll/target/linux-x86_64/MANIFEST.MF
+[INFO] 
+[INFO] --- hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-native-src.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Netty 4.2.10.2-codexcoder21:
+[INFO] 
+[INFO] Netty .............................................. SUCCESS [ 19.347 s]
+[INFO] Netty/JFR Stub ..................................... SUCCESS [  5.496 s]
+[INFO] Netty/VarHandle Stub ............................... SUCCESS [  1.832 s]
+[INFO] Netty/Dev-Tools .................................... SUCCESS [  2.301 s]
+[INFO] Netty/Common ....................................... SUCCESS [ 43.495 s]
+[INFO] Netty/Testsuite/Common ............................. SUCCESS [  3.002 s]
+[INFO] Netty/Buffer ....................................... SUCCESS [ 25.358 s]
+[INFO] Netty/Resolver ..................................... SUCCESS [ 10.882 s]
+[INFO] Netty/Transport .................................... SUCCESS [ 29.734 s]
+[INFO] Netty/Codec/Base ................................... SUCCESS [ 10.410 s]
+[INFO] Netty/Codec/Compression ............................ SUCCESS [ 11.240 s]
+[INFO] Netty/Codec/Protobuf ............................... SUCCESS [  5.592 s]
+[INFO] Netty/Codec/Marshalling ............................ SUCCESS [  4.359 s]
+[INFO] Netty/Codec ........................................ SUCCESS [  0.401 s]
+[INFO] Netty/Codec/DNS .................................... SUCCESS [ 10.486 s]
+[INFO] Netty/Codec/HAProxy ................................ SUCCESS [  5.432 s]
+[INFO] Netty/Transport/Native/Unix/Common ................. SUCCESS [ 10.411 s]
+[INFO] Netty/PKITesting ................................... SUCCESS [  8.777 s]
+[INFO] Netty/Handler ...................................... SUCCESS [ 34.770 s]
+[INFO] Netty/Codec/HTTP ................................... SUCCESS [ 26.786 s]
+[INFO] Netty/Codec/HTTP2 .................................. SUCCESS [ 24.369 s]
+[INFO] Netty/Transport/Classes/Epoll ...................... SUCCESS [  7.130 s]
+[INFO] Netty/Codec/Classes/Quic ........................... SUCCESS [  7.308 s]
+[INFO] Netty/Transport/SCTP ............................... SUCCESS [  4.736 s]
+[INFO] Netty/Transport/UDT ................................ SUCCESS [  4.375 s]
+[INFO] Netty/Testsuite .................................... SUCCESS [  5.494 s]
+[INFO] Netty/Transport/Native/Unix/Common/Tests ........... SUCCESS [  1.871 s]
+[INFO] Netty/Transport/Native/Epoll ....................... FAILURE [  4.494 s]
+[INFO] Netty/Codec/Native/Quic ............................ SKIPPED
+[INFO] Netty/Codec/Http3 .................................. SKIPPED
+[INFO] Netty/Codec/Memcache ............................... SKIPPED
+[INFO] Netty/Codec/MQTT ................................... SKIPPED
+[INFO] Netty/Codec/Redis .................................. SKIPPED
+[INFO] Netty/Codec/SMTP ................................... SKIPPED
+[INFO] Netty/Codec/Socks .................................. SKIPPED
+[INFO] Netty/Codec/Stomp .................................. SKIPPED
+[INFO] Netty/Codec/XML .................................... SKIPPED
+[INFO] Netty/Handler/Proxy ................................ SKIPPED
+[INFO] Netty/Resolver/DNS ................................. SKIPPED
+[INFO] Netty/Handler/Ssl/Ocsp ............................. SKIPPED
+[INFO] Netty/Transport/RXTX ............................... SKIPPED
+[INFO] Netty/Transport/Classes/KQueue ..................... SKIPPED
+[INFO] Netty/Resolver/DNS/Classes/MacOS ................... SKIPPED
+[INFO] Netty/Transport/Classes/io_uring ................... SKIPPED
+[INFO] Netty/All-in-One ................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:55 min
+[INFO] Finished at: 2026-10-15T14:01:52Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.fusesource.hawtjni:hawtjni-maven-plugin:1.18:build (build-native-lib) on project netty-transport-native-epoll: build failed: org.apache.maven.plugin.MojoExecutionException: Requested download does not exist. The following artifacts could not be resolved: io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 (absent): Could not find artifact io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 in central (https://repo.maven.apache.org/maven2)
+[ERROR] 
+[ERROR] Try downloading the file manually from the project website.
+[ERROR] 
+[ERROR] Then, install it using the command: 
+[ERROR]     mvn install:install-file -DgroupId=io.netty -DartifactId=netty-transport-native-epoll -Dversion=4.2.10.2-codexcoder21 -Dclassifier=native-src -Dpackaging=zip -Dfile=/path/to/file
+[ERROR] 
+[ERROR] Alternatively, if you host your own repository you can deploy the file there: 
+[ERROR]     mvn deploy:deploy-file -DgroupId=io.netty -DartifactId=netty-transport-native-epoll -Dversion=4.2.10.2-codexcoder21 -Dclassifier=native-src -Dpackaging=zip -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+[ERROR] 
+[ERROR] 
+[ERROR]   io.netty:netty-transport-native-epoll:zip:4.2.10.2-codexcoder21
+[ERROR] 
+[ERROR] from the specified remote repositories:
+[ERROR]   sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, releases=false, snapshots=true),
+[ERROR]   central (https://repo.maven.apache.org/maven2, releases=true, snapshots=false)
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.fusesource.hawtjni:hawtjni-maven-plugin:1.18:build (build-native-lib) on project netty-transport-native-epoll: build failed: org.apache.maven.plugin.MojoExecutionException: Requested download does not exist.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+Caused by: org.apache.maven.plugin.MojoExecutionException: build failed: org.apache.maven.plugin.MojoExecutionException: Requested download does not exist.
+    at org.fusesource.hawtjni.maven.BuildMojo.execute (BuildMojo.java:230)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Requested download does not exist.
+    at org.fusesource.hawtjni.maven.BuildMojo.downloadNativeSourcePackage (BuildMojo.java:386)
+    at org.fusesource.hawtjni.maven.BuildMojo.configureBasedBuild (BuildMojo.java:308)
+    at org.fusesource.hawtjni.maven.BuildMojo.execute (BuildMojo.java:221)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+Caused by: org.apache.maven.artifact.resolver.ArtifactNotFoundException: The following artifacts could not be resolved: io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 (absent): Could not find artifact io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 in central (https://repo.maven.apache.org/maven2)
+
+Try downloading the file manually from the project website.
+
+Then, install it using the command: 
+    mvn install:install-file -DgroupId=io.netty -DartifactId=netty-transport-native-epoll -Dversion=4.2.10.2-codexcoder21 -Dclassifier=native-src -Dpackaging=zip -Dfile=/path/to/file
+
+Alternatively, if you host your own repository you can deploy the file there: 
+    mvn deploy:deploy-file -DgroupId=io.netty -DartifactId=netty-transport-native-epoll -Dversion=4.2.10.2-codexcoder21 -Dclassifier=native-src -Dpackaging=zip -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+
+  io.netty:netty-transport-native-epoll:zip:4.2.10.2-codexcoder21
+
+from the specified remote repositories:
+  sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, releases=false, snapshots=true),
+  central (https://repo.maven.apache.org/maven2, releases=true, snapshots=false)
+
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:200)
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolveAlways (DefaultArtifactResolver.java:152)
+    at org.fusesource.hawtjni.maven.BuildMojo.downloadNativeSourcePackage (BuildMojo.java:382)
+    at org.fusesource.hawtjni.maven.BuildMojo.configureBasedBuild (BuildMojo.java:308)
+    at org.fusesource.hawtjni.maven.BuildMojo.execute (BuildMojo.java:221)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 (absent): Could not find artifact io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 in central (https://repo.maven.apache.org/maven2)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:473)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:278)
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:197)
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolveAlways (DefaultArtifactResolver.java:152)
+    at org.fusesource.hawtjni.maven.BuildMojo.downloadNativeSourcePackage (BuildMojo.java:382)
+    at org.fusesource.hawtjni.maven.BuildMojo.configureBasedBuild (BuildMojo.java:308)
+    at org.fusesource.hawtjni.maven.BuildMojo.execute (BuildMojo.java:221)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact io.netty:netty-transport-native-epoll:zip:native-src:4.2.10.2-codexcoder21 in central (https://repo.maven.apache.org/maven2)
+    at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed (ArtifactTransportListener.java:42)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:417)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:260)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:537)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:449)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact (DefaultRepositorySystem.java:278)
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:197)
+    at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolveAlways (DefaultArtifactResolver.java:152)
+    at org.fusesource.hawtjni.maven.BuildMojo.downloadNativeSourcePackage (BuildMojo.java:382)
+    at org.fusesource.hawtjni.maven.BuildMojo.configureBasedBuild (BuildMojo.java:308)
+    at org.fusesource.hawtjni.maven.BuildMojo.execute (BuildMojo.java:221)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:52)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:161)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:73)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :netty-transport-native-epoll

@@ -1,0 +1,20 @@
+[
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "classifier": "linux-x86_64",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.1-codexcoder21/netty-transport-native-unix-common-4.2.10.1-codexcoder21-linux-x86_64.jar",
+    "status": 200
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "classifier": "linux-x86_64",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.1-codexcoder21/netty-transport-native-epoll-4.2.10.1-codexcoder21-linux-x86_64.jar",
+    "status": 200
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "classifier": "linux-x86_64",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.1-codexcoder21/netty-codec-native-quic-4.2.10.1-codexcoder21-linux-x86_64.jar",
+    "status": 200
+  }
+]
