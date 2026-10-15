@@ -1,0 +1,15 @@
+START 1/13 testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot
+RESULT {"index": 1, "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot", "exit_code": 1, "seconds": 71.483, "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log", "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"}
+START 2/13 testProtocolRootCloseCallerRacingEventLoopShutdown
+RESULT {"index": 2, "name": "testProtocolRootCloseCallerRacingEventLoopShutdown", "exit_code": 1, "seconds": 14.804, "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.log", "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"}
+START 3/13 testProtocolRootCloseCallerRacingEventLoopShutdown
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/run_urlprotocol_verification.py", line 19, in <module>
+    try:p.wait(timeout=min(600,hard_deadline-time.time()))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 1262, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 1991, in _wait
+    time.sleep(delay)
+KeyboardInterrupt

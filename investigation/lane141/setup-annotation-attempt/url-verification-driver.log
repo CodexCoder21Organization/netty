@@ -1,0 +1,4 @@
+START 1/13 testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot
+RESULT {"index": 1, "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot", "exit_code": 1, "seconds": 15.221, "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log", "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"}
+PROBLEM: stopping prescribed gate on a nonzero invocation; no retry
+TOTAL {"invocations": 1, "passed": 0, "failed": 1}

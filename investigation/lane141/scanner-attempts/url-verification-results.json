@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot",
+    "exit_code": 1,
+    "seconds": 71.483,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"
+  },
+  {
+    "index": 2,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "exit_code": 1,
+    "seconds": 14.804,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  }
+]

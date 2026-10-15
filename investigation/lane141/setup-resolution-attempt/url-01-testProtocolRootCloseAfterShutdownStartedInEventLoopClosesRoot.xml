@@ -1,0 +1,388 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="false" time="34537" output-files="0" output-bytes="0">
+    <error>Build rule &apos;foundation.url.protocol.buildMaven()&apos; failed with exit code 1.
+Execution failed for CmdKt.command
+Exception: java.lang.RuntimeException: Build script failed with exit code: 1
+Class: CmdKt
+Method: command
+Arguments: 
+=== stderr (tail) ===
+21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom]
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries(CoursierFetchGuard.kt:91)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries$default(CoursierFetchGuard.kt:52)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:848)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:100)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.FileBackedResolvedClosureStore.getOrCompute(ResolvedClosureStore.kt:200)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure$lambda$4(ResolvedClosureStore.kt:93)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.JvmBuildRulesKt.materializeFetchedArtifacts(JvmBuildRules.kt:441)
+	at build.kotlin.jvm.JvmBuildRulesKt.mediatePrebuiltsViaCoursier(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.JvmBuildRulesKt.resolveDependencies2(JvmBuildRules.kt:893)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.&lt;clinit&gt;(foundation_url_protocol_buildkts.kt:17)
+	at CmdKt.command(cmd.kt:1)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.main(BuildscriptRunner.java:509)
+Caused by: coursierapi.error.MultipleResolutionError: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+
+	at coursierapi.error.MultipleResolutionError.of(MultipleResolutionError.java:28)
+	at coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:506)
+	at coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:239)
+	at coursierapi.Fetch.fetch(Fetch.java:234)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchWithProgressAwareBackstop$lambda$2(CoursierFetchGuard.kt:143)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: coursier.error.ResolutionError$Several: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+	at coursier.error.ResolutionError$.from(ResolutionError.scala:170)
+	at coursier.Resolve.validate0$1(Resolve.scala:233)
+	at coursier.Resolve.$anonfun$ioWithConflicts0$6(Resolve.scala:281)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+	at coursier.util.Task$.wrap(Task.scala:82)
+	at coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+
+Stack trace:
+java.lang.RuntimeException: Build script failed with exit code: 1
+Class: CmdKt
+Method: command
+Arguments: 
+=== stderr (tail) ===
+21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom]
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries(CoursierFetchGuard.kt:91)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries$default(CoursierFetchGuard.kt:52)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:848)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:100)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.FileBackedResolvedClosureStore.getOrCompute(ResolvedClosureStore.kt:200)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure$lambda$4(ResolvedClosureStore.kt:93)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.JvmBuildRulesKt.materializeFetchedArtifacts(JvmBuildRules.kt:441)
+	at build.kotlin.jvm.JvmBuildRulesKt.mediatePrebuiltsViaCoursier(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.JvmBuildRulesKt.resolveDependencies2(JvmBuildRules.kt:893)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.&lt;clinit&gt;(foundation_url_protocol_buildkts.kt:17)
+	at CmdKt.command(cmd.kt:1)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.main(BuildscriptRunner.java:509)
+Caused by: coursierapi.error.MultipleResolutionError: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+
+	at coursierapi.error.MultipleResolutionError.of(MultipleResolutionError.java:28)
+	at coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:506)
+	at coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:239)
+	at coursierapi.Fetch.fetch(Fetch.java:234)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchWithProgressAwareBackstop$lambda$2(CoursierFetchGuard.kt:143)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: coursier.error.ResolutionError$Several: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+	at coursier.error.ResolutionError$.from(ResolutionError.scala:170)
+	at coursier.Resolve.validate0$1(Resolve.scala:233)
+	at coursier.Resolve.$anonfun$ioWithConflicts0$6(Resolve.scala:281)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+	at coursier.util.Task$.wrap(Task.scala:82)
+	at coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+	at kompile.executionenvironment.JvmBuildScriptLauncher.execute(JvmBuildScriptLauncher.kt:281)
+	at kompile.executionenvironment.JvmBuildScriptLauncher.execute$default(JvmBuildScriptLauncher.kt:140)
+	at kompile.executionenvironment.ExecutionEnvironment.executeInSeparateJvm(kompile-executionenvironment.kt:136)
+	at kompile.executionenvironment.ExecutionEnvironment.executeSync(kompile-executionenvironment.kt:71)
+	at kompile.LocalBuildWorkspace.buildInternal$kompile(Workspace.kt:812)
+	at kompile.WorkspaceKt.runBuildRule(Workspace.kt:1544)
+	at kompile.WorkspaceKt.runTests$lambda$91$processOneFile(Workspace.kt:2837)
+	at kompile.WorkspaceKt.runTests(Workspace.kt:3216)
+	at kompile.WorkspaceKt.runTests$default(Workspace.kt:2502)
+	at kompile.LocalBuildWorkspace.runTests$kompile(Workspace.kt:1146)
+	at kompile.LocalBuildWorkspace.executeInternal(Workspace.kt:570)
+	at kompile.LocalBuildWorkspace.execute(Workspace.kt:508)
+	at kompile.cli.CliKt.main(Cli.kt:1232)
+</error>
+  </buildrule>
+  <test file="tests/testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kts" name="foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot" success="false" time="0">
+    <stacktrace>java.lang.Exception: Build rule &apos;foundation.url.protocol.buildMaven()&apos; failed with exit code 1.
+Execution failed for CmdKt.command
+Exception: java.lang.RuntimeException: Build script failed with exit code: 1
+Class: CmdKt
+Method: command
+Arguments: 
+=== stderr (tail) ===
+21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom]
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries(CoursierFetchGuard.kt:91)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries$default(CoursierFetchGuard.kt:52)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:848)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:100)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.FileBackedResolvedClosureStore.getOrCompute(ResolvedClosureStore.kt:200)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure$lambda$4(ResolvedClosureStore.kt:93)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.JvmBuildRulesKt.materializeFetchedArtifacts(JvmBuildRules.kt:441)
+	at build.kotlin.jvm.JvmBuildRulesKt.mediatePrebuiltsViaCoursier(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.JvmBuildRulesKt.resolveDependencies2(JvmBuildRules.kt:893)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.&lt;clinit&gt;(foundation_url_protocol_buildkts.kt:17)
+	at CmdKt.command(cmd.kt:1)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.main(BuildscriptRunner.java:509)
+Caused by: coursierapi.error.MultipleResolutionError: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+
+	at coursierapi.error.MultipleResolutionError.of(MultipleResolutionError.java:28)
+	at coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:506)
+	at coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:239)
+	at coursierapi.Fetch.fetch(Fetch.java:234)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchWithProgressAwareBackstop$lambda$2(CoursierFetchGuard.kt:143)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: coursier.error.ResolutionError$Several: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+	at coursier.error.ResolutionError$.from(ResolutionError.scala:170)
+	at coursier.Resolve.validate0$1(Resolve.scala:233)
+	at coursier.Resolve.$anonfun$ioWithConflicts0$6(Resolve.scala:281)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+	at coursier.util.Task$.wrap(Task.scala:82)
+	at coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+
+Stack trace:
+java.lang.RuntimeException: Build script failed with exit code: 1
+Class: CmdKt
+Method: command
+Arguments: 
+=== stderr (tail) ===
+21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom]
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries(CoursierFetchGuard.kt:91)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchCoursierWithBoundsAndRetries$default(CoursierFetchGuard.kt:52)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:848)
+	at build.kotlin.jvm.JvmBuildRulesKt$mediatePrebuiltsViaCoursier$results$1.invoke(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:100)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1$artifacts$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.FileBackedResolvedClosureStore.getOrCompute(ResolvedClosureStore.kt:200)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:95)
+	at build.kotlin.jvm.ResolvedClosureStoreKt$materializeResolvedClosure$value$1.invoke(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure$lambda$4(ResolvedClosureStore.kt:93)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at build.kotlin.jvm.ResolvedClosureStoreKt.materializeResolvedClosure(ResolvedClosureStore.kt:93)
+	at build.kotlin.jvm.JvmBuildRulesKt.materializeFetchedArtifacts(JvmBuildRules.kt:441)
+	at build.kotlin.jvm.JvmBuildRulesKt.mediatePrebuiltsViaCoursier(JvmBuildRules.kt:847)
+	at build.kotlin.jvm.JvmBuildRulesKt.resolveDependencies2(JvmBuildRules.kt:893)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.&lt;clinit&gt;(foundation_url_protocol_buildkts.kt:17)
+	at CmdKt.command(cmd.kt:1)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.main(BuildscriptRunner.java:509)
+Caused by: coursierapi.error.MultipleResolutionError: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+
+	at coursierapi.error.MultipleResolutionError.of(MultipleResolutionError.java:28)
+	at coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:506)
+	at coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:239)
+	at coursierapi.Fetch.fetch(Fetch.java:234)
+	at build.kotlin.jvm.CoursierFetchGuardKt.fetchWithProgressAwareBackstop$lambda$2(CoursierFetchGuard.kt:143)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: coursier.error.ResolutionError$Several: Error downloading io.netty:netty-handler:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-handler/4.2.10.Final-codexcoder21-1/netty-handler-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-codec:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-codec/4.2.10.Final-codexcoder21-1/netty-codec-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-common:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-common/4.2.10.Final-codexcoder21-1/netty-common-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-transport:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-transport/4.2.10.Final-codexcoder21-1/netty-transport-4.2.10.Final-codexcoder21-1.pom
+Error downloading io.netty:netty-buffer:4.2.10.Final-codexcoder21-1
+  not found: https://kotlin.directory/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+  not found: https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-buffer/4.2.10.Final-codexcoder21-1/netty-buffer-4.2.10.Final-codexcoder21-1.pom
+	at coursier.error.ResolutionError$.from(ResolutionError.scala:170)
+	at coursier.Resolve.validate0$1(Resolve.scala:233)
+	at coursier.Resolve.$anonfun$ioWithConflicts0$6(Resolve.scala:281)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+	at coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+	at coursier.util.Task$.wrap(Task.scala:82)
+	at coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+	at kompile.executionenvironment.JvmBuildScriptLauncher.execute(JvmBuildScriptLauncher.kt:281)
+	at kompile.executionenvironment.JvmBuildScriptLauncher.execute$default(JvmBuildScriptLauncher.kt:140)
+	at kompile.executionenvironment.ExecutionEnvironment.executeInSeparateJvm(kompile-executionenvironment.kt:136)
+	at kompile.executionenvironment.ExecutionEnvironment.executeSync(kompile-executionenvironment.kt:71)
+	at kompile.LocalBuildWorkspace.buildInternal$kompile(Workspace.kt:812)
+	at kompile.WorkspaceKt.runBuildRule(Workspace.kt:1544)
+	at kompile.WorkspaceKt.runTests$lambda$91$processOneFile(Workspace.kt:2837)
+	at kompile.WorkspaceKt.runTests(Workspace.kt:3216)
+	at kompile.WorkspaceKt.runTests$default(Workspace.kt:2502)
+	at kompile.LocalBuildWorkspace.runTests$kompile(Workspace.kt:1146)
+	at kompile.LocalBuildWorkspace.executeInternal(Workspace.kt:570)
+	at kompile.LocalBuildWorkspace.execute(Workspace.kt:508)
+	at kompile.cli.CliKt.main(Cli.kt:1232)
+
+	at kompile.LocalBuildWorkspace.buildInternal$kompile(Workspace.kt:848)
+	at kompile.WorkspaceKt.runBuildRule(Workspace.kt:1544)
+	at kompile.WorkspaceKt.runTests$lambda$91$processOneFile(Workspace.kt:2837)
+	at kompile.WorkspaceKt.runTests(Workspace.kt:3216)
+	at kompile.WorkspaceKt.runTests$default(Workspace.kt:2502)
+	at kompile.LocalBuildWorkspace.runTests$kompile(Workspace.kt:1146)
+	at kompile.LocalBuildWorkspace.executeInternal(Workspace.kt:570)
+	at kompile.LocalBuildWorkspace.execute(Workspace.kt:508)
+	at kompile.cli.CliKt.main(Cli.kt:1232)
+</stacktrace>
+  </test>
+</tests>
