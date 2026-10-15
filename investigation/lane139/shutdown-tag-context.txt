@@ -1,0 +1,37 @@
+        super(parent, executor, false,
+                ObjectUtil.checkNotNull(ioHandlerFactory, "ioHandlerFactory").isChangingThreadSupported(),
+                taskQueue, tailTaskQueue, rejectedExecutionHandler);
+        this.maxTaskProcessingQuantumNs = DEFAULT_MAX_TASK_PROCESSING_QUANTUM_NS;
+        this.ioHandler = ioHandlerFactory.newHandler(this);
+    }
+
+    @Override
+    protected void run() {
+        assert inEventLoop();
+        ioHandler.initialize();
+        do {
+            runIo();
+            if (isShuttingDown()) {
+                ioHandler.prepareToDestroy();
+            }
+            // Now run all tasks for the maximum configured amount of time before trying to run IO again.
+            runAllTasks(maxTaskProcessingQuantumNs);
+
+            // We should continue with our loop until we either confirmed a shutdown or we can suspend it.
+        } while (!confirmShutdown() && !canSuspend());
+    }
+
+    protected final IoHandler ioHandler() {
+        return ioHandler;
+    }
+
+    @Override
+    protected boolean canSuspend(int state) {
+        // We should only allow to suspend if there are no registrations on this loop atm.
+        return super.canSuspend(state) && numRegistrations.get() == 0;
+    }
+
+    /**
+     * Called when IO will be processed for all the {@link IoHandle}s on this {@link SingleThreadIoEventLoop}.
+     * This method returns the number of {@link IoHandle}s for which IO was processed.
+     *

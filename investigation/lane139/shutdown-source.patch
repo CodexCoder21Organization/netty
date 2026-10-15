@@ -1,0 +1,40 @@
+commit 407f05f8f7965278fc22c2561cb9dd43371dbe9f
+Author: codexcoder21 <codexcoder21@gmail.com>
+Date:   Thu Oct 15 02:05:08 2026 +0000
+
+    Prepare IO resources whenever event loop shutdown is confirmed
+    
+    Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
+
+diff --git a/transport/src/main/java/io/netty/channel/SingleThreadIoEventLoop.java b/transport/src/main/java/io/netty/channel/SingleThreadIoEventLoop.java
+index 72fd5eb231..5268d8635d 100644
+--- a/transport/src/main/java/io/netty/channel/SingleThreadIoEventLoop.java
++++ b/transport/src/main/java/io/netty/channel/SingleThreadIoEventLoop.java
+@@ -221,9 +221,6 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
+                     taskQuantumNs = quantum;
+                 }
+             }
+-            if (isShuttingDown()) {
+-                ioHandler.prepareToDestroy();
+-            }
+             // Now run tasks for the computed amount of time before trying to run IO again.
+             runAllTasks(taskQuantumNs);
+ 
+@@ -231,6 +228,17 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
+         } while (!confirmShutdown() && !canSuspend());
+     }
+ 
++    @Override
++    protected boolean confirmShutdown() {
++        if (!isShuttingDown()) {
++            return false;
++        }
++        // Shutdown can start in a task, after the IO phase. Prepare on every confirmation,
++        // including the executor's final task and shutdown-hook drains, before destroying IO.
++        ioHandler.prepareToDestroy();
++        return super.confirmShutdown();
++    }
++
+     protected final IoHandler ioHandler() {
+         return ioHandler;
+     }
