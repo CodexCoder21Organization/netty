@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.nio.NioEventLoopTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.610 s <<< FAILURE! -- in io.netty.channel.nio.NioEventLoopTest
+io.netty.channel.nio.NioEventLoopTest.testShutdownFromTaskClosesRegisteredChannel -- Time elapsed: 0.247 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Shutdown must close a channel registered before the task phase ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioEventLoopTest.testShutdownFromTaskClosesRegisteredChannel(NioEventLoopTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.channel.nio.NioEventLoopTest.testShutdownFromCloseListenerClosesOtherChannel -- Time elapsed: 0.034 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Shutdown from a close callback must close the other registered channel ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioEventLoopTest.testShutdownFromCloseListenerClosesOtherChannel(NioEventLoopTest.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.channel.nio.NioEventLoopTest.testShutdownHookRegistrationClosesChannel -- Time elapsed: 0.018 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Shutdown must also close a channel registered by a shutdown hook ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioEventLoopTest.testShutdownHookRegistrationClosesChannel(NioEventLoopTest.java:129)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

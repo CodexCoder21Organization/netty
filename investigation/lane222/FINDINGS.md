@@ -2,9 +2,9 @@
 Started: 2026-10-15 12:04 UTC. Stop new work by 13:09 UTC; hard stop 13:19 UTC.
 
 ## Plan
-- [in progress] Read required context; clone both forks; establish published-artifact provenance and PR ancestry. Done means a source/metadata table backed by downloaded artifacts and git history.
-- [pending] Rebase only where needed; audit regression tests; demonstrate failures without the fixes and passing module tests with the fixes.
-- [pending] Independently review tests and changes; address blocking findings; push branches and update both PR descriptions with evidence. No merge or publish.
+- [done] Read required context; clone both forks; establish published-artifact provenance and PR ancestry. Done means a source/metadata table backed by downloaded artifacts and git history.
+- [in progress; release rebase refuted] Rebase only where needed; audit regression tests; demonstrate failures without the fixes and passing module tests with the fixes.
+- [in progress; blocking findings recorded] Independently review tests and changes; address blocking findings; push branches and update both PR descriptions with evidence. No merge or publish.
 - [pending] Record terminal verdict, exact remaining work, stop owned processes, and delete lane checkouts/cache.
 
 ## 2026-10-15 12:04 UTC — context
@@ -56,3 +56,6 @@ OBSERVED: The standalone JUnit public-API review test compiled against only down
 The mechanism under review is: NioIoHandler.prepareToDestroy() snapshots selector registrations, then invokes channel close callbacks that can synchronously register another channel; SingleThreadEventExecutor.doStartThread() performs only a final confirmShutdown() after moving to ST_SHUTDOWN and ignores its return, while registerForIo0() accepts registrations from the event-loop thread even at that state. The published override guarantees preparation is invoked, but cannot guarantee that its snapshot includes channels created by the final callbacks.
 
 Full stack/output: published-reentry-review.log. Reproducer source: ShutdownReentryReviewTest.java. These are checkpointed below as evidence, not added as a failing test to either PR branch. No production fix guessed, no published coordinate overwritten.
+
+## 2026-10-15 12:16 UTC — fail-first shutdown and repeated published counterexample
+OBSERVED: Reverted only netty-2 SingleThreadIoEventLoop.java to origin/4.2 while retaining the three PR tests: 3 tests, 3 failures, 0 errors/skips, each at the channel-open assertion. Original source restored afterward and working tree clean. The same three tests passed earlier with the fix. Published re-entry scenario repeated in two additional fresh JVMs for reproducibility: failures 3/3 overall; each prints identical four accepted registrations and the fourth open. These were diagnostic repeats of a known, deterministic condition, not retries to seek green. All 46 POMs also parse to the custom version with zero mismatches.

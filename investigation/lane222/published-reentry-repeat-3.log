@@ -1,0 +1,73 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+Test plan execution started. Number of static tests: 1
+╷
+├─ JUnit Platform Suite
+└─ JUnit Platform Suite finished after 16 ms.
+├─ JUnit Jupiter
+│  ├─ ShutdownReentryReviewTest
+│  │  ├─ closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen()
+│  │  │       tags: []
+│  │  │   uniqueId: [engine:junit-jupiter]/[class:io.netty.channel.nio.ShutdownReentryReviewTest]/[method:closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen()]
+│  │  │     parent: [engine:junit-jupiter]/[class:io.netty.channel.nio.ShutdownReentryReviewTest]
+│  │  │     source: MethodSource [className = 'io.netty.channel.nio.ShutdownReentryReviewTest', methodName = 'closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen', methodParameterTypes = '']
+Oct 15, 2026 12:15:34 PM io.netty.channel.AbstractChannel$AbstractUnsafe invokeLater
+WARNING: Can't invoke task later as EventLoop rejected it
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:1125)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:413)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:406)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:1027)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:993)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:983)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.invokeLater(AbstractChannel.java:887)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.deregister(AbstractChannel.java:667)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.fireChannelInactiveAndDeregister(AbstractChannel.java:627)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:610)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:489)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.close(AbstractNioChannel.java:251)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.close(NioIoHandler.java:378)
+	at io.netty.channel.nio.NioIoHandler.prepareToDestroy(NioIoHandler.java:610)
+	at io.netty.channel.SingleThreadIoEventLoop.confirmShutdown(SingleThreadIoEventLoop.java:211)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1263)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+accepted=true open=false registered=false
+accepted=true open=false registered=false
+accepted=true open=false registered=true
+accepted=true open=true registered=true
+│  │  │     caught: org.opentest4j.AssertionFailedError: A channel accepted during shutdown must close before termination ==> expected: <false> but was: <true>
+│  │  │               	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+│  │  │               	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+│  │  │               	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+│  │  │               	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+│  │  │               	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+│  │  │               	at io.netty.channel.nio.ShutdownReentryReviewTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen(ShutdownReentryReviewTest.java:53)
+│  │  │               	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+│  │  │               	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+│  │  │               	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+│  │  │   duration: 596 ms
+│  │  │     status: ✘ FAILED
+│  └─ ShutdownReentryReviewTest finished after 633 ms.
+└─ JUnit Jupiter finished after 674 ms.
+├─ JUnit Vintage
+└─ JUnit Vintage finished after 8 ms.
+Test plan execution finished. Number of all tests: 1
+
+Test run finished after 831 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         1 tests failed          ]
+
