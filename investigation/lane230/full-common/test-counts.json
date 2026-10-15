@@ -1,0 +1,562 @@
+[
+  {
+    "module": "common",
+    "tests": 1430,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 7,
+    "suites": [
+      {
+        "tests": 36,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.AsciiStringCharacterTest",
+        "skips": []
+      },
+      {
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.AsciiStringMemoryTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.AttributeKeyTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.ConstantPoolTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.DefaultAttributeMapTest",
+        "skips": []
+      },
+      {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.DomainNameMappingTest",
+        "skips": []
+      },
+      {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.DomainWildcardMappingBuilderTest",
+        "skips": []
+      },
+      {
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.HashedWheelTimerTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.LeakPresenceDetectorTest",
+        "skips": []
+      },
+      {
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.NetUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.NettyRuntimeTests",
+        "skips": []
+      },
+      {
+        "tests": 67,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.RecyclerFastThreadLocalTest",
+        "skips": []
+      },
+      {
+        "tests": 67,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.RecyclerTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.ResourceLeakDetectorTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.ThreadDeathWatcherTest",
+        "skips": []
+      },
+      {
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.collection.ByteObjectHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.collection.CharObjectHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.collection.IntObjectHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.collection.LongObjectHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.collection.ShortObjectHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.AutoScalingEventExecutorChooserFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 520,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.ConcurrentSkipListIntObjMultimapTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.DefaultMockTickerTest",
+        "skips": []
+      },
+      {
+        "tests": 20,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.DefaultPromiseTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2,
+        "suite": "io.netty.util.concurrent.DefaultThreadFactoryTest",
+        "skips": [
+          {
+            "name": "testDefaultThreadFactoryInheritsThreadGroupFromSecurityManager",
+            "reason": null
+          },
+          {
+            "name": "testDescendantThreadGroups",
+            "reason": null
+          }
+        ]
+      },
+      {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 3,
+        "suite": "io.netty.util.concurrent.FastThreadLocalTest",
+        "skips": [
+          {
+            "name": "testInternalThreadLocalMapExpand",
+            "reason": "Environment variable [CI] does not exist ==> This deliberately causes OutOfMemoryErrors, for which heap dumps are automatically generated. To avoid confusion, wasted time investigating heap dumps, and to avoid heap dumps accidentally getting committed to the Git repository, we should only enable this test when running in a CI environment. We make this check by assuming a 'CI' environment variable. This matches what Github Actions is doing for us currently."
+          },
+          {
+            "name": "testOnRemoveCalledForNonFastThreadLocalGet",
+            "reason": "onRemoval(...) not called with non FastThreadLocal"
+          },
+          {
+            "name": "testOnRemoveCalledForNonFastThreadLocalSet",
+            "reason": "onRemoval(...) not called with non FastThreadLocal"
+          }
+        ]
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.GlobalEventExecutorTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.ImmediateExecutorTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.MpscIntQueueTest",
+        "skips": []
+      },
+      {
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.NonStickyEventExecutorGroupTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.PromiseAggregatorTest",
+        "skips": []
+      },
+      {
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.PromiseCombinerTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.PromiseNotifierTest",
+        "skips": []
+      },
+      {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.SingleThreadEventExecutorTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.concurrent.UnorderedThreadPoolEventExecutorTest",
+        "skips": []
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.AppendableCharSequenceTest",
+        "skips": []
+      },
+      {
+        "tests": 101,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.BoundedInputStreamTest",
+        "skips": []
+      },
+      {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.DefaultPriorityQueueTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.JfrEventSafeTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.LongLongHashMapTest",
+        "skips": []
+      },
+      {
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.MacAddressUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.MathUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.NativeLibraryLoaderTest",
+        "skips": []
+      },
+      {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.ObjectCleanerTest",
+        "skips": []
+      },
+      {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.ObjectUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.OsClassifiersTest",
+        "skips": []
+      },
+      {
+        "tests": 0,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.PlatformDependent0Test",
+        "skips": []
+      },
+      {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2,
+        "suite": "io.netty.util.internal.PlatformDependentTest",
+        "skips": [
+          {
+            "name": "testAllocateWithCapacity0",
+            "reason": null
+          },
+          {
+            "name": "java25MustHaveCleanerImplAvailable",
+            "reason": "Disabled on JRE version: 21.0.12.1"
+          }
+        ]
+      },
+      {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.SWARUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 64,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.StringUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.SystemPropertyUtilTest",
+        "skips": []
+      },
+      {
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.ThreadExecutorMapTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.ThreadLocalRandomTest",
+        "skips": []
+      },
+      {
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.TypeParameterMatcherTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.VirtualThreadCheckTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.CommonsLoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.CommonsLoggerTest",
+        "skips": []
+      },
+      {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.InternalLoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.JdkLoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.Log4J2LoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.Log4J2LoggerTest",
+        "skips": []
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.Log4JLoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.MessageFormatterTest",
+        "skips": []
+      },
+      {
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.Slf4JLoggerFactoryTest",
+        "skips": []
+      },
+      {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "suite": "io.netty.util.internal.logging.Slf4JLoggerTest",
+        "skips": []
+      }
+    ]
+  }
+]

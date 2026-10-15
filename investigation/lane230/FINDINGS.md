@@ -35,3 +35,12 @@ INFER: Missing compiler tools are a build-environment prerequisite, not a source
 
 ## 2026-10-15 13:11 UTC — exact release baseline reproduced
 OBSERVED: Final five-test class against original a66b8e41 production event-loop file: Maven exit 1; 5 tests, 3 failures, 0 errors, 0 skips. Failures are close-listener channel remaining open, unregister-callback channel remaining registered, and immediate-shutdown reentrant registration succeeding. Live-loop and post-termination preservation cases pass. Full three stacks: evidence/baseline-termination/transport/io.netty.channel.nio.NioShutdownReentryTest.txt. Every assertion/message is unchanged from 7a9caa8c; this forces callback ordering using real public NIO APIs without elapsed-time amplification. Corrected event-loop source restored immediately and maintenance rebase is a no-op; exact fixed NIO classes running now.
+
+## 2026-10-15 13:13 UTC — targeted pass and reviews checkpoint
+OBSERVED: Fixed targeted Maven exit 0; NioEventLoopTest 16 + NioShutdownReentryTest 5 = 21 tests, 0 failures/errors/skips. Exact source audit passes: 18 additions/1 removal match the development fix line-for-line; five-case class exactly equal; remaining diff exactly one replacement in each of prior release's 63 version files. No existing tests edited. Separate test and code review recorded in evidence/review.md; no blocking release-port issue identified. Passed-check/audit/review milestone pushed at https://github.com/CodexCoder21Organization/netty/commit/ec1d990e0e .
+OBSERVED: Native-tool prerequisite probes pass: C and C++ compile/link/run; autoreconf plus configure complete successfully with lane-local relocated tools. Full common suite is running; transport follows, then BOM install and complete published-set reactor (45 modules plus independent BOM). One JVM-heavy build at a time. Publisher skill read only to document prebuilt artifact-dir invocation; this lane will not publish.
+Plan: context/source/version DONE; baseline/fixed targeted tests and independent reviews DONE; full suite/published-set build IN PROGRESS; final PR and cleanup PENDING.
+
+## 2026-10-15 13:15 UTC — full-common
+OBSERVED: {"label": "full-common", "command": ["./mvnw", "-e", "-B", "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2", "-pl", "common", "test"], "exit_code": 0, "elapsed_seconds": 173.86104917526245, "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"}
+Test totals: [{"module": "common", "tests": 1430, "failures": 0, "errors": 0, "skipped": 7}]

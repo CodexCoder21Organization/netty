@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.util.concurrent.FastThreadLocalTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 35.27 s -- in io.netty.util.concurrent.FastThreadLocalTest

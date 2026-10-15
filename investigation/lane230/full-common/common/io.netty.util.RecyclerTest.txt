@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.util.RecyclerTest
+-------------------------------------------------------------------------------
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.008 s -- in io.netty.util.RecyclerTest
