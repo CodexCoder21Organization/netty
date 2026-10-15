@@ -1,0 +1,10 @@
+    @Override
+    protected boolean confirmShutdown() {
+        if (!isShuttingDown()) {
+            return false;
+        }
+        // Shutdown can start in a task, after the IO phase. Prepare on every confirmation,
+        // including the executor's final task and shutdown-hook drains, before destroying IO.
+        ioHandler.prepareToDestroy();
+        return super.confirmShutdown();
+    }
