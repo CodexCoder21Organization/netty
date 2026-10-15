@@ -1,0 +1,20 @@
+PUBLISH-READY
+Version: 4.2.10.1-codexcoder21
+No artifacts were published by this lane.
+Runtime custom transport/buffer/common origins: PASS
+Consumer invocations: 13/13 passed; 0 failed; 0 unrun.
+Upstream-coordinate cache JARs unchanged: 31
+Results:
+01. testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot: PASS (80.919s)
+02. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (65.16s)
+03. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (25.629s)
+04. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (30.939s)
+05. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (29.757s)
+06. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (26.505s)
+07. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (30.041s)
+08. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (34.59s)
+09. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (24.572s)
+10. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (25.535s)
+11. testProtocolRootCloseCallerRacingEventLoopShutdown: PASS (22.948s)
+12. testGracefulCloseEmitsSingleDisconnectedEvent: PASS (38.364s)
+13. testConnectionListenerIsolation: PASS (55.504s)

@@ -1,0 +1,4 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="true" time="8947" output-files="59" output-bytes="33286184"/>
+  <test file="tests/testConnectionListenerIsolation.kts" name="foundation.url.protocol.testConnectionListenerIsolation" success="true" time="7718"/>
+</tests>

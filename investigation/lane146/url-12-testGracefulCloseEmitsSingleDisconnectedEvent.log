@@ -1,0 +1,4 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+'getter for id: Long' is deprecated. Deprecated in Java
+warning: no package at top of file: /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/workspace/UrlProtocol-verification/tests/testGracefulCloseEmitsSingleDisconnectedEvent.kts
+ALL TESTS PASSED (1/1 tests completed successfully)

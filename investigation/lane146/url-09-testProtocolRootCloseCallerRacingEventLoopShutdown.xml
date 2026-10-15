@@ -1,0 +1,4 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="true" time="9564" output-files="59" output-bytes="33286184"/>
+  <test file="tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts" name="foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown" success="true" time="3739"/>
+</tests>

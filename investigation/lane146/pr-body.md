@@ -1,0 +1,48 @@
+The owner asked to make the kompile runner select the organization's custom Netty build so the shutdown work in https://github.com/CodexCoder21Organization/UrlProtocol/pull/702 can pass its consumer gate. The previous release string lost dependency mediation to upstream `4.2.10.Final`, so the consumer loaded upstream transport and buffer even with custom direct pins.
+
+This branch now uses `4.2.10.1-codexcoder21`, still based on the exact `netty-4.2.10.Final` tag with the same two fixes. All 62 POMs and the README are changed only by version substitution from the previous release head. The branch name retains its earlier release string because it is the existing draft PR head.
+
+The selection mechanism is version ordering in the runner's exact `coursierapi.Fetch` interface, `2.1.31-freshcache1`. Its public comparator ranks the previous `4.2.10.Final-codexcoder21-1` below upstream Final, and the two-root Fetch assertion fails with upstream transport/common/buffer/resolver selected. The same assertion passes for `4.2.10.1-codexcoder21`; the runner comparator, native cs, and Maven ComparableVersion all agree that it is higher than upstream Final. The consumer's jvm-libp2p dependency directly brings the upstream requests. Full dependency trees and exact API selections are recorded separately in the evidence; no custom bytes are stored at upstream coordinates and no transitive dependency is excluded.
+
+The unchanged source backports are:
+- https://github.com/CodexCoder21Organization/netty-2/pull/1: run registration closure from `confirmShutdown()` before terminal shutdown confirmation, retaining the exact tag's task scheduling.
+- https://github.com/CodexCoder21Organization/netty/pull/1: check that a Java Flight Recorder exists before evaluating adaptive/pooled allocator event singleton state, preserving later enabled recording.
+
+Lane141 proved the unchanged source fixes fail first and pass afterward: shutdown 3/3 failed before and 3/3 passed after; allocator 2 inactive cases failed before and all 4 cases passed after. Its previous-version full suites passed (common 1,430 tests, transport 386, zero failures/errors; 7 and 9 existing conditional/disabled cases respectively). This lane runs no full suite, as explicitly required, and changes no test assertions, timeouts, bounds or iteration counts.
+
+The complete 45-module reactor was rebuilt serially with the lane-private toolchain and `-DskipTests`, plus the independent BOM. Build exit: 0. Staging at `/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/publish/netty-codexcoder21-2/` contains 46 one-POM directories, 136 POM/JAR files, and 272 independently verified SHA1/SHA256 checksums. MANIFEST.txt gives parent/BOM-first dependency order and netty-all last. STATUS.txt is **PUBLISH-READY**. All 31 recorded upstream-coordinate cache JAR hashes remain unchanged.
+
+The exact runner API selects all five existing production pins at the custom version. Some unpinned, unchanged modules such as HTTP remain upstream; codec does not depend on HTTP, and HTTP has no fork implementation change. An extra assertion that every module must switch was refuted and preserved in the evidence, rather than adding more pins. The rebuilt transport bytecode has `confirmShutdown()`, and the separate runtime diagnostic passed assertions on actual transport/buffer/common class-source paths at the custom version before the consumer gate began.
+
+Release source: https://github.com/CodexCoder21Organization/netty/commit/a66b8e41266dd9a8ae193cf3dea021b3b5547d7f
+Pin source: https://github.com/CodexCoder21Organization/UrlProtocol/commit/e1bf41c3b59206aec07b065e68760c6c82b2f402
+
+Consumer gate: **13/13 PASS**, no retries. Every command reported exactly one matching successful test in XML. The racing case retained 50 iterations in each of its ten serial invocations; both connection tests retained their existing 2000 ms budgets.
+
+| Invocation | Scenario | Result | Function time |
+| --- | --- | --- | --- |
+| 1 | Deterministic shutdown | PASS | 3.209 s |
+| 2 | Racing shutdown 1/10 | PASS | 4.473 s |
+| 3 | Racing shutdown 2/10 | PASS | 3.250 s |
+| 4 | Racing shutdown 3/10 | PASS | 4.752 s |
+| 5 | Racing shutdown 4/10 | PASS | 3.519 s |
+| 6 | Racing shutdown 5/10 | PASS | 3.648 s |
+| 7 | Racing shutdown 6/10 | PASS | 5.036 s |
+| 8 | Racing shutdown 7/10 | PASS | 4.517 s |
+| 9 | Racing shutdown 8/10 | PASS | 3.739 s |
+| 10 | Racing shutdown 9/10 | PASS | 3.504 s |
+| 11 | Racing shutdown 10/10 | PASS | 2.157 s |
+| 12 | Graceful close event | PASS | 5.305 s |
+| 13 | Connection listener isolation | PASS | 7.718 s |
+
+UrlProtocol pin branch: https://github.com/CodexCoder21Organization/UrlProtocol/tree/fix/lane137-root-close-pin . It has exactly 53 version substitutions in 34 files. Verification uses the same four-file discovery scope as lane141 to avoid the independently verified unrelated workspace clock-pin discovery conflict; every requested file is byte-identical to that branch, and all production files remain present. No consumer source workaround or discovery change is committed.
+
+Evidence, version probes, full trees, review, build logs, origins, and every consumer result:
+https://github.com/CodexCoder21Organization/netty/tree/evidence/lane146-version-selection/investigation/lane146
+
+Earlier fail-first source/backport/full-suite evidence:
+https://github.com/CodexCoder21Organization/netty/tree/evidence/lane141-custom-netty/investigation/lane141
+
+No publication, merge, enqueue, deploy, or Handoff write was performed.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)

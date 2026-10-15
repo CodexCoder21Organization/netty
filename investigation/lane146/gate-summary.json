@@ -1,0 +1,21 @@
+{
+  "status": "PUBLISH-READY",
+  "passed": 13,
+  "failed": 0,
+  "unrun": 0,
+  "origin": {
+    "pid": 2966617,
+    "exit_code": 0,
+    "seconds": 556.271,
+    "passed": true,
+    "executed": [
+      {
+        "file": "tests/diagnoseLane146NettyBinding.kts",
+        "name": "foundation.url.protocol.diagnoseLane146NettyBinding",
+        "success": "true",
+        "time": "2080"
+      }
+    ]
+  },
+  "upstream_jars_unchanged": 31
+}

@@ -1,0 +1,4 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="true" time="6676" output-files="59" output-bytes="33286184"/>
+  <test file="tests/testGracefulCloseEmitsSingleDisconnectedEvent.kts" name="foundation.url.protocol.testGracefulCloseEmitsSingleDisconnectedEvent" success="true" time="5305"/>
+</tests>

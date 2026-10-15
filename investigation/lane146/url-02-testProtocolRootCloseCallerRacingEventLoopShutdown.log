@@ -1,1 +1,5 @@
 Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+'getter for id: Long' is deprecated. Deprecated in Java
+'NioEventLoopGroup' is deprecated. Deprecated in Java
+'NioEventLoopGroup' is deprecated. Deprecated in Java
+ALL TESTS PASSED (1/1 tests completed successfully)

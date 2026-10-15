@@ -16,5 +16,221 @@
     "seconds": 80.919,
     "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log",
     "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"
+  },
+  {
+    "index": 2,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2978576,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "4473"
+      }
+    ],
+    "seconds": 65.16,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-02-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 3,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2980061,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "3250"
+      }
+    ],
+    "seconds": 25.629,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-03-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-03-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 4,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2980672,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "4752"
+      }
+    ],
+    "seconds": 30.939,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-04-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-04-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 5,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2981423,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "3519"
+      }
+    ],
+    "seconds": 29.757,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-05-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-05-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 6,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2982878,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "3648"
+      }
+    ],
+    "seconds": 26.505,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-06-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-06-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 7,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2983926,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "5036"
+      }
+    ],
+    "seconds": 30.041,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-07-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-07-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 8,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2985220,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "4517"
+      }
+    ],
+    "seconds": 34.59,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-08-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-08-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 9,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2986520,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "3739"
+      }
+    ],
+    "seconds": 24.572,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-09-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-09-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 10,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2987701,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "3504"
+      }
+    ],
+    "seconds": 25.535,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-10-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-10-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 11,
+    "name": "testProtocolRootCloseCallerRacingEventLoopShutdown",
+    "pid": 2988753,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseCallerRacingEventLoopShutdown.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseCallerRacingEventLoopShutdown",
+        "success": "true",
+        "time": "2157"
+      }
+    ],
+    "seconds": 22.948,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-11-testProtocolRootCloseCallerRacingEventLoopShutdown.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-11-testProtocolRootCloseCallerRacingEventLoopShutdown.xml"
+  },
+  {
+    "index": 12,
+    "name": "testGracefulCloseEmitsSingleDisconnectedEvent",
+    "pid": 2990699,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testGracefulCloseEmitsSingleDisconnectedEvent.kts",
+        "name": "foundation.url.protocol.testGracefulCloseEmitsSingleDisconnectedEvent",
+        "success": "true",
+        "time": "5305"
+      }
+    ],
+    "seconds": 38.364,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-12-testGracefulCloseEmitsSingleDisconnectedEvent.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-12-testGracefulCloseEmitsSingleDisconnectedEvent.xml"
+  },
+  {
+    "index": 13,
+    "name": "testConnectionListenerIsolation",
+    "pid": 2992070,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testConnectionListenerIsolation.kts",
+        "name": "foundation.url.protocol.testConnectionListenerIsolation",
+        "success": "true",
+        "time": "7718"
+      }
+    ],
+    "seconds": 55.504,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-13-testConnectionListenerIsolation.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-13-testConnectionListenerIsolation.xml"
   }
 ]

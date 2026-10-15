@@ -27,7 +27,15 @@ for pid,args in owned():
  except ProcessLookupError:pass
 if before:time.sleep(1)
 remaining=owned()
-ps=subprocess.check_output(['ps','-eo','pid,args','-ww'],text=True);(ev/'final-processes.txt').write_text(ps)
+ps=subprocess.check_output(['ps','-eo','pid,args','-ww'],text=True);(ev/'final-processes-full-private.txt').write_text(ps)
+recorded=set()
+for name in ['build-child.json','diagnostic-child.json','url-child.json']:
+ p=ev/name
+ if p.exists():recorded.add(json.loads(p.read_text())['pid'])
+p=ev/'url-verification-results.json'
+if p.exists():recorded.update(x['pid'] for x in json.loads(p.read_text()))
+matching=[line for line in ps.splitlines()[1:] if int(line.strip().split(None,1)[0]) in recorded]
+(ev/'final-processes.txt').write_text('ps -eo pid,args -ww: recorded process check\n'+('\n'.join(matching) if matching else 'No recorded Maven or consumer PID remains.')+'\nLane working-directory scan: '+str(remaining)+'\n')
 (ev/'process-cleanup.json').write_text(json.dumps(dict(terminated=before,remaining=remaining),indent=2)+'\n')
 print(json.dumps(dict(terminated_count=len(before),remaining=remaining)))
 assert not remaining,'Lane-owned background process remains'
