@@ -1,0 +1,119 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.buffer.JfrEventsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.68 s <<< FAILURE! -- in io.netty.buffer.JfrEventsTest
+io.netty.buffer.JfrEventsTest.pooledDoesNotRegisterEventsWithoutARecorder -- Time elapsed: 2.354 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+02:54:19.631 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory -- Using SLF4J as the default logging framework
+02:54:19.649 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.level: simple
+02:54:19.650 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.targetRecords: 4
+02:54:19.674 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Java version: 21
+02:54:19.674 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- -Dio.netty.noUnsafe: false
+02:54:19.687 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.theUnsafe: available
+02:54:19.688 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe base methods: all available
+02:54:19.689 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Buffer.address: available
+02:54:19.696 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+02:54:19.697 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Bits.unaligned: available, true
+02:54:19.701 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: symbolic reference class is not accessible: class jdk.internal.misc.Unsafe, from class io.netty.util.internal.PlatformDependent0 (unnamed module @198e2867)
+02:54:19.712 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+02:54:19.712 [main] DEBUG io.netty.util.internal.PlatformDependent -- sun.misc.Unsafe: available
+02:54:19.713 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+02:54:19.713 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02:54:19.715 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.maxDirectMemory: -1 bytes
+02:54:19.720 [main] DEBUG io.netty.util.internal.CleanerJava9 -- java.nio.ByteBuffer.cleaner(): available
+02:54:19.720 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.noPreferDirect: false
+02:54:19.733 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.jfr.enabled: true
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numHeapArenas: 5
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numDirectArenas: 5
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.pageSize: 8192
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxOrder: 9
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.chunkSize: 4194304
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.smallCacheSize: 256
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.normalCacheSize: 64
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimInterval: 8192
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.useCacheForAllThreads: false
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02:54:19.733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+02:54:19.742 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02:54:19.742 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02:54:19.785 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkAccessible: true
+02:54:19.785 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkBounds: true
+02:54:19.786 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory -- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@c39f790
+02:54:19.793 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.maxCapacityPerThread: 4096
+02:54:19.793 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.ratio: 8
+02:54:19.793 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.chunkSize: 32
+02:54:19.794 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.blocking: false
+02:54:19.794 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.batchFastThreadLocalOnly: true
+02:54:19.798 [main] DEBUG io.netty.util.internal.PlatformDependent -- org.jctools-core.MpscChunkedArrayQueue: available
+Exception in thread "main" org.opentest4j.AssertionFailedError: Buffer use without a recorder registered allocator event types: [io.netty.FreeBuffer, io.netty.ReallocateBuffer, io.netty.AllocateBuffer, io.netty.AllocateChunk] ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at io.netty.buffer.AllocatorJfrColdStartHarness.main(AllocatorJfrColdStartHarness.java:95)
+ ==> expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at io.netty.buffer.AllocatorJfrColdStartHarness.runChild(AllocatorJfrColdStartHarness.java:59)
+	at io.netty.buffer.JfrEventsTest.pooledDoesNotRegisterEventsWithoutARecorder(JfrEventsTest.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.buffer.JfrEventsTest.adaptiveDoesNotRegisterEventsWithoutARecorder -- Time elapsed: 2.248 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+02:54:27.283 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory -- Using SLF4J as the default logging framework
+02:54:27.290 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.level: simple
+02:54:27.291 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.targetRecords: 4
+02:54:27.293 [main] DEBUG io.netty.buffer.AdaptiveByteBufAllocator -- -Dio.netty.allocator.useCachedMagazinesForNonEventLoopThreads: false
+02:54:27.300 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Java version: 21
+02:54:27.300 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- -Dio.netty.noUnsafe: false
+02:54:27.307 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.theUnsafe: available
+02:54:27.308 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe base methods: all available
+02:54:27.310 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Buffer.address: available
+02:54:27.311 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+02:54:27.312 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Bits.unaligned: available, true
+02:54:27.313 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: symbolic reference class is not accessible: class jdk.internal.misc.Unsafe, from class io.netty.util.internal.PlatformDependent0 (unnamed module @2a098129)
+02:54:27.328 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+02:54:27.329 [main] DEBUG io.netty.util.internal.PlatformDependent -- sun.misc.Unsafe: available
+02:54:27.330 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+02:54:27.330 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02:54:27.331 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.maxDirectMemory: -1 bytes
+02:54:27.346 [main] DEBUG io.netty.util.internal.CleanerJava9 -- java.nio.ByteBuffer.cleaner(): available
+02:54:27.346 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.noPreferDirect: false
+02:54:27.369 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.jfr.enabled: true
+02:54:27.478 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.maxCapacityPerThread: 4096
+02:54:27.479 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.ratio: 8
+02:54:27.479 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.chunkSize: 32
+02:54:27.479 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.blocking: false
+02:54:27.480 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.batchFastThreadLocalOnly: true
+02:54:27.484 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02:54:27.487 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02:54:27.529 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkAccessible: true
+02:54:27.530 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkBounds: true
+02:54:27.535 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory -- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@19bb089b
+Exception in thread "main" org.opentest4j.AssertionFailedError: Buffer use without a recorder registered allocator event types: [io.netty.FreeBuffer, io.netty.ReallocateBuffer, io.netty.AllocateBuffer, io.netty.AllocateChunk] ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at io.netty.buffer.AllocatorJfrColdStartHarness.main(AllocatorJfrColdStartHarness.java:95)
+ ==> expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at io.netty.buffer.AllocatorJfrColdStartHarness.runChild(AllocatorJfrColdStartHarness.java:59)
+	at io.netty.buffer.JfrEventsTest.adaptiveDoesNotRegisterEventsWithoutARecorder(JfrEventsTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
