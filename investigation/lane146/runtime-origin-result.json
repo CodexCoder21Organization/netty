@@ -1,0 +1,14 @@
+{
+  "pid": 2966617,
+  "exit_code": 0,
+  "seconds": 556.271,
+  "passed": true,
+  "executed": [
+    {
+      "file": "tests/diagnoseLane146NettyBinding.kts",
+      "name": "foundation.url.protocol.diagnoseLane146NettyBinding",
+      "success": "true",
+      "time": "2080"
+    }
+  ]
+}

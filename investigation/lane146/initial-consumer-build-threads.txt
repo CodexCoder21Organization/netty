@@ -1,0 +1,176 @@
+2026-10-15 04:57:27
+Full thread dump OpenJDK 64-Bit Server VM (21.0.12.1+1-LTS mixed mode, sharing):
+
+Threads class SMR info:
+_java_thread_list=0x000079cfac001c50, length=13, elements={
+0x000079d04003c290, 0x000079d0401740c0, 0x000079d040175630, 0x000079d040176dc0,
+0x000079d040178400, 0x000079d0401799a0, 0x000079d04017b4e0, 0x000079d04017cba0,
+0x000079d04018d240, 0x000079d040187b70, 0x000079cf9c3d9ae0, 0x000079cf9c0f10c0,
+0x000079cfac000ff0
+}
+
+"main" #1 [2968357] prio=5 os_prio=0 cpu=126933.93ms elapsed=389.45s tid=0x000079d04003c290 nid=2968357 runnable  [0x000079d04539e000]
+   java.lang.Thread.State: RUNNABLE
+	at org.jetbrains.org.objectweb.asm.Frame.merge(Frame.java:1271)
+	at org.jetbrains.org.objectweb.asm.Frame.merge(Frame.java:1197)
+	at org.jetbrains.org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1610)
+	at org.jetbrains.org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1546)
+	at org.jetbrains.org.objectweb.asm.MethodVisitor.visitMaxs(MethodVisitor.java:773)
+	at org.jetbrains.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:769)
+	at org.jetbrains.kotlin.codegen.TransformationMethodVisitor.visitEnd(TransformationMethodVisitor.kt:70)
+	at org.jetbrains.org.objectweb.asm.MethodVisitor.visitEnd(MethodVisitor.java:783)
+	at org.jetbrains.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:772)
+	at org.jetbrains.kotlin.backend.jvm.codegen.ClassCodegen.generateMethod(ClassCodegen.kt:440)
+	at org.jetbrains.kotlin.backend.jvm.codegen.ClassCodegen.generate(ClassCodegen.kt:169)
+	at org.jetbrains.kotlin.backend.jvm.FileCodegen.lower(JvmPhases.kt:41)
+	at org.jetbrains.kotlin.backend.common.phaser.FileLoweringPhaseAdapter.invoke(PhaseBuilders.kt:120)
+	at org.jetbrains.kotlin.backend.common.phaser.FileLoweringPhaseAdapter.invoke(PhaseBuilders.kt:116)
+	at org.jetbrains.kotlin.backend.common.phaser.NamedCompilerPhase.phaseBody(CompilerPhase.kt:147)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:94)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invokeSequential(performByIrFile.kt:62)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invoke(performByIrFile.kt:52)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invoke(performByIrFile.kt:38)
+	at org.jetbrains.kotlin.backend.common.phaser.NamedCompilerPhase.phaseBody(CompilerPhase.kt:147)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:94)
+	at org.jetbrains.kotlin.backend.common.phaser.CompositePhase.invoke(PhaseBuilders.kt:29)
+	at org.jetbrains.kotlin.backend.common.phaser.CompositePhase.invoke(PhaseBuilders.kt:16)
+	at org.jetbrains.kotlin.backend.common.phaser.NamedCompilerPhase.phaseBody(CompilerPhase.kt:147)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:94)
+	at org.jetbrains.kotlin.backend.common.phaser.CompilerPhaseKt.invokeToplevel(CompilerPhase.kt:43)
+	at org.jetbrains.kotlin.backend.jvm.JvmIrCodegenFactory.invokeCodegen(JvmIrCodegenFactory.kt:361)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.runCodegen(KotlinToJVMBytecodeCompiler.kt:347)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.compileModules$cli(KotlinToJVMBytecodeCompiler.kt:122)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.compileModules$cli$default(KotlinToJVMBytecodeCompiler.kt:43)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:165)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:50)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:104)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:48)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:101)
+	at build.kotlin.jvm.JvmBuildRulesKt$BuildKotlin$1.invoke(JvmBuildRules.kt:1806)
+	at build.kotlin.jvm.JvmBuildRulesKt$BuildKotlin$1.invoke(JvmBuildRules.kt:1755)
+	at build.kotlin.jvm.JvmBuildRulesKt$inlined$sam$i$java_util_concurrent_Callable$0.call(PrivilegedBuildAssistant.kt)
+	at kompile.executionenvironment.BuildscriptRunner.simpleCache(BuildscriptRunner.java:216)
+	at build.kotlin.jvm.JvmBuildRulesKt.BuildKotlin(JvmBuildRules.kt:2110)
+	at build.kotlin.jvm.JvmBuildRulesKt.BuildKotlinJar(JvmBuildRules.kt:1148)
+	at build.kotlin.jvm.JvmBuildRulesKt$buildSimpleKotlinMavenArtifact$1.invoke(JvmBuildRules.kt:1468)
+	at build.kotlin.jvm.JvmBuildRulesKt$buildSimpleKotlinMavenArtifact$1.invoke(JvmBuildRules.kt:1467)
+	at build.kotlin.jvm.JvmBuildRulesKt$inlined$sam$i$java_util_concurrent_Callable$0.call(PrivilegedBuildAssistant.kt)
+	at kompile.executionenvironment.BuildscriptRunner.simpleCache(BuildscriptRunner.java:216)
+	at build.kotlin.jvm.JvmBuildRulesKt.buildSimpleKotlinMavenArtifact(JvmBuildRules.kt:2082)
+	at build.kotlin.jvm.JvmBuildRulesKt.buildSimpleKotlinMavenArtifact(JvmBuildRules.kt:1447)
+	at build.kotlin.jvm.JvmBuildRulesKt.buildSimpleKotlinMavenArtifact$default(JvmBuildRules.kt:1440)
+	at java.lang.invoke.LambdaForm$DMH/0x000079cfc8341400.invokeStatic(java.base@21.0.12.1/LambdaForm$DMH)
+	at java.lang.invoke.LambdaForm$MH/0x000079cfc8345800.invoke(java.base@21.0.12.1/LambdaForm$MH)
+	at java.lang.invoke.Invokers$Holder.invokeExact_MT(java.base@21.0.12.1/Invokers$Holder)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(java.base@21.0.12.1/DirectMethodHandleAccessor.java:157)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(java.base@21.0.12.1/DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(java.base@21.0.12.1/Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.invokeInterceptedLocally(BuildscriptRunner.java:261)
+	at kompile.executionenvironment.BuildscriptRunner.visitMethodInsn(BuildscriptRunner.java:255)
+	at tools.kotlin.build.runtime.PrivilegedBuildAssistant.visitMethodInsn(PrivilegedBuildAssistant.kt:20)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.buildMaven$impl(foundation_url_protocol_buildkts.kt:98)
+	at foundation.url.protocol.Foundation_url_protocol_buildktsKt.buildMaven(foundation_url_protocol_buildkts.kt)
+	at CmdKt.command(cmd.kt:1)
+	at java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(java.base@21.0.12.1/DirectMethodHandle$Holder)
+	at java.lang.invoke.LambdaForm$MH/0x000079cfc8002000.invoke(java.base@21.0.12.1/LambdaForm$MH)
+	at java.lang.invoke.Invokers$Holder.invokeExact_MT(java.base@21.0.12.1/Invokers$Holder)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(java.base@21.0.12.1/DirectMethodHandleAccessor.java:153)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(java.base@21.0.12.1/DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(java.base@21.0.12.1/Method.java:580)
+	at kompile.executionenvironment.BuildscriptRunner.main(BuildscriptRunner.java:509)
+
+"Reference Handler" #9 [2968368] daemon prio=10 os_prio=0 cpu=6.00ms elapsed=389.35s tid=0x000079d0401740c0 nid=2968368 waiting on condition  [0x000079d0176f5000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.ref.Reference.waitForReferencePendingList(java.base@21.0.12.1/Native Method)
+	at java.lang.ref.Reference.processPendingReferences(java.base@21.0.12.1/Reference.java:246)
+	at java.lang.ref.Reference$ReferenceHandler.run(java.base@21.0.12.1/Reference.java:208)
+
+"Finalizer" #10 [2968369] daemon prio=8 os_prio=0 cpu=0.36ms elapsed=389.35s tid=0x000079d040175630 nid=2968369 in Object.wait()  [0x000079d0175f5000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@21.0.12.1/Native Method)
+	- waiting on <0x0000000080fd1838> (a java.lang.ref.NativeReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@21.0.12.1/Object.java:366)
+	at java.lang.Object.wait(java.base@21.0.12.1/Object.java:339)
+	at java.lang.ref.NativeReferenceQueue.await(java.base@21.0.12.1/NativeReferenceQueue.java:48)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@21.0.12.1/ReferenceQueue.java:158)
+	at java.lang.ref.NativeReferenceQueue.remove(java.base@21.0.12.1/NativeReferenceQueue.java:89)
+	- locked <0x0000000080fd1838> (a java.lang.ref.NativeReferenceQueue$Lock)
+	at java.lang.ref.Finalizer$FinalizerThread.run(java.base@21.0.12.1/Finalizer.java:173)
+
+"Signal Dispatcher" #11 [2968370] daemon prio=9 os_prio=0 cpu=0.82ms elapsed=389.34s tid=0x000079d040176dc0 nid=2968370 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Service Thread" #12 [2968371] daemon prio=9 os_prio=0 cpu=27.88ms elapsed=389.34s tid=0x000079d040178400 nid=2968371 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Deflation Thread" #13 [2968372] daemon prio=9 os_prio=0 cpu=38.29ms elapsed=389.34s tid=0x000079d0401799a0 nid=2968372 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #14 [2968373] daemon prio=9 os_prio=0 cpu=101320.79ms elapsed=389.34s tid=0x000079d04017b4e0 nid=2968373 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   Compiling: 39699       4       org.jetbrains.kotlin.backend.jvm.mapping.MethodSignatureMapper::mapSignature (587 bytes)
+
+"C1 CompilerThread0" #17 [2968374] daemon prio=9 os_prio=0 cpu=27432.33ms elapsed=389.34s tid=0x000079d04017cba0 nid=2968374 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   Compiling: 39803       3       org.jetbrains.org.objectweb.asm.Frame::merge (395 bytes)
+
+"Notification Thread" #18 [2968375] daemon prio=9 os_prio=0 cpu=0.17ms elapsed=389.25s tid=0x000079d04018d240 nid=2968375 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" #19 [2968377] daemon prio=8 os_prio=0 cpu=1.42ms elapsed=389.24s tid=0x000079d040187b70 nid=2968377 waiting on condition  [0x000079d016e25000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@21.0.12.1/Native Method)
+	- parking to wait for  <0x0000000080fd1950> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(java.base@21.0.12.1/LockSupport.java:269)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(java.base@21.0.12.1/AbstractQueuedSynchronizer.java:1886)
+	at java.lang.ref.ReferenceQueue.await(java.base@21.0.12.1/ReferenceQueue.java:71)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@21.0.12.1/ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(java.base@21.0.12.1/ReferenceQueue.java:218)
+	at jdk.internal.ref.CleanerImpl.run(java.base@21.0.12.1/CleanerImpl.java:140)
+	at java.lang.Thread.runWith(java.base@21.0.12.1/Thread.java:1596)
+	at java.lang.Thread.run(java.base@21.0.12.1/Thread.java:1583)
+	at jdk.internal.misc.InnocuousThread.run(java.base@21.0.12.1/InnocuousThread.java:186)
+
+"C2 CompilerThread1" #15 [2975223] daemon prio=9 os_prio=0 cpu=3845.03ms elapsed=10.64s tid=0x000079cf9c3d9ae0 nid=2975223 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   Compiling: 39728       4       org.jetbrains.kotlin.codegen.optimization.RedundantNopsCleanupMethodTransformer::transform (115 bytes)
+
+"C2 CompilerThread2" #16 [2975225] daemon prio=9 os_prio=0 cpu=3660.81ms elapsed=10.41s tid=0x000079cf9c0f10c0 nid=2975225 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   Compiling: 39795   !   4       org.jetbrains.kotlin.codegen.optimization.temporaryVals.FastStoreLoadAnalyzer::analyze (562 bytes)
+
+"Attach Listener" #37 [2975468] daemon prio=9 os_prio=0 cpu=0.85ms elapsed=0.09s tid=0x000079cfac000ff0 nid=2975468 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"G1 Conc#1" os_prio=0 cpu=8305.76ms elapsed=378.20s tid=0x000079d018000d90 nid=2968707 runnable  
+
+"GC Thread#7" os_prio=0 cpu=735.44ms elapsed=378.20s tid=0x000079cfbc015ff0 nid=2968706 runnable  
+
+"GC Thread#6" os_prio=0 cpu=826.52ms elapsed=378.20s tid=0x000079cfbc0152d0 nid=2968705 runnable  
+
+"GC Thread#5" os_prio=0 cpu=966.23ms elapsed=378.21s tid=0x000079cfbc014ba0 nid=2968704 runnable  
+
+"GC Thread#4" os_prio=0 cpu=812.86ms elapsed=378.21s tid=0x000079cfbc0144f0 nid=2968703 runnable  
+
+"GC Thread#3" os_prio=0 cpu=1035.82ms elapsed=378.21s tid=0x000079cfbc013f00 nid=2968702 runnable  
+
+"GC Thread#2" os_prio=0 cpu=876.77ms elapsed=387.53s tid=0x000079cfbc008420 nid=2968418 runnable  
+
+"GC Thread#1" os_prio=0 cpu=1029.34ms elapsed=387.53s tid=0x000079cfbc007be0 nid=2968417 runnable  
+
+"VM Thread" os_prio=0 cpu=288.59ms elapsed=389.37s tid=0x000079d0401698d0 nid=2968367 runnable  
+
+"VM Periodic Task Thread" os_prio=0 cpu=252.17ms elapsed=389.37s tid=0x000079d040157c20 nid=2968366 waiting on condition  
+
+"G1 Service" os_prio=0 cpu=58.49ms elapsed=389.44s tid=0x000079d04013cc20 nid=2968363 runnable  
+
+"G1 Refine#0" os_prio=0 cpu=268.84ms elapsed=389.44s tid=0x000079d04013bc60 nid=2968361 runnable  
+
+"G1 Conc#0" os_prio=0 cpu=8140.01ms elapsed=389.45s tid=0x000079d040088150 nid=2968360 runnable  
+
+"G1 Main Marker" os_prio=0 cpu=10.57ms elapsed=389.45s tid=0x000079d0400871b0 nid=2968359 runnable  
+
+"GC Thread#0" os_prio=0 cpu=919.27ms elapsed=389.45s tid=0x000079d040075b90 nid=2968358 runnable  
+
+JNI global refs: 23, weak refs: 5
+
