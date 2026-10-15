@@ -1,0 +1,15 @@
+Compiled from "Version.java"
+public final class coursierapi.Version {
+  public coursierapi.Version();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int compare(java.lang.String, java.lang.String);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #7                  // Method coursier/internal/api/ApiHelper.compareVersions:(Ljava/lang/String;Ljava/lang/String;)I
+       5: ireturn
+}

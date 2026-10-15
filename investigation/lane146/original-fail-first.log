@@ -1,0 +1,7 @@
+API_CLASS_ORIGIN=file:/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/coursier-cache/https/kotlin.directory/io/get-coursier/interface/2.1.31-freshcache1/interface-2.1.31-freshcache1.jar
+SELECTED Dependency{module=Module(io.netty, netty-transport), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-common), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-buffer), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-resolver), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+Exception in thread "main" java.lang.AssertionError: Requested custom transport lost mediation: 4.2.10.Final-codexcoder21-1
+	at CandidateFetchProbe.main(CandidateFetchProbe.java:11)

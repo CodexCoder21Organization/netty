@@ -1,0 +1,70 @@
+Error: class not found: coursierapi.Resolve
+Error: class not found: coursierapi.Resolution
+Compiled from "Fetch.java"
+public final class coursierapi.Fetch {
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public static coursierapi.Fetch create();
+  public coursierapi.Fetch addDependencies(coursierapi.Dependency...);
+  public coursierapi.Fetch withDependencies(coursierapi.Dependency...);
+  public coursierapi.Fetch addBomDependencies(coursierapi.Dependency...);
+  public coursierapi.Fetch withBomDependencies(coursierapi.Dependency...);
+  public coursierapi.Fetch addRepositories(coursierapi.Repository...);
+  public coursierapi.Fetch withRepositories(coursierapi.Repository...);
+  public coursierapi.Fetch withCache(coursierapi.Cache);
+  public coursierapi.Fetch withMainArtifacts(java.lang.Boolean);
+  public coursierapi.Fetch withMainArtifacts(boolean);
+  public coursierapi.Fetch withMainArtifacts();
+  public coursierapi.Fetch withClassifiers(java.util.Set<java.lang.String>);
+  public coursierapi.Fetch addClassifiers(java.lang.String...);
+  public coursierapi.Fetch withArtifactTypes(java.util.Set<java.lang.String>);
+  public coursierapi.Fetch addArtifactTypes(java.lang.String...);
+  public coursierapi.Fetch withFetchCache(java.io.File);
+  public coursierapi.Fetch withFetchCacheIKnowWhatImDoing(java.io.File);
+  public coursierapi.Fetch withResolutionParams(coursierapi.ResolutionParams);
+  public java.util.List<coursierapi.Dependency> getDependencies();
+  public java.util.List<coursierapi.Dependency> getBomDependencies();
+  public java.util.List<coursierapi.Repository> getRepositories();
+  public coursierapi.Cache getCache();
+  public java.lang.Boolean getMainArtifacts();
+  public java.util.Set<java.lang.String> getClassifiers();
+  public java.util.Set<java.lang.String> getArtifactTypes();
+  public java.io.File getFetchCache();
+  public java.io.File getFetchCacheIKnowWhatImDoing();
+  public coursierapi.ResolutionParams getResolutionParams();
+  public java.util.List<java.io.File> fetch() throws coursierapi.error.CoursierError;
+  public coursierapi.FetchResult fetchResult() throws coursierapi.error.CoursierError;
+}
+Compiled from "Dependency.java"
+public final class coursierapi.Dependency implements java.io.Serializable {
+  public static coursierapi.Dependency of(coursierapi.Module, java.lang.String);
+  public static coursierapi.Dependency of(java.lang.String, java.lang.String, java.lang.String);
+  public static coursierapi.Dependency of(coursierapi.Dependency);
+  public static coursierapi.Dependency parse(java.lang.String, coursierapi.ScalaVersion);
+  public coursierapi.Dependency withModule(coursierapi.Module);
+  public coursierapi.Dependency withVersion(java.lang.String);
+  public coursierapi.Dependency addExclusion(java.lang.String, java.lang.String);
+  public coursierapi.Dependency withExclusion(java.util.Set<java.util.Map$Entry<java.lang.String, java.lang.String>>);
+  public coursierapi.Dependency withConfiguration(java.lang.String);
+  public coursierapi.Dependency withType(java.lang.String);
+  public coursierapi.Dependency withClassifier(java.lang.String);
+  public coursierapi.Dependency withPublication(coursierapi.Publication);
+  public coursierapi.Dependency withTransitive(boolean);
+  public coursierapi.Dependency addOverride(coursierapi.DependencyManagement$Key, coursierapi.DependencyManagement$Values);
+  public coursierapi.Dependency addOverride(java.lang.String, java.lang.String, java.lang.String);
+  public coursierapi.Dependency withOverrides(java.util.Map<coursierapi.DependencyManagement$Key, coursierapi.DependencyManagement$Values>);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public coursierapi.Module getModule();
+  public java.lang.String getVersion();
+  public java.util.Set<java.util.Map$Entry<java.lang.String, java.lang.String>> getExclusions();
+  public java.lang.String getConfiguration();
+  public java.lang.String getType();
+  public java.lang.String getClassifier();
+  public coursierapi.Publication getPublication();
+  public boolean isTransitive();
+  public java.util.Map<coursierapi.DependencyManagement$Key, coursierapi.DependencyManagement$Values> getOverrides();
+}
+Error: class not found: coursierapi.ResolutionResult
