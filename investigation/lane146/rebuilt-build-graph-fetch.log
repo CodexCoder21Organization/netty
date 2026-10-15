@@ -1,1 +1,15 @@
 Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+SELECTED Dependency{module=Module(community.kotlin.libp2p, jvm-libp2p), version='1.3.0-codexcoder21-snapshot-25', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-buffer), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-common), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-transport), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-handler), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-codec), version='4.2.10.1-codexcoder21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(com.google.protobuf, protobuf-java), version='3.25.5', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(org.jetbrains.kotlin, kotlin-stdlib-jdk8), version='1.6.21', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(org.jetbrains.kotlinx, kotlinx-coroutines-core), version='1.6.4', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(com.google.guava, guava), version='33.3.1-jre', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(org.slf4j, slf4j-api), version='2.0.9', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+SELECTED Dependency{module=Module(io.netty, netty-codec-http), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+Exception in thread "main" java.lang.AssertionError: Unexpected core Netty version Dependency{module=Module(io.netty, netty-codec-http), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+	at BuildGraphFetchProbe.main(BuildGraphFetchProbe.java:12)

@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.AssertionError: Unexpected core Netty version Dependency{module=Module(io.netty, netty-codec-http), version='4.2.10.Final', exclusions=[], configuration='default', publication=null, transitive=true, overrides={}}
+	at BuildGraphFetchProbe.main(BuildGraphFetchProbe.java:12)
