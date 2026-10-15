@@ -1,0 +1,3310 @@
+[
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "825a2a61ea283e1043eb8058eddc4bb0731d719d77d4add051bb42796ed5acbe",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "a007b47e4c57665d0ae34c59ac64c28d0c33bf51313748091baad26448ba2156",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "a8400d6ee2c87b6fb2751408536b25ead91501a65dc9e6ebeb86ebfc513d2264",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "d555eedaa726c7e0e7c1ee146418e271557a7885c9e2f475f85bc98cd6225c57",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ffc688bbaef345413e7db95108870cdc9495cf56d971b257b2dec6ce535fcd67",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "328534b64facd54edc0fa623f63c5ccb12615775818a2952f9843ed073b5d17c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "3cb9e016aca6583bf157112aced7f94ab374b82efe9b38df2a23f071fcd03c96",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "358be2734bfc1b0eb799b92346ed7525be79bc7ffc4698a994d4ef5d1a901b57",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-redis",
+    "file": "netty-codec-redis-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-redis/4.2.10.2-codexcoder21/netty-codec-redis-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "a4553824fe95c4b99600618a338f6fb231757fa897526e614f170aa709361e0f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "bdf325bf36da38394d6bf4eda7127fb39c0fad8baa219008813e8bc53cc3a35e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "78b63c29393ba49ed1520c0ab9c6a138872715f3247493cd0436c8092ce4bb82",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "3082b5fe3cf13a9cb257e1da00e6f1dd1d2971886ed6ac2d1385a4efe9db2b41",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "dc81c18db9719026539555ed8fce934a8873890fd055714e0c0bc5e2d41c1ec9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "709c271c89b466a417f8502aee7655c3d5433bdbb554055cf5106ffc54f0e4a9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "b1d0c3a09c29897b76cbcb7ea719b341452523e450e16450fa569b15622e3f76",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "42becdec88c6a4047d16095d596490ea5e021b51cd1b52970dee5b87eb57a93b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "4b66fe3ba52e724ed5dfdac4a71562acb90697a7275f699e47e999950dddc5e7",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-rxtx",
+    "file": "netty-transport-rxtx-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-rxtx/4.2.10.2-codexcoder21/netty-transport-rxtx-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "b953d3d7287c068c9a055f20afdc1984d2ef3ec9d8dc44174dd1703641eb5892",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "8cf12e797f60b315f60efaac16c490a64d7d7bb7c4a7d56bf1c7bfa127c1f89b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "4d16a0a16ef3399e18bb93be8c90fd1e1d598dbd9d6c3b72b9cf3d2925510808",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "b1ce639be23b486da72b5fc114d0c7125071eab33b85605933326fb782a554f1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "cb9766683caf2ce11e0e3290947e359f6baf8f8670c106b2dcd65e3f70d2354a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "1624558b607151cb48947394b8a9d61751548cac50bdda73e136007762ffc46f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "e16568c44a5580b8fda6f8b4ab6cfd4b717c79fd61680a6881a9cadef823e9ab",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "c8aaf43bac0caa61155a01ea3c21d49d9418eb8ed3736884d8c8762a1fe14ba8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "af6b621c168eed795406ea40ab7017b9f50bd525a24a221df999fa650c29f7de",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-xml",
+    "file": "netty-codec-xml-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-xml/4.2.10.2-codexcoder21/netty-codec-xml-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "0b52641ce248a5de10deaae13232ae66712420096ac597c77f6c79586e929eb6",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "702df0fa2464317560216b830d339ee780caccb811d85aaae49bd1c560bf8597",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "0d381d08faae5f6763226ae41b1553e34d622a6e0f43a153529ada30cea694b4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "2c0e8e9e60ba1216f2334866af1d2e143d8b57ab573360e631a264d15cc5338e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "f19c3c3009462917bff43cfe52a7baf1b283e9d5cc4da847d397dd3d9b10e8df",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "c0cc3e35e61b16cb13869a96383ab0e825176b741597236124d539306c9accd0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "94bb63590d62b9198e90e8aa0d265ef0334e9f02ef43b0457dc1d20678e53fda",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "67e29b9d3879ddc02eec412c4138a6995f43c2e5460835198fdfc8f7d44b1959",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "74f55204606ebc88b8f1d6dcb1a5e898fd672a408ab11bc40dc1dbae2d4967ef",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler",
+    "file": "netty-handler-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler/4.2.10.2-codexcoder21/netty-handler-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "7f0af5b3904c43c602a895874f081af0a4db5db2ff618069849a17f666122ef3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "bcca58b4c709f0b60d2c71ca1cdaf0f12aa028c44bb5180dab24cfb258b13dac",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "d39c79ce9b23e860d25228be1f76f3a295bb7d5017e923624bfa1c1ada2d77f7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "a415d7c625a8361612da08a4dbcf7e88ffd74581ccbb64f4839a8d105d74c1ae",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "4b6dd9f5f4461e712b581f92c494545d534d8381eacec4ef8c4ec72d7ab29147",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "e57fb8d4f62068589d24328fa4cb86d811f9059d9e022b9d843e307da3a8e851",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "0e2de314ea0d4c89e9ef34eda46271796dd6983bf6936387ec8eca44af260c32",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "1015178d45573726fd347ed9bc9df3a38d1fbace60f4e8166e8e031954dfc002",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "0d5406d24b3ac0ee41bcf1668f65d767c24f1508ff6fc2de3e166dcb94108e1d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-udt",
+    "file": "netty-transport-udt-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-udt/4.2.10.2-codexcoder21/netty-transport-udt-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "d902f239edf00b1d2ed04d42e1a76983f910fdc089aaed71e8df7fda2b0759ef",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "740565789c06416dc83369298d6ccb5ab3fd89d84aadd9fc20ba6661b362e42e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "3c4377425cdb972e5d089ad57cfbf1a3c9c2fe99eea9dc8847371f94e0023e1b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "8f7d8b70d53eae3c600b155c333fad7242b3989dedba9460a153896059976541",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "0d5ebe8630f0946116b5cbbc8d4ccfb3b477ed311a46b76db9baf5137d1e4f64",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "44a94a29b294a53fdcc71c310d114d20dcf8bfb18088b084ba761fbe239785d4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "90b658252d6d32b7f1216bfbeff9d34021cecd062e26177096dba7356f705487",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "29e4e0fb6a94a0ea1aa44b3ad91fd32c68538947b3d4a874aa835cfee210f106",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ff3d654e99f2585c33b0420832c1622570967c53bbcdc346f3ad383c6ad33016",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "file": "netty-pkitesting-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-pkitesting/4.2.10.2-codexcoder21/netty-pkitesting-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "45e23158230eddb3cd2813bb1dbdf23eba671a33d70ffa7565ab6d9770937cbb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "f94c16025ff09fbbd8f7a76d5f6626995201e9d6fb3c66e73cfc37614ff6c724",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "ab2ef6fc88f1e16670db9d91446a89e569e09edb82d15f3e1d7b14941a8c6e35",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "76b9187b21cc17329c0be98965efb8e3e93c2943bbfe9c9670db630af7f59140",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "76920ec0369aff6cc83cd840c53610e5627e00cbc3f05a44c02275bb41a926f6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "84902e7ee2835b7e14a5412fcb8fe24c3c64b1f9b42d05e4995656b82c722c8f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "7b76b4edb30d5c8c54addf3e7e5060d33dc1da4867d0528b4b14b217f773382d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "12a23208108f2461e9759416c64341fe90987aa76b8321aa57ae73c6811574a7",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "339a3c8d46deeb4877eb95bfbf739ac7b7ed48f5b5e267ad51f1bf8673d8029b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-compression",
+    "file": "netty-codec-compression-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-compression/4.2.10.2-codexcoder21/netty-codec-compression-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "b43e2a36026b1c9cdb933641bb8e334010f20fc075b9165059bb3b81409fbeaf",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "bce9c34cb2599700d5512b6f7dcc9e9198d8c758eaa83d52c4676cde53fc3ea4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "d7a866f017e6a0b1b2ce2aec6a038fe05784e0f0f7ecb15f055f6a7a3883f830",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "e8b24d5bfb444a648ecbf3563ee752246c160ef4bc1e77ae59f697e15c3ad269",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "5a3e42b2f860513bab09444d3613f9ee2e9dd36dc0ed452f5837478efae5f297",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "af8b6b9e77262e474551f0ea20d4628337822e995f4f20dc8b5fd211258c4e93",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "9d07c38faf048c775ecfd08a28ac357cc7c97a8f8c93f01ae806ac7191805cf4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "e58ece355361c2c1932b732015243c91b7bbd62ca147612d3bc7f8d481b181ef",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "96c7d102f27b55230948a0369604eecd7df3f584138c6649c40198af2e3c74ea",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-classes-quic",
+    "file": "netty-codec-classes-quic-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-classes-quic/4.2.10.2-codexcoder21/netty-codec-classes-quic-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "bd225fd241c128a5ca604907f86c2f02ef0b79cf9b4c5b1f3f91b36aec20b5cb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "451db9c3bee397421a48ffb4875efbce7333f69463543f44f79267c73ce4099e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "e3a53ce5c8e44b6477308d0965f3d4d27a468133e4078146352b65f1869bc548",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "033a63e1d1323fb2723dc8fbfe265f3a3dc3b7f00a6eb47766005c5e643a1267",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "5f68fb6c6b2891465cbceb210681c355ab288d2f9309500fb2920ded78ba1922",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "0c1587cfbbf95c674be837148a7d71dca3569be13421a673bde16bded728ceff",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "9db6f5bb1913f91ea468312945b28263838e1f4a31f6a4eed02f43593810679b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "dbdaa0e32dbcc89398c2f880a3591df043d9343df60b3a997f635fd8429fe4bc",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "36ea9b034d906f43b42029d9c8d5a392d7d089a266f7bc1eedec277935a73be9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "file": "netty-varhandle-stub-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-varhandle-stub/4.2.10.2-codexcoder21/netty-varhandle-stub-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ad906366fe7584950974010d8c57a1b6ca94fbccf2fa0e345d3632db0b67cd64",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "256c3c7d35eedcfbf0e7c944a82789065323e3a7a5c1a0671e3102c1d8b66f5e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "37a44521d355ad9601cc744c07936ab477ef6d39367c8feecbfdab9ea761c7d0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "c594e76745fa01b5406c7d149a3b0e03a1857dcc60227b112ccb965134d6a37b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "f2f231251833e7bad1a6d3e83106ca041acd042f238f135b91b1b037be48495f",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "f9cf7a61de347c57843044648363a7fb4dc9a2fcc868c991ed06db0d41029036",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "fd8cc2e4100a7b31d58011e06a866f64751401b62e1881095df65f0b0a101c38",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "3e0c6432f8316c07ed32d52c5f579fad7912dbf9bc6fc7a5318588e08d12317b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ba99d5c9188e06dde330db84dbf094311b482a122224a457cf518cb3b29c4a95",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver",
+    "file": "netty-resolver-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver/4.2.10.2-codexcoder21/netty-resolver-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "4400f3e5c4449c0e130fc9e500339ca7cbff93c1a078fe0c2047869199981238",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "dd680e03195c1388741313158d391ac0b00def8cf0e411ed7fcc21bc47142e82",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "a3b58acfd7d33d08c4d7a6bc2610958513055ba21f1344cd1b0e3b486125ddc5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "5f3dfe25ddd92fa91b669f115c5928a00f25c1bc4932fd89c2f8260792a38843",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "b0f8d243e0dbf8a98bb7fe8376ccb1cf88ebf6a8902e22a02f03ad6db6d361ed",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "02cbd3a11de1c325ee578bb7cab24c1ff8420eeb4508702812908f4e5e1aa9d1",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "f58176222dacb28a23cc2c42356568b3cff024d3a0f494a7bf3274056ddc613b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "1e0c9a2327303186dab7ad775bb4d767de950de69352fd06054da60d6ac12ce0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "6bd40af68a02723c900f3c9ae9f0179287558727685cd439ec271f117e57f84b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite-common",
+    "file": "netty-testsuite-common-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite-common/4.2.10.2-codexcoder21/netty-testsuite-common-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "b390cf309a14f31d0cf860ff133da43e203252253a5096e2f6007d03561a6ff8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "4746e049c0b7d5491300c629ce62f04276d6e88ab3b234f9480ed7d0ad2b899a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "2ac76e96da93faf03b3727ea54599cc9ff13748ae9682e91c2133d52a014f9a1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "7f18703fb27ef6658af665c35a8263874a33b101a2b19233a22b84ade6ba177e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "a26d88247e33bb7050d4f7839f90d94482bda40168f5e6de9d190730885ced32",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "4eec1bd8ff520a5b3eed8c9d89ae98622efda01a8353a92cc375e65f4127d89b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "f42e9a0ec9460b994d1fad3efc3fe0bd28ab99652c9279f230b6d35cf8dc5eb9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "c44a0dfb96985659211e35fe9511dcaf49a4533d5eb960b68165e4e2bf0a5e3b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "816730ca170e8d9f1ff646f065cbacdfc48c1f7c0a731812abe5d4549966a119",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-base",
+    "file": "netty-codec-base-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-base/4.2.10.2-codexcoder21/netty-codec-base-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "40bd97b31e6c25f80842a9de46774a2d608de7e4e53b95b6a8b80743b84df9ab",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "f68abcb14721e4949cb8701df165c0caae85e698e86222c8855c7dce38af86f1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "b0d87d844fb277fffa2e3430ef31bec1a5f8fcc4a28ef9d66490d15c2c595a7a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "1af935d13f87e84352c9be1a7d031864fd0148b149fde05b00e7c3fffe1fb8eb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "348fd634c58f7fb229eb45b92d42f5d3f850d245764abfe73264fb9ff79708c5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "4b57575a5949d45df7c84597fdf90f7e4fb9e199cddb4d874acb75a2ef257eab",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "d4370049af29e8ef82a3127eef8f8ee087f9220f1d23a5444e45853f530d9f40",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "7f4adae8effb743ae3a72b1fb98f587e50b45c61eeaecb9735db36d3c7cd4c83",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "5e51ce564e6f4fba8d8565180aa33719e86a8759dc5adf39bfed7a41e4a331de",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-memcache",
+    "file": "netty-codec-memcache-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-memcache/4.2.10.2-codexcoder21/netty-codec-memcache-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "8a436aa08804392f96f5e7788efb25aeda2354e7b5d4036c0e4f233f4b80b6dd",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "13de26f07971a3f0544ae44113bfc214b669dc3fc9658a2b93c335459ff60e76",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "191ee809bc260f3323982c8cb21b927d34db67db3a0a0186b5902e781de0a15b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "9a18ada42dba93e16534aad2c38c011ce74c9b70773002dbd1f50eaa03727d17",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "1f01f0652999d4e0c2dd837192ec7d3e48b2a6fb70cc716a5806f7208b44bdd4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "9492bf55951b43d7b6b662cecd101e9efbf1704a3bd06259833d50214f42a1c0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "e4385be63ed27ac227799c77c64ecdf2d6942ef6012977e639dd9b013fe2aaa8",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "bbd72d3e1b8b48bba84c87483bf8f64bca86461246b13e9c58a59c045d390d11",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "4b600f1515c8c0160ddf0d18e266adeb345a0196e6330c92699705a703070b0f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-common",
+    "file": "netty-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-common/4.2.10.2-codexcoder21/netty-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "fb849e8285a06b0d1dbeaa9393a7b79e54a96289acbfb69d4d053d470396db3c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-bom",
+    "file": "netty-bom-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-bom/4.2.10.2-codexcoder21/netty-bom-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "494152d54d8762d170391b72aeab3a117cf8da06428b5614e970e7874de81690",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-bom",
+    "file": "netty-bom-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-bom/4.2.10.2-codexcoder21/netty-bom-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "5e6710c4e3c19cb8198bbe36329697070009fe92da6ed9608fad0350cfdb4321",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-bom",
+    "file": "netty-bom-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-bom/4.2.10.2-codexcoder21/netty-bom-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "f2c654d24913abcd2e4dfc28ece3b5ee7056c6824084153446aeeb2b991d55fe",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "427df31ed9ee8ee87774ee0968e445690686b5ae692f77b2740c0208bb3a323c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "0c49d254baa4c60556be706af72a49a2c5422918fc782cccb1b575f0ffc13d33",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "c5e1b743a97bd2004e6e2de57730973a85c4ef5100edf2e68d05a655eca05d55",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "698a5073dc997f44f8bcf86dd73caf8c08472d55e2aec3ef7733a13c7ada4c5c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "e32afffdfa233b4f13ce81bff93abf1eb9c038ff53fc3280e98063e2394e6459",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "094fd0fe1dbbce7419c80d2173e63e7b3b2f45d2cdc98d4d7823364bb081646a",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "ccaa3ec5e5ef687a86839c6d81f0762195b10e94847cd57ad7baa4cf739e8b88",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "96f3c6edd1d7c511c75d52aca68c3eb39f6ef361f259943cbd1a4cc55fa8898a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http2",
+    "file": "netty-codec-http2-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http2/4.2.10.2-codexcoder21/netty-codec-http2-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "29b13302fec09ff0138c806793996362692ee01e1c24e59202166e1d03d5498a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "6654c36c0991a08f0722f7879f5b78b971797a14789b02f3497104da3ddc8ce7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "f7df6ff6b5119003b3f661a109cdc4d6f839f2d9ca0f9d5d95711682356062bb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "f2279fe667cb9b7026762cfa6d6b2c99aded04ac96cd5cef51e91eaa03a32d00",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "5932bacb6a36348eb1e13864e7e61cebde56dcce24da0f552c8ec3926ad87551",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "c61d8406f42cee198c77614ce36f4961b27f357265c1948962d1abf7c6772dae",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b9506e6b6197714f56e082d1c0c9d0cf7c6779d7f9f638dc01e3aa94e8c27421",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "fdcea85407027a514f1eb163f68ce67f17a83b9c23944ee6458f6d04a26ae2d1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "152050a7903f357fad2088c8d3bace505e964c060d81313ad8d708395e01a508",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec",
+    "file": "netty-codec-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec/4.2.10.2-codexcoder21/netty-codec-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "84e5d40bca566859084b8747e2356e2587ae209acb26c734ae17ca6f0138507f",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "6a5353a7acc4ee0e002d5a7ed14e7081d46a83a9177c8e431545a15bce369d4e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ea70ddbc6833a50008dd7c568a0005726d96bbbea33fca0ece4d13b19954cff2",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "f4131e515ed043f0056b88f24c3dbc66cfa4db1dcbe8f7bbea179470502af0de",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "1071eb122cb35ce1bc26c03c00b070e8fc65d3f0a16c68035aad27d701080916",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "8b995e8d96a1060f9e446bac5b66c4dd22e1fe04b704a02845f38917dccfa224",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "ecdf9eea50b486647cb937efd4b32738bc6e47f23beb406973412c5176bbdc4f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "27ec38e80b45aa37557fb4cc86eb0fd6f37c512ab765e00d30b7f422986a42db",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "4ca98533e554712d7a09f7fa99194e7cefb957c7bfc1b8dcba68465de0503457",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-socks",
+    "file": "netty-codec-socks-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-socks/4.2.10.2-codexcoder21/netty-codec-socks-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "6c41dd2d8ea24bf640f311118a943507cfaf7a45c19eba6768d62bbcab68ed99",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "bcdcf348faf19bbd7857ae708432b4dc02488f52c644c0f9ab613141f884459d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "9d9ee6d759e200077ef3c37a43387ec117dbd39bfad8d421580786eb28bc4339",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "97621340c38ee68e12a67fd43cabdf9c5438dc42b2dd0e998c840dd880ea7991",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "e6ede5336adc6ba95452fd3017cb83230d1f51b49bad7023defb06fdba99498e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "11ceff06c8fd790af5ad412e1d5fc36c9a71ebbbe99a5e5e75310cd7750137f7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "afa29c5b39706fa5528e0a5ed54837194191d87a781de0c42a8c3088ab038571",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "b2cd6504f1ecc5c9bfe52deb0a0e8ff10e3d244cd0cc1f4745a12e8c3602af46",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "1ef1891d35e4c194d952674d1d503f03d34bae826d6a04cf0cd593a75fef8baf",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport",
+    "file": "netty-transport-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport/4.2.10.2-codexcoder21/netty-transport-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "3178475af1cbfa34049c6eb8b292d8fe855566e3c416d87d14b8164b63763411",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "ab471937b7cd8620c13e7e20e201b9c92749f230e34e3b3a26d93fe832c0edef",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "537fc3839e84db02f76e37fd89497ad89041053fed4d45e28367fe2e88c0c2b7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "a62d8bb9cbad43b40bb36e44d9ef106a64cb0df141e112522ccade2f61a94068",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "cd6dd7ab556b16f44d167d6b49d316bfc1f0bc4e1c5816cddef3eff0b9dc7f32",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "3e14a3da37b2f9aa5db170b3275ec6306c889441857cf939b45083b944c4f2be",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "6cf20a4880d546f9fbda3ef1318781fb6920c2984586e1c5b865eefd519bcce5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "fbf78e9d4dfdc0a46d812097a9e05b18e03103310db99c64ae08c3d5894da630",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "fd90ecd4ade077de902cbc62823022ccc803459b190159c098cb162b15bc425c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-dns",
+    "file": "netty-codec-dns-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-dns/4.2.10.2-codexcoder21/netty-codec-dns-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "d163d24bd3efb07ec9176e67e996920d145a73533dda7535596ea3bc4aa726fa",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "2d68acbee973644812cb94a9b23992d2ffa210614fc978e7cefa4f4beb783737",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "d520774e99d51946992d3a68032ba1e5b902cbf965b61c0e9ede3d36be92e4ce",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "7465fb1f23c3be847b78cade14bd3b300344390d27384df6b985be3684d88fec",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "525170c610b5a7af12b1255c3446616279364a9b0fd01751410d49912ed7bea0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "aabed4277772d72555639cba103a4ff03cd4056692c1ad27b86f8e836687b7e6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "d9073c51dcb8a95a25c973fd42a19d7d374de6230d837838ab4aa4b6ee0bc077",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "c27c9da233d8a8b95925627a39923ba7d49c9af0e0c6befb0bc558682346ae2b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "9b53350284294fb02e9c4972cde789f4e3864e2a1af4e58cbf8ada806306a98b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "file": "netty-dev-tools-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-dev-tools/4.2.10.2-codexcoder21/netty-dev-tools-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "af20bf8e1405a4f097f23846ee7d21a4edb7e448b68472bada121a19d073125b",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "78295e63928df0fa20669bef5bc530f5781fd37e90dfe1b5110c37c1dbf4d92b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "97cefe981bee87c5b44231efb8e01e65817942ee46441ec89f3c97825f3d3d37",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "b5fc0f534f0e2e2c7a4b746a53f47c1b2215e27edd016904608e3ba274fab9e1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "3db63585ee64c10211feb68136154e72ce677f92200cc2a3bf890468b034700b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "dcddc1b888cf4bed151575b96c2ec33ab6ce0e78893d76bf2abd39f3ecfca9bf",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "d602b5eab4ab625bde780bbd22bc625d8e0f0fec692781a3f7b705dfa60c94d3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "9b4dcf6f935f3ecc8a881db0c427b7657d9676701bc631f46a1abe431cdd1a8b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "b552002b2bf84b7e10d2c46366202a6c3185c79a7065c67240dab4777b479526",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http",
+    "file": "netty-codec-http-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http/4.2.10.2-codexcoder21/netty-codec-http-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "31911a22a1319194ba0753715030c318a1584feb0ff98772d5e27747433443c5",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "4708e582037ce20819b42dc597f636b56fb90c653197c8a8dd3d5cdd25cfac1c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "a20bbfa1d74f9bcd74a1b0f6d5861e7fbac42c1fb8c2ad6bd143c4cf57638cae",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "941f58fbcd37013d2784ccfe6a0f2b8dfd60b4e15cf956637b27a7321a3d2a1f",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "42b0ef31b2287c2f98b0ed9a7b909515e4ebe87828ee59b7c831545d7900fe6f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "8b4e6ce64daeeeaab642f6e5eb117884843b01539e479e55b7e9d5f0d4bf50b0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "a1f9d61657d972cd74a35e00323a03441d936361f112dbc638abd1c8dd23164c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "884afc53a2a050b35c381571219d5cf278a16515608897d95785a224f24b9f3b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "19939fe4ee8165dad8782731d7de4f68e32329d6264db0e953f1ac7b45eac040",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-ssl-ocsp",
+    "file": "netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-ssl-ocsp/4.2.10.2-codexcoder21/netty-handler-ssl-ocsp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "6d389ec44f83c235e21b0132f0462fdd79a20bd1462b5985ffe1c99e004920d2",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "f8863e0db760f0039a0ae2b718b1796bd9beae19d8c5c7780881b6baede258f6",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "5bd52b412784ca962dc02346933b1c47a54dc22e9fd8d97f15cab27c84096135",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "9bb8ee5f3108cb09bbd354d2956312a2434b62ce27a5723dd1e509667326c519",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "fac26b28d58e099e047fbc3a3847f0c9561a9e0bcddcc8ad00afd396e7aa8951",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "9fdfa5cd2cfa95a10c61535653af529535337c33602117af1459b514470e2fbe",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "518d93dd14857c7470651258d2ea7175352ae58405b460cac77c08f19fdb81e3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "a5989cfc6b01b7fb24460bca7d327bf6682148dcf118196ff829e07642ffd3aa",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "7933348c9918951907330f30628fd013d786895f9ac8691e4952a6e627fb7def",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-smtp",
+    "file": "netty-codec-smtp-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-smtp/4.2.10.2-codexcoder21/netty-codec-smtp-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "50f120177d876c676664d107aa1745c88c0a587fe6ad8a60740b9b1fa80aa2be",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "bbb4b6661781ea4315a0a40487744ff64d99f2474662be28bc7d3c30e582976c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "5ccc2f051dcbc5b704865fb4bf9d2fb293c411f3022f9da24d2ebf0f3d2eff99",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "7559307083b6097dbc6a9d9846a50a4127056712476f93c6a68d94be55e47c0a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "452e93040594c77d224a84ba2c789403d9569f2a598d37241fe0ea921dc36ae3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "3f2a2b76362e302387f0142a3e6ff454088e19368fd211a64aa92e42245e8980",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "7ff9bd1f64d8bde9c9daebe5bd0e9768f4d788c5f207490ab1e64c23b0d6d766",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "1cd15264deb1f0e947ded19fe22cad190fc4282478732149636b11c9c97bfead",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b42704c4eeca1cc18f678b8da23cc025b224876e3706e744d80a798b81a32df0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-buffer",
+    "file": "netty-buffer-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-buffer/4.2.10.2-codexcoder21/netty-buffer-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "c58fade577fd5a0efea7bbbfb141282aa2c8a30bc7691784389d56826fcd354e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-parent",
+    "file": "netty-parent-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-parent/4.2.10.2-codexcoder21/netty-parent-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "ebc3c95ccf48ff91b56e8f389ee1cfdd7269467980ed295561861781ed8ee900",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-parent",
+    "file": "netty-parent-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-parent/4.2.10.2-codexcoder21/netty-parent-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "0406685f80b856613d2f4946c3f00e4d310886a5955fb319b23cb00d7f32c7f6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-parent",
+    "file": "netty-parent-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-parent/4.2.10.2-codexcoder21/netty-parent-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "243d70b7f2806e96b9f1de991969594901524cd70385f86d77999c8bb32b3ac3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "status": 200,
+    "sha256": "5df035cc029a3f975cbf15789771ee33c24bfb033d94b36dde1f2f0a94b6a9d7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "78dd7362bbbeb1e710ae75d217ea9af65c91e93c201b1b447f77c470e05fc831",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "c40634cbe11548589bd66c4ea67ac4034401b916caf45b2eb759a756f783c5cf",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "3e318ee1d6ce1f72d2b26640836512a3088fc33659e116e2378a58dd876a927f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "51c32845828172c80a78ab289af6f2cf92df0d59d252b17810b2f21cc156d0ce",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "f1b840874e92db759a258e3c6accba3ea179cb48010e36517298785096454240",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "2205fb7a1e6b923ed4e0931acda4e14ebdb19b2d89b00b0fc5217e4b796bf9b0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "bc8ac8e29628e5fd9ae7aff69d60e0fb7e699e78d87178d0958ea1141e555ef6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "5387fea61904aaa8f833ed780ad784c684d3111f2e9d703e276c35fe849b4af5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "b8578508e6cc2bd105372933d27a00fcc4477bc5905ebb3407db41b1e3f203f8",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "status": 200,
+    "sha256": "384868d34ee84cc0b049ba2fecf87e6b5673d01d228580a198312cb5301b1080",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-native-quic",
+    "file": "netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "status": 200,
+    "sha256": "b63a9498226d4145b1466747596324db630486e61147e6183580e14be539ea10",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "26186d991e01d3d56b5893507cea0e61323943b2638f3730809b921742b3dd1a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "200ecfd164b0870e415d930ccbfe3fb8b4c86db15233fdb693be91b66609b1c0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "3b05e3d459031559912ed10d449be911255f255a7325b6687c920a212fae16fe",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "11e62115cf5f24ab1a3401162de1d69b05405db4bab98731a26bc01c42b261e7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "0632871f0d70bd4b2924961ebb42e3041f2c98592720458984620a1e1456554c",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "49b9abe4ca96ea1c6694ad5ccd5d643167689573c0a848fb22d69a887a284904",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "a597e1a1479acc5b646e08f8df1c96a18bdeb0e324fa8fb706bbd7e66d55ec82",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "c003eb8bea8d74d70f96671fbea89171562be3a21157bc2af1900550469e02cc",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-kqueue",
+    "file": "netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-kqueue/4.2.10.2-codexcoder21/netty-transport-classes-kqueue-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "e9362bb79e599db904bec8b51abd44ac83cca192ad7b916b58a9c31fc63b78b3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "1239e7b6801a7cde2c6b028d94f8d4314a5a12cd1117f6694c9a6e9361b87d33",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "1edfc591967508396ea5ed28bcb2b251e6c7597887550e6853794589d3a4e80a",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "87bdfe462617f64b11cb1a596869abd3906fb20280d7b5958f45cb1937fb26ab",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "7eacc5479f33e3fd1ffdb5e27ff17e1b16c52a6198c5b1ed4225e03a7406348f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "af7adf1d243d94a862082b9aeb3d9c10f25253a9b7b8d61d5d822b2bd8838d39",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-all",
+    "file": "netty-all-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-all/4.2.10.2-codexcoder21/netty-all-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "2b26782e6142c2c20c6edb96dc1d509385501e86f8d1e9dedef97be7df63b753",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "52cc4fd09c97e8f688c8f5de48be65b85bb41de849efcc90c39693c9b049b381",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "0f3380a10394faa5a5154a2d414626851abb9ed6efebbca212a1ff67fb2b4513",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "e0d1b40da8f5d5116777deb54451090f56efafb9b68fbf0d09d53f0e87a035b1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "33338a42e951865e00564b7ce1199ce96e6459cfa0fdebb49f6c82412f8965e6",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "d679b66c3ebb99fc60f84ec5e44ebb1ab340fd2b0cbc0213e885c38cea317105",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "0b44c83cc8e2b32d5cd7d064a0a53d7d0cf413684130241cc33a11a0b6939886",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "7e538d439db606204f34eda13ee1655e23651568969468439f531a5b938ebe8b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "f02bfff48112c6e766c71f42ca8be4710237cb396aca4ff99568129744a93f44",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-mqtt",
+    "file": "netty-codec-mqtt-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-mqtt/4.2.10.2-codexcoder21/netty-codec-mqtt-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "59cf643d87a5ebc32096e702977b855d6cb8fafca7647df0d52ab14b406c4ce1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "9e0612f68a80443dff95e00262669e51a0b85f0ed58c2c46161147d875c39f9c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "9cb09b24235899fd6c761f0f65116b6c7acfbc068b4de3cc9ec6caf34071c9bd",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "a082f0a119c3b06ed14f2d86d69e32ffe61671e7bb39649767bc53491f759d92",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "3fc68d05756083aef1214de3076a908d3c2afb7b7cea782072501cf1845e711c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "2f2a82c885e63b779e21dd6c959a9e645c7a86ff47ff11fccb80984caee45238",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "4c70b1f484eeda4a16ee1ec41f90f4680a8470f3250f26790163a102bb09addd",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "8b558f3dad9d1cea164f15407af2972ee86cb1257a1cba65d488464ffb9f5c32",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "d1151462353a538393deded64a09dfee7edade74a407330740762cfc4a255f56",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-handler-proxy",
+    "file": "netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-handler-proxy/4.2.10.2-codexcoder21/netty-handler-proxy-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "c925d8967cde6c84c16b5f01828168c0d3bc460aeb1d48cfc24f9b88792a893b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "0b42c11f72f529eb0e1ecd16909cd80c81d74b74c49b27f060c9b21dcd29ea8b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "4f76d52f0f22e9af340909a825e03bf809d0af88e6e06db1b124add5456805fa",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "9c37c5acc75bffd95e2b1d07ebdbf1e3f48329ed7b7d5f4e6d36d60b1adca221",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "74a951699be00b3d5e756b23685845044c9a7dee31dc7aa143f32026a3a06e16",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "75969054900c71bf1ae36bf9f7c745ef07df5d522f11c1bb51455d4a98630a2f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "fa317218ee3401479cd93a9c5d8b8aac420be833fc2db0f2516d3014d6d96ac6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "52c4cf99fd4390875acf652100500af6f055d695d4ebbe0f8ef0c704cf6d3e02",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "18974aca7aeef1386e3ee38f6f97787038aa4ffdc2ea5c589d56409186fe5534",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-sctp",
+    "file": "netty-transport-sctp-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-sctp/4.2.10.2-codexcoder21/netty-transport-sctp-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "20b7ceb3f01d6afe6b97b7b8f36267963466110965e4bde17c784c794a0a5458",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "4b52912c8ce7b6cba2ca3b2c934fbef536c9dd7d3e1ae6c458a8140a387e4cf8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "11f06d0486a8d131833f9822648e50b1162c5f4e48a87578b914e68751c87356",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "7e48bf67a6f9778173a3c5e3f51421b6f03b7ff50face18c23421e085dde4bee",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "4d56ced59bac34fc5d4e856c7fb16832ef27c25c51606cab6a4ec9c154a42d26",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "4bac97c66811cbbb64f15eacc1a47f6161c50dd7cabd167a58674128aeef18bb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "5f16dc38bcfd14b9b6c06c0d76cb2fc0837a7cd637825db4fdc90a8dcaa6b278",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "71a4b1d953d0eebdbc457c9e5105ce98309f7a81ad7a9d5a2b5cd276d6aeff32",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "255e47e009ca5c4d1007a0f9df67fbee726e0fe5177bbb58df75aa8e247373ed",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-protobuf",
+    "file": "netty-codec-protobuf-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-protobuf/4.2.10.2-codexcoder21/netty-codec-protobuf-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "a5eb0c75cd6b279d7db30b86fe244cc26a917e23464ad9c412f44b59a9a52953",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "998a0e31741c692aa57f03dcbc23a61450d8b5f99a8513bb95145bf7c6475788",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "cef7f72984bfab7bc3617b76df486765fb8fe0086021e199db1d276f4042a777",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "9949a9c8d3092e8a0e376e8ab10e76917a6a9fa2149afbd1be1f34dbd6de43bb",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "1ebc1410ce19d1f7341eda419cd11bb7e57e59eae5696107faaa0294fe716eaa",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "75b8c64c6ea86ff3250a5360596454a71e0371782cba495e4d986b913225ba77",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "d66fca94e569f4b7d59f7e55cf2bdec08fe23df5e16983b3f21bee180cbd6db1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "b7ba0b995050fb23b5dac722a435aea45f7a164cc016288a564df0dafe2a0da8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "ef58e79b16783ce13743641a5b9a64f0634d1d00d90b4d0503c010b439ed168e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common-tests",
+    "file": "netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common-tests/4.2.10.2-codexcoder21/netty-transport-native-unix-common-tests-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "810b58e434fe2de8fceede6b3dc9a332dd970129c64f0886e57efce446b41900",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "c25e2a0c88a69e44836c9559f5918eede0c2dc418fc34e8ce93000957ad3f1e2",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "529e83caa6a5cfa802c73a140345946c2df2213175af68d9192e36c3f963e1e3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "9d94c2bd4ee175fe01bb0d06b898686f41a22a7300403f0861a0173a17d572ad",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "1c2605a16e16ff8112d16789eda8249c1fb209369d14dda5c8c96ca15fe1245c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "7e40ca5ab921d26c23a8e2bf9f3c6d1d28a477025a77e978efa821c304763a25",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "569493fa6f39d033d9fa621c4715b2270967185d782402db4811edad6bb71688",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "1308e11b1d152466693350d5495aecded37920b12ff875c5d89131f283953201",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "e31ea9fac86a15b70e4ff26bc7c9e621c6198db5e1cc3f30ae1d96f61ce2985d",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-resolver-dns",
+    "file": "netty-resolver-dns-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns/4.2.10.2-codexcoder21/netty-resolver-dns-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "b3d17c9a547de92dfb1bd6c0a6c2013c437c6fb6d19d72e999cd80479b3c163a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "e6bda8de6eec24f1d18a6c2af402bfed611e692e89b767b0cb870c96508ad879",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "ea1c6337a192e2f621ca80d05702d0f3c915f8b1dc85a2375422fe292abd0607",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "e76f215637855c8869169446db8714283c7e999d868323ad82935d5b3cae166c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "33e4fa821e239be56598f311ff3e3b2be4abb597d642601485c0d3979823b572",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "bfc955a5f346d665095c1fde9c28a90b0deef50fe9d2829eb77f110373eeab63",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "a5ee5246097f03180094d67e4ecd16e7692ed55136dfd8da5a65874aac0b0151",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "ffc41e97ea15a3fb7f81ebe31458fc61d2d81d9522ef9c8d2215226c2a1eaf51",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "89732d440f816a928c9521cdcfcb6ae45e7b22996fa8a06aa51bcef4da53dca0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-epoll",
+    "file": "netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-epoll/4.2.10.2-codexcoder21/netty-transport-classes-epoll-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "56c6e14760a1a9af14d7888278614c940fccf70a85398cb2e64ad6cfdd1ae43a",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "5008079c2ebaed232354457002cdda967ce3e8264e4a84db4a87e7bf1e0805e1",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "5074dec1614216988e166526842a8970cae05bccfc01f11dc7d738d9d17aea48",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "14c288ebf243853039d49b3425fcbedd92eb3f9ba5363d549c454a4ee4d78083",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "a03196faab0dec36150df32b484a1a82e1e1780904c50463fbc118b93e2322c9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b179f8329d2cb51f8a3a1b3ef33bb2909467422fac91fce1e56e66387cccc27b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "f245fdbf139997f4298806e5ccbbfd0214d7f2211c9c3d2a76efe512ee5a8730",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "36e48f18d310d2f9d26df0faf09926c2917fd0c6208675c10d0241b398f115ad",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "a04061eff0a0a07c56185bd0937095776c5c27e034bb71492c9e18b8fc01007f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-testsuite",
+    "file": "netty-testsuite-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-testsuite/4.2.10.2-codexcoder21/netty-testsuite-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "4c0b968a10c417fe9b8dd065bddb5b8489b0b9acfe5bc9964b928e1ac7dedaf2",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "de77af808e5820a2815feec86f8b88d6f9a0e2c4563beb7dd2e8086e69460335",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "60c5158d08b9a9503684367125515973dbb4754542f479e61f1838243fa35023",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "0602dcf34c7c219e9a2d03ccaba77d9975b112e4b72cf9877d2a6fd2b2da1d5f",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "575b11f9d27dec1f17722a4f2eabab6c1da5a0241db691ca3cf0efa6cb2a0b6b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "8d3040b44478dc2965b04193f8382c365c33f95c5adcbe92fad3c029090f0078",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "3f9f095b2f450d3a7a89109cf6016c2db76583772dbac1ac9292d7bb05b22c76",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "abbac08adf787e3b619f06adb28c4394347324873cbfd64019ad32e6b7b4e60c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "9dc1d632f2456513975a060d8ddedb937d93bee68d76975929b531865f8d24c4",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-stomp",
+    "file": "netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-stomp/4.2.10.2-codexcoder21/netty-codec-stomp-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "4a692606468eca98291f0bc8eae189dd463e0068bd925274471c48b504cbea9f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "d5d331c6837482a2617e1d292da9524228c9476ffab6081f01ce2f4e165a1a9c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "be67b78d38629f416bfb426e5619684a2dac2da475c6f3e2d5d3edcbc1896ace",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "65979a41bbc066ad72a6d0ccea92de0a6817940bcc83fd4b06d0c77f5770a40c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "fe424e7e228a163a52391c87813d4ffadc3d33a9ae1c60b410565e053b1ef603",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "b706d0bcfa4d7a4f04f5c2cf6dbdae9a4f0b3bcaa60a218037133de8c7d547af",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "7bb97f22c4fece7e8d53f0d63a90c0daed19ee714a6cbee5c7cb9df41c643dab",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "a4aace1c5b90daca780430e71654e17f4fdd50d948caeb7b41f10bed0f55a3a1",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "22c6b6b51483ebf0fc0e917b763f2fad6d5e5f34dee8d6cc50dfa777dff8b2b7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-http3",
+    "file": "netty-codec-http3-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "421c7e9dfceb2d9a4bf76167ac026912a4d7dc9dae02474d29fbc158141b4324",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "cf1b914ec738fde763b556e07f34994281958b81ec00ef7f50b870eb41cd4993",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "eaf467d52bc12d237265005d2d4cd388eaa2b676fbd9078c15f6f434fcebdaca",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "68c71c3a4b89452b641c6e78d979214cff38ccd84fa664d9d9375d2b54048ff5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "3546d943264e267fbeddbf1e4ad503ed6a94edee70860b9eb7c487cb59b3de56",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "497ee552dc6315dbc841d22993fe3ea1c2d868e0e0760bab2ab5f51697d789e3",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "75a3817a6042e798edd73bcba7d8d46a2fd3ae20209568235b8dffec0dc5b27b",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "3cc3474648dc995ee5902d7a3ac6ba8a0fb779e73ee41b301ad67e26b9aa6023",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "ef64257aae591f20ef4048f23376dd406584f78e0e536927a3f01dc8bc3bcf58",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-resolver-dns-classes-macos",
+    "file": "netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-resolver-dns-classes-macos/4.2.10.2-codexcoder21/netty-resolver-dns-classes-macos-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "c87d4af5f65c4747a96fb37a81ae7d9f52d1d8772e5663f825928af5258be59c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "5fed8c784cae6e250d58bdd6f4f4ce51a1949a96a12afd11c19a8b5646434bfe",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "cdc652c59eda3c7b596af22847670b202e4c5b3d70f6effc39df69854727526f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b9e16cfb2f7859669c8968d16fa4b3780ee593d1556c23110b35e15625f0c4bb",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "status": 200,
+    "sha256": "c198ffb3a8c6d6cc4d753b9657a5770ffd55e7e8d86b4bb7b0a1dfdbea514767",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "status": 200,
+    "sha256": "a83f612c02a17ec842ebe654fcc74b139b254a0f5cbfeed67c3c12e1eb3fae76",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "5940b8d77836991fb2f4317ef73d3089d8dd2ca59abaa9db676ddd4e1312a3d2",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "8d6a2e220062e68d98bacc5f0fb9d4c1b8a9ed55ad76ddbed9cbf70ba51f49f8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "ab0f311ef1cc8b2e8b478177bb4caa28153573c7bc6306c6a8db853b109ec3bd",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "7be474f4524446b7879f9767e14d8d63c9383f6b971208934fd6d05ab1ee3fcc",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "status": 200,
+    "sha256": "489d07a8464b635ef78435667c792721e47c1fb867e433f3d250038beaca8655",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "765fe0fb586892affa2602db872c43e473c6d086c5ac302203e07de11fd91b3d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-unix-common",
+    "file": "netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-unix-common/4.2.10.2-codexcoder21/netty-transport-native-unix-common-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "e6746d5db35fbb1ba07e4b5f341b253d580eaa04cb797ef1210494c6548a01a5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "08d2c2dc7d21d73666ed925b9a6c247704760b1914dc6673fe038e0ce71118a5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "14a8c3689e7c530fb5cd10e553b88109375fc850e13b7769977514060efda3e8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "42f65e8b2d7e0ba8f04b4175578cf58b8f8d5dd9a03368afe882a70ba7b9afd8",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "4dd1bc384317e176b6d3cc8ddd3843843cc17c75a03b6897962beb297a6616b5",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "55d810dbab4843fe321b2bee49f5e0c2531130f9c2423b5358c96a563e91ec16",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "7b44a19d5659693dca10dd0aa69fb4fc3c2e9780d2fca7531bece4d871850245",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "320fede5db0e6bee0f8fccf8f0174573705d166203f2b1b9fa83df9e5aeae734",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b54adb6a07319b5ac7fddda5c0173f9f9769296eea67684c0a95d52b0369436c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-haproxy",
+    "file": "netty-codec-haproxy-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-haproxy/4.2.10.2-codexcoder21/netty-codec-haproxy-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "1d696203970da2a67025f496cd8edd550a0845846a1952cc9093d4960e03f839",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "fcbd573e7327a0c44542f2bab93e672652d24dbe327d71de042481c59a380acd",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "218b1f1294dd337decf5bddd03713b128782060a6e3cf6a2836043781754eb04",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "e30ca2b8ecfb2f3480a9b14d845cd40d1d1084b8613f3d386600853dc40d171d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "bbfec465e21a1b90a57c491685a869af467ff449bddc180a64c2303df422e9f7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "24cd2642e72376c7fa07a8dd0d69a65bbc23bd7f9e2de488ae4ef8a83d404994",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "63e96bfc24683d91b315ab68435f16b496d0f16967d1836989ab1be2fd83e67e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "b3aea43650e15dea9d480dfce0702dd50324cfc519dd3401c5a261e66056188a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "ab88f3e0a69fd05d354fd0470138d8957107022cee79973ed847dfda937a5161",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-classes-io_uring",
+    "file": "netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-classes-io_uring/4.2.10.2-codexcoder21/netty-transport-classes-io_uring-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "c4cbc1f2725957667471696d15d1979497fc1223948d293a98d877914ed2e530",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "ef9485710bce0ad22185b1ef7c7beffdad3f9b12aca07c9ab531b4cea4faf30f",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "b8062ac98c1ce7c7df5af713f8c76156628a2ee8a97d88113c2803b2b07b61c0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "82fdd121add2519f6648fe11f922ab92cd61c0af51072c977e70fa073b355a44",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "1410c61ac932bd81083b262d1b975f7cf2b8d219c3cff7e0469b5981d88623b0",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "8445b259dbe25bb145aa2e2d5f77f5138b4685d7916e1481c7fc74206d7e1991",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "724833c74ca1e1e5511a59c308bfbcbd285d35af188be1bc8ad662eb004ff7e1",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "58f492197cd0f316ed0a36d5d94e15b575ebad9386dc50c4656d2bfb07fa6edf",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "e62f8fb17a859a6fdc2c0646994c2fd614a0268c80729bc5ec122f536f11b249",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "file": "netty-jfr-stub-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-jfr-stub/4.2.10.2-codexcoder21/netty-jfr-stub-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "3b50cc44ff2cc2d912f0ad6d2527a7dbcc6e1802d50e4cf041114a11d467241d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "d9d54c07ebd7f7661fc7f40249dbd45a42e0f8b318dac4fb385ccbb188482062",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "3ecbc5382e84d84b50db84440d56635a20ff82d6bea2e04fa9da5d1c9429627d",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "b63262e7f491f15841a75a4c192300f950f6d75c776562e18aeaad9e074b9f40",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "18df742bcb92a53957dca1f60b4b7e5ddf284a7f241e431342ae3fd18b45aef8",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "3effd8a9d02e31f7db7cea0d1a61c6011ff78c1bd39bdb0df49a54a5de56b5f7",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "33bb3e20310ac9eaae8f068b4e67c168da1f8dc84b064dad9143b74bddec0e7e",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "10e6abfd1f8319ae9244df65a358612caf94d6ab0db3635e0347779d62aa2b89",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "d7ac1116a03d95ef631ceab5469ec4f4858e21662bf8a10796e7255950dc6eb9",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-codec-marshalling",
+    "file": "netty-codec-marshalling-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-codec-marshalling/4.2.10.2-codexcoder21/netty-codec-marshalling-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "adad0e0375898d56bf49cba62cc8b8ae5fbdb8b4badf181344d68cac73672076",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar.sha256",
+    "status": 200,
+    "sha256": "2947befe3997dd698773d26d99ccb027344750b3ce05cda2ac12ff272d9f914a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar.sha1",
+    "status": 200,
+    "sha256": "bdbc735cba7efac2e75c0c3ed17c6421468eb60c29040ada78cc9e27b7641462",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar.sha1",
+    "status": 200,
+    "sha256": "cf2907177b03d9d602c82ecec8890119f541141b4e30361f4ecea68323612059",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.jar.sha256",
+    "status": 200,
+    "sha256": "eb4566294407e64f3aaafecf11bce72080ecbbd0066be4214efbde382de6db1d",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.pom",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.pom",
+    "status": 200,
+    "sha256": "7c1cf15d8c83a653699ead57b3dd9d50862cc75665a916602e6b17632721516c",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.jar",
+    "status": 200,
+    "sha256": "69ea3c2a48ad2c0c9e51032078fc5ca280f4bed1bdf639c09c20076048db7003",
+    "matches_staged": true,
+    "metadata_matches": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.pom.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.pom.sha1",
+    "status": 200,
+    "sha256": "457994cee699781fdcebab1333f8ccfb94d90931da253d68c8512c7030b680d6",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar",
+    "status": 200,
+    "sha256": "64ddf446cb74f20567fc4109e133212a9a21150f32e9058fc27957e056d3cc28",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.pom.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.pom.sha256",
+    "status": 200,
+    "sha256": "9bc68a54663fb802ff24a800c5710d27e0e0f6d3be1a8a0ba968a29b06d8ea78",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21.jar.sha1",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21.jar.sha1",
+    "status": 200,
+    "sha256": "2ecd2bb7cdb0998acb825a492c5872079dea7f26a3b63bdb9836070a626fae1a",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-sources.jar",
+    "status": 200,
+    "sha256": "21096e1facaa21dcd6593fa460c1c27be1e3144884f6d029a2c39b7ad3784227",
+    "matches_staged": true
+  },
+  {
+    "artifact": "netty-transport-native-epoll",
+    "file": "netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "url": "https://kotlin.directory/io/netty/netty-transport-native-epoll/4.2.10.2-codexcoder21/netty-transport-native-epoll-4.2.10.2-codexcoder21-linux-x86_64.jar.sha256",
+    "status": 200,
+    "sha256": "737735b6a9dc2ea49511ff52a1bff33e80da8715668e9f42da65cbc5fe3e94f9",
+    "matches_staged": true
+  }
+]
