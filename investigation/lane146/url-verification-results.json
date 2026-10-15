@@ -1,0 +1,20 @@
+[
+  {
+    "index": 1,
+    "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot",
+    "pid": 2977481,
+    "exit_code": 0,
+    "gate_ok": true,
+    "executed": [
+      {
+        "file": "tests/testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kts",
+        "name": "foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot",
+        "success": "true",
+        "time": "3209"
+      }
+    ],
+    "seconds": 80.919,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane146/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"
+  }
+]

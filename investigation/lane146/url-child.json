@@ -1,1 +1,1 @@
-{"pid": 2977481, "index": 1, "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot"}
+{"pid": 2978576, "index": 2, "name": "testProtocolRootCloseCallerRacingEventLoopShutdown"}
