@@ -1,0 +1,2 @@
+HOLD PUBLICATION: consumer verification is incomplete.
+Netty common/transport and selected regressions passed, but the UrlProtocol runner loaded upstream 4.2.10.Final transport/buffer jars despite the custom pins, and its deterministic shutdown test failed once. No retry. The 10-run race gate and two connection tests have not run. See r141-findings.md and evidence/lane141-custom-netty for complete evidence.

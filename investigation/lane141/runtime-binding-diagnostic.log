@@ -1,0 +1,6 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+[BuildscriptRunner] Checking cache for key: 905517ac9461bac484b7256364b8a3e017bfd486d0a080a11f5d09e9b588898c
+[BuildscriptRunner] Cache HIT for key: 905517ac9461bac484b7256364b8a3e017bfd486d0a080a11f5d09e9b588898c
+'getter for id: Long' is deprecated. Deprecated in Java
+ALL TESTS PASSED (1/1 tests completed successfully)

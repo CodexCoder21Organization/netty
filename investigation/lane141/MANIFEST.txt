@@ -1,4 +1,5 @@
 Version: 4.2.10.Final-codexcoder21-1
+Publication gate: HOLD; see STATUS.txt (consumer runtime jar selection must be corrected).
 One --artifact-dir invocation per directory below. No files were published.
 Built POM dependency audit: CUSTOM-DEPENDENCIES.json
 Publish order (parents/BOMs, then dependencies, then netty-all):

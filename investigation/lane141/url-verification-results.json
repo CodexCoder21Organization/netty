@@ -1,0 +1,10 @@
+[
+  {
+    "index": 1,
+    "name": "testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot",
+    "exit_code": 1,
+    "seconds": 317.425,
+    "log": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.log",
+    "xml": "/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/evidence/url-01-testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.xml"
+  }
+]

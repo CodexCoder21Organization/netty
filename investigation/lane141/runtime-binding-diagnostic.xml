@@ -1,0 +1,4 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="true" time="40932" output-files="59" output-bytes="33263569"/>
+  <test file="tests/diagnoseLane141NettyBinding.kts" name="foundation.url.protocol.diagnoseLane141NettyBinding" success="true" time="2116"/>
+</tests>

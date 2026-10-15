@@ -1,0 +1,78 @@
+<tests>
+  <buildrule name="foundation.url.protocol.buildMaven()" success="true" time="299492" output-files="59" output-bytes="33263569"/>
+  <test file="tests/testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kts" name="foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot" success="false" time="1551">
+    <stacktrace>java.lang.AssertionError: Shutdown must close the registered root before protocol close completes; cause=java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:652)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:662)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertFalse(Assertions.kt:58)
+	at kotlin.test.AssertionsKt.assertFalse(Unknown Source)
+	at foundation.url.protocol.TestProtocolRootCloseAfterShutdownStartedInEventLoopClosesRootKt.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot(testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kt:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.TestRunner.executeTest(TestRunner.kt:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at community.kotlin.kompile.testrunner.bootstrap.BootstrapRunner.main(BootstrapRunner.java:416)
+</stacktrace>
+    <console-output>Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/coursier-cache/https/kotlin.directory/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Root remains open after loop termination: registered=true, active=false, closeDone=false, terminated=true, closeSuccess=false
+java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at foundation.url.protocol.AwaitedResponseOutbox.closeRootWithoutLoop$lambda$62(Libp2pHostFactory.kt:2118)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643)
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124)
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:89)
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1049)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:649)
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:1015)
+	at io.netty.channel.Channel.close(Channel.java:282)
+	at foundation.url.protocol.AwaitedResponseOutbox.closeRootWithoutLoop(Libp2pHostFactory.kt:2123)
+	at foundation.url.protocol.AwaitedResponseOutbox.prepareOwnedProtocolClose$finishClose(Libp2pHostFactory.kt:2042)
+	at foundation.url.protocol.AwaitedResponseOutbox.prepareOwnedProtocolClose(Libp2pHostFactory.kt:2100)
+	at foundation.url.protocol.AwaitedResponseOutbox.startOwnedProtocolClose(Libp2pHostFactory.kt:1856)
+	at foundation.url.protocol.AwaitedResponseOutbox.startOwnedProtocolCloseWithoutLoop$lambda$35(Libp2pHostFactory.kt:1866)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:1125)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:413)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:406)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:1027)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:993)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:983)
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1040)
+	... 11 more
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at community.kotlin.kompile.testrunner.bootstrap.BootstrapRunner.main(BootstrapRunner.java:416)
+Caused by: java.lang.AssertionError: Shutdown must close the registered root before protocol close completes; cause=java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:652)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:662)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertFalse(Assertions.kt:58)
+	at kotlin.test.AssertionsKt.assertFalse(Unknown Source)
+	at foundation.url.protocol.TestProtocolRootCloseAfterShutdownStartedInEventLoopClosesRootKt.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot(testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kt:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.TestRunner.executeTest(TestRunner.kt:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 2 more
+</console-output>
+  </test>
+</tests>

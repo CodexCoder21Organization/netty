@@ -1,0 +1,276 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+[BuildscriptRunner] Checking cache for key: 905517ac9461bac484b7256364b8a3e017bfd486d0a080a11f5d09e9b588898c
+[BuildscriptRunner] Cache MISS for key: 905517ac9461bac484b7256364b8a3e017bfd486d0a080a11f5d09e9b588898c, executing calculator
+[BuildscriptRunner] Checking cache for key: 390a6728a1ba7d3420bf2f6c8c8a55218d130930ad1442a593692553fcb0a48c
+[BuildscriptRunner] Cache MISS for key: 390a6728a1ba7d3420bf2f6c8c8a55218d130930ad1442a593692553fcb0a48c, executing calculator
+An uncaught NotificationEffect bubbled up to the thread root!
+You can learn more about handling NotificationEffects at https://github.com/kotlin-algebraic-effects/
+null Kotlin buildrule building /tmp/tmp4698659306467714660/4fb6bfbc-7dcc-4f6d-b4cb-ebcae86503a2/file.jar (Kotlin 1.9.25) from sources ([/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/sandbox/JsonSerialization.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/sandbox/BytecodeRequest.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ConnectionCloseReasons.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/GossipProtocol.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/FrameAdmission.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/NamespaceSegmentResolver.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Libp2pHostFactory.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RemoteAiCliPty.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/LinkStateRouting.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ParseBudgetCancellation.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/SimpleNamespaceResolver.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ForwardedStreamingBytecodeResponse.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/UrlProtocol.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/BytecodeResponseParseOomVictim.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/InterleavedWritabilityObservation.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/ConcurrentLargeReadOomVictim.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/FramingOwnerWritabilityObservation.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/ChurnDropOomVictim.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/MintedMessageIdPrinter.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/TestingSupport.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/RelayLeakOomReproChild.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/testing/BytecodeServeOomReproChild.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/DebugLogging.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerAddressValidation.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerScorer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/HierarchicalNameResolution.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/MessageReadBudget.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ServiceRegistry.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/LanPeerDiscovery.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RelayMessages.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ServiceBinding.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/OutboundDialAdmission.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/StreamClosedBeforeWriteException.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/BytecodeResponseStreamer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Libp2pPeer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/ServiceRegistration.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/UrlProtocolException.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/TcpRpcRequestOutcome.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/VpnNamespaceSegmentResolver.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RemoteApplicationFailure.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RpcStreamRetainedResourceScope.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Main.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/AiCliPtyServiceProvider.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/TcpServer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/SimulatedNetwork.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/MessageDelayer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/SimulatedPeer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/SimulatedConnection.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/SimulationClock.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/NatType.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/simulation/Bandwidth.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerRegistry.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerPruner.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/TcpRpcStream.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Libp2pRpcStream.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RpcTransportFailure.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/JvmFailures.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RoutingTable.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/JsonWireEncoding.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RelayDiscovery.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RelayRequestDiagnostics.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/InMemoryNetworkProvider.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RelayService.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Libp2pNetworkProvider.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerObservationLog.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/TestPeer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/BootstrapPeer.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RpcStreamConnection.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/Libp2pRpcProtocol.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/PeerMultiaddressRejectedWarningEffect.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/RpcStream.kt, /tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/workspace/UrlProtocol-verification/src/foundation/url/protocol/NetworkProvider.kt]) and classpath [/home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00000/kotlin-stdlib-1.9.21.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00001/kotlin-stdlib-common-1.9.21.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00002/kotlin-stdlib-jdk8-1.8.22.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00003/kotlin-stdlib-jdk7-1.8.22.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00004/kotlin-reflect-1.8.22.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00005/kotlinx-coroutines-core-jvm-1.7.3.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00006/json-20231013.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00007/okio-jvm-3.4.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00008/community-kotlin-clocks-simple-0.0.11.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00009/algebraic-effects-v1-runtime-0.0.6.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00010/community-kotlin-logging-0.0.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00011/jvm-libp2p-1.3.0-codexcoder21-snapshot-25.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00012/netty-buffer-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00013/netty-common-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00014/netty-transport-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00015/netty-handler-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00016/netty-codec-4.2.10.Final-codexcoder21-1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00017/protocol-api-0.0.2.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00018/protocol-impl-0.0.11.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00019/vpn-url-registrar-client-0.0.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00020/vpn-url-registrar-api-0.0.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00021/okhttp-4.11.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00022/protobuf-java-3.25.5.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00023/bcprov-jdk18on-1.78.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00024/slf4j-api-2.0.9.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00025/slf4j-simple-1.7.36.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00026/noise-java-22.1.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00027/guava-33.3.1-jre.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00028/annotations-23.0.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00029/community-kotlin-clocks-hierarchical-0.0.4.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00030/util-stacktrace-0.0.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00031/kotlinx-coroutines-core-1.7.3.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00032/netty-codec-http-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00033/netty-codec-protobuf-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00034/netty-transport-classes-epoll-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00035/netty-codec-native-quic-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00036/netty-codec-native-quic-4.2.10.Final-linux-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00037/netty-codec-native-quic-4.2.10.Final-linux-aarch_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00038/netty-codec-native-quic-4.2.10.Final-osx-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00039/netty-codec-native-quic-4.2.10.Final-osx-aarch_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00040/netty-codec-native-quic-4.2.10.Final-windows-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00041/netty-tcnative-boringssl-static-2.0.76.Final-linux-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00042/netty-tcnative-boringssl-static-2.0.76.Final-linux-aarch_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00043/netty-tcnative-boringssl-static-2.0.76.Final-osx-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00044/netty-tcnative-boringssl-static-2.0.76.Final-osx-aarch_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00045/netty-tcnative-boringssl-static-2.0.76.Final-windows-x86_64.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00046/java-multibase-v1.1.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00047/bcpkix-jdk18on-1.78.1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00048/netty-resolver-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00049/netty-transport-native-unix-common-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00050/netty-codec-base-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00051/netty-codec-compression-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00052/netty-codec-marshalling-4.2.10.Final-codexcoder21-1.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00053/kotlinx-serialization-core-jvm-1.6.2.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00054/kotlinx-serialization-json-jvm-1.6.2.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00055/kotlinx-coroutines-jdk8-1.7.3.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00056/okio-3.2.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00057/failureaccess-1.0.2.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00058/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00059/jsr305-3.0.2.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00060/checker-qual-3.43.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00061/error_prone_annotations-2.28.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00062/j2objc-annotations-3.0.0.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00063/protobuf-javanano-3.0.0-alpha-5.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00064/netty-codec-classes-quic-4.2.10.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00065/netty-tcnative-classes-2.0.76.Final.jar, /home/u/.buildcache/resolvedClosures/entries/4e48dc9369efa80093c1264ecda6a64bcf544bc2368b35fd4ce8834421b3e1b8/artifact-00066/bcutil-jdk18on-1.78.1.jar] [unhandled DiagnosticEffect from JvmBuildRules.kt:1770]
+null Using Kotlin home directory <no_path> [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Using JDK home inferred from java.home: /usr/lib/jvm/temurin-21-jdk-amd64 [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Exception on loading scripting plugin: java.lang.ClassNotFoundException: org.jetbrains.kotlin.scripting.compiler.plugin.ScriptingCompilerConfigurationComponentRegistrar [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Scripting plugin will not be loaded: not all required jars are present in the classpath (missing files: [./kotlin-scripting-compiler.jar, ./kotlin-scripting-compiler-impl.jar, ./kotlin-scripting-common.jar, ./kotlin-scripting-jvm.jar]) [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Using JVM IR backend [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Configuring the compilation environment [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+null Loading modules: [java.se, jdk.accessibility, jdk.attach, jdk.compiler, jdk.dynalink, jdk.httpserver, jdk.incubator.vector, jdk.jartool, jdk.javadoc, jdk.jconsole, jdk.jdi, jdk.jfr, jdk.jshell, jdk.jsobject, jdk.management, jdk.management.jfr, jdk.net, jdk.nio.mapmode, jdk.sctp, jdk.security.auth, jdk.security.jgss, jdk.unsupported, jdk.unsupported.desktop, jdk.xml.dom, java.base, java.compiler, java.datatransfer, java.desktop, java.xml, java.instrument, java.logging, java.management, java.management.rmi, java.rmi, java.naming, java.net.http, java.prefs, java.scripting, java.security.jgss, java.security.sasl, java.sql, java.transaction.xa, java.sql.rowset, java.xml.crypto, jdk.internal.jvmstat, jdk.internal.opt, jdk.zipfs, jdk.management.agent, jdk.jdwp.agent, jdk.internal.ed, jdk.internal.le] [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/AiCliPtyServiceProvider.kt:119:13: warning: variable 'localPeer' is never used
+        val localPeer = Libp2pPeer.local(host!!, listOf(serviceIdentifier))
+            ^ Variable 'localPeer' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/AiCliPtyServiceProvider.kt:160:13: warning: parameter 'effectHandler' is never used
+            effectHandler: EffectPropagator
+            ^ Parameter 'effectHandler' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/ConnectionCloseReasons.kt:217:35: warning: the corresponding parameter in the supertype 'ConnectionHandler' is named 'conn'. This may cause problems when calling this function with named arguments.
+    override fun handleConnection(connection: Connection) {
+                                  ^ The corresponding parameter in the supertype 'ConnectionHandler' is named 'conn'. This may cause problems when calling this function with named arguments. [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InMemoryNetworkProvider.kt:1880:40: warning: this class shouldn't be used in Kotlin. Use kotlin.Any instead.
+internal fun waitOnMonitorLocked(lock: Object, interruptedMessage: String) {
+                                       ^ This class shouldn't be used in Kotlin. Use kotlin.Any instead. [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt:633:24: warning: the corresponding parameter in the supertype 'ChannelVisitor' is named 'channel'. This may cause problems when calling this function with named arguments.
+    override fun visit(stream: Stream) {
+                       ^ The corresponding parameter in the supertype 'ChannelVisitor' is named 'channel'. This may cause problems when calling this function with named arguments. [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt:921:37: warning: variable 'reasons' initializer is redundant
+        var reasons: List<String> = emptyList()
+                                    ^ Variable 'reasons' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt:922:27: warning: variable 'liveInbound' initializer is redundant
+        var liveInbound = 0
+                          ^ Variable 'liveInbound' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt:923:33: warning: variable 'liveHostInitiated' initializer is redundant
+        var liveHostInitiated = 0
+                                ^ Variable 'liveHostInitiated' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/InboundSubstreamAdmissionControl.kt:924:30: warning: variable 'liveAcrossHost' initializer is redundant
+        var liveAcrossHost = 0
+                             ^ Variable 'liveAcrossHost' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/JvmFailures.kt:5:50: warning: 'ThreadDeath' is deprecated. Deprecated in Java
+    failure is VirtualMachineError || failure is ThreadDeath || failure is LinkageError
+                                                 ^ 'ThreadDeath' is deprecated. Deprecated in Java [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:4092:5: warning: returning type parameter has been inferred to Nothing implicitly because Nothing is more specific than specified expected type. Please specify type arguments explicitly in accordance with expected type to hide this warning. Nothing can produce an exception at runtime. See KT-36776 for more details.
+    withRpcFramingLock(stream) {
+    ^ Returning type parameter has been inferred to Nothing implicitly because Nothing is more specific than specified expected type. Please specify type arguments explicitly in accordance with expected type to hide this warning. Nothing can produce an exception at runtime. See KT-36776 for more details. [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:4682:72: warning: condition 'frameChannel != null' is always 'true'
+        if (frameDepth != null && frameDepth.decrementAndGet() == 0 && frameChannel != null) {
+                                                                       ^ Condition 'frameChannel != null' is always 'true' [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:5019:70: warning: this declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+private val rpcRequestDispatcher = kotlinx.coroutines.Dispatchers.IO.limitedParallelism(64)
+                                                                     ^ This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)' [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:5038:39: warning: this declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+    kotlinx.coroutines.Dispatchers.IO.limitedParallelism(PEER_EXCHANGE_REQUEST_PARALLELISM)
+                                      ^ This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)' [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:6948:47: warning: identity equality for arguments of types Any? and Boolean can be unstable because of implicit boxing
+            is ParseBudgetedInboundMessage -> msg.messageFrame?.json?.opt(
+                                              ^ Identity equality for arguments of types Any? and Boolean can be unstable because of implicit boxing [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:6951:50: warning: identity equality for arguments of types Any! and Boolean can be unstable because of implicit boxing
+            is Libp2pRpcProtocol.MessageFrame -> msg.json.opt(
+                                                 ^ Identity equality for arguments of types Any! and Boolean can be unstable because of implicit boxing [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pHostFactory.kt:8563:26: warning: this declaration overrides deprecated member but not marked as deprecated itself. Please add @Deprecated annotation or suppress. See https://youtrack.jetbrains.com/issue/KT-47902 for details
+            override fun exceptionCaught(ctx: ChannelHandlerContext, cause: Throwable) {
+                         ^ This declaration overrides deprecated member but not marked as deprecated itself. Please add @Deprecated annotation or suppress. See https://youtrack.jetbrains.com/issue/KT-47902 for details [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pPeer.kt:61:17: warning: variable 'peerIdObj' is never used
+            val peerIdObj = PeerId.fromBase58(remotePeerId)
+                ^ Variable 'peerIdObj' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pRpcProtocol.kt:1798:38: warning: unnecessary non-null assertion (!!) on a non-null receiver of type Throwable
+                    else firstFailure!!.addSuppressed(failure)
+                                     ^ Unnecessary non-null assertion (!!) on a non-null receiver of type Throwable [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pRpcProtocol.kt:1874:33: warning: variable 'cancelled' initializer is redundant
+                var cancelled = false
+                                ^ Variable 'cancelled' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pRpcProtocol.kt:3387:52: warning: unnecessary safe call on a non-null receiver of type ForwardedTransferLease?
+                if (!sourceOwnsLease) transferLease?.close()
+                                                   ^ Unnecessary safe call on a non-null receiver of type ForwardedTransferLease? [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/Libp2pRpcStream.kt:1393:41: warning: variable 'completeLatch' initializer is redundant
+                    var completeLatch = false
+                                        ^ Variable 'completeLatch' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/PeerRegistry.kt:1646:44: warning: variable 'computedPeer' initializer is redundant
+        var computedPeer: BootstrapPeer? = null
+                                           ^ Variable 'computedPeer' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/PeerRegistry.kt:1649:42: warning: variable 'completedMembershipVersion' initializer is redundant
+        var completedMembershipVersion = 0L
+                                         ^ Variable 'completedMembershipVersion' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/PeerRegistry.kt:1650:38: warning: variable 'ownPublicationComplete' initializer is redundant
+        var ownPublicationComplete = false
+                                     ^ Variable 'ownPublicationComplete' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/PeerRegistry.kt:1929:36: warning: variable 'completedVersion' initializer is redundant
+            var completedVersion = 0L
+                                   ^ Variable 'completedVersion' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/PeerRegistry.kt:2234:36: warning: unnecessary non-null assertion (!!) on a non-null receiver of type PeerRemovalCompletion
+                installedCompletion!!.finish()
+                                   ^ Unnecessary non-null assertion (!!) on a non-null receiver of type PeerRemovalCompletion [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:1505:31: warning: variable 'worker' initializer is redundant
+        var worker: Thread? = null
+                              ^ Variable 'worker' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:3615:17: warning: name shadowed: response
+            val response = OutgoingChunkedResponse(raw, totalChunks, now)
+                ^ Name shadowed: response [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:5249:30: warning: parameter 'handler' is never used, could be renamed to _
+        gossipHandler?.let { handler ->
+                             ^ Parameter 'handler' is never used, could be renamed to _ [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:6033:21: warning: variable 'count' initializer is redundant
+        var count = 0
+                    ^ Variable 'count' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:7049:32: warning: unnecessary non-null assertion (!!) on a non-null receiver of type Throwable
+                        failure!!.addSuppressed(closeFailure)
+                               ^ Unnecessary non-null assertion (!!) on a non-null receiver of type Throwable [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:10428:35: warning: variable 'removedRegistration' initializer is redundant
+        var removedRegistration = false
+                                  ^ Variable 'removedRegistration' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:10429:48: warning: variable 'acknowledgedSupersededGeneration' initializer is redundant
+        var acknowledgedSupersededGeneration = false
+                                               ^ Variable 'acknowledgedSupersededGeneration' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:10517:48: warning: variable 'acknowledgedSupersededGeneration' initializer is redundant
+        var acknowledgedSupersededGeneration = false
+                                               ^ Variable 'acknowledgedSupersededGeneration' initializer is redundant [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:13329:30: warning: unnecessary safe call on a non-null receiver of type PeerId
+        stream.remotePeerId()?.toBase58()
+                             ^ Unnecessary safe call on a non-null receiver of type PeerId [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:13349:64: warning: this declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+    private val dispatcher = kotlinx.coroutines.Dispatchers.IO.limitedParallelism(1)
+                                                               ^ This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)' [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RelayService.kt:13815:26: warning: this declaration overrides deprecated member but not marked as deprecated itself. Please add @Deprecated annotation or suppress. See https://youtrack.jetbrains.com/issue/KT-47902 for details
+            override fun exceptionCaught(ctx: ChannelHandlerContext, cause: Throwable) {
+                         ^ This declaration overrides deprecated member but not marked as deprecated itself. Please add @Deprecated annotation or suppress. See https://youtrack.jetbrains.com/issue/KT-47902 for details [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/RemoteAiCliPty.kt:265:51: warning: parameter 'timestamp' is never used, could be renamed to _
+            connection.subscribeToInvalidations { timestamp ->
+                                                  ^ Parameter 'timestamp' is never used, could be renamed to _ [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/TcpServer.kt:1994:35: warning: variable 'type' is never used
+                        when (val type = frame.json.optString("type", "")) {
+                                  ^ Variable 'type' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:645:41: warning: unnecessary non-null assertion (!!) on a non-null receiver of type BootstrapPeer
+            val rejected = firstRejected!!
+                                        ^ Unnecessary non-null assertion (!!) on a non-null receiver of type BootstrapPeer [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:980:9: warning: parameter 'headers' is never used
+        headers: Map<String, String>,
+        ^ Parameter 'headers' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1203:21: warning: parameter 'seed' is never used
+    fun withKeySeed(seed: String): UrlProtocol {
+                    ^ Parameter 'seed' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1213:24: warning: parameter 'port' is never used
+    fun withListenPort(port: Int): UrlProtocol {
+                       ^ Parameter 'port' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1223:19: warning: parameter 'alias' is never used
+    fun withAlias(alias: String): UrlProtocol {
+                  ^ Parameter 'alias' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1243:34: warning: parameter 'url' is never used
+    fun <T : Any> openConnection(url: String, type: KClass<T>): T {
+                                 ^ Parameter 'url' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1243:47: warning: parameter 'type' is never used
+    fun <T : Any> openConnection(url: String, type: KClass<T>): T {
+                                              ^ Parameter 'type' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1255:34: warning: parameter 'url' is never used
+    fun <T : Any> openConnection(url: String, type: KClass<T>, headers: Map<String, String>): T {
+                                 ^ Parameter 'url' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1255:47: warning: parameter 'type' is never used
+    fun <T : Any> openConnection(url: String, type: KClass<T>, headers: Map<String, String>): T {
+                                              ^ Parameter 'type' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1255:64: warning: parameter 'headers' is never used
+    fun <T : Any> openConnection(url: String, type: KClass<T>, headers: Map<String, String>): T {
+                                                               ^ Parameter 'headers' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1265:23: warning: parameter 'url' is never used
+    fun resolveString(url: String): String {
+                      ^ Parameter 'url' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1276:23: warning: parameter 'url' is never used
+    fun resolveString(url: String, headers: Map<String, String>): String {
+                      ^ Parameter 'url' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1276:36: warning: parameter 'headers' is never used
+    fun resolveString(url: String, headers: Map<String, String>): String {
+                                   ^ Parameter 'headers' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1295:30: warning: parameter 'alias' is never used
+    internal fun joinNetwork(alias: String? = null): NetworkJoinInfo {
+                             ^ Parameter 'alias' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1527:9: warning: parameter 'serviceUrl' is never used
+        serviceUrl: String,
+        ^ Parameter 'serviceUrl' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1528:9: warning: parameter 'handler' is never used
+        handler: ServiceHandler,
+        ^ Parameter 'handler' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1529:9: warning: parameter 'config' is never used
+        config: ServiceRegistrationConfig = ServiceRegistrationConfig()
+        ^ Parameter 'config' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1543:9: warning: parameter 'serviceUrl' is never used
+        serviceUrl: String,
+        ^ Parameter 'serviceUrl' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1544:9: warning: parameter 'handler' is never used
+        handler: ServiceHandler,
+        ^ Parameter 'handler' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+src/foundation/url/protocol/UrlProtocol.kt:1545:9: warning: parameter 'config' is never used
+        config: ServiceRegistrationConfig = ServiceRegistrationConfig()
+        ^ Parameter 'config' is never used [unhandled DiagnosticEffect from JvmBuildRules.kt:1808]
+[BuildscriptRunner] Stored result in cache for key: 390a6728a1ba7d3420bf2f6c8c8a55218d130930ad1442a593692553fcb0a48c
+[BuildscriptRunner] Stored result in cache for key: 905517ac9461bac484b7256364b8a3e017bfd486d0a080a11f5d09e9b588898c
+'getter for id: Long' is deprecated. Deprecated in Java
+'NioEventLoopGroup' is deprecated. Deprecated in Java
+'NioEventLoopGroup' is deprecated. Deprecated in Java
+java.lang.AssertionError: Shutdown must close the registered root before protocol close completes; cause=java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:652)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:662)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertFalse(Assertions.kt:58)
+	at kotlin.test.AssertionsKt.assertFalse(Unknown Source)
+	at foundation.url.protocol.TestProtocolRootCloseAfterShutdownStartedInEventLoopClosesRootKt.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot(testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kt:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.TestRunner.executeTest(TestRunner.kt:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at community.kotlin.kompile.testrunner.bootstrap.BootstrapRunner.main(BootstrapRunner.java:416)
+FAILED foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot -> java.lang.AssertionError: Shutdown must close the registered root before protocol close completes; cause=java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed (in 1.6 seconds)
+--- Console output (foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot) ---
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g -Dfoundation.url.test.isolated=true
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/tmp/claude-1000/-code/e2107bbc-8389-42b8-8447-42cf956a6745/scratchpad/workspace/lane141/coursier-cache/https/kotlin.directory/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Root remains open after loop termination: registered=true, active=false, closeDone=false, terminated=true, closeSuccess=false
+java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at foundation.url.protocol.AwaitedResponseOutbox.closeRootWithoutLoop$lambda$62(Libp2pHostFactory.kt:2118)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643)
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124)
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:89)
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1049)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:649)
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:1015)
+	at io.netty.channel.Channel.close(Channel.java:282)
+	at foundation.url.protocol.AwaitedResponseOutbox.closeRootWithoutLoop(Libp2pHostFactory.kt:2123)
+	at foundation.url.protocol.AwaitedResponseOutbox.prepareOwnedProtocolClose$finishClose(Libp2pHostFactory.kt:2042)
+	at foundation.url.protocol.AwaitedResponseOutbox.prepareOwnedProtocolClose(Libp2pHostFactory.kt:2100)
+	at foundation.url.protocol.AwaitedResponseOutbox.startOwnedProtocolClose(Libp2pHostFactory.kt:1856)
+	at foundation.url.protocol.AwaitedResponseOutbox.startOwnedProtocolCloseWithoutLoop$lambda$35(Libp2pHostFactory.kt:1866)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:1125)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:413)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:406)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:1027)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:993)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:983)
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1040)
+	... 11 more
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at community.kotlin.kompile.testrunner.bootstrap.BootstrapRunner.main(BootstrapRunner.java:416)
+Caused by: java.lang.AssertionError: Shutdown must close the registered root before protocol close completes; cause=java.io.IOException: Protocol close of root 38d8105c ran after its event loop stopped running tasks, and the physical close attempt failed
+	at kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:652)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:662)
+	at kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertFalse(Assertions.kt:58)
+	at kotlin.test.AssertionsKt.assertFalse(Unknown Source)
+	at foundation.url.protocol.TestProtocolRootCloseAfterShutdownStartedInEventLoopClosesRootKt.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot(testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot.kt:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at kompile.TestRunner.executeTest(TestRunner.kt:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 2 more
+--- End console output (foundation.url.protocol.testProtocolRootCloseAfterShutdownStartedInEventLoopClosesRoot) ---
+TESTS FAILED (0/1 tests completed successfully, 1 failed)
