@@ -1,0 +1,154 @@
+[
+  {
+    "artifact": "netty-parent",
+    "exit_code": 0,
+    "elapsed_seconds": 21.041094064712524,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-parent",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:23.313583+00:00"
+  },
+  {
+    "artifact": "netty-bom",
+    "exit_code": 0,
+    "elapsed_seconds": 2.8414347171783447,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-bom",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:26.155858+00:00"
+  },
+  {
+    "artifact": "netty-dev-tools",
+    "exit_code": 0,
+    "elapsed_seconds": 2.7891271114349365,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-dev-tools",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:28.945752+00:00"
+  },
+  {
+    "artifact": "netty-jfr-stub",
+    "exit_code": 0,
+    "elapsed_seconds": 3.2451062202453613,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-jfr-stub",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:32.191697+00:00"
+  },
+  {
+    "artifact": "netty-varhandle-stub",
+    "exit_code": 0,
+    "elapsed_seconds": 3.8713037967681885,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-varhandle-stub",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:36.063976+00:00"
+  },
+  {
+    "artifact": "netty-common",
+    "exit_code": 0,
+    "elapsed_seconds": 3.5996835231781006,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-common",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:39.664331+00:00"
+  },
+  {
+    "artifact": "netty-buffer",
+    "exit_code": 0,
+    "elapsed_seconds": 3.30531644821167,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-buffer",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:42.970468+00:00"
+  },
+  {
+    "artifact": "netty-pkitesting",
+    "exit_code": 0,
+    "elapsed_seconds": 2.335552930831909,
+    "command": [
+      "/home/helena/bin/coursier",
+      "launch",
+      "community.kotlin.maven.artifact.publishing:community-kotlin-maven-artifact-publishing:0.0.6",
+      "-r",
+      "https://kotlin.directory",
+      "--",
+      "--artifact-dir",
+      "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/staged-artifacts/netty-pkitesting",
+      "--api-url",
+      "https://api.kotlin.directory/upload",
+      "--force"
+    ],
+    "utc": "2026-10-15T14:19:45.306685+00:00"
+  }
+]

@@ -36,3 +36,19 @@ OBSERVED: Epoll and native QUIC now build successfully in the repaired reactor. 
 ## 2026-10-15 14:19 UTC — build/stage/audit gate complete
 OBSERVED: Repaired full exact 45-module reactor exit 0 after 898.45s; independent BOM exit 0. Staging contains exactly the old 46 coordinate names, 136 payloads, 272 verified SHA1/SHA256 files. All 44 main jar version records identify merged maintenance head 6e9dcc994cc29c022ac547ab113c9e603d7a9c29 with repoStatus=clean. Transport source jar equals the checkout's SingleThreadIoEventLoop.java bytes. Source checkout remains clean. Private staging mode 0700. Final prepublication probes again show all 46 .2 POMs HTTP 404. No existing coordinate will be replaced.
 Publication starting using the explicitly authorized CLI 0.0.6 --artifact-dir --api-url https://api.kotlin.directory/upload --force, parent then BOM then dependency order and all last; each process direct exit/output recorded separately, stop at first failure. Packaging used -DskipTests as brief allows: lane230 ran common/transport/invariant suites on identical tree e5f302731d; this merge has an empty diff from that head. This lane claims no new test execution.
+
+OBSERVED publication 2026-10-15T14:19:23.313583+00:00: io.netty:netty-parent:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-parent.log.
+
+OBSERVED publication 2026-10-15T14:19:26.155858+00:00: io.netty:netty-bom:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-bom.log.
+
+OBSERVED publication 2026-10-15T14:19:28.945752+00:00: io.netty:netty-dev-tools:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-dev-tools.log.
+
+OBSERVED publication 2026-10-15T14:19:32.191697+00:00: io.netty:netty-jfr-stub:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-jfr-stub.log.
+
+OBSERVED publication 2026-10-15T14:19:36.063976+00:00: io.netty:netty-varhandle-stub:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-varhandle-stub.log.
+
+OBSERVED publication 2026-10-15T14:19:39.664331+00:00: io.netty:netty-common:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-common.log.
+
+OBSERVED publication 2026-10-15T14:19:42.970468+00:00: io.netty:netty-buffer:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-buffer.log.
+
+OBSERVED publication 2026-10-15T14:19:45.306685+00:00: io.netty:netty-pkitesting:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-pkitesting.log.
