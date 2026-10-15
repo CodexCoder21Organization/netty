@@ -104,7 +104,7 @@ Existing-test edit inventory: ZERO permanent changes to either PR's tests. Durin
 1. DONE: both forks cloned fresh/read, ancestry and behind counts recorded, all published modules audited, metadata/source-jar/publish-record provenance table written first and pushed.
 2. DONE for test verification and netty-2 base synchronization (no rebase needed). The proposed routine rebase of the release is REFUTED as safe mechanical reconciliation: exact-tag release vs 541 development commits and actual JFR suite add/add conflict. Aborted at the first substantive conflict as explicitly required by the brief.
 3. DONE: separate test and code reviews, complete diff inventory, provenance and why-first REST description updates. The claim that both PRs can be marked merge-ready as-is is REFUTED by the finite public-API callback chain (development and published source) and substantive release-base conflict. Blocking source correction was NOT performed after the required stop at substantive integration; it needs an intentional base/version/release decision. Heads unchanged, so no force-push was needed. Existing green checks execute no Maven build; this lane's module runs provide the actual validation.
-4. Cleanup in progress; final process/disk verification will be appended locally after the last evidence push.
+4. DONE: owned processes ended, ps verification found none, and all lane checkouts/worktrees and private Maven cache were deleted; no matching aibuild cache existed.
 
 ### Exact next steps for the supervisor
 - Choose an exact-tag maintenance base at 4cc98736c3947bc93122e0b64e0bd8fc970c6437 and retarget the release PR, or explicitly choose a different source line/version. Do not present a development-line rebase as the already-published source.
@@ -120,3 +120,6 @@ OBSERVED: Final description PATCH responses show release PR OPEN/DRAFT, DIRTY, m
 OBSERVED: `ps -eo pid,args -ww` plus each candidate's /proc cwd shows ZERO owned background processes remaining (excluding the running agent/tool ancestors). The stopped partial-clone rebase and all Maven/test/child JVM commands have terminated. No ~/.aibuildcaches entry contains lane222. Both source working trees and the aborted rebase working tree are clean. Deleting all lane contents, including the lane-private Maven repository and every fresh checkout/worktree, next; findings and remote evidence remain outside the lane.
 
 Terminal verdict: BLOCKED / merge-ready premise refuted by demonstrated callback registration gap and substantive base conflict. Published source provenance is established exactly; no publication change was made. The source correction and intentional release base/version are the supervisor's next decision under the brief's substantive-conflict stop rule.
+
+## 2026-10-15 12:33 UTC — cleanup complete
+OBSERVED: Deleted lane contents ['evidence', 'rebase-review', 'm2', 'netty-2', 'netty', 'evidence-checkout']; remaining entries []; removed matching aibuild caches []. Findings remain outside the cleaned lane. No merge, enqueue, publish, re-publish, deploy, CI re-request, or Handoff service write occurred.
