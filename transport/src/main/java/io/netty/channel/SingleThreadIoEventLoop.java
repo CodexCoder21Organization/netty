@@ -41,7 +41,7 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
             SystemPropertyUtil.getInt("io.netty.eventLoop.maxTaskProcessingQuantumMs", 1000)));
 
     private final long maxTaskProcessingQuantumNs;
-// Accessed only on the event-loop thread, once shutdown confirmation commits to termination.
+    // Accessed only on the event-loop thread, once shutdown confirmation commits to termination.
     private boolean ioRegistrationClosed;
     private final IoHandlerContext context = new IoHandlerContext() {
         @Override
