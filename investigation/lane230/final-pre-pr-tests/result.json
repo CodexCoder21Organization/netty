@@ -1,0 +1,15 @@
+{
+  "label": "final-pre-pr-tests",
+  "command": [
+    "./mvnw",
+    "-e",
+    "-B",
+    "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2",
+    "-pl",
+    "common,transport",
+    "test"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 262.47952342033386,
+  "head": "e5f302731d3c0ce684d323002f5fdce319381fdb"
+}

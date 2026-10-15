@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.util.RecyclerFastThreadLocalTest
+-------------------------------------------------------------------------------
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.221 s -- in io.netty.util.RecyclerFastThreadLocalTest

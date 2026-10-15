@@ -154,3 +154,21 @@ Test totals: []
 OBSERVED: Full 45-module published-set reactor exited 0 in 1490.37 seconds (Maven 24:45). Independent BOM install also exited 0, for all 46 prior publication modules. Native epoll and QUIC Linux classifier builds are included. Artifact assembly produces exactly the same 46 module names as the prior manifest, 136 POM/JAR payloads and 272 independently rechecked SHA1/SHA256 files. All 44 main jars identify e5f302731d3c0ce684d323002f5fdce319381fdb, version 4.2.10.2-codexcoder21 and repoStatus=clean. Transport source jar equals final source. Full source audit passes again. No artifacts published; staging is local and will be deleted.
 OBSERVED: Final maintenance fetch/rebase is a no-op: base remains 4cc98736c3947bc93122e0b64e0bd8fc970c6437 and head e5f302731d. Required final pre-PR combined common/transport unit gate is running now; earlier separate complete suites already passed at this exact head. No CI wait, merge, publication, deployment or Handoff action. Dedicated native module test suites and non-Linux classifier builds are not claimed; the brief's requested test gates are common/transport plus all five invariant cases.
 Plan: source/version, release-line baseline, build, artifact audit and independent reviews DONE; final pre-PR unit gate/REST opening and cleanup IN PROGRESS.
+
+## 2026-10-15 13:48 UTC — final unit gate and non-draft PR created
+OBSERVED: Final post-rebase Maven common/transport gate exits 0 in 262.48 seconds. Common 1430 tests / 0 failures / 0 errors / 7 existing skips; transport 391 / 0 / 0 / 9 existing skips. All five NioShutdownReentryTest cases and 16 NioEventLoopTest cases run with zero skips. No source change since e5f302731d. Full final reports and complete output are retained under evidence/final-pre-pr-tests.
+OBSERVED: REST created https://github.com/CodexCoder21Organization/netty/pull/3 at 13:47:50 UTC, OPEN and non-draft, head e5f302731d3c0ce684d323002f5fdce319381fdb, base maint/4.2.10-codexcoder21. Creation response has mergeability unknown pending GitHub calculation; this lane does not wait on CI. PR description contains why-first UrlProtocol provenance, original release and correction links, lane222/227 evidence, this lane's counts/audits/reviews, exact supervisor publication procedure and explicit no-publication statement.
+
+### Brief item disposition
+1. DONE: fresh clone and required reading; exact published source plus four cherry-picks. Sole mechanical conflict was adjacent missing development fields; no execution hunk changed. Same 63 version locations listed above, exact one-literal replacements. Source audit passes.
+2. DONE: all 45 published reactor modules plus independent BOM build exit 0; six required core modules included. Full common/transport suites pass twice at exact final head. Five invariant tests present and pass; old-source/final-tests control produces the expected three failures. Artifact audit verifies exact 46 module names, 136 payloads, 272 checksums and 44 main jar metadata records. No existing test changed or weakened.
+3. DONE: source/evidence branches pushed; non-draft release PR opened via REST against the requested maintenance base. Exact publication procedure supplied, reconstructed from lane146 build/staging evidence because lane222 records provenance but contains no upload command. No artifact published, PR merged/enqueued, deploy, CI watcher/re-request, nested delegation or Handoff write.
+4. IN PROGRESS: final process audit and checkout/cache removal. All tracked build/test/native commands have returned terminal outcomes.
+
+Artifacts:
+- Release PR: https://github.com/CodexCoder21Organization/netty/pull/3
+- Source: https://github.com/CodexCoder21Organization/netty/tree/release/4.2.10.2-codexcoder21
+- Source commit: https://github.com/CodexCoder21Organization/netty/commit/e5f302731d3c0ce684d323002f5fdce319381fdb
+- Evidence/reviews/reports: https://github.com/CodexCoder21Organization/netty/tree/evidence/lane230-netty-release/investigation/lane230
+- Supervisor procedure: https://github.com/CodexCoder21Organization/netty/blob/evidence/lane230-netty-release/investigation/lane230/PUBLISH-PROCEDURE.md
+Open questions for this lane: none. Supervisor owns CI monitoring, review/merge and publication decisions.

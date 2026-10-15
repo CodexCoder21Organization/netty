@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.util.concurrent.DefaultPromiseTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.359 s -- in io.netty.util.concurrent.DefaultPromiseTest

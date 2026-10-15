@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.pool.FixedChannelPoolTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.235 s -- in io.netty.channel.pool.FixedChannelPoolTest
