@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.nio.ShutdownReentryReviewTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.049 s <<< FAILURE! -- in io.netty.channel.nio.ShutdownReentryReviewTest
+io.netty.channel.nio.ShutdownReentryReviewTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen -- Time elapsed: 0.562 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:31)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:231)
+	at io.netty.channel.nio.ShutdownReentryReviewTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen(ShutdownReentryReviewTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
