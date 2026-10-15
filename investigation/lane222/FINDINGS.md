@@ -32,3 +32,10 @@ INFER: Rebase of release PR onto its current base is substantive and contradicts
 | Event-loop IO handler | group creates handler; loop owns initialize/prepare/destroy | prepareToDestroy is idempotent; every shutdown confirmation precedes terminal destruction; no persisted restart state |
 | Allocator event singleton | lazy JVM class initialization; JFR owns event registry | no recorder means allocator must not initialize event classes; fresh-child tests cover adaptive/pooled, heap/direct, resize/release; recording enabled after early use must receive events |
 | Test child process/output reader | test creates/owns child and executor | finally forcibly closes child, shuts reader down, and waits with bounds; no shared recorder state across scenarios |
+
+## 2026-10-15 12:09 UTC — complete published module audit
+OBSERVED: Downloaded all 46 POMs and the 44 corresponding binary jars listed by the prior release manifest. Every jar has META-INF/io.netty.versions.properties identifying a66b8e41266dd9a8ae193cf3dea021b3b5547d7f and repoStatus=clean. Parent/BOM are POM-only. No HTTP errors. Full per-file SHA256 and metadata saved in published-audit.json. This extends the provenance verdict from transport to every binary module in the published set (native platform classifiers not separately audited).
+
+OBSERVED: All four green checks explicitly report `kotlin.build CI check passed (no build.kts found in repository).` These green checks execute no Maven compilation/tests. Existing PR full Maven suite results remain prior evidence until this lane's verification completes. No source/test changes yet. Initial evidence milestone pushed to https://github.com/CodexCoder21Organization/netty/tree/evidence/lane222-netty-reconcile/investigation/lane222 .
+
+INFER: The public version and branch head provenance is established; no re-publish is needed merely to record/merge that exact source against a suitable maintenance base. Rebasing onto development 4.2 would no longer describe the published release and would require a separately versioned build/publication.

@@ -1,0 +1,582 @@
+[
+  {
+    "module": "netty-parent",
+    "pom_sha256": "dd4120f1390b2cbe41db5bbc472f78428addf69c99fa7777e0cd3694300575a8"
+  },
+  {
+    "module": "netty-bom",
+    "pom_sha256": "9ca883ccfa8598ec6a69a99d47f98ca78226b0e77500be0d0d7741a236f812aa"
+  },
+  {
+    "module": "netty-dev-tools",
+    "pom_sha256": "13fc9398daad398b98e967e344142fdf9ad4e45baf8863738bd64b7302757cd0",
+    "jar_sha256": "d2d7a25c166b745cd502dfe7e2354360e39c18e528af736b394e8c7a7f7fc58a",
+    "metadata": {
+      "netty-dev-tools.version": "4.2.10.1-codexcoder21",
+      "netty-dev-tools.buildDate": "2026-10-15 04\\:13\\:09 +0000",
+      "netty-dev-tools.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-dev-tools.shortCommitHash": "a66b8e4126",
+      "netty-dev-tools.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-dev-tools.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-jfr-stub",
+    "pom_sha256": "af431870e70e1e7c625569fcf9d02cc8387ab6bf8962496044301b07d0d27b55",
+    "jar_sha256": "cad2f30c29b06f70adb223360e5e06d412047db7e32da61c4b6c3aae69e15d87",
+    "metadata": {
+      "netty-jfr-stub.version": "4.2.10.1-codexcoder21",
+      "netty-jfr-stub.buildDate": "2026-10-15 04\\:12\\:46 +0000",
+      "netty-jfr-stub.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-jfr-stub.shortCommitHash": "a66b8e4126",
+      "netty-jfr-stub.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-jfr-stub.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-varhandle-stub",
+    "pom_sha256": "648c0cdc8edda129b56b3754ea6907767a3889c0ef6d6d899a94ac877bacc919",
+    "jar_sha256": "4733bf37942a4ac00313115be003d19beeb59620a81799e118041be5bd567103",
+    "metadata": {
+      "netty-varhandle-stub.version": "4.2.10.1-codexcoder21",
+      "netty-varhandle-stub.buildDate": "2026-10-15 04\\:13\\:02 +0000",
+      "netty-varhandle-stub.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-varhandle-stub.shortCommitHash": "a66b8e4126",
+      "netty-varhandle-stub.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-varhandle-stub.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-common",
+    "pom_sha256": "6be047be5de690394aadbc7c831b0e56658c7b3caae14edd0cfdace382ae752f",
+    "jar_sha256": "76ead639d4cb6aa7e024553d684bfd9556a55079a78c1cff6503103321e9069f",
+    "metadata": {
+      "netty-common.version": "4.2.10.1-codexcoder21",
+      "netty-common.buildDate": "2026-10-15 04\\:13\\:30 +0000",
+      "netty-common.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-common.shortCommitHash": "a66b8e4126",
+      "netty-common.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-common.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-buffer",
+    "pom_sha256": "dbc580165f6367fca80b63601e55dc860f5ec7dec4fae89a7e1f4f16e767e76e",
+    "jar_sha256": "21c41209bd3433c3436b434f56b6efba0669613cf6a45af818d8c0edcacf35cb",
+    "metadata": {
+      "netty-buffer.version": "4.2.10.1-codexcoder21",
+      "netty-buffer.buildDate": "2026-10-15 04\\:15\\:49 +0000",
+      "netty-buffer.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-buffer.shortCommitHash": "a66b8e4126",
+      "netty-buffer.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-buffer.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-pkitesting",
+    "pom_sha256": "6b84c41454dcb781298505c764f6b47a7d2d523587ba29a56ac7afdcd71b1016",
+    "jar_sha256": "755ce65c04a1dcb5f002a72cfb4f46841e4be6cb95c4b15909bb3533f45736f7",
+    "metadata": {
+      "netty-pkitesting.version": "4.2.10.1-codexcoder21",
+      "netty-pkitesting.buildDate": "2026-10-15 04\\:21\\:45 +0000",
+      "netty-pkitesting.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-pkitesting.shortCommitHash": "a66b8e4126",
+      "netty-pkitesting.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-pkitesting.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-resolver",
+    "pom_sha256": "9816734c23551b26529b68f007fc4a1902e2a6358303b0b3be6b27c5605a871e",
+    "jar_sha256": "6f3361ac3ff172027f3ef6dcfaa9a76fdf196bdff19c17428c2017597e3af678",
+    "metadata": {
+      "netty-resolver.version": "4.2.10.1-codexcoder21",
+      "netty-resolver.buildDate": "2026-10-15 04\\:16\\:48 +0000",
+      "netty-resolver.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-resolver.shortCommitHash": "a66b8e4126",
+      "netty-resolver.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-resolver.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-testsuite-common",
+    "pom_sha256": "df98f9dd9c1a4dfd47990aa03fa7f8de734d555c9ce06da15ecff22b191b3ab2",
+    "jar_sha256": "a6c676923b130827dbd482d9e9e3604f7d97c1a9310a77278fbe6c524b2e49b8",
+    "metadata": {
+      "netty-testsuite-common.version": "4.2.10.1-codexcoder21",
+      "netty-testsuite-common.buildDate": "2026-10-15 04\\:15\\:29 +0000",
+      "netty-testsuite-common.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-testsuite-common.shortCommitHash": "a66b8e4126",
+      "netty-testsuite-common.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-testsuite-common.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport",
+    "pom_sha256": "ceb20ed6810bdc93a1f210f1935124b2f5013ec663dc5cf5fab06f540df5492c",
+    "jar_sha256": "6114a2e466130f0bf5b711098928e4eb105a43c94e75616f94d5de420fada8e5",
+    "metadata": {
+      "netty-transport.version": "4.2.10.1-codexcoder21",
+      "netty-transport.buildDate": "2026-10-15 04\\:17\\:26 +0000",
+      "netty-transport.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport.shortCommitHash": "a66b8e4126",
+      "netty-transport.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-base",
+    "pom_sha256": "bae3198df26b0dce36acf60ddb371f48b866190a4b299b9c830208b59dbaf9e8",
+    "jar_sha256": "a1e67b9dab3ef50430f68bb0ace8e3f2ce411b1b9fc14b72272b92b7f135b6e0",
+    "metadata": {
+      "netty-codec-base.version": "4.2.10.1-codexcoder21",
+      "netty-codec-base.buildDate": "2026-10-15 04\\:18\\:27 +0000",
+      "netty-codec-base.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-base.shortCommitHash": "a66b8e4126",
+      "netty-codec-base.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-base.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-native-unix-common",
+    "pom_sha256": "40763ee0e7621c7a0157293c02cf538c59c50e926d42be4f0da155beab89285f",
+    "jar_sha256": "853fa44fd683e81670ec13be87428562ee712f5dae809bb91dbe93b3996f18e9",
+    "metadata": {
+      "netty-transport-native-unix-common.version": "4.2.10.1-codexcoder21",
+      "netty-transport-native-unix-common.buildDate": "2026-10-15 04\\:21\\:11 +0000",
+      "netty-transport-native-unix-common.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-native-unix-common.shortCommitHash": "a66b8e4126",
+      "netty-transport-native-unix-common.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-native-unix-common.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-rxtx",
+    "pom_sha256": "8c1e9ec9451c812ccc3a5c5577e89b08638764718fd586ff105eccc585dbaa18",
+    "jar_sha256": "3831e118bcca629d89dfaa0f9630d59100e163a15692c09aa3add84f6bf23571",
+    "metadata": {
+      "netty-transport-rxtx.version": "4.2.10.1-codexcoder21",
+      "netty-transport-rxtx.buildDate": "2026-10-15 04\\:46\\:57 +0000",
+      "netty-transport-rxtx.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-rxtx.shortCommitHash": "a66b8e4126",
+      "netty-transport-rxtx.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-rxtx.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-udt",
+    "pom_sha256": "3eee5d04e3ba665f9b5de2b57019f29888c5a1b8466040046f4637d1023e2202",
+    "jar_sha256": "e596abc160bf1269cc763a8b5163e13ce703fa60bc7950a2c6957816507c9111",
+    "metadata": {
+      "netty-transport-udt.version": "4.2.10.1-codexcoder21",
+      "netty-transport-udt.buildDate": "2026-10-15 04\\:27\\:31 +0000",
+      "netty-transport-udt.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-udt.shortCommitHash": "a66b8e4126",
+      "netty-transport-udt.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-udt.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-compression",
+    "pom_sha256": "aafe8e2e317a7764031a8001397f718b9d3536558f6a7d0ad99a391a7dbc4e51",
+    "jar_sha256": "17c6473ee8bd9d5665bd22f8a03345fe3724480163314fbc98eb51a9760220c9",
+    "metadata": {
+      "netty-codec-compression.version": "4.2.10.1-codexcoder21",
+      "netty-codec-compression.buildDate": "2026-10-15 04\\:19\\:06 +0000",
+      "netty-codec-compression.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-compression.shortCommitHash": "a66b8e4126",
+      "netty-codec-compression.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-compression.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-dns",
+    "pom_sha256": "ba47a70b21bba7e499344ba9ffbec3811137f529e2c0a32de0e8d1e81adad3e5",
+    "jar_sha256": "d948aa5cae8f353b5bd88b1a83ef19e5034ff22abff682870bfc3699da3d7e50",
+    "metadata": {
+      "netty-codec-dns.version": "4.2.10.1-codexcoder21",
+      "netty-codec-dns.buildDate": "2026-10-15 04\\:20\\:19 +0000",
+      "netty-codec-dns.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-dns.shortCommitHash": "a66b8e4126",
+      "netty-codec-dns.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-dns.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-haproxy",
+    "pom_sha256": "f6aae8c00692a3784a2808b005a7c0ab9166e7c3f571d89e5b010d1ca341ab78",
+    "jar_sha256": "4df05830fd741122f48cc01bbec6f646d893136a83a2867b9133f182f1249615",
+    "metadata": {
+      "netty-codec-haproxy.version": "4.2.10.1-codexcoder21",
+      "netty-codec-haproxy.buildDate": "2026-10-15 04\\:20\\:45 +0000",
+      "netty-codec-haproxy.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-haproxy.shortCommitHash": "a66b8e4126",
+      "netty-codec-haproxy.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-haproxy.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-marshalling",
+    "pom_sha256": "03b494769ac00064de4a32753cddf5915cbef7915a16db06e23e40bb53516e98",
+    "jar_sha256": "4ee3c12ff95a2921e8d5056e58d1afc07d9209ee2e8c743607cb737acec2666c",
+    "metadata": {
+      "netty-codec-marshalling.version": "4.2.10.1-codexcoder21",
+      "netty-codec-marshalling.buildDate": "2026-10-15 04\\:19\\:59 +0000",
+      "netty-codec-marshalling.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-marshalling.shortCommitHash": "a66b8e4126",
+      "netty-codec-marshalling.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-marshalling.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-memcache",
+    "pom_sha256": "6bb3543535a9db159d21be30ececde08e55705975603c167e8bf59899f280c14",
+    "jar_sha256": "5f7dcaecf24d401f299b54c007507e0c73a0f304f66e2446da96950e2d22037c",
+    "metadata": {
+      "netty-codec-memcache.version": "4.2.10.1-codexcoder21",
+      "netty-codec-memcache.buildDate": "2026-10-15 04\\:45\\:59 +0000",
+      "netty-codec-memcache.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-memcache.shortCommitHash": "a66b8e4126",
+      "netty-codec-memcache.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-memcache.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-mqtt",
+    "pom_sha256": "b6296268174950403a76875dad868c7cbb10f15c10dd464af05ddf51c202a5cc",
+    "jar_sha256": "5299a883cdd0918381214cd333c191b28277b7333e13d3b0a7d9dee488d413b3",
+    "metadata": {
+      "netty-codec-mqtt.version": "4.2.10.1-codexcoder21",
+      "netty-codec-mqtt.buildDate": "2026-10-15 04\\:46\\:06 +0000",
+      "netty-codec-mqtt.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-mqtt.shortCommitHash": "a66b8e4126",
+      "netty-codec-mqtt.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-mqtt.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-protobuf",
+    "pom_sha256": "c52053f5a6d89b1a14023b07dc4e026b23517e040fb7cba97e1061b1d09f9dbb",
+    "jar_sha256": "69a26152a69f8d226e3be1a498e7841731267886e7bcfeae1c33a347074ed403",
+    "metadata": {
+      "netty-codec-protobuf.version": "4.2.10.1-codexcoder21",
+      "netty-codec-protobuf.buildDate": "2026-10-15 04\\:19\\:43 +0000",
+      "netty-codec-protobuf.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-protobuf.shortCommitHash": "a66b8e4126",
+      "netty-codec-protobuf.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-protobuf.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-redis",
+    "pom_sha256": "a7a403b1a3cc5970504931c5dc39b8cb50108162d6a509b20b384ad2de6614c3",
+    "jar_sha256": "06757ab62d3313c4e45570ddcab4b890146e37dc971e24ebe6ac7f4c904204ab",
+    "metadata": {
+      "netty-codec-redis.version": "4.2.10.1-codexcoder21",
+      "netty-codec-redis.buildDate": "2026-10-15 04\\:46\\:13 +0000",
+      "netty-codec-redis.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-redis.shortCommitHash": "a66b8e4126",
+      "netty-codec-redis.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-redis.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-smtp",
+    "pom_sha256": "9ea246b4934a4d2e029b0bf3268281434ffa12f147bd62811dcefb278f8b5f82",
+    "jar_sha256": "4e6f342709e47f8d6250c3530315c6746deed7f568ade86bae2aeefb1bf643f5",
+    "metadata": {
+      "netty-codec-smtp.version": "4.2.10.1-codexcoder21",
+      "netty-codec-smtp.buildDate": "2026-10-15 04\\:46\\:17 +0000",
+      "netty-codec-smtp.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-smtp.shortCommitHash": "a66b8e4126",
+      "netty-codec-smtp.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-smtp.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-socks",
+    "pom_sha256": "9a911765b20eb92d765bd70d343b39d90ec6f0cbae1b73e4ce93e6fbd3bad005",
+    "jar_sha256": "d38b8dda247dbf3ef8325cd672a53f3c4f0c05139bdc2f686bbc1105cb0060fd",
+    "metadata": {
+      "netty-codec-socks.version": "4.2.10.1-codexcoder21",
+      "netty-codec-socks.buildDate": "2026-10-15 04\\:46\\:22 +0000",
+      "netty-codec-socks.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-socks.shortCommitHash": "a66b8e4126",
+      "netty-codec-socks.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-socks.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-stomp",
+    "pom_sha256": "5ce8070aef0e146811c12cc1f7de9af2459c6891f1b91d0ecc01be45c292b0b4",
+    "jar_sha256": "2fe5df86adeb4652655ca23f32b5a3857330caf31ecc70c69cb144fee2a52cea",
+    "metadata": {
+      "netty-codec-stomp.version": "4.2.10.1-codexcoder21",
+      "netty-codec-stomp.buildDate": "2026-10-15 04\\:46\\:28 +0000",
+      "netty-codec-stomp.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-stomp.shortCommitHash": "a66b8e4126",
+      "netty-codec-stomp.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-stomp.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-xml",
+    "pom_sha256": "ff2d2090bb5fea9b5beee28df40dafb9f0877b9b1fa40cb6a23d2ea72f8f5c2b",
+    "jar_sha256": "5064f7a60758380e4484b6343d2c9f2baaa8233dcf6e4c8694091e836927e44d",
+    "metadata": {
+      "netty-codec-xml.version": "4.2.10.1-codexcoder21",
+      "netty-codec-xml.buildDate": "2026-10-15 04\\:46\\:33 +0000",
+      "netty-codec-xml.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-xml.shortCommitHash": "a66b8e4126",
+      "netty-codec-xml.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-xml.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-handler",
+    "pom_sha256": "805d41cf95b5c5c8603bf76b92202ec16755aa9527e4e2b93b2a830f935d1f87",
+    "jar_sha256": "bdb436260ed327ff1e3450ad098aa6244ad01f14db77ee2cc04c838b4a3b64ee",
+    "metadata": {
+      "netty-handler.version": "4.2.10.1-codexcoder21",
+      "netty-handler.buildDate": "2026-10-15 04\\:22\\:28 +0000",
+      "netty-handler.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-handler.shortCommitHash": "a66b8e4126",
+      "netty-handler.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-handler.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-classes-epoll",
+    "pom_sha256": "63f53f3e38b4ecc6534b7425b4a7f212416f91ee540045b4b0bdb1cec9a0bb9d",
+    "jar_sha256": "7aca1d9b4cbd51859080c9eca3399932fd07dae48d1912837be641fc7e6c4b2b",
+    "metadata": {
+      "netty-transport-classes-epoll.version": "4.2.10.1-codexcoder21",
+      "netty-transport-classes-epoll.buildDate": "2026-10-15 04\\:26\\:21 +0000",
+      "netty-transport-classes-epoll.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-classes-epoll.shortCommitHash": "a66b8e4126",
+      "netty-transport-classes-epoll.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-classes-epoll.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-classes-io_uring",
+    "pom_sha256": "50dfa335d455562202d76236ea7b767345a208c4b1755a716e278d609787ee6b",
+    "jar_sha256": "4a3629b85865171d9b90dceee3780a166a257b4a847e8e52f05ce199adc1fd9f",
+    "metadata": {
+      "netty-transport-classes-io_uring.version": "4.2.10.1-codexcoder21",
+      "netty-transport-classes-io_uring.buildDate": "2026-10-15 04\\:47\\:13 +0000",
+      "netty-transport-classes-io_uring.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-classes-io_uring.shortCommitHash": "a66b8e4126",
+      "netty-transport-classes-io_uring.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-classes-io_uring.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-classes-kqueue",
+    "pom_sha256": "da3c4b7708587c236ffdd7a7dac4998a8d0fb34c4184e7e70d22ea7b3408872d",
+    "jar_sha256": "5eda9bb0f7608b95b78dfdb3ae1222f34ffe810d648b501340724cbe260fddef",
+    "metadata": {
+      "netty-transport-classes-kqueue.version": "4.2.10.1-codexcoder21",
+      "netty-transport-classes-kqueue.buildDate": "2026-10-15 04\\:47\\:00 +0000",
+      "netty-transport-classes-kqueue.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-classes-kqueue.shortCommitHash": "a66b8e4126",
+      "netty-transport-classes-kqueue.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-classes-kqueue.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-native-unix-common-tests",
+    "pom_sha256": "0a18c2799e008e8b331ffd108bacca8488adf1c6d7dda23112f328f067a47bca",
+    "jar_sha256": "68a763b6d5bd77473442e47ca825cee5afc090205a3680ab44222371b9df09c1",
+    "metadata": {
+      "netty-transport-native-unix-common-tests.version": "4.2.10.1-codexcoder21",
+      "netty-transport-native-unix-common-tests.buildDate": "2026-10-15 04\\:28\\:09 +0000",
+      "netty-transport-native-unix-common-tests.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-native-unix-common-tests.shortCommitHash": "a66b8e4126",
+      "netty-transport-native-unix-common-tests.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-native-unix-common-tests.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec",
+    "pom_sha256": "303d64a3ecc213260f20ddbf3153d5d7bfc5d0b5477370afb66009c6f7ad4452",
+    "jar_sha256": "d7b57b7c568b2849b21dfe906b8806cde5948ac577eecb472808966b07a532a3",
+    "metadata": {
+      "netty-codec.version": "4.2.10.1-codexcoder21",
+      "netty-codec.buildDate": "2026-10-15 04\\:20\\:16 +0000",
+      "netty-codec.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec.shortCommitHash": "a66b8e4126",
+      "netty-codec.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-classes-quic",
+    "pom_sha256": "7ea5cf76c077040cd2f19af734f0225479e10a2aa7913d5eb9a2429b5c1667db",
+    "jar_sha256": "a3458309792e84dbb4d21a73a56cba028888be817478a1ed79e4bf61359c2d97",
+    "metadata": {
+      "netty-codec-classes-quic.version": "4.2.10.1-codexcoder21",
+      "netty-codec-classes-quic.buildDate": "2026-10-15 04\\:26\\:46 +0000",
+      "netty-codec-classes-quic.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-classes-quic.shortCommitHash": "a66b8e4126",
+      "netty-codec-classes-quic.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-classes-quic.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-http",
+    "pom_sha256": "a4e5aed432a44c17daefd136632a903fd89ed4cf244a0c63e343eacf597ac1b5",
+    "jar_sha256": "6343a9d958e97b816887cd2977c19f3f86422f7fc44c0c2bf6f9f79ae5642f6f",
+    "metadata": {
+      "netty-codec-http.version": "4.2.10.1-codexcoder21",
+      "netty-codec-http.buildDate": "2026-10-15 04\\:23\\:52 +0000",
+      "netty-codec-http.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-http.shortCommitHash": "a66b8e4126",
+      "netty-codec-http.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-http.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-resolver-dns",
+    "pom_sha256": "9d5d52b2d834b23222e7ca1772ac6c8b9337f099300ca3105c9c427e82f680f7",
+    "jar_sha256": "2c7290ad6a27a21a9ff1c784690d0328e48a01cbff01f45860374677e287846a",
+    "metadata": {
+      "netty-resolver-dns.version": "4.2.10.1-codexcoder21",
+      "netty-resolver-dns.buildDate": "2026-10-15 04\\:46\\:44 +0000",
+      "netty-resolver-dns.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-resolver-dns.shortCommitHash": "a66b8e4126",
+      "netty-resolver-dns.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-resolver-dns.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-native-epoll",
+    "pom_sha256": "f4b64e60b9a80c0e5ffa353615d8fe2d03bb7ffded83e569703985ac5ded2f9f",
+    "jar_sha256": "966c5b46e7dfcbcc5138424427f493ea8c2368642a5affe5b6bdc71ff1d7ec88",
+    "metadata": {
+      "netty-transport-native-epoll.version": "4.2.10.1-codexcoder21",
+      "netty-transport-native-epoll.buildDate": "2026-10-15 04\\:28\\:16 +0000",
+      "netty-transport-native-epoll.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-native-epoll.shortCommitHash": "a66b8e4126",
+      "netty-transport-native-epoll.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-native-epoll.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-http2",
+    "pom_sha256": "0f9ae7e2e04a2c2ef65db34e15b8e1432001ef77b688a0f4953c92b7c3f329d6",
+    "jar_sha256": "28dc7d8e4bf8291ea72a86ae512ff9fefad446cc362d0a208257a68b3ca8515d",
+    "metadata": {
+      "netty-codec-http2.version": "4.2.10.1-codexcoder21",
+      "netty-codec-http2.buildDate": "2026-10-15 04\\:25\\:13 +0000",
+      "netty-codec-http2.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-http2.shortCommitHash": "a66b8e4126",
+      "netty-codec-http2.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-http2.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-native-quic",
+    "pom_sha256": "b75c72245c707919261a890b082622440d4264d8232881190c1e9671fd694400",
+    "jar_sha256": "497fe4ca16704b31ab4a41faad93f8ddc380ce3dcadef607e22f840b4ce56b83",
+    "metadata": {
+      "netty-codec-native-quic.version": "4.2.10.1-codexcoder21",
+      "netty-codec-native-quic.buildDate": "2026-10-15 04\\:29\\:16 +0000",
+      "netty-codec-native-quic.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-native-quic.shortCommitHash": "a66b8e4126",
+      "netty-codec-native-quic.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-native-quic.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-handler-proxy",
+    "pom_sha256": "95733b618491ef98a8a931077955a0c6b16ee4b485725430b03fcbc8c623c17b",
+    "jar_sha256": "114bfed27c3f71c0a6ae7a7d677d8fb37ffd2a85a573b1959946d26dbeed1c74",
+    "metadata": {
+      "netty-handler-proxy.version": "4.2.10.1-codexcoder21",
+      "netty-handler-proxy.buildDate": "2026-10-15 04\\:46\\:37 +0000",
+      "netty-handler-proxy.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-handler-proxy.shortCommitHash": "a66b8e4126",
+      "netty-handler-proxy.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-handler-proxy.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-handler-ssl-ocsp",
+    "pom_sha256": "3a3d55bf9371d7eb12a6fdf2f51f37eb23e5c5ad5db1726b966381338a62c7e0",
+    "jar_sha256": "bd775bb9f0b17036612f8f0cf5869cad127538e0071f20eb3e701d4976425355",
+    "metadata": {
+      "netty-handler-ssl-ocsp.version": "4.2.10.1-codexcoder21",
+      "netty-handler-ssl-ocsp.buildDate": "2026-10-15 04\\:46\\:52 +0000",
+      "netty-handler-ssl-ocsp.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-handler-ssl-ocsp.shortCommitHash": "a66b8e4126",
+      "netty-handler-ssl-ocsp.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-handler-ssl-ocsp.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-resolver-dns-classes-macos",
+    "pom_sha256": "595be9352cbce61a758573b1cb23e6b4cb7fce7c739f841da6568cac076e15cf",
+    "jar_sha256": "46d0eaf8cea90e95132458936966ae4606530cad085c3a29859ba7c07d1d6fa1",
+    "metadata": {
+      "netty-resolver-dns-classes-macos.version": "4.2.10.1-codexcoder21",
+      "netty-resolver-dns-classes-macos.buildDate": "2026-10-15 04\\:47\\:08 +0000",
+      "netty-resolver-dns-classes-macos.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-resolver-dns-classes-macos.shortCommitHash": "a66b8e4126",
+      "netty-resolver-dns-classes-macos.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-resolver-dns-classes-macos.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-transport-sctp",
+    "pom_sha256": "5fe7242089279ab547ed41ef2b745924ff1510de0e519fe8b575a74929d0bd13",
+    "jar_sha256": "7354c3167d18cf988c6404f59280c2d65d3180f428d3a9cb96b786bc20cc8841",
+    "metadata": {
+      "netty-transport-sctp.version": "4.2.10.1-codexcoder21",
+      "netty-transport-sctp.buildDate": "2026-10-15 04\\:27\\:11 +0000",
+      "netty-transport-sctp.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-transport-sctp.shortCommitHash": "a66b8e4126",
+      "netty-transport-sctp.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-transport-sctp.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-codec-http3",
+    "pom_sha256": "5b04d703f5dd39946f213d350680ccd8c92a9df714906658949a26306a88b712",
+    "jar_sha256": "437a2e0497dc1148f136e74e5bdf5fb4f339753a53e7cf7edbe85027ea1a9721",
+    "metadata": {
+      "netty-codec-http3.version": "4.2.10.1-codexcoder21",
+      "netty-codec-http3.buildDate": "2026-10-15 04\\:45\\:45 +0000",
+      "netty-codec-http3.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-codec-http3.shortCommitHash": "a66b8e4126",
+      "netty-codec-http3.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-codec-http3.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-testsuite",
+    "pom_sha256": "4cea3b0c5e7e7b12ea7d3e80daed47b281bd2ac3c401ffaa58a7805f1462d745",
+    "jar_sha256": "934b2feb379ba9afd4219b4f3d1b5d7c428a376389405a21ac4ebe8d3de5cfb3",
+    "metadata": {
+      "netty-testsuite.version": "4.2.10.1-codexcoder21",
+      "netty-testsuite.buildDate": "2026-10-15 04\\:27\\:49 +0000",
+      "netty-testsuite.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-testsuite.shortCommitHash": "a66b8e4126",
+      "netty-testsuite.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-testsuite.repoStatus": "clean"
+    }
+  },
+  {
+    "module": "netty-all",
+    "pom_sha256": "265f6150fc0779b9ccf47d09fee0cd6b662336ed4c2cac26e13620e4a583323d",
+    "jar_sha256": "5933f24354fd1d369d4c8bdcad4b8198534d5443c74b7b1a340b0b6b76436afb",
+    "metadata": {
+      "netty-all.version": "4.2.10.1-codexcoder21",
+      "netty-all.buildDate": "2026-10-15 04\\:47\\:31 +0000",
+      "netty-all.commitDate": "2026-10-15 04\\:12\\:06 +0000",
+      "netty-all.shortCommitHash": "a66b8e4126",
+      "netty-all.longCommitHash": "a66b8e41266dd9a8ae193cf3dea021b3b5547d7f",
+      "netty-all.repoStatus": "clean"
+    }
+  }
+]

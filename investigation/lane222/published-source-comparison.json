@@ -1,0 +1,14 @@
+[
+  {
+    "file": "transport/src/main/java/io/netty/channel/SingleThreadIoEventLoop.java",
+    "published_source_equals_pr_head": true
+  },
+  {
+    "file": "buffer/src/main/java/io/netty/buffer/AdaptivePoolingAllocator.java",
+    "published_source_equals_pr_head": true
+  },
+  {
+    "file": "buffer/src/main/java/io/netty/buffer/PooledByteBufAllocator.java",
+    "published_source_equals_pr_head": true
+  }
+]
