@@ -1,0 +1,6 @@
+{
+  "ps_command": "ps -eo pid,args -ww",
+  "background_before": [],
+  "background_after": [],
+  "excluded_agent_and_tool_ancestors": true
+}
