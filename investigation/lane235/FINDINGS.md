@@ -2,9 +2,9 @@
 Started 2026-10-15 13:52 UTC; stop at 14:57 UTC (65 minutes); hard wall 15:07 UTC.
 
 ## Plan
-- [in progress] Read brief/common/docs/prior evidence, verify merged maintenance source and exact previous payload set.
-- [pending] Build independent BOM plus exact 45-module reactor serially with bounded memory; audit/stage payloads.
-- [pending] Publish each of 46 coordinates with CLI 0.0.6, retaining output and direct exit code.
+- [done] Read brief/common/docs/prior evidence, verify merged maintenance source and exact previous payload set.
+- [done] Build independent BOM plus exact 45-module reactor serially with bounded memory; audit/stage payloads.
+- [in progress] Publish each of 46 coordinates with CLI 0.0.6, retaining output and direct exit code.
 - [pending] Probe every POM/JAR/classifier, verify downloaded transport provenance, record UrlProtocol pin lines, push evidence and clean checkout/staging/cache.
 
 ## 2026-10-15 13:54 UTC — initial context
@@ -32,3 +32,7 @@ Lessons: use the exact maintenance merge rather than development main; compare p
 
 ## 2026-10-15 14:16 UTC — native publication modules built
 OBSERVED: Epoll and native QUIC now build successfully in the repaired reactor. All 409 C/C++ targets completed; pinned QUIC Cargo build completed serially. Reactor reached HTTP/3 (30/45). Same two non-fatal Rust c_void warnings as lane230, retained without changing flags. Source remains clean. No publication yet. Entire reactor and audit still required before first upload. More than 40 minutes remain before the stop deadline.
+
+## 2026-10-15 14:19 UTC — build/stage/audit gate complete
+OBSERVED: Repaired full exact 45-module reactor exit 0 after 898.45s; independent BOM exit 0. Staging contains exactly the old 46 coordinate names, 136 payloads, 272 verified SHA1/SHA256 files. All 44 main jar version records identify merged maintenance head 6e9dcc994cc29c022ac547ab113c9e603d7a9c29 with repoStatus=clean. Transport source jar equals the checkout's SingleThreadIoEventLoop.java bytes. Source checkout remains clean. Private staging mode 0700. Final prepublication probes again show all 46 .2 POMs HTTP 404. No existing coordinate will be replaced.
+Publication starting using the explicitly authorized CLI 0.0.6 --artifact-dir --api-url https://api.kotlin.directory/upload --force, parent then BOM then dependency order and all last; each process direct exit/output recorded separately, stop at first failure. Packaging used -DskipTests as brief allows: lane230 ran common/transport/invariant suites on identical tree e5f302731d; this merge has an empty diff from that head. This lane claims no new test execution.

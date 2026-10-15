@@ -1,0 +1,17 @@
+{
+  "label": "full-published-reactor-repaired",
+  "command": [
+    "./mvnw",
+    "-e",
+    "-B",
+    "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane235/m2",
+    "-pl",
+    "common,buffer,transport,handler,codec,all",
+    "-am",
+    "-DskipTests",
+    "install"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 898.4537258148193,
+  "head": "6e9dcc994cc29c022ac547ab113c9e603d7a9c29"
+}
