@@ -4383,3 +4383,1233 @@ main:
      [exec] [105/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_dup.cc.o
      [exec] [106/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_gentm.cc.o
      [exec] [107/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_i2d_fp.cc.o
+     [exec] [108/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_int.cc.o
+     [exec] [109/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_mbstr.cc.o
+     [exec] [110/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_object.cc.o
+     [exec] [111/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_octet.cc.o
+     [exec] [112/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_strex.cc.o
+     [exec] [113/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_strnid.cc.o
+     [exec] [114/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_time.cc.o
+     [exec] [115/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_type.cc.o
+     [exec] [116/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/a_utctm.cc.o
+     [exec] [117/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn1_lib.cc.o
+     [exec] [118/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn1_par.cc.o
+     [exec] [119/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/asn_pack.cc.o
+     [exec] [120/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/f_int.cc.o
+     [exec] [121/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/f_string.cc.o
+     [exec] [122/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/posix_time.cc.o
+     [exec] [123/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_dec.cc.o
+     [exec] [124/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_enc.cc.o
+     [exec] [125/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_fre.cc.o
+     [exec] [126/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_new.cc.o
+     [exec] [127/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_typ.cc.o
+     [exec] [128/409] Building CXX object CMakeFiles/crypto.dir/crypto/asn1/tasn_utl.cc.o
+     [exec] [129/409] Building CXX object CMakeFiles/crypto.dir/crypto/base64/base64.cc.o
+     [exec] [130/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/bio.cc.o
+     [exec] [131/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/bio_mem.cc.o
+     [exec] [132/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/connect.cc.o
+     [exec] [133/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/errno.cc.o
+     [exec] [134/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/fd.cc.o
+     [exec] [135/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/file.cc.o
+     [exec] [136/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/hexdump.cc.o
+     [exec] [137/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/pair.cc.o
+     [exec] [138/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/printf.cc.o
+     [exec] [139/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/socket.cc.o
+     [exec] [140/409] Building CXX object CMakeFiles/crypto.dir/crypto/bio/socket_helper.cc.o
+     [exec] [141/409] Building CXX object CMakeFiles/crypto.dir/crypto/blake2/blake2.cc.o
+     [exec] [142/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/bn_asn1.cc.o
+     [exec] [143/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/convert.cc.o
+     [exec] [144/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/div.cc.o
+     [exec] [145/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/exponentiation.cc.o
+     [exec] [146/409] Building CXX object CMakeFiles/crypto.dir/crypto/bn/sqrt.cc.o
+     [exec] [147/409] Building CXX object CMakeFiles/crypto.dir/crypto/buf/buf.cc.o
+     [exec] [148/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/asn1_compat.cc.o
+     [exec] [149/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/ber.cc.o
+     [exec] [150/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/cbb.cc.o
+     [exec] [151/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/cbs.cc.o
+     [exec] [152/409] Building CXX object CMakeFiles/crypto.dir/crypto/bytestring/unicode.cc.o
+     [exec] [153/409] Building CXX object CMakeFiles/crypto.dir/crypto/chacha/chacha.cc.o
+     [exec] [154/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/derive_key.cc.o
+     [exec] [155/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aesctrhmac.cc.o
+     [exec] [156/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aeseax.cc.o
+     [exec] [157/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_aesgcmsiv.cc.o
+     [exec] [158/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_chacha20poly1305.cc.o
+     [exec] [159/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_des.cc.o
+     [exec] [160/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_null.cc.o
+     [exec] [161/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_rc2.cc.o
+     [exec] [162/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_rc4.cc.o
+     [exec] [163/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/e_tls.cc.o
+     [exec] [164/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/get_cipher.cc.o
+     [exec] [165/409] Building CXX object CMakeFiles/crypto.dir/crypto/cipher/tls_cbc.cc.o
+     [exec] [166/409] Building CXX object CMakeFiles/crypto.dir/crypto/cms/cms.cc.o
+     [exec] [167/409] Building CXX object CMakeFiles/crypto.dir/crypto/conf/conf.cc.o
+     [exec] [168/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_apple.cc.o
+     [exec] [169/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_fuchsia.cc.o
+     [exec] [170/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_linux.cc.o
+     [exec] [171/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_openbsd.cc.o
+     [exec] [172/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_sysreg.cc.o
+     [exec] [173/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_aarch64_win.cc.o
+     [exec] [174/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_arm_freebsd.cc.o
+     [exec] [175/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_arm_linux.cc.o
+     [exec] [176/409] Building CXX object CMakeFiles/crypto.dir/crypto/cpu_intel.cc.o
+     [exec] [177/409] Building CXX object CMakeFiles/crypto.dir/crypto/crypto.cc.o
+     [exec] [178/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/curve25519.cc.o
+     [exec] [179/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/curve25519_64_adx.cc.o
+     [exec] [180/409] Building CXX object CMakeFiles/crypto.dir/crypto/curve25519/spake25519.cc.o
+     [exec] [181/409] Building CXX object CMakeFiles/crypto.dir/crypto/des/des.cc.o
+     [exec] [182/409] Building CXX object CMakeFiles/crypto.dir/crypto/dh/dh_asn1.cc.o
+     [exec] [183/409] Building CXX object CMakeFiles/crypto.dir/crypto/dh/params.cc.o
+     [exec] [184/409] Building CXX object CMakeFiles/crypto.dir/crypto/digest/digest_extra.cc.o
+     [exec] [185/409] Building CXX object CMakeFiles/crypto.dir/crypto/dsa/dsa.cc.o
+     [exec] [186/409] Building CXX object CMakeFiles/crypto.dir/crypto/dsa/dsa_asn1.cc.o
+     [exec] [187/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/ec_asn1.cc.o
+     [exec] [188/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/ec_derive.cc.o
+     [exec] [189/409] Building CXX object CMakeFiles/crypto.dir/crypto/ec/hash_to_curve.cc.o
+     [exec] [190/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdh/ecdh.cc.o
+     [exec] [191/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdsa/ecdsa_asn1.cc.o
+     [exec] [192/409] Building CXX object CMakeFiles/crypto.dir/crypto/ecdsa/ecdsa_p1363.cc.o
+     [exec] [193/409] Building CXX object CMakeFiles/crypto.dir/crypto/engine/engine.cc.o
+     [exec] [194/409] Building CXX object CMakeFiles/crypto.dir/crypto/err/err.cc.o
+     [exec] [195/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp.cc.o
+     [exec] [196/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp_asn1.cc.o
+     [exec] [197/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/evp_ctx.cc.o
+     [exec] [198/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dh.cc.o
+     [exec] [199/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dh_asn1.cc.o
+     [exec] [200/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_dsa_asn1.cc.o
+     [exec] [201/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ec.cc.o
+     [exec] [202/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ec_asn1.cc.o
+     [exec] [203/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ed25519.cc.o
+     [exec] [204/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_ed25519_asn1.cc.o
+     [exec] [205/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_hkdf.cc.o
+     [exec] [206/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_rsa.cc.o
+     [exec] [207/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_rsa_asn1.cc.o
+     [exec] [208/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_x25519.cc.o
+     [exec] [209/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/p_x25519_asn1.cc.o
+     [exec] [210/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/pbkdf.cc.o
+     [exec] [211/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/print.cc.o
+     [exec] [212/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/scrypt.cc.o
+     [exec] [213/409] Building CXX object CMakeFiles/crypto.dir/crypto/evp/sign.cc.o
+     [exec] [214/409] Building CXX object CMakeFiles/crypto.dir/crypto/ex_data.cc.o
+     [exec] [215/409] Building CXX object CMakeFiles/crypto.dir/crypto/fipsmodule/fips_shared_support.cc.o
+     [exec] [216/409] Building CXX object CMakeFiles/crypto.dir/crypto/fuzzer_mode.cc.o
+     [exec] [217/409] Building CXX object CMakeFiles/crypto.dir/crypto/hpke/hpke.cc.o
+     [exec] [218/409] Building CXX object CMakeFiles/crypto.dir/crypto/hrss/hrss.cc.o
+     [exec] [219/409] Building CXX object CMakeFiles/crypto.dir/crypto/kyber/kyber.cc.o
+     [exec] [220/409] Building CXX object CMakeFiles/crypto.dir/crypto/lhash/lhash.cc.o
+     [exec] [221/409] Building CXX object CMakeFiles/crypto.dir/crypto/md4/md4.cc.o
+     [exec] [222/409] Building CXX object CMakeFiles/crypto.dir/crypto/md5/md5.cc.o
+     [exec] [223/409] Building CXX object CMakeFiles/crypto.dir/crypto/mem.cc.o
+     [exec] [224/409] Building CXX object CMakeFiles/crypto.dir/crypto/mldsa/mldsa.cc.o
+     [exec] [225/409] Building CXX object CMakeFiles/crypto.dir/crypto/mlkem/mlkem.cc.o
+     [exec] [226/409] Building CXX object CMakeFiles/crypto.dir/crypto/obj/obj.cc.o
+     [exec] [227/409] Building CXX object CMakeFiles/crypto.dir/crypto/obj/obj_xref.cc.o
+     [exec] [228/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_all.cc.o
+     [exec] [229/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_info.cc.o
+     [exec] [230/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_lib.cc.o
+     [exec] [231/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_oth.cc.o
+     [exec] [232/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_pk8.cc.o
+     [exec] [233/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_pkey.cc.o
+     [exec] [234/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_x509.cc.o
+     [exec] [235/409] Building CXX object CMakeFiles/crypto.dir/crypto/pem/pem_xaux.cc.o
+     [exec] [236/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs7/pkcs7.cc.o
+     [exec] [237/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs7/pkcs7_x509.cc.o
+     [exec] [238/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/p5_pbev2.cc.o
+     [exec] [239/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/pkcs8.cc.o
+     [exec] [240/409] Building CXX object CMakeFiles/crypto.dir/crypto/pkcs8/pkcs8_x509.cc.o
+     [exec] [241/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305.cc.o
+     [exec] [242/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_arm.cc.o
+     [exec] [243/409] Building CXX object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_vec.cc.o
+     [exec] [244/409] Building CXX object CMakeFiles/crypto.dir/crypto/pool/pool.cc.o
+     [exec] [245/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/deterministic.cc.o
+     [exec] [246/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/fork_detect.cc.o
+     [exec] [247/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/forkunsafe.cc.o
+     [exec] [248/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/getentropy.cc.o
+     [exec] [249/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/ios.cc.o
+     [exec] [250/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/passive.cc.o
+     [exec] [251/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/rand.cc.o
+     [exec] [252/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/trusty.cc.o
+     [exec] [253/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/urandom.cc.o
+     [exec] [254/409] Building CXX object CMakeFiles/crypto.dir/crypto/rand/windows.cc.o
+     [exec] [255/409] Building CXX object CMakeFiles/crypto.dir/crypto/rc4/rc4.cc.o
+     [exec] [256/409] Building CXX object CMakeFiles/crypto.dir/crypto/refcount.cc.o
+     [exec] [257/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_asn1.cc.o
+     [exec] [258/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_crypt.cc.o
+     [exec] [259/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_extra.cc.o
+     [exec] [260/409] Building CXX object CMakeFiles/crypto.dir/crypto/rsa/rsa_print.cc.o
+     [exec] [261/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha1.cc.o
+     [exec] [262/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha256.cc.o
+     [exec] [263/409] Building CXX object CMakeFiles/crypto.dir/crypto/sha/sha512.cc.o
+     [exec] [264/409] Building CXX object CMakeFiles/crypto.dir/crypto/siphash/siphash.cc.o
+     [exec] [265/409] Building CXX object CMakeFiles/crypto.dir/crypto/slhdsa/slhdsa.cc.o
+     [exec] [266/409] Building CXX object CMakeFiles/crypto.dir/crypto/spake2plus/spake2plus.cc.o
+     [exec] [267/409] Building CXX object CMakeFiles/crypto.dir/crypto/stack/stack.cc.o
+     [exec] [268/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread.cc.o
+     [exec] [269/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_none.cc.o
+     [exec] [270/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_pthread.cc.o
+     [exec] [271/409] Building CXX object CMakeFiles/crypto.dir/crypto/thread_win.cc.o
+     [exec] [272/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/pmbtoken.cc.o
+     [exec] [273/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/trust_token.cc.o
+     [exec] [274/409] Building CXX object CMakeFiles/crypto.dir/crypto/trust_token/voprf.cc.o
+     [exec] [275/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_digest.cc.o
+     [exec] [276/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_sign.cc.o
+     [exec] [277/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/a_verify.cc.o
+     [exec] [278/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/algorithm.cc.o
+     [exec] [279/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/asn1_gen.cc.o
+     [exec] [280/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/by_dir.cc.o
+     [exec] [281/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/by_file.cc.o
+     [exec] [282/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/i2d_pr.cc.o
+     [exec] [283/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/name_print.cc.o
+     [exec] [284/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/policy.cc.o
+     [exec] [285/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/rsa_pss.cc.o
+     [exec] [286/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_crl.cc.o
+     [exec] [287/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_req.cc.o
+     [exec] [288/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_x509.cc.o
+     [exec] [289/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/t_x509a.cc.o
+     [exec] [290/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_akey.cc.o
+     [exec] [291/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_akeya.cc.o
+     [exec] [292/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_alt.cc.o
+     [exec] [293/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_bcons.cc.o
+     [exec] [294/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_bitst.cc.o
+     [exec] [295/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_conf.cc.o
+     [exec] [296/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_cpols.cc.o
+     [exec] [297/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_crld.cc.o
+     [exec] [298/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_enum.cc.o
+     [exec] [299/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_extku.cc.o
+     [exec] [300/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_genn.cc.o
+     [exec] [301/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ia5.cc.o
+     [exec] [302/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_info.cc.o
+     [exec] [303/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_int.cc.o
+     [exec] [304/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_lib.cc.o
+     [exec] [305/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ncons.cc.o
+     [exec] [306/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_ocsp.cc.o
+     [exec] [307/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_pcons.cc.o
+     [exec] [308/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_pmaps.cc.o
+     [exec] [309/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_prn.cc.o
+     [exec] [310/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_purp.cc.o
+     [exec] [311/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_skey.cc.o
+     [exec] [312/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/v3_utl.cc.o
+     [exec] [313/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509.cc.o
+     [exec] [314/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_att.cc.o
+     [exec] [315/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_cmp.cc.o
+     [exec] [316/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_d2.cc.o
+     [exec] [317/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_def.cc.o
+     [exec] [318/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_ext.cc.o
+     [exec] [319/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_lu.cc.o
+     [exec] [320/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_obj.cc.o
+     [exec] [321/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_req.cc.o
+     [exec] [322/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_set.cc.o
+     [exec] [323/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_trs.cc.o
+     [exec] [324/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_txt.cc.o
+     [exec] [325/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_v3.cc.o
+     [exec] [326/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_vfy.cc.o
+     [exec] [327/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509_vpm.cc.o
+     [exec] [328/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509cset.cc.o
+     [exec] [329/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509name.cc.o
+     [exec] [330/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509rset.cc.o
+     [exec] [331/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x509spki.cc.o
+     [exec] [332/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_algor.cc.o
+     [exec] [333/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_all.cc.o
+     [exec] [334/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_attrib.cc.o
+     [exec] [335/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_crl.cc.o
+     [exec] [336/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_exten.cc.o
+     [exec] [337/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_name.cc.o
+     [exec] [338/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_pubkey.cc.o
+     [exec] [339/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_req.cc.o
+     [exec] [340/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_sig.cc.o
+     [exec] [341/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_spki.cc.o
+     [exec] [342/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_x509.cc.o
+     [exec] [343/409] Building CXX object CMakeFiles/crypto.dir/crypto/x509/x_x509a.cc.o
+     [exec] [344/409] Building CXX object CMakeFiles/crypto.dir/crypto/xwing/xwing.cc.o
+     [exec] [345/409] Building CXX object CMakeFiles/crypto.dir/gen/crypto/err_data.cc.o
+     [exec] [346/409] Building ASM object CMakeFiles/crypto.dir/crypto/curve25519/asm/x25519-asm-arm.S.o
+     [exec] [347/409] Building ASM object CMakeFiles/crypto.dir/crypto/hrss/asm/poly_rq_mul.S.o
+     [exec] [348/409] Building ASM object CMakeFiles/crypto.dir/crypto/poly1305/poly1305_arm_asm.S.o
+     [exec] [349/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/aes128gcmsiv-x86_64-apple.S.o
+     [exec] [350/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/aes128gcmsiv-x86_64-linux.S.o
+     [exec] [351/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv4-linux.S.o
+     [exec] [352/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-apple.S.o
+     [exec] [353/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-linux.S.o
+     [exec] [354/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-armv8-win.S.o
+     [exec] [355/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86-apple.S.o
+     [exec] [356/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86-linux.S.o
+     [exec] [357/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86_64-apple.S.o
+     [exec] [358/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha-x86_64-linux.S.o
+     [exec] [359/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-apple.S.o
+     [exec] [360/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-linux.S.o
+     [exec] [361/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_armv8-win.S.o
+     [exec] [362/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_x86_64-apple.S.o
+     [exec] [363/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/chacha20_poly1305_x86_64-linux.S.o
+     [exec] [364/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-586-apple.S.o
+     [exec] [365/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-586-linux.S.o
+     [exec] [366/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-x86_64-apple.S.o
+     [exec] [367/409] Building ASM object CMakeFiles/crypto.dir/gen/crypto/md5-x86_64-linux.S.o
+     [exec] [368/409] Building ASM object CMakeFiles/crypto.dir/third_party/fiat/asm/fiat_curve25519_adx_mul.S.o
+     [exec] [369/409] Building ASM object CMakeFiles/crypto.dir/third_party/fiat/asm/fiat_curve25519_adx_square.S.o
+     [exec] [370/409] Linking CXX static library libcrypto.a
+     [exec] [371/409] Building CXX object CMakeFiles/ssl.dir/ssl/bio_ssl.cc.o
+     [exec] [372/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_both.cc.o
+     [exec] [373/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_lib.cc.o
+     [exec] [374/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_pkt.cc.o
+     [exec] [375/409] Building CXX object CMakeFiles/ssl.dir/ssl/d1_srtp.cc.o
+     [exec] [376/409] Building CXX object CMakeFiles/ssl.dir/ssl/dtls_method.cc.o
+     [exec] [377/409] Building CXX object CMakeFiles/ssl.dir/ssl/dtls_record.cc.o
+     [exec] [378/409] Building CXX object CMakeFiles/ssl.dir/ssl/encrypted_client_hello.cc.o
+     [exec] [379/409] Building CXX object CMakeFiles/ssl.dir/ssl/extensions.cc.o
+     [exec] [380/409] Building CXX object CMakeFiles/ssl.dir/ssl/handoff.cc.o
+     [exec] [381/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake.cc.o
+     [exec] [382/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake_client.cc.o
+     [exec] [383/409] Building CXX object CMakeFiles/ssl.dir/ssl/handshake_server.cc.o
+     [exec] [384/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_both.cc.o
+     [exec] [385/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_lib.cc.o
+     [exec] [386/409] Building CXX object CMakeFiles/ssl.dir/ssl/s3_pkt.cc.o
+     [exec] [387/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_aead_ctx.cc.o
+     [exec] [388/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_asn1.cc.o
+     [exec] [389/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_buffer.cc.o
+     [exec] [390/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_cert.cc.o
+     [exec] [391/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_cipher.cc.o
+     [exec] [392/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_credential.cc.o
+     [exec] [393/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_file.cc.o
+     [exec] [394/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_key_share.cc.o
+     [exec] [395/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_lib.cc.o
+     [exec] [396/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_privkey.cc.o
+     [exec] [397/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_session.cc.o
+     [exec] [398/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_stat.cc.o
+     [exec] [399/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_transcript.cc.o
+     [exec] [400/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_versions.cc.o
+     [exec] [401/409] Building CXX object CMakeFiles/ssl.dir/ssl/ssl_x509.cc.o
+     [exec] [402/409] Building CXX object CMakeFiles/ssl.dir/ssl/t1_enc.cc.o
+     [exec] [403/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls13_both.cc.o
+     [exec] [404/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls13_client.cc.o
+     [exec] [405/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls13_enc.cc.o
+     [exec] [406/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls13_server.cc.o
+     [exec] [407/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls_method.cc.o
+     [exec] [408/409] Building CXX object CMakeFiles/ssl.dir/ssl/tls_record.cc.o
+     [exec] [409/409] Linking CXX static library libssl.a
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/build-target/libssl.a to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build/libssl.a
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/build-target/libcrypto.a to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build/libcrypto.a
+     [copy] Copying 99 files to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/aead.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/aead.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/aes.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/aes.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/arm_arch.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/arm_arch.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/asm_base.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/asm_base.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/asn1.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/asn1.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/asn1_mac.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/asn1_mac.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/asn1t.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/asn1t.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/base.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/base.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/base64.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/base64.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/bcm_public.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/bcm_public.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/bio.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/bio.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/blake2.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/blake2.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/blowfish.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/blowfish.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/bn.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/bn.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/buf.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/buf.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/buffer.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/buffer.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/bytestring.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/bytestring.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/cast.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/cast.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/chacha.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/chacha.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/cipher.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/cipher.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/cmac.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/cmac.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/cms.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/cms.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/conf.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/conf.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/cpu.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/cpu.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/crypto.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/crypto.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ctrdrbg.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ctrdrbg.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/curve25519.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/curve25519.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/des.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/des.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/dh.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/dh.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/digest.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/digest.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/dsa.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/dsa.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/dtls1.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/dtls1.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/e_os2.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/e_os2.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ec.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ec.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ec_key.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ec_key.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ecdh.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ecdh.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ecdsa.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ecdsa.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/engine.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/engine.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/err.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/err.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/evp.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/evp.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/evp_errors.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/evp_errors.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ex_data.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ex_data.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/hkdf.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/hkdf.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/hmac.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/hmac.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/hpke.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/hpke.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/hrss.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/hrss.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/is_boringssl.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/is_boringssl.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/kdf.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/kdf.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/lhash.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/lhash.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/md4.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/md4.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/md5.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/md5.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/mem.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/mem.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/mldsa.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/mldsa.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/mlkem.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/mlkem.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/nid.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/nid.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/obj.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/obj.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/obj_mac.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/obj_mac.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/objects.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/objects.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/opensslconf.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/opensslconf.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/opensslv.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/opensslv.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ossl_typ.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ossl_typ.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pem.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pem.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pkcs12.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pkcs12.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pkcs7.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pkcs7.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pkcs8.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pkcs8.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pki/certificate.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pki/certificate.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pki/ocsp.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pki/ocsp.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pki/signature_verify_cache.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pki/signature_verify_cache.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pki/verify.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pki/verify.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pki/verify_error.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pki/verify_error.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/poly1305.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/poly1305.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/pool.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/pool.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/posix_time.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/posix_time.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/rand.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/rand.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/rc4.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/rc4.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ripemd.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ripemd.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/rsa.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/rsa.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/safestack.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/safestack.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/service_indicator.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/service_indicator.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/sha.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/sha.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/sha2.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/sha2.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/siphash.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/siphash.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/slhdsa.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/slhdsa.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/span.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/span.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/srtp.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/srtp.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ssl.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ssl.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/ssl3.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/ssl3.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/stack.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/stack.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/target.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/target.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/thread.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/thread.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/time.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/time.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/tls1.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/tls1.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/trust_token.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/trust_token.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/type_check.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/type_check.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/x509.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/x509.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/x509_vfy.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/x509_vfy.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/x509v3.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/x509v3.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/x509v3_errors.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/x509v3_errors.h
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source/include/openssl/xwing.h to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include/openssl/xwing.h
+   [delete] Deleting directory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl-source
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- antrun:1.8:run (build-quiche) @ netty-codec-native-quic ---
+[INFO] Executing tasks
+
+main:
+     [echo] Clone Quiche
+     [exec] Cloning into '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche-source'...
+     [exec] Note: switching to 'c9d3e85f0f2acda30acbe186033bf534faeba7f3'.
+     [exec] 
+     [exec] You are in 'detached HEAD' state. You can look around, make experimental
+     [exec] changes and commit them, and you can discard any commits you make in this
+     [exec] state without impacting any branches by switching back to a branch.
+     [exec] 
+     [exec] If you want to create a new branch to retain commits you create, you may
+     [exec] do so (now or later) by using -c with the switch command. Example:
+     [exec] 
+     [exec]   git switch -c <new-branch-name>
+     [exec] 
+     [exec] Or undo this operation with:
+     [exec] 
+     [exec]   git switch -
+     [exec] 
+     [exec] Turn off this advice by setting config variable advice.detachedHead to false
+     [exec] 
+     [exec] HEAD is now at c9d3e85f quiche: release 0.24.8
+     [echo] Building Quiche
+     [exec]     Updating crates.io index
+     [exec]     Updating git repository `https://github.com/cloudflare/wirefilter.git`
+     [exec]      Locking 436 packages to highest compatible versions
+     [exec]       Adding boring v4.22.0 (available: v5.3.0)
+     [exec]       Adding clap v3.2.25 (available: v4.6.7)
+     [exec]       Adding foundations v4.5.0 (available: v5.11.0)
+     [exec]       Adding getrandom v0.3.4 (available: v0.4.3)
+     [exec]       Adding intrusive-collections v0.9.7 (available: v0.10.3)
+     [exec]       Adding ipnetwork v0.20.0 (available: v0.21.1)
+     [exec]       Adding nix v0.30.1 (available: v0.31.3)
+     [exec]       Adding rstest v0.26.1 (available: v0.27.0)
+     [exec]       Adding sfv v0.9.4 (available: v0.16.0)
+     [exec]       Adding table_to_html v0.9.0 (available: v0.11.0)
+     [exec]       Adding tabled v0.15.0 (available: v0.22.0)
+     [exec]       Adding wasm-streams v0.4.2 (available: v0.7.0)
+     [exec]       Adding windows-sys v0.59.0 (available: v0.61.2)
+     [exec]  Downloading crates ...
+     [exec]   Downloaded autocfg v1.5.1
+     [exec]   Downloaded cmake v0.1.58
+     [exec]   Downloaded darling_macro v0.24.1
+     [exec]   Downloaded darling_core v0.24.1
+     [exec]   Downloaded equivalent v1.0.3
+     [exec]   Downloaded quote v1.0.47
+     [exec]   Downloaded ident_case v1.0.1
+     [exec]   Downloaded memoffset v0.9.1
+     [exec]   Downloaded itoa v1.0.18
+     [exec]   Downloaded strsim v0.11.1
+     [exec]   Downloaded shlex v2.0.1
+     [exec]   Downloaded slab v0.4.12
+     [exec]   Downloaded zmij v1.0.23
+     [exec]   Downloaded cdylib-link-lines v0.1.5
+     [exec]   Downloaded either v1.19.0
+     [exec]   Downloaded enum_dispatch v0.3.13
+     [exec]   Downloaded find-msvc-tools v0.1.14
+     [exec]   Downloaded serde_core v1.0.229
+     [exec]   Downloaded unicode-ident v1.0.27
+     [exec]   Downloaded once_cell v1.21.4
+     [exec]   Downloaded serde_with_macros v3.24.0
+     [exec]   Downloaded foldhash v0.2.0
+     [exec]   Downloaded smallvec v1.16.3
+     [exec]   Downloaded intrusive-collections v0.9.7
+     [exec]   Downloaded log v0.4.34
+     [exec]   Downloaded memchr v2.8.3
+     [exec]   Downloaded serde_derive v1.0.229
+     [exec]   Downloaded darling v0.24.1
+     [exec]   Downloaded proc-macro2 v1.0.107
+     [exec]   Downloaded serde v1.0.229
+     [exec]   Downloaded cc v1.8.0
+     [exec]   Downloaded indexmap v2.14.2
+     [exec]   Downloaded hashbrown v0.17.1
+     [exec]   Downloaded serde_json v1.0.154
+     [exec]   Downloaded libm v0.2.16
+     [exec]   Downloaded serde_with v3.24.0
+     [exec]   Downloaded syn v2.0.119
+     [exec]   Downloaded syn v3.0.9
+     [exec]   Downloaded libc v0.2.190
+     [exec]    Compiling proc-macro2 v1.0.107
+     [exec]    Compiling quote v1.0.47
+     [exec]    Compiling unicode-ident v1.0.27
+     [exec]    Compiling syn v3.0.9
+     [exec]    Compiling serde_core v1.0.229
+     [exec]    Compiling strsim v0.11.1
+     [exec]    Compiling ident_case v1.0.1
+     [exec]    Compiling darling_core v0.24.1
+     [exec]    Compiling darling_macro v0.24.1
+     [exec]    Compiling find-msvc-tools v0.1.14
+     [exec]    Compiling shlex v2.0.1
+     [exec]    Compiling serde v1.0.229
+     [exec]    Compiling autocfg v1.5.1
+     [exec]    Compiling zmij v1.0.23
+     [exec]    Compiling memoffset v0.9.1
+     [exec]    Compiling cc v1.8.0
+     [exec]    Compiling darling v0.24.1
+     [exec]    Compiling serde_derive v1.0.229
+     [exec]    Compiling serde_json v1.0.154
+     [exec]    Compiling hashbrown v0.17.1
+     [exec]    Compiling equivalent v1.0.3
+     [exec]    Compiling indexmap v2.14.2
+     [exec]    Compiling serde_with_macros v3.24.0
+     [exec]    Compiling cmake v0.1.58
+     [exec]    Compiling libc v0.2.190
+     [exec]    Compiling itoa v1.0.18
+     [exec]    Compiling cdylib-link-lines v0.1.5
+     [exec]    Compiling libm v0.2.16
+     [exec]    Compiling memchr v2.8.3
+     [exec]    Compiling foldhash v0.2.0
+     [exec]    Compiling quiche v0.24.8 (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche-source/quiche)
+     [exec]    Compiling serde_with v3.24.0
+     [exec]    Compiling smallvec v1.16.3
+     [exec]    Compiling syn v2.0.119
+     [exec]    Compiling once_cell v1.21.4
+     [exec]    Compiling enum_dispatch v0.3.13
+     [exec]    Compiling qlog v0.15.2 (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche-source/qlog)
+     [exec]    Compiling intrusive-collections v0.9.7
+     [exec]    Compiling log v0.4.34
+     [exec]    Compiling slab v0.4.12
+     [exec]    Compiling either v1.19.0
+     [exec]    Compiling octets v0.3.4 (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche-source/octets)
+     [exec] warning: declarations returning `c_void` are not compatible with C functions returning `void`
+     [exec]    --> quiche/src/crypto/boringssl.rs:366:10
+     [exec]     |
+     [exec] 366 |     ) -> c_void;
+     [exec]     |      ----^^^^^^
+     [exec]     |      |
+     [exec]     |      help: remove the return type to implicitly return `()`
+     [exec]     |
+     [exec]     = help: returning `()` in Rust is equivalent to returning `void` in C
+     [exec]     = note: `c_void` is only used through raw pointers for compatibility with `void` pointers
+     [exec]     = note: `#[warn(c_void_returns)]` on by default
+     [exec] 
+     [exec] warning: declarations returning `c_void` are not compatible with C functions returning `void`
+     [exec]    --> quiche/src/crypto/boringssl.rs:372:10
+     [exec]     |
+     [exec] 372 |     ) -> c_void;
+     [exec]     |      ----^^^^^^
+     [exec]     |      |
+     [exec]     |      help: remove the return type to implicitly return `()`
+     [exec]     |
+     [exec]     = help: returning `()` in Rust is equivalent to returning `void` in C
+     [exec]     = note: `c_void` is only used through raw pointers for compatibility with `void` pointers
+     [exec] 
+     [exec] warning: `quiche` (lib) generated 2 warnings
+     [exec]     Finished `release` profile [optimized + debuginfo] target(s) in 3m 07s
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/build
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include
+   [delete] Deleting directory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche-source
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- antrun:1.8:run (copy-src) @ netty-codec-native-quic ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 4 files to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/generated-sources/c
+     [copy] Copying 2 files to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/generated-sources/c
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- antrun:1.8:run (setup-template) @ netty-codec-native-quic ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/template/m4
+     [copy] Copying /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/main/native-package/m4/custom.m4.template to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/template/m4/custom.m4
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-native-quic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-native-quic ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-native-quic ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-native-quic ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-native-quic:jar:4.2.10.2-codexcoder21 : Unused Export-Package instructions: [io.netty.*] 
+[WARNING] Manifest io.netty:netty-codec-native-quic:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (native-manifest) @ netty-codec-native-quic ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-native-quic:jar:4.2.10.2-codexcoder21 : Unused Export-Package instructions: [io.netty.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/linux-x86_64/MANIFEST.MF
+[INFO] 
+[INFO] --- hawtjni:1.18:generate (generate-native-lib) @ netty-codec-native-quic ---
+[INFO] executing: /bin/sh -c './autogen.sh'
+[INFO] auto reconf...
+[INFO] libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'autotools'.
+[INFO] libtoolize: copying file 'autotools/ltmain.sh'
+[INFO] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[INFO] libtoolize: copying file 'm4/libtool.m4'
+[INFO] libtoolize: copying file 'm4/ltoptions.m4'
+[INFO] libtoolize: copying file 'm4/ltsugar.m4'
+[INFO] libtoolize: copying file 'm4/ltversion.m4'
+[INFO] libtoolize: copying file 'm4/lt~obsolete.m4'
+[INFO] configure.ac:28: warning: The macro `AC_CANONICAL_SYSTEM' is obsolete.
+[INFO] configure.ac:28: You should run autoupdate.
+[INFO] ./lib/autoconf/general.m4:2081: AC_CANONICAL_SYSTEM is expanded from...
+[INFO] configure.ac:28: the top level
+[INFO] configure.ac:37: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+[INFO] configure.ac:37: You should run autoupdate.
+[INFO] m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+[INFO] configure.ac:37: the top level
+[INFO] configure.ac:36: installing 'autotools/ar-lib'
+[INFO] configure.ac:33: installing 'autotools/compile'
+[INFO] configure.ac:27: installing 'autotools/config.guess'
+[INFO] configure.ac:27: installing 'autotools/config.sub'
+[INFO] configure.ac:34: installing 'autotools/install-sh'
+[INFO] configure.ac:58: installing 'autotools/missing'
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-native-quic ---
+[INFO] Using module name "io.netty.codec.quic.linux.x86_64"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- module-info:2.2:generate (fallback-module-info) @ netty-codec-native-quic ---
+[INFO] Using module name "io.netty.codec.quic"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/fallback-classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- hawtjni:1.18:build (generate-native-lib) @ netty-codec-native-quic ---
+[INFO] executing: /bin/sh -c './configure' '--disable-ccache' '--prefix=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target' '--libdir=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib' '--libdir=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib'
+[INFO] configure: WARNING: unrecognized options: --disable-ccache
+[INFO] checking build system type... x86_64-pc-linux-gnu
+[INFO] checking host system type... x86_64-pc-linux-gnu
+[INFO] checking target system type... x86_64-pc-linux-gnu
+[INFO] checking for gcc... gcc
+[INFO] checking whether the C compiler works... yes
+[INFO] checking for C compiler default output file name... a.out
+[INFO] checking for suffix of executables... 
+[INFO] checking whether we are cross compiling... no
+[INFO] checking for suffix of object files... o
+[INFO] checking whether the compiler supports GNU C... yes
+[INFO] checking whether gcc accepts -g... yes
+[INFO] checking for gcc option to enable C11 features... none needed
+[INFO] checking whether gcc understands -c and -o together... yes
+[INFO] checking for a BSD-compatible install... /usr/bin/install -c
+[INFO] checking for ar... ar
+[INFO] checking the archiver (ar) interface... ar
+[INFO] checking how to print strings... printf
+[INFO] checking for a sed that does not truncate output... /usr/bin/sed
+[INFO] checking for grep that handles long lines and -e... /usr/bin/grep
+[INFO] checking for egrep... /usr/bin/grep -E
+[INFO] checking for fgrep... /usr/bin/grep -F
+[INFO] checking for ld used by gcc... /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/x86_64-linux-gnu-ld
+[INFO] checking if the linker (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/x86_64-linux-gnu-ld) is GNU ld... yes
+[INFO] checking for BSD- or MS-compatible name lister (nm)... /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/nm -B
+[INFO] checking the name lister (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/nm -B) interface... BSD nm
+[INFO] checking whether ln -s works... yes
+[INFO] checking the maximum length of command line arguments... 1572864
+[INFO] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[INFO] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[INFO] checking for /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/x86_64-linux-gnu-ld option to reload object files... -r
+[INFO] checking for file... no
+[INFO] checking for objdump... objdump
+[INFO] checking how to recognize dependent libraries... pass_all
+[INFO] checking for dlltool... no
+[INFO] checking how to associate runtime and link libraries... printf %s\n
+[INFO] checking for archiver @FILE support... @
+[INFO] checking for strip... strip
+[INFO] checking for ranlib... ranlib
+[INFO] checking for gawk... no
+[INFO] checking for mawk... mawk
+[INFO] checking command to parse /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/nm -B output from gcc object... ok
+[INFO] checking for sysroot... no
+[INFO] checking for a working dd... /usr/bin/dd
+[INFO] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[INFO] checking for mt... no
+[INFO] checking if : is a manifest tool... no
+[INFO] checking for stdio.h... yes
+[INFO] checking for stdlib.h... yes
+[INFO] checking for string.h... yes
+[INFO] checking for inttypes.h... yes
+[INFO] checking for stdint.h... yes
+[INFO] checking for strings.h... yes
+[INFO] checking for sys/stat.h... yes
+[INFO] checking for sys/types.h... yes
+[INFO] checking for unistd.h... yes
+[INFO] checking for dlfcn.h... yes
+[INFO] checking for objdir... .libs
+[INFO] checking if gcc supports -fno-rtti -fno-exceptions... no
+[INFO] checking for gcc option to produce PIC... -fPIC -DPIC
+[INFO] checking if gcc PIC flag -fPIC -DPIC works... yes
+[INFO] checking if gcc static flag -static works... yes
+[INFO] checking if gcc supports -c -o file.o... yes
+[INFO] checking if gcc supports -c -o file.o... (cached) yes
+[INFO] checking whether the gcc linker (/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/x86_64-linux-gnu-ld) supports shared libraries... yes
+[INFO] checking whether -lc should be explicitly linked in... no
+[INFO] checking dynamic linker characteristics... GNU/Linux ld.so
+[INFO] checking how to hardcode library paths into programs... immediate
+[INFO] checking whether stripping libraries is possible... yes
+[INFO] checking if libtool supports shared libraries... yes
+[INFO] checking whether to build shared libraries... yes
+[INFO] checking whether to build static libraries... no
+[INFO] configure: JAVA_HOME was set, checking to see if it's a JDK we can use...
+[INFO] checking if '/usr/lib/jvm/temurin-21-jdk-amd64' is a JDK... yes
+[INFO] checking whether build environment is sane... yes
+[INFO] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[INFO] checking whether make sets $(MAKE)... yes
+[INFO] checking whether make supports nested variables... yes
+[INFO] checking that generated files are newer than configure... done
+[INFO] configure: creating ./config.status
+[INFO] config.status: creating Makefile
+[INFO] config.status: creating src/config.h
+[INFO] config.status: executing libtool commands
+[INFO] configure: WARNING: unrecognized options: --disable-ccache
+[INFO] 
+[INFO]   (netty_quiche42_linux_x86_64) version 4.2.10.2-codexcoder21
+[INFO]   Prefix.........: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target
+[INFO]   C Compiler.....: gcc -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux
+[INFO]   Linker.........: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin/x86_64-linux-gnu-ld  -Wl,--exclude-libs,ALL -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build -lssl -lcrypto -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/build -lquiche -static-libstdc++ -l:libstdc++.a -Wl,--strip-debug -Wl,--exclude-libs,ALL -Wl,-lrt  -release 4.2.10.2-codexcoder21 
+[INFO] 
+[INFO] executing: /bin/sh -c 'make' 'install'
+[INFO] /bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./src     -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c -o src/netty_jni_util.lo src/netty_jni_util.c
+[INFO] libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./src -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c src/netty_jni_util.c  -fPIC -DPIC -o src/.libs/netty_jni_util.o
+[INFO] /bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./src     -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c -o src/netty_quic_quiche.lo src/netty_quic_quiche.c
+[INFO] libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./src -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c src/netty_quic_quiche.c  -fPIC -DPIC -o src/.libs/netty_quic_quiche.o
+[INFO] /bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./src     -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c -o src/netty_quic_boringssl.lo src/netty_quic_boringssl.c
+[INFO] libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./src -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux -c src/netty_quic_boringssl.c  -fPIC -DPIC -o src/.libs/netty_quic_boringssl.o
+[INFO] /bin/bash ./libtool  --tag=CC   --mode=link gcc  -g -O2 -std=gnu99 -fvisibility=hidden -Werror -fno-omit-frame-pointer -Wunused -Wno-unused-value -O3 -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/include -I/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/quiche/include -O3 -fno-omit-frame-pointer -I/usr/lib/jvm/temurin-21-jdk-amd64/include -I/usr/lib/jvm/temurin-21-jdk-amd64/include/linux  -Wl,--exclude-libs,ALL -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build -lssl -lcrypto -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/build -lquiche -static-libstdc++ -l:libstdc++.a -Wl,--strip-debug -Wl,--exclude-libs,ALL -Wl,-lrt  -release 4.2.10.2-codexcoder21 -o libnetty_quiche42_linux_x86_64.la -rpath /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib src/netty_jni_util.lo src/netty_quic_quiche.lo src/netty_quic_boringssl.lo  
+[INFO] libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/netty_jni_util.o src/.libs/netty_quic_quiche.o src/.libs/netty_quic_boringssl.o   -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/boringssl/build -lssl -lcrypto -L/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/quiche/build -lquiche -l:libstdc++.a  -g -O2 -O3 -O3 -Wl,--exclude-libs -Wl,ALL -static-libstdc++ -Wl,--strip-debug -Wl,--exclude-libs -Wl,ALL -Wl,-lrt   -Wl,-soname -Wl,libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so -o .libs/libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so
+[INFO] libtool: link: (cd ".libs" && rm -f "libnetty_quiche42_linux_x86_64.so" && ln -s "libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so" "libnetty_quiche42_linux_x86_64.so")
+[INFO] libtool: link: ( cd ".libs" && rm -f "libnetty_quiche42_linux_x86_64.la" && ln -s "../libnetty_quiche42_linux_x86_64.la" "libnetty_quiche42_linux_x86_64.la" )
+[INFO] make[1]: Entering directory '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build'
+[INFO]  /usr/bin/mkdir -p '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib'
+[INFO]  /bin/bash ./libtool   --mode=install /usr/bin/install -c   libnetty_quiche42_linux_x86_64.la '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib'
+[INFO] libtool: install: /usr/bin/install -c .libs/libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib/libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so
+[INFO] libtool: install: (cd /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib && { ln -s -f libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so libnetty_quiche42_linux_x86_64.so || { rm -f libnetty_quiche42_linux_x86_64.so && ln -s libnetty_quiche42_linux_x86_64-4.2.10.2-codexcoder21.so libnetty_quiche42_linux_x86_64.so; }; })
+[INFO] libtool: install: /usr/bin/install -c .libs/libnetty_quiche42_linux_x86_64.lai /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib/libnetty_quiche42_linux_x86_64.la
+[INFO] libtool: finish: PATH="/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/bin:/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/root/usr/bin:/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/go/bin:/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/toolchain/cargo/bin:/usr/lib/jvm/temurin-21-jdk-amd64/bin:/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/helena/.local/bin:/home/helena/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin" ldconfig -n /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib
+[INFO] ----------------------------------------------------------------------
+[INFO] Libraries have been installed in:
+[INFO]    /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build/target/lib
+[INFO] 
+[INFO] If you ever happen to want to link against installed libraries
+[INFO] in a given directory, LIBDIR, you must either use libtool, and
+[INFO] specify the full pathname of the library, or use the '-LLIBDIR'
+[INFO] flag during linking and do at least one of the following:
+[INFO]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[INFO]      during execution
+[INFO]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[INFO]      during linking
+[INFO]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[INFO]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[INFO] 
+[INFO] See any operating system documentation about shared libraries for
+[INFO] more information, such as the ld(1) and ld.so(8) manual pages.
+[INFO] ----------------------------------------------------------------------
+[INFO] make[1]: Nothing to be done for 'install-data-am'.
+[INFO] make[1]: Leaving directory '/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-build'
+[INFO] Adding test resource root: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/native-lib-only
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-native-quic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- antrun:1.8:run (copy-native-lib-and-license) @ netty-codec-native-quic ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes/META-INF
+     [copy] Copying 1 file to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes/META-INF
+     [copy] Copying 32 files to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/classes/META-INF/license
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- antrun:1.8:run (copy-to-native-output) @ netty-codec-native-quic ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 6 files to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/fallback-classes
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-native-quic ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 39 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[33,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerExample.java:[30,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerSoReusePortExample.java:[31,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerZeroRTTExample.java:[33,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicChannelDatagramTest.java:[240,45] [deprecation] MAX_MESSAGES_PER_READ in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[43,17] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[48,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[50,23] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[94,41] [deprecation] RCVBUF_ALLOCATOR in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/QuicTestUtils.java:[97,41] [deprecation] RCVBUF_ALLOCATOR in ChannelOption has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerExample.java:[51,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerExample.java:[51,58] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerSoReusePortExample.java:[57,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerSoReusePortExample.java:[57,58] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerZeroRTTExample.java:[50,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/src/test/java/io/netty/handler/codec/quic/example/QuicServerZeroRTTExample.java:[50,58] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-native-quic ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-native-quic ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-native-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-native-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-native-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-native-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (empty-javadoc-jar) @ netty-codec-native-quic ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-javadoc.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (native-jar) @ netty-codec-native-quic ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-native-quic ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-native-quic ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-tests.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-javadoc.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-javadoc.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-native-quic/target/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-native-quic/4.2.10.2-codexcoder21/netty-codec-native-quic-4.2.10.2-codexcoder21-linux-x86_64.jar
+[INFO] 
+[INFO] ---------------------< io.netty:netty-codec-http3 >---------------------
+[INFO] Building Netty/Codec/Http3 4.2.10.2-codexcoder21                 [30/45]
+[INFO]   from codec-http3/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/flatten-maven-plugin/1.2.2/flatten-maven-plugin-1.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/flatten-maven-plugin/1.2.2/flatten-maven-plugin-1.2.2.pom (9.7 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/50/mojo-parent-50.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/50/mojo-parent-50.pom (34 kB at 726 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/flatten-maven-plugin/1.2.2/flatten-maven-plugin-1.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/flatten-maven-plugin/1.2.2/flatten-maven-plugin-1.2.2.jar (110 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-h3spec-maven-plugin/0.0.7.Final/netty-incubator-h3spec-maven-plugin-0.0.7.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-h3spec-maven-plugin/0.0.7.Final/netty-incubator-h3spec-maven-plugin-0.0.7.Final.pom (12 kB at 231 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-h3spec-maven-plugin/0.0.7.Final/netty-incubator-h3spec-maven-plugin-0.0.7.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-h3spec-maven-plugin/0.0.7.Final/netty-incubator-h3spec-maven-plugin-0.0.7.Final.jar (100 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom (820 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar (53 kB at 1.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-http3 ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-http3 ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-http3 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- xml:1.0.1:check-format (check-style) @ netty-codec-http3 ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ netty-codec-http3 ---
+[INFO] 
+[INFO] --- antrun:1.8:run (write-version-properties) @ netty-codec-http3 ---
+[INFO] Executing tasks
+
+main:
+     [echo] Current commit: e5f302731d on 2026-10-15 13:05:45 +0000
+    [mkdir] Created dir: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/classes/META-INF
+[propertyfile] Creating new property file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/classes/META-INF/io.netty.versions.properties
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.0.1:resources (default-resources) @ netty-codec-http3 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.2.2:flatten (flatten) @ netty-codec-http3 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom (3.0 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom (8.1 kB at 252 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom (2.2 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom (2.6 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom (2.2 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom (4.2 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom (1.9 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom (30 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom (2.1 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom (2.2 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom (3.5 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom (11 kB at 405 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom (13 kB at 374 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom (19 kB at 521 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.0/maven-artifact-transfer-0.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.0/maven-artifact-transfer-0.9.0.pom (7.6 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7/plexus-component-annotations-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7/plexus-component-annotations-1.7.pom (748 B at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7/plexus-containers-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7/plexus-containers-1.7.pom (4.8 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.pom (4.8 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom (5.1 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 kB at 485 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom (42 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar (170 kB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar (55 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.jar (43 kB at 768 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar (66 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.jar (31 kB at 466 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.jar (44 kB at 560 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3-no_aop.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.jar (26 kB at 313 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.jar (172 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.jar (608 kB at 6.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.0/maven-artifact-transfer-0.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar (57 kB at 515 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar (262 kB at 2.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.0/maven-artifact-transfer-0.9.0.jar (123 kB at 969 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3-no_aop.jar (398 kB at 2.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar (2.2 MB at 12 MB/s)
+[INFO] Generating flattened POM of project io.netty:netty-codec-http3:jar:4.2.10.2-codexcoder21...
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ netty-codec-http3 ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 77 source files with javac [forked debug deprecation release 8] to target/classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[72,71] [deprecation] HTTP3_SETTINGS_MAX_FIELD_SECTION_SIZE in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[72,48] [deprecation] get(long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[78,59] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[78,45] [deprecation] getOrDefault(long,long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[79,70] [deprecation] HTTP3_SETTINGS_QPACK_BLOCKED_STREAMS in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ConnectionHandler.java:[79,56] [deprecation] getOrDefault(long,long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3FrameCodec.java:[371,29] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ControlStreamInboundHandler.java:[153,51] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ControlStreamInboundHandler.java:[153,37] [deprecation] getOrDefault(long,long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ControlStreamInboundHandler.java:[154,51] [deprecation] HTTP3_SETTINGS_QPACK_BLOCKED_STREAMS in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ControlStreamInboundHandler.java:[154,37] [deprecation] getOrDefault(long,long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodec.java:[97,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/Http3ServerPushStreamManager.java:[79,22] [deprecation] <K,V>newConcurrentHashMap(int) in PlatformDependent has been deprecated
+  where K,V are type-variables:
+    K extends Object declared in method <K,V>newConcurrentHashMap(int)
+    V extends Object declared in method <K,V>newConcurrentHashMap(int)
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/HttpConversionUtil.java:[186,31] [deprecation] DefaultFullHttpResponse(HttpVersion,HttpResponseStatus,ByteBuf,boolean) in DefaultFullHttpResponse has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/HttpConversionUtil.java:[232,30] [deprecation] DefaultFullHttpRequest(HttpVersion,HttpMethod,String,ByteBuf,boolean) in DefaultFullHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/HttpConversionUtil.java:[265,26] [deprecation] DefaultHttpRequest(HttpVersion,HttpMethod,String,boolean) in DefaultHttpRequest has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/io/netty/handler/codec/http3/HttpConversionUtil.java:[296,33] [deprecation] DefaultHttpResponse(HttpVersion,HttpResponseStatus,boolean) in DefaultHttpResponse has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:check (check-forbidden-apis) @ netty-codec-http3 ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (generate-manifest) @ netty-codec-http3 ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[WARNING] Manifest io.netty:netty-codec-http3:jar:4.2.10.2-codexcoder21 : Unused Import-Package instructions: [sun.net.dns.*, sun.misc.*, sun.security.*] 
+[INFO] Writing manifest: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- module-info:2.2:generate (module-info) @ netty-codec-http3 ---
+[INFO] Using source file: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/main/java/module-info.yml
+[INFO] Using module name "io.netty.codec.http3"
+[INFO] Using module version "4.2.10.2-codexcoder21"
+[INFO] Automatically adding export for package "io.netty.handler.codec.http3"
+[INFO] Automatically adding mandatory "java.base" dependency
+[INFO] Wrote module descriptor "/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/classes/META-INF/versions/11/module-info.class"
+[INFO] 
+[INFO] --- resources:3.0.1:testResources (default-testResources) @ netty-codec-http3 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ netty-codec-http3 ---
+[WARNING]  Parameter 'compilerVersion' (user property 'maven.compiler.compilerVersion') is deprecated: This parameter is no longer evaluated by the underlying compilers, instead the actual version of the javac binary is automatically retrieved.
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 36 source files with javac [forked debug deprecation release 8] to target/test-classes
+[WARNING] Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[63,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SpecTestServer.java:[33,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/example/Http3ServerExample.java:[40,32] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[219,43] [deprecation] Handle in RecvByteBufAllocator has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[326,39] [deprecation] setMaxMessagesPerRead(int) in DuplexChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[326,39] [deprecation] setMaxMessagesPerRead(int) in ChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[422,19] [deprecation] getMaxMessagesPerRead() in ChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[327,18] [deprecation] setMaxMessagesPerRead(int) in ChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/EmbeddedQuicStreamChannel.java:[423,25] [deprecation] getMaxMessagesPerRead() in ChannelConfig has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[44,24] [deprecation] get(long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[51,13] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[52,13] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[56,30] [deprecation] get(long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[62,64] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[75,30] [deprecation] get(long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[133,16] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[140,13] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[143,30] [deprecation] get(long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[153,13] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/DefaultHttp3SettingsFrameTest.java:[156,21] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[102,39] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[102,16] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[103,39] [deprecation] HTTP3_SETTINGS_QPACK_BLOCKED_STREAMS in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[103,16] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[271,44] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[271,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[272,44] [deprecation] HTTP3_SETTINGS_QPACK_BLOCKED_STREAMS in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[272,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[273,44] [deprecation] HTTP3_SETTINGS_MAX_FIELD_SECTION_SIZE in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[273,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[274,44] [deprecation] HTTP3_SETTINGS_ENABLE_CONNECT_PROTOCOL in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[274,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[275,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[278,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[279,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[280,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[281,21] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[529,77] [deprecation] HTTP3_SETTINGS_MAX_FIELD_SECTION_SIZE in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameCodecTest.java:[531,77] [deprecation] HTTP3_SETTINGS_MAX_FIELD_SECTION_SIZE in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[246,30] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[264,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[542,30] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[559,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[575,35] [deprecation] DefaultLastHttpContent(ByteBuf,boolean) in DefaultLastHttpContent has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[986,12] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3FrameToHttpObjectCodecTest.java:[986,45] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[271,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[272,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[273,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[274,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[275,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[278,35] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[281,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[282,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[283,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[284,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SettingsTest.java:[286,32] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SpecTestServer.java:[55,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/Http3SpecTestServer.java:[55,41] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/HttpConversionUtilTest.java:[144,32] [deprecation] DefaultHttpHeaders(boolean) in DefaultHttpHeaders has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackDecoderHandlerTest.java:[327,21] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackDecoderHandlerTest.java:[327,16] [deprecation] put(long,Long) in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackDecoderTest.java:[122,21] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackDecoderTest.java:[122,16] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackEncoderDecoderTest.java:[465,26] [deprecation] HTTP3_SETTINGS_QPACK_MAX_TABLE_CAPACITY in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackEncoderDecoderTest.java:[465,21] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackEncoderDecoderTest.java:[466,26] [deprecation] HTTP3_SETTINGS_QPACK_BLOCKED_STREAMS in Http3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/QpackEncoderDecoderTest.java:[466,21] [deprecation] put(long,Long) in DefaultHttp3SettingsFrame has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/example/Http3ServerExample.java:[62,8] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[WARNING] /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/src/test/java/io/netty/handler/codec/http3/example/Http3ServerExample.java:[62,41] [deprecation] SelfSignedCertificate in io.netty.handler.ssl.util has been deprecated
+[INFO] 
+[INFO] --- forbiddenapis:2.2:testCheck (check-forbidden-test-apis) @ netty-codec-http3 ---
+[WARNING]  Parameter 'internalRuntimeForbidden' is deprecated: Use <a href="bundled-signatures.html">bundled signatures</a> {@code "jdk-non-portable"} or {@code "jdk-internal"} instead.
+[INFO] Skipping forbidden-apis checks.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ netty-codec-http3 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- h3spec:0.0.7.Final:h3spec (default) @ netty-codec-http3 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.pom (8.8 kB at 210 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.8.1/maven-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.8.1/maven-3.8.1.pom (26 kB at 734 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1.pom (4.1 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.pom (1.9 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.pom (2.5 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.pom (1.4 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom (3.0 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1.pom (1.9 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.pom (2.4 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1.pom (3.0 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1.pom (3.4 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1.pom (4.3 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2.pom (2.6 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.6.2/maven-resolver-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.6.2/maven-resolver-1.6.2.pom (19 kB at 594 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.pom (2.7 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.pom (2.8 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.pom (4.2 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (3.8 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (14 kB at 476 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.pom (3.8 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.29/slf4j-parent-1.7.29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.29/slf4j-parent-1.7.29.pom (14 kB at 314 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1.pom (11 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.2.1/guice-parent-4.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.2.1/guice-parent-4.2.1.pom (16 kB at 448 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom (11 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom (58 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar (58 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.jar (42 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar (85 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.jar (44 kB at 820 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.jar (634 kB at 8.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.jar (14 kB at 234 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1.jar (27 kB at 445 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar (28 kB at 334 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar (41 kB at 499 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1.jar (66 kB at 705 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1.jar (192 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1-no_aop.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.jar (38 kB at 376 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2.jar (149 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1-no_aop.jar (521 kB at 4.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar (54 kB at 409 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.jar (169 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.jar (180 kB at 1.1 MB/s)
+[INFO] Skip execution of h3spec-maven-plugin
+[INFO] 
+[INFO] --- source:3.2.0:jar-no-fork (attach-sources) @ netty-codec-http3 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar
+[INFO] 
+[INFO] --- source:3.2.0:test-jar-no-fork (attach-test-sources) @ netty-codec-http3 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ netty-codec-http3 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ netty-codec-http3 ---
+[INFO] Building jar: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] --- revapi:0.15.0:check (api-check) @ netty-codec-http3 ---
+[INFO] Skipping execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ netty-codec-http3 ---
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/.flattened-pom.xml to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.pom
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-test-sources.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-test-sources.jar
+[INFO] Installing /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/netty/codec-http3/target/netty-codec-http3-4.2.10.2-codexcoder21-tests.jar to /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane230/m2/io/netty/netty-codec-http3/4.2.10.2-codexcoder21/netty-codec-http3-4.2.10.2-codexcoder21-tests.jar
+[INFO] 
+[INFO] -------------------< io.netty:netty-codec-memcache >--------------------
+[INFO] Building Netty/Codec/Memcache 4.2.10.2-codexcoder21              [31/45]
+[INFO]   from codec-memcache/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ netty-codec-memcache ---
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-tools) @ netty-codec-memcache ---
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (check-style) @ netty-codec-memcache ---

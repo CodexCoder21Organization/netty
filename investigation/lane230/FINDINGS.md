@@ -2,9 +2,9 @@
 Started 2026-10-15 13:01 UTC. Stop new work 14:06 UTC; hard stop 14:16 UTC.
 
 ## Plan
-- [in progress] Read context, docs and fork notes; verify source/base heads and exact published-source version file inventory.
-- [pending] Create release branch from a66b8e41; cherry-pick only lane227 correction/tests; set 4.2.10.2 at exactly prior release version locations; push first source checkpoint.
-- [pending] Build published modules and run common/transport suites plus invariant tests; record counts/exit codes and independent test/code reviews.
+- [done] Read context, docs and fork notes; verify source/base heads and exact published-source version file inventory.
+- [done] Create release branch from a66b8e41; cherry-pick only lane227 correction/tests; set 4.2.10.2 at exactly prior release version locations; push first source checkpoint.
+- [in progress] Build published modules and run common/transport suites plus invariant tests; record counts/exit codes and independent test/code reviews.
 - [pending] Fetch/rebase maintenance base, verify exact final head, open non-draft PR by REST with provenance and publish procedure; push evidence, stop owned processes, remove checkout/cache.
 
 ## 2026-10-15 13:02 UTC — initial context
@@ -132,3 +132,12 @@ INFER: No release-line integration issue has surfaced. Complete 45-module reacto
 
 ## 2026-10-15 13:28 UTC — native milestone
 OBSERVED: Reactor native Unix common and native epoll have built successfully at .2 with lane-owned tools. Native QUIC (29/45) is configuring BoringSSL; real compiler checks and CMake generation succeed. Rebuilt transport main jar metadata records e5f302731d3c0ce684d323002f5fdce319381fdb, version 4.2.10.2-codexcoder21 and repoStatus=clean. This demonstrates the initial missing-make failure is repaired without any buildscript/source edit. Final full-reactor exit remains pending.
+
+## 2026-10-15 13:33 UTC — native build checkpoint
+OBSERVED: BoringSSL has compiled 318 of 409 targets serially with no error. Reactor remains at native QUIC (29/45); other required modules and epoll are already built. No source edit, test rerun, publication, CI request or nested delegation. Source head remains https://github.com/CodexCoder21Organization/netty/commit/e5f302731d3c0ce684d323002f5fdce319381fdb . The artifact audit is prepared to compare exact module names with the previous 46-artifact manifest, then verify all POM versions, payload hashes, clean commit metadata and transport source-jar equality. About 33 minutes remain until the no-new-work deadline.
+
+## 2026-10-15 13:38 UTC — native QUIC dependency compilation
+OBSERVED: All 409 BoringSSL targets finished successfully. Cargo is compiling the pinned quiche checkout's dependencies serially (qlog reached); no compiler/linker error. Source tree remains clean. The rebuilt transport sources jar independently equals the final reviewed .java file byte-for-byte. About 28 minutes remain until stop-new-work; expected next stages are final reactor completion, 46-module artifact audit, final pre-PR rebase/test gate, REST creation, evidence push and cleanup.
+
+## 2026-10-15 13:40 UTC — both native publication builds complete
+OBSERVED: Native QUIC finished successfully after BoringSSL and Cargo compilation; reactor moved to codec-http3 (30/45). Native epoll and native QUIC classifier builds are complete. Cargo emitted two non-fatal c_void-return warnings in the pinned quiche source; no source or compiler-warning configuration was changed. Full log retained. One Maven build remains active; no other owned build/test JVM is running. No blocker; roughly 26 minutes remain until stop-new-work.
