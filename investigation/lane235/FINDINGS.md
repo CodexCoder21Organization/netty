@@ -5,7 +5,7 @@ Started 2026-10-15 13:52 UTC; stop at 14:57 UTC (65 minutes); hard wall 15:07 UT
 - [done] Read brief/common/docs/prior evidence, verify merged maintenance source and exact previous payload set.
 - [done] Build independent BOM plus exact 45-module reactor serially with bounded memory; audit/stage payloads.
 - [done] Publish each of 46 coordinates with CLI 0.0.6, retaining output and direct exit code.
-- [in progress] Probe every POM/JAR/classifier, verify downloaded transport provenance, record UrlProtocol pin lines, push evidence and clean checkout/staging/cache.
+- [done] Probe every POM/JAR/classifier, verify downloaded transport provenance, record UrlProtocol pin lines, push evidence and clean checkout/staging/cache.
 
 ## 2026-10-15 13:54 UTC — initial context
 OBSERVED: Read brief, common.md, handoff snapshot, lane222/230 findings and GitHub/Maven publisher/status skills. Explicit lane brief authorizes Maven publication and --force; no additional approval required. No merging, deployment, nested delegation, CI waits or Handoff writes. Maintenance base overrides generic main rebase because this release must remain on exact-tag source. Prior lane230 built all 45 reactor modules plus BOM, with 44 binary modules, parent and BOM POM-only. Prior suites at release source: common 1430/0 failures/0 errors/7 existing skips and transport 391/0/0/9; this lane is authorized to use -DskipTests.
@@ -143,3 +143,6 @@ OBSERVED: ps plus /proc cwd check finds zero owned background processes (agent/t
 4. IN PROGRESS only for final cleanup: complete coordinate table, source SHA, exact UrlProtocol 5 build lines/48 imports in 33 tests/README line inventory are recorded. All publication work is complete; deleting source/staging/tools/caches then final evidence checkout.
 
 Artifacts: https://github.com/CodexCoder21Organization/netty/tree/evidence/lane235-netty-publish/investigation/lane235 ; source https://github.com/CodexCoder21Organization/netty/commit/6e9dcc994cc29c022ac547ab113c9e603d7a9c29 . Exact consumer follow-up is URLPROTOCOL-FOLLOWUP.md; this lane makes no consumer edit. Open questions: none.
+
+## 2026-10-15 14:25 UTC — source/staging/cache cleanup complete
+OBSERVED: Deleted lane-owned entries ["toolchain", "verify-publication.py", "setup-toolchain.py", "evidence", "m2", "UrlProtocol", "netty", "run-maven.py", "publish-artifacts.py", "checkpoint-evidence.py", "staged-artifacts", "audit-artifacts.py", "assemble-artifacts.py", "summarize-publication.py"]. Removed matching aibuild caches []. Source checkouts, staging/downloaded jar, private Maven cache, private compiler/Rust/Go toolchain, scripts and local logs are gone. Only the evidence checkout remains temporarily for this final findings push; it is deleted immediately afterward. No requested build artifacts remain in source or evidence branches. All 4 brief items DONE; publication verdict DONE. Missing/unpublished requested coordinates: none.

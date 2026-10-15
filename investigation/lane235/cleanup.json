@@ -1,0 +1,22 @@
+{
+  "removed": [
+    "toolchain",
+    "verify-publication.py",
+    "setup-toolchain.py",
+    "evidence",
+    "m2",
+    "UrlProtocol",
+    "netty",
+    "run-maven.py",
+    "publish-artifacts.py",
+    "checkpoint-evidence.py",
+    "staged-artifacts",
+    "audit-artifacts.py",
+    "assemble-artifacts.py",
+    "summarize-publication.py"
+  ],
+  "aibuild_caches_removed": [],
+  "remaining_before_final_push": [
+    "evidence-checkout"
+  ]
+}
