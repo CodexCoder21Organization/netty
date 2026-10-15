@@ -4,8 +4,8 @@ Started 2026-10-15 13:52 UTC; stop at 14:57 UTC (65 minutes); hard wall 15:07 UT
 ## Plan
 - [done] Read brief/common/docs/prior evidence, verify merged maintenance source and exact previous payload set.
 - [done] Build independent BOM plus exact 45-module reactor serially with bounded memory; audit/stage payloads.
-- [in progress] Publish each of 46 coordinates with CLI 0.0.6, retaining output and direct exit code.
-- [pending] Probe every POM/JAR/classifier, verify downloaded transport provenance, record UrlProtocol pin lines, push evidence and clean checkout/staging/cache.
+- [done] Publish each of 46 coordinates with CLI 0.0.6, retaining output and direct exit code.
+- [in progress] Probe every POM/JAR/classifier, verify downloaded transport provenance, record UrlProtocol pin lines, push evidence and clean checkout/staging/cache.
 
 ## 2026-10-15 13:54 UTC — initial context
 OBSERVED: Read brief, common.md, handoff snapshot, lane222/230 findings and GitHub/Maven publisher/status skills. Explicit lane brief authorizes Maven publication and --force; no additional approval required. No merging, deployment, nested delegation, CI waits or Handoff writes. Maintenance base overrides generic main rebase because this release must remain on exact-tag source. Prior lane230 built all 45 reactor modules plus BOM, with 44 binary modules, parent and BOM POM-only. Prior suites at release source: common 1430/0 failures/0 errors/7 existing skips and transport 391/0/0/9; this lane is authorized to use -DskipTests.
@@ -52,3 +52,82 @@ OBSERVED publication 2026-10-15T14:19:39.664331+00:00: io.netty:netty-common:4.2
 OBSERVED publication 2026-10-15T14:19:42.970468+00:00: io.netty:netty-buffer:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-buffer.log.
 
 OBSERVED publication 2026-10-15T14:19:45.306685+00:00: io.netty:netty-pkitesting:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-pkitesting.log.
+
+OBSERVED publication 2026-10-15T14:19:47.842867+00:00: io.netty:netty-resolver:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-resolver.log.
+
+OBSERVED publication 2026-10-15T14:19:50.487622+00:00: io.netty:netty-testsuite-common:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-testsuite-common.log.
+
+OBSERVED publication 2026-10-15T14:19:54.302319+00:00: io.netty:netty-transport:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport.log.
+
+OBSERVED publication 2026-10-15T14:19:57.247722+00:00: io.netty:netty-codec-base:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-base.log.
+
+OBSERVED publication 2026-10-15T14:20:01.254399+00:00: io.netty:netty-transport-native-unix-common:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-native-unix-common.log.
+
+OBSERVED publication 2026-10-15T14:20:04.965234+00:00: io.netty:netty-transport-rxtx:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-rxtx.log.
+
+OBSERVED publication 2026-10-15T14:20:08.736253+00:00: io.netty:netty-transport-udt:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-udt.log.
+
+OBSERVED publication 2026-10-15T14:20:12.538509+00:00: io.netty:netty-codec-compression:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-compression.log.
+
+OBSERVED publication 2026-10-15T14:20:15.940558+00:00: io.netty:netty-codec-dns:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-dns.log.
+
+OBSERVED publication 2026-10-15T14:20:19.398539+00:00: io.netty:netty-codec-haproxy:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-haproxy.log.
+
+OBSERVED publication 2026-10-15T14:20:22.663774+00:00: io.netty:netty-codec-marshalling:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-marshalling.log.
+
+OBSERVED publication 2026-10-15T14:20:26.069595+00:00: io.netty:netty-codec-memcache:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-memcache.log.
+
+OBSERVED publication 2026-10-15T14:20:30.276416+00:00: io.netty:netty-codec-mqtt:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-mqtt.log.
+
+OBSERVED publication 2026-10-15T14:20:34.127393+00:00: io.netty:netty-codec-protobuf:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-protobuf.log.
+
+OBSERVED publication 2026-10-15T14:20:36.679072+00:00: io.netty:netty-codec-redis:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-redis.log.
+
+OBSERVED publication 2026-10-15T14:20:38.768311+00:00: io.netty:netty-codec-smtp:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-smtp.log.
+
+OBSERVED publication 2026-10-15T14:20:41.103550+00:00: io.netty:netty-codec-socks:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-socks.log.
+
+OBSERVED publication 2026-10-15T14:20:43.591722+00:00: io.netty:netty-codec-stomp:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-stomp.log.
+
+OBSERVED publication 2026-10-15T14:20:46.038741+00:00: io.netty:netty-codec-xml:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-xml.log.
+
+OBSERVED publication 2026-10-15T14:20:48.483862+00:00: io.netty:netty-handler:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-handler.log.
+
+OBSERVED publication 2026-10-15T14:20:51.426079+00:00: io.netty:netty-transport-classes-epoll:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-classes-epoll.log.
+
+OBSERVED publication 2026-10-15T14:20:54.373387+00:00: io.netty:netty-transport-classes-io_uring:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-classes-io_uring.log.
+
+OBSERVED publication 2026-10-15T14:20:57.067360+00:00: io.netty:netty-transport-classes-kqueue:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-classes-kqueue.log.
+
+OBSERVED publication 2026-10-15T14:20:59.956539+00:00: io.netty:netty-transport-native-unix-common-tests:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-native-unix-common-tests.log.
+
+OBSERVED publication 2026-10-15T14:21:03.101982+00:00: io.netty:netty-codec:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec.log.
+
+OBSERVED publication 2026-10-15T14:21:06.521064+00:00: io.netty:netty-codec-classes-quic:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-classes-quic.log.
+
+OBSERVED publication 2026-10-15T14:21:10.578910+00:00: io.netty:netty-codec-http:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-http.log.
+
+OBSERVED publication 2026-10-15T14:21:13.971774+00:00: io.netty:netty-resolver-dns:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-resolver-dns.log.
+
+OBSERVED publication 2026-10-15T14:21:18.629487+00:00: io.netty:netty-transport-native-epoll:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-native-epoll.log.
+
+OBSERVED publication 2026-10-15T14:21:23.083746+00:00: io.netty:netty-codec-http2:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-http2.log.
+
+OBSERVED publication 2026-10-15T14:21:27.703487+00:00: io.netty:netty-codec-native-quic:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-native-quic.log.
+
+OBSERVED publication 2026-10-15T14:21:29.990612+00:00: io.netty:netty-handler-proxy:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-handler-proxy.log.
+
+OBSERVED publication 2026-10-15T14:21:34.563318+00:00: io.netty:netty-handler-ssl-ocsp:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-handler-ssl-ocsp.log.
+
+OBSERVED publication 2026-10-15T14:21:38.922803+00:00: io.netty:netty-resolver-dns-classes-macos:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-resolver-dns-classes-macos.log.
+
+OBSERVED publication 2026-10-15T14:21:43.777845+00:00: io.netty:netty-transport-sctp:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-transport-sctp.log.
+
+OBSERVED publication 2026-10-15T14:21:48.290396+00:00: io.netty:netty-codec-http3:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-codec-http3.log.
+
+OBSERVED publication 2026-10-15T14:21:52.459368+00:00: io.netty:netty-testsuite:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-testsuite.log.
+
+OBSERVED publication 2026-10-15T14:21:56.331635+00:00: io.netty:netty-all:4.2.10.2-codexcoder21 publisher exit 0; output retained at publication/netty-all.log.
+
+## 2026-10-15 14:22 UTC — publication complete, verification underway
+OBSERVED: All 46 CLI 0.0.6 publisher processes return their own exit status 0; logs explicitly say Successfully published artifact(s). netty-all published last at 14:21:56 UTC. No failure was retried or hidden. Complete order/commands/statuses and per-coordinate output retained under publication/. All 136 POM/JAR payloads and 272 checksum files were submitted. Parent checksum read-back already HTTP 200 and byte-identical. Full verifier now runs with 300-second process deadline, HTTP GETs for all 408 staged files, exact byte/hash comparison, and all 44 main-jar metadata checks; transport jar is downloaded separately into private staging and its metadata retained. No verification success claimed until its final result.
