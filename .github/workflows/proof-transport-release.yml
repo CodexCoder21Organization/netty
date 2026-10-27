@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -32,7 +34,9 @@ jobs:
           cp transport/target/effective-pom.xml transport/target/dependencies.txt provenance/
           cp transport/target/surefire-reports/TEST-io.netty.channel.DefaultChannelPipelineAutoReadTest.xml provenance/
           git rev-parse HEAD > provenance/build-source-sha.txt
-          git log -1 --format=%P HEAD > provenance/release-source-sha.txt
+          printf '%s\n' '2108075d1660b8a4560db3090eb8c26965e0be21' > provenance/release-source-sha.txt
+          printf '%s\n' '4cc98736c3947bc93122e0b64e0bd8fc970c6437' > provenance/base-source-sha.txt
+          git diff --exit-code 2108075d1660b8a4560db3090eb8c26965e0be21 -- README.md transport/pom.xml transport/src/main transport/src/test/java/io/netty/channel/DefaultChannelPipelineAutoReadTest.java
           git diff netty-4.2.10.Final -- transport/src/main/java/io/netty/channel/AbstractChannel.java transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java > provenance/automatic-read-hook.patch
           printf '%s\n' './mvnw -B -ntp -f transport/pom.xml package help:effective-pom dependency:tree -Dtest=DefaultChannelPipelineAutoReadTest -Doutput="$PWD/transport/target/effective-pom.xml" -DoutputFile="$PWD/transport/target/dependencies.txt"' > provenance/maven-command.txt
           curl -fsSL --max-time 60 https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.10.Final/netty-transport-4.2.10.Final.jar -o provenance/upstream-transport.jar
