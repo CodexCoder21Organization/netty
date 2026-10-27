@@ -5,6 +5,22 @@
 
 Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.
 
+## Organization transport build
+
+The `netty-transport` candidate `4.2.10.3-codexcoder21` is based on `netty-4.2.10.Final`.
+It lets channels that manage delivery themselves override the pipeline's automatic-read policy,
+while explicit channel and handler-context reads remain available. Its parent, common, buffer
+and resolver dependencies remain the published `4.2.10.Final` artifacts; no other Netty module
+needs a new release for this transport build.
+
+Build the transport JAR and source JAR and run its focused regression tests with:
+
+```bash
+./mvnw -B -ntp -f transport/pom.xml package -Dtest=DefaultChannelPipelineAutoReadTest
+```
+
+This prepares artifacts under `transport/target/`; publishing is a separate step.
+
 ## Links
 
 * [Web Site](https://netty.io/)
