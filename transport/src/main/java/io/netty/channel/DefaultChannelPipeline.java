@@ -146,19 +146,6 @@ public class DefaultChannelPipeline implements ChannelPipeline {
         return channel;
     }
 
-    /**
-     * Returns whether this pipeline should request reads automatically after activation and read completion,
-     * and when an active channel is re-registered. The default implementation returns
-     * {@link ChannelConfig#isAutoRead()}.
-     *
-     * <p>A channel that manages automatic delivery itself may override this method to return {@code false}.
-     * This does not change its configuration or prevent explicit {@link Channel#read()} and
-     * {@link ChannelHandlerContext#read()} requests.
-     */
-    protected boolean shouldAutoRead() {
-        return channel.config().isAutoRead();
-    }
-
     @Override
     public final ChannelPipeline addFirst(String name, ChannelHandler handler) {
         return addFirst(null, name, handler);
@@ -1492,7 +1479,7 @@ public class DefaultChannelPipeline implements ChannelPipeline {
         }
 
         private void readIfIsAutoRead() {
-            if (shouldAutoRead()) {
+            if (channel.config().isAutoRead()) {
                 channel.read();
             }
         }
