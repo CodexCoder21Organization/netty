@@ -1,0 +1,29 @@
+name: Maintenance transport tests
+
+on:
+  pull_request:
+    branches: [maint/4.2.10-codexcoder21]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  transport-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - name: Run the transport and dependency test suites
+        run: ./mvnw -B -ntp -pl transport -am test
+      - name: Keep native test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-transport-results
+          path: '**/target/surefire-reports/TEST-*.xml'
