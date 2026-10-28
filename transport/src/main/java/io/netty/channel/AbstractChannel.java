@@ -387,7 +387,7 @@ public abstract class AbstractChannel extends DefaultAttributeMap implements Cha
                     if (isActive()) {
                         if (firstRegistration) {
                             pipeline.fireChannelActive();
-                        } else if (config().isAutoRead()) {
+                        } else if (pipeline.shouldAutoRead()) {
                             // This channel was registered before and autoRead() is set. This means we need to
                             // begin read again so that we process inbound data.
                             //
