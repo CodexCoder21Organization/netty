@@ -19,6 +19,7 @@ jobs:
           java-version: 11
           cache: maven
       - name: Build full transport artifact and focused regressions
+        shell: bash
         run: |
           ./mvnw -B -ntp -f transport/pom.xml package help:effective-pom dependency:tree \
             -Dtest=DefaultChannelPipelineAutoReadTest \
