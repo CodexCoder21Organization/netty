@@ -19,9 +19,9 @@ docker compose -f docker/docker-compose.yaml -f docker/docker-compose.centos-6.1
 ## aarch64 cross compile for transport-native-epoll on X86_64
 
 ```
-docker compose -f docker/docker-compose.yaml run cross-compile-aarch64-build
+docker compose -f docker/docker-compose.centos-7.cross.yaml run cross-compile-aarch64-build
 ```
-The default version of aarch64 gcc is `4.9-2016.02`. Update the parameter `gcc_version` in `docker-compose.yaml` to use a version you want.
+The default version of aarch64 GCC is `10.3-2021.07`. To select another version, override `gcc_version` and `gcc_sha256` together in the `build.args` of `cross-compile-aarch64-runtime-setup` in `docker/docker-compose.centos-7.cross.yaml`, using the matching archive SHA-256 checksum.
 
 ## riscv64 cross compile for transport-native-epoll on X86_64
 
