@@ -21,10 +21,12 @@ jobs:
       - name: Build full transport artifact and focused regressions
         shell: bash
         run: |
-          ./mvnw -B -ntp -f transport/pom.xml package help:effective-pom dependency:tree \
-            -Dtest=DefaultChannelPipelineAutoReadTest \
-            -Doutput="$PWD/transport/target/effective-pom.xml" \
-            -DoutputFile="$PWD/transport/target/dependencies.txt" | tee "$RUNNER_TEMP/transport-release-maven.log"
+          ./mvnw -B -ntp -f transport/pom.xml package \
+            -Dtest=DefaultChannelPipelineAutoReadTest 2>&1 | tee "$RUNNER_TEMP/transport-release-maven.log"
+          ./mvnw -B -ntp -f transport/pom.xml help:effective-pom \
+            -Doutput="$PWD/transport/target/effective-pom.xml" 2>&1 | tee -a "$RUNNER_TEMP/transport-release-maven.log"
+          ./mvnw -B -ntp -f transport/pom.xml dependency:tree \
+            -DoutputFile="$PWD/transport/target/dependencies.txt" 2>&1 | tee -a "$RUNNER_TEMP/transport-release-maven.log"
       - name: Stage candidate and verify its metadata
         run: |
           mkdir -p release provenance
@@ -39,7 +41,7 @@ jobs:
           printf '%s\n' '4cc98736c3947bc93122e0b64e0bd8fc970c6437' > provenance/base-source-sha.txt
           git diff --exit-code 9f9ff8eac1d0f0a0b120fb4bef014384566d04bc -- README.md transport/pom.xml transport/src/main transport/src/test/java/io/netty/channel/DefaultChannelPipelineAutoReadTest.java
           git diff netty-4.2.10.Final -- transport/src/main/java/io/netty/channel/AbstractChannel.java transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java > provenance/automatic-read-hook.patch
-          printf '%s\n' './mvnw -B -ntp -f transport/pom.xml package help:effective-pom dependency:tree -Dtest=DefaultChannelPipelineAutoReadTest -Doutput="$PWD/transport/target/effective-pom.xml" -DoutputFile="$PWD/transport/target/dependencies.txt"' > provenance/maven-command.txt
+          printf '%s\n' './mvnw -B -ntp -f transport/pom.xml package -Dtest=DefaultChannelPipelineAutoReadTest' './mvnw -B -ntp -f transport/pom.xml help:effective-pom -Doutput="$PWD/transport/target/effective-pom.xml"' './mvnw -B -ntp -f transport/pom.xml dependency:tree -DoutputFile="$PWD/transport/target/dependencies.txt"' > provenance/maven-command.txt
           curl -fsSL --max-time 60 https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.10.Final/netty-transport-4.2.10.Final.jar -o provenance/upstream-transport.jar
           python3 - <<'PY'
           from pathlib import Path
