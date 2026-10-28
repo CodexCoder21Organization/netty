@@ -1,0 +1,7 @@
+{
+  "file": "gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz",
+  "bytes": 116348148,
+  "sha256": "1e33d53dea59c8de823bbdfe0798280bdcd138636c7060da9d77a97ded095a84",
+  "md5": "07bbe2b5277b75ba36a924e9136366a4",
+  "official_manifest": "07bbe2b5277b75ba36a924e9136366a4  gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz"
+}
