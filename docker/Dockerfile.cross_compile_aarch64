@@ -48,8 +48,12 @@ ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk/"
 RUN mkdir $SOURCE_DIR
 WORKDIR $SOURCE_DIR
 
-# Install aarch64 gcc 10.2 toolchain
-RUN wget -q https://developer.arm.com/-/media/Files/downloads/gnu-a/$GCC_VERSION/binrel/gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu.tar.xz && \
+# Install the pinned aarch64 GCC toolchain from ARM's archive host. The developer.arm.com
+# redirect uses a certificate chain that the CentOS 7 trust store cannot verify.
+# Override both gcc_version and gcc_sha256 when selecting a different toolchain.
+ARG gcc_sha256=1e33d53dea59c8de823bbdfe0798280bdcd138636c7060da9d77a97ded095a84
+RUN wget -nv https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-a/$GCC_VERSION/binrel/gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu.tar.xz && \
+  echo "$gcc_sha256  gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu.tar.xz" | sha256sum -c - && \
   tar xf gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu.tar.xz && rm -f gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu.tar.xz && mv gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu /opt/
 ENV PATH="/opt/gcc-arm-$GCC_VERSION-x86_64-aarch64-none-linux-gnu/bin:${PATH}"
 
