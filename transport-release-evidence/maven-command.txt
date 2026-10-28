@@ -1,0 +1,3 @@
+./mvnw -B -ntp -f transport/pom.xml package -Dtest=DefaultChannelPipelineAutoReadTest
+./mvnw -B -ntp -f transport/pom.xml help:effective-pom -Doutput="$PWD/transport/target/effective-pom.xml"
+./mvnw -B -ntp -f transport/pom.xml dependency:tree -DoutputFile="$PWD/transport/target/dependencies.txt"

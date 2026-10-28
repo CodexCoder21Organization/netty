@@ -1,0 +1,10 @@
+{
+  "class_count": 391,
+  "upstream_class_count": 391,
+  "missing_upstream_classes": [],
+  "preserved_service_and_native_image_resources": [
+    "META-INF/native-image/io.netty/netty-transport/generated/handlers/reflect-config.json",
+    "META-INF/native-image/io.netty/netty-transport/reflect-config.json"
+  ],
+  "multi_release": true
+}

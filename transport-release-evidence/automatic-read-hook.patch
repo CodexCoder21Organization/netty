@@ -1,0 +1,46 @@
+diff --git a/transport/src/main/java/io/netty/channel/AbstractChannel.java b/transport/src/main/java/io/netty/channel/AbstractChannel.java
+index c184b57d01..fa102d0912 100644
+--- a/transport/src/main/java/io/netty/channel/AbstractChannel.java
++++ b/transport/src/main/java/io/netty/channel/AbstractChannel.java
+@@ -387,7 +387,7 @@ public abstract class AbstractChannel extends DefaultAttributeMap implements Cha
+                     if (isActive()) {
+                         if (firstRegistration) {
+                             pipeline.fireChannelActive();
+-                        } else if (config().isAutoRead()) {
++                        } else if (pipeline.shouldAutoRead()) {
+                             // This channel was registered before and autoRead() is set. This means we need to
+                             // begin read again so that we process inbound data.
+                             //
+diff --git a/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java b/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java
+index df195a1648..0d435029d9 100644
+--- a/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java
++++ b/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java
+@@ -146,6 +146,19 @@ public class DefaultChannelPipeline implements ChannelPipeline {
+         return channel;
+     }
+ 
++    /**
++     * Returns whether this pipeline should request reads automatically after activation and read completion,
++     * and when an active channel is re-registered. The default implementation returns
++     * {@link ChannelConfig#isAutoRead()}.
++     *
++     * <p>A channel that manages automatic delivery itself may override this method to return {@code false}.
++     * This does not change its configuration or prevent explicit {@link Channel#read()} and
++     * {@link ChannelHandlerContext#read()} requests.
++     */
++    protected boolean shouldAutoRead() {
++        return channel.config().isAutoRead();
++    }
++
+     @Override
+     public final ChannelPipeline addFirst(String name, ChannelHandler handler) {
+         return addFirst(null, name, handler);
+@@ -1437,7 +1450,7 @@ public class DefaultChannelPipeline implements ChannelPipeline {
+         }
+ 
+         private void readIfIsAutoRead() {
+-            if (channel.config().isAutoRead()) {
++            if (shouldAutoRead()) {
+                 channel.read();
+             }
+         }

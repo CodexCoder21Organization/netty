@@ -1,0 +1,74 @@
+[
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-common",
+    "version": "4.2.10.Final",
+    "scope": "compile"
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "4.2.10.Final",
+    "scope": "compile"
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver",
+    "version": "4.2.10.Final",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "4.11.0",
+    "scope": "test"
+  },
+  {
+    "groupId": "org.reflections",
+    "artifactId": "reflections",
+    "version": "0.10.2",
+    "scope": "test"
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.9",
+    "scope": "test"
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "5.12.1",
+    "scope": "test"
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "5.12.1",
+    "scope": "test"
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-params",
+    "version": "5.12.1",
+    "scope": "test"
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.27.7",
+    "scope": "test"
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "1.3.14",
+    "scope": "test"
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-testsuite-common",
+    "version": "4.2.10.Final",
+    "scope": "test"
+  }
+]
