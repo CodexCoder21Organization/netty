@@ -1,36 +1,53 @@
-name: ARM download diagnosis W6
+name: ARM download verification W6
 on:
   push:
     branches: [proof/w6-arm-download-014730]
 permissions:
   contents: read
 jobs:
-  diagnose:
+  verify-toolchain:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
-      - name: Build unchanged Dockerfile through the failing download
-        id: baseline
-        continue-on-error: true
+      - name: Build actual Dockerfile through the installed toolchain
         run: |
-          sed '/^ENV PATH="\/opt\/gcc-arm/,$d' docker/Dockerfile.cross_compile_aarch64 > /tmp/Dockerfile.baseline
-          docker build --progress=plain -f /tmp/Dockerfile.baseline .
-      - name: Diagnose download with the exact preceding image
+          sed '/^# Install CMake/,$d' docker/Dockerfile.cross_compile_aarch64 > /tmp/Dockerfile.toolchain
+          docker build --progress=plain -t arm-toolchain -f /tmp/Dockerfile.toolchain .
+      - name: Assert real compiler target, version and linked ELF architecture
         run: |
-          sed '/^# Install aarch64 gcc/,$d' docker/Dockerfile.cross_compile_aarch64 > /tmp/Dockerfile.base
-          docker build --progress=plain -t arm-download-base -f /tmp/Dockerfile.base .
-          docker run --rm arm-download-base bash -c '
-            rpm -q wget ca-certificates openssl
-            wget -S --spider https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz; echo original_status=$?
-            wget -S --spider https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz; echo blob_status=$?
-            openssl s_client -connect developer.arm.com:443 -servername developer.arm.com -showcerts </dev/null
-            openssl s_client -connect armkeil.blob.core.windows.net:443 -servername armkeil.blob.core.windows.net -showcerts </dev/null
-          ' 2>&1 | tee /tmp/download-diagnosis.log
-      - name: Assert default-branch image builds
-        run: test '${{ steps.baseline.outcome }}' = success
+          docker run --rm arm-toolchain bash -ec '
+            test "$(aarch64-none-linux-gnu-gcc -dumpmachine)" = aarch64-none-linux-gnu
+            test "$(aarch64-none-linux-gnu-gcc -dumpfullversion)" = 10.3.1
+            printf "int main(void) { return 0; }\n" > /tmp/main.c
+            aarch64-none-linux-gnu-gcc /tmp/main.c -o /tmp/main
+            aarch64-none-linux-gnu-readelf -h /tmp/main | tee /tmp/header
+            grep -Eq "Machine: +AArch64" /tmp/header
+          '
+      - name: Assert incorrect checksum rejects the archive before extraction
+        run: |
+          if docker build --progress=plain --build-arg gcc_sha256=0000000000000000000000000000000000000000000000000000000000000000 -f /tmp/Dockerfile.toolchain . > /tmp/checksum.log 2>&1; then
+            cat /tmp/checksum.log
+            echo 'Expected the archive checksum assertion to fail'
+            exit 1
+          fi
+          cat /tmp/checksum.log
+          grep -F 'gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz: FAILED' /tmp/checksum.log
+      - name: Revert only the download host and assert the original failure returns
+        run: |
+          sed 's@https://armkeil.blob.core.windows.net/developer/@https://developer.arm.com/-/media/@' /tmp/Dockerfile.toolchain > /tmp/Dockerfile.reversal
+          if docker build --progress=plain -f /tmp/Dockerfile.reversal . > /tmp/reversal.log 2>&1; then
+            cat /tmp/reversal.log
+            echo 'Expected the original certificate verification failure'
+            exit 1
+          fi
+          cat /tmp/reversal.log
+          grep -F 'Unable to locally verify the issuer' /tmp/reversal.log
+          grep -F 'GlobalSign GCC E46 OV TLS CA 2025' /tmp/reversal.log
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
         if: always()
         with:
-          name: arm-download-diagnosis
-          path: /tmp/download-diagnosis.log
+          name: arm-toolchain-negative-controls
+          path: |
+            /tmp/checksum.log
+            /tmp/reversal.log
