@@ -24,7 +24,7 @@
   </parent>
 
   <artifactId>netty-transport</artifactId>
-  <version>4.2.10.3-codexcoder21</version>
+  <version>4.2.10.1-codexcoder21-auto-read</version>
   <packaging>jar</packaging>
 
   <name>Netty/Transport</name>
