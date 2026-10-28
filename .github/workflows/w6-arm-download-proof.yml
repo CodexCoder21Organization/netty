@@ -1,0 +1,36 @@
+name: ARM download diagnosis W6
+on:
+  push:
+    branches: [proof/w6-arm-download-014730]
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+      - name: Build unchanged Dockerfile through the failing download
+        id: baseline
+        continue-on-error: true
+        run: |
+          sed '/^ENV PATH="\/opt\/gcc-arm/,$d' docker/Dockerfile.cross_compile_aarch64 > /tmp/Dockerfile.baseline
+          docker build --progress=plain -f /tmp/Dockerfile.baseline .
+      - name: Diagnose download with the exact preceding image
+        run: |
+          sed '/^# Install aarch64 gcc/,$d' docker/Dockerfile.cross_compile_aarch64 > /tmp/Dockerfile.base
+          docker build --progress=plain -t arm-download-base -f /tmp/Dockerfile.base .
+          docker run --rm arm-download-base bash -c '
+            rpm -q wget ca-certificates openssl
+            wget -S --spider https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz; echo original_status=$?
+            wget -S --spider https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.xz; echo blob_status=$?
+            openssl s_client -connect developer.arm.com:443 -servername developer.arm.com -showcerts </dev/null
+            openssl s_client -connect armkeil.blob.core.windows.net:443 -servername armkeil.blob.core.windows.net -showcerts </dev/null
+          ' 2>&1 | tee /tmp/download-diagnosis.log
+      - name: Assert default-branch image builds
+        run: test '${{ steps.baseline.outcome }}' = success
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        if: always()
+        with:
+          name: arm-download-diagnosis
+          path: /tmp/download-diagnosis.log
