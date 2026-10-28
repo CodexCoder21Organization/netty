@@ -1,0 +1,80 @@
+name: Inspect prepared transport artifact
+on:
+  push:
+    branches:
+      - proof/netty-transport-artifact-index-232805
+permissions:
+  contents: write
+  actions: read
+jobs:
+  inspect-artifact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the prepared artifact and verify its recorded hashes
+        run: |
+          mkdir -p "$RUNNER_TEMP/transport-candidate" "$RUNNER_TEMP/transport-provenance" "$RUNNER_TEMP/transport-review"
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/40606679696/artifacts" > "$RUNNER_TEMP/transport-review/artifact-index.json"
+          gh run download 40606679696 --repo "$GITHUB_REPOSITORY" --name netty-transport-4.2.10.1-codexcoder21-auto-read-candidate --dir "$RUNNER_TEMP/transport-candidate"
+          gh run download 40606679696 --repo "$GITHUB_REPOSITORY" --name netty-transport-4.2.10.1-codexcoder21-auto-read-provenance --dir "$RUNNER_TEMP/transport-provenance"
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import json
+          import os
+          import shutil
+          import zipfile
+
+          temporary = Path(os.environ['RUNNER_TEMP'])
+          candidate = temporary / 'transport-candidate'
+          provenance = temporary / 'transport-provenance'
+          review = temporary / 'transport-review'
+          checksum_path = next(provenance.rglob('sha256.json'))
+          expected = json.loads(checksum_path.read_text())
+          actual = {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in sorted(candidate.iterdir())}
+          assert actual == expected, {'actual': actual, 'expected': expected}
+          assert len(actual) == 3, actual
+          index = json.loads((review / 'artifact-index.json').read_text())
+          name = 'netty-transport-4.2.10.1-codexcoder21-auto-read-candidate'
+          matches = [artifact for artifact in index['artifacts'] if artifact['name'] == name]
+          assert len(matches) == 1 and not matches[0]['expired'], matches
+          artifact = matches[0]
+          with zipfile.ZipFile(candidate / 'netty-transport-4.2.10.1-codexcoder21-auto-read.jar') as jar:
+              class_count = sum(name.endswith('.class') for name in jar.namelist())
+              assert class_count == 391, class_count
+          result = {
+              'coordinate': 'io.netty:netty-transport:4.2.10.1-codexcoder21-auto-read',
+              'release_source_sha': '9f9ff8eac1d0f0a0b120fb4bef014384566d04bc',
+              'build_source_sha': 'ac0c9cb16e9f131347a75a7f9ae31019775b08e5',
+              'base_source_sha': '4cc98736c3947bc93122e0b64e0bd8fc970c6437',
+              'producer_run_url': 'https://github.com/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/40606679696',
+              'artifact_url': 'https://github.com/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/40606679696/artifacts/' + str(artifact['id']),
+              'archive_download_url': artifact['archive_download_url'],
+              'artifact_archive_digest': artifact.get('digest'),
+              'verified_downloaded_files_sha256': actual,
+              'file_sizes': {path.name: path.stat().st_size for path in sorted(candidate.iterdir())},
+              'class_count': class_count,
+              'published': False,
+          }
+          (review / 'download-inspection.json').write_text(json.dumps(result, indent=2) + '\n')
+          shutil.copy2(checksum_path, review / 'producer-sha256.json')
+          shutil.copy2(candidate / 'netty-transport-4.2.10.1-codexcoder21-auto-read.pom', review / 'candidate.pom')
+          assert not list(review.rglob('*.jar'))
+          print(json.dumps(result, indent=2))
+          PY
+      - name: Retain inspection text without committing binary artifacts
+        run: |
+          evidence_dir="$RUNNER_TEMP/transport-inspection-evidence"
+          evidence_branch="evidence/netty-transport-artifact-index-$GITHUB_RUN_ID"
+          git worktree add --detach "$evidence_dir" "$GITHUB_SHA"
+          git -C "$evidence_dir" switch --orphan "$evidence_branch"
+          mkdir -p "$evidence_dir/artifact-review"
+          cp "$RUNNER_TEMP/transport-review/"* "$evidence_dir/artifact-review/"
+          git -C "$evidence_dir" config user.name 'github-actions[bot]'
+          git -C "$evidence_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$evidence_dir" add -f artifact-review/
+          git -C "$evidence_dir" commit -m "Record prepared transport artifact inspection for run $GITHUB_RUN_ID"
+          git -C "$evidence_dir" push origin "HEAD:refs/heads/$evidence_branch"
