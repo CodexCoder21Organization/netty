@@ -13,6 +13,17 @@ from a task, a close listener, or a shutdown hook. Adaptive and pooled buffer us
 leaves allocator event types unregistered until a Java Flight Recorder exists;
 recordings enabled after earlier buffer use still receive allocation events.
 
+The transport-only candidate `io.netty:netty-transport:4.2.10.3-codexcoder21-auto-read`
+builds on this organization version and retains its shutdown cleanup. The parent,
+common, buffer, resolver and other modules stay at `4.2.10.2-codexcoder21`.
+
+A channel that manages inbound delivery itself can override
+`DefaultChannelPipeline.shouldAutoRead()` to suppress automatic read requests on
+activation, read completion and active re-registration. The default still follows
+`ChannelConfig.isAutoRead()`. Explicit `Channel.read()` and
+`ChannelHandlerContext.read()` requests remain available. This keeps a paused
+libp2p child stream from receiving new manual demand from its pipeline.
+
 ## Links
 
 * [Web Site](https://netty.io/)
